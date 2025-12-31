@@ -208,7 +208,7 @@ duplicates:
       - assets/images/galleries/finished-drawings/for-wix-site-jpg.jpg
       - assets/images/galleries/pencil-drawings/for-wix-site-jpg.jpg
     file_to_keep: assets/images/galleries/finished-drawings/for-wix-site-jpg.jpg
-    new_file_name: figure-drawing-study.jpg
+    new_file_name: woman-in-a-winter-landscape-study.jpg
 
   - hash: "7524dfbdd50e91e4..."
     size_bytes: 1686392
@@ -252,7 +252,7 @@ duplicates:
       - assets/images/galleries/figure-heads-faces/img-1850-202-jpg.jpg
       - assets/images/galleries/figure-studies/img-1850-202-jpg.jpg
     file_to_keep: assets/images/galleries/figure-heads-faces/img-1850-202-jpg.jpg
-    new_file_name: figure-study-portrait.jpg
+    new_file_name: self-portrait-young.jpg
 
   - hash: "cf827a59c5d7aa01..."
     size_bytes: 2568705
@@ -296,7 +296,7 @@ duplicates:
       - assets/images/galleries/figure-heads-faces/img-1502a-jpg.jpg
       - assets/images/galleries/figure-studies/img-1502a-jpg.jpg
     file_to_keep: assets/images/galleries/cal-marching-band/img-1502a-jpg.jpg
-    new_file_name: cal-band-musician-portrait.jpg
+    new_file_name: cal-band-musician-sitting-study.jpg
 
   - hash: "0f6a8b7b2bd1218f..."
     size_bytes: 2608751
@@ -307,7 +307,7 @@ duplicates:
       - assets/images/galleries/figure-studies/img-9429-jpg.jpg
       - assets/images/galleries/pen-ink-drawings/img-9429-jpg.jpg
     file_to_keep: assets/images/galleries/figure-heads-faces/img-9429-jpg.jpg
-    new_file_name: portrait-study-charcoal.jpg
+    new_file_name: portrait-study-face-close-up-charcoal.jpg
 
   - hash: "e1b38f93f9b88dfe..."
     size_bytes: 1379315
@@ -328,7 +328,7 @@ duplicates:
       - assets/images/galleries/figure-studies/img-0017-jpg.jpg
       - assets/images/galleries/pencil-drawings/img-0017-jpg.jpg
     file_to_keep: assets/images/galleries/figure-heads-faces/img-0017-jpg.jpg
-    new_file_name: portrait-sketch.jpg
+    new_file_name: sketch-of-ash.jpg
 
   - hash: "f916a4d43e63cd7d..."
     size_bytes: 1451164
@@ -368,7 +368,7 @@ duplicates:
       - assets/images/galleries/figure-drawings/img-20190517-152308874-jpg.jpg
       - assets/images/galleries/pencil-drawings/img-20190517-152308874-jpg.jpg
     file_to_keep: assets/images/galleries/figure-complete/img-20190517-152308874-jpg.jpg
-    new_file_name: figure-study-pencil.jpg
+    new_file_name: figure-study-man-with-hat-pencil.jpg
 
   - hash: "73c13d00328b7825..."
     size_bytes: 4049136
@@ -378,7 +378,7 @@ duplicates:
       - assets/images/galleries/figure-studies/img-1851-202-jpg.jpg
       - assets/images/galleries/pencil-drawings/img-1851-202-jpg.jpg
     file_to_keep: assets/images/galleries/figure-heads-faces/img-1851-202-jpg.jpg
-    new_file_name: portrait-study-large.jpg
+    new_file_name: self-portrait-young-detail.jpg
 
   - hash: "5820d39ebb21495a..."
     size_bytes: 8826922
@@ -448,7 +448,7 @@ duplicates:
       - assets/images/galleries/figure-drawings/img-20190515-143349943-jpg.jpg
       - assets/images/galleries/life-drawing/img-20190515-143349943-jpg.jpg
     file_to_keep: assets/images/galleries/life-drawing/img-20190515-143349943-jpg.jpg
-    new_file_name: life-drawing-figure-study.jpg
+    new_file_name: life-drawing-figure-woman-on-chair-study.jpg
 
   - hash: "40a6535bb80c1934..."
     size_bytes: 3202501
@@ -1110,7 +1110,7 @@ duplicates:
       - assets/images/galleries/figure-complete/ldsf-3bfkg-jpg.jpg
       - assets/images/galleries/figure-drawings/ldsf-3bfkg-jpg.jpg
     file_to_keep: assets/images/galleries/figure-complete/ldsf-3bfkg-jpg.jpg
-    new_file_name: figure-sketch.jpg
+    new_file_name: figure-sketch-the-three-nereids-rubens.jpg
 
   - hash: "0239ee0335c67e35..."
     size_bytes: 3006446
@@ -1173,7 +1173,7 @@ duplicates:
       - assets/images/galleries/figure-complete/lkfdjg-jpg.jpg
       - assets/images/galleries/figure-drawings/lkfdjg-jpg.jpg
     file_to_keep: assets/images/galleries/figure-complete/lkfdjg-jpg.jpg
-    new_file_name: figure-drawing-5.jpg
+    new_file_name: figure-drawing-dawn-michelangelo.jpg
 
   - hash: "b1327b24369ee38f..."
     size_bytes: 1452123
@@ -1443,7 +1443,7 @@ duplicates:
       - assets/images/galleries/finished-drawings/pxl-20221012-194329828-portrait-jpg.jpg
       - assets/images/galleries/select-charcoal/pxl-20221012-194329828-portrait-jpg.jpg
     file_to_keep: assets/images/galleries/finished-drawings/pxl-20221012-194329828-portrait-jpg.jpg
-    new_file_name: portrait-charcoal-2022.jpg
+    new_file_name: still-life-with-kettle-and-sphere.jpg
 
   - hash: "1adea639783bb476..."
     size_bytes: 1755659
@@ -1542,7 +1542,7 @@ duplicates:
       - assets/images/galleries/cal-band-drawings/img-1568a-jpg.jpg
       - assets/images/galleries/cal-marching-band/img-1568a-jpg.jpg
     file_to_keep: assets/images/galleries/cal-marching-band/img-1568a-jpg.jpg
-    new_file_name: cal-band-musician.jpg
+    new_file_name: artist-drawing-cal-band-painting.jpg
 
   - hash: "41e5430204fb7abc..."
     size_bytes: 4054071
@@ -1551,7 +1551,7 @@ duplicates:
       - assets/images/galleries/cal-band-drawings/cimg4194-jpg.jpg
       - assets/images/galleries/cal-marching-band/cimg4194-jpg.jpg
     file_to_keep: assets/images/galleries/cal-marching-band/cimg4194-jpg.jpg
-    new_file_name: cal-band-performance.jpg
+    new_file_name: cal-band-formation-tracing.jpg
 
   - hash: "04b7116962ccbc23..."
     size_bytes: 4038099
@@ -1560,7 +1560,7 @@ duplicates:
       - assets/images/galleries/cal-band-drawings/cimg4100ab-jpg.jpg
       - assets/images/galleries/cal-marching-band/cimg4100ab-jpg.jpg
     file_to_keep: assets/images/galleries/cal-marching-band/cimg4100ab-jpg.jpg
-    new_file_name: cal-band-formation.jpg
+    new_file_name: cal-band-formation-study.jpg
 
   - hash: "84e1d36e70f95433..."
     size_bytes: 3654777
@@ -1569,7 +1569,7 @@ duplicates:
       - assets/images/galleries/emily/img-0035-jpg.jpg
       - assets/images/galleries/sketches-studies/img-0035-jpg.jpg
     file_to_keep: assets/images/galleries/emily/img-0035-jpg.jpg
-    new_file_name: emily-sketch.jpg
+    new_file_name: emily-study-for-favorite-things.jpg
 
   - hash: "a0f139b9e33850af..."
     size_bytes: 2082575
@@ -1695,7 +1695,7 @@ duplicates:
       - assets/images/galleries/charcoal-drawings/img-20161223-113619694-jpg.jpg
       - assets/images/galleries/pen-ink-drawings/img-20161223-113619694-jpg.jpg
     file_to_keep: assets/images/galleries/charcoal-drawings/img-20161223-113619694-jpg.jpg
-    new_file_name: charcoal-drawing-study.jpg
+    new_file_name: detail-of-woods-illustration.jpg
 
   - hash: "6cb0e63aa5d1407f..."
     size_bytes: 1016016
