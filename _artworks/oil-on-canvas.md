@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "Oil on Canvas"
-image: landscapes-other/oil-on-canvas.jpg
+image: landscapes-other/landscape-oil-on-canvas.jpg
 galleries:
   - landscapes-other
+  - select-oils
 ---

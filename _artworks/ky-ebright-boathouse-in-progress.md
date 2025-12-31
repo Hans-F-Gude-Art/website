@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "Ky Ebright Boathouse (in progress)"
-image: cal-athletics/ky-ebright-boathouse-in-progress.jpg
+image: cal-athletics/cal-mens-rowing-early-morning-workout-in-progress.jpg
 galleries:
   - cal-athletics
+  - landscapes-other
 ---

@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "IMG_3183.png"
-image: the-play/img-3183-png.png
+image: the-play/the-play-illustration-1.png
 galleries:
   - the-play
+  - the-play-illustrations
 ---

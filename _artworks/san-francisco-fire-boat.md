@@ -4,4 +4,5 @@ title: "San Francisco Fire Boat"
 image: landscapes-other/san-francisco-fire-boat.jpg
 galleries:
   - landscapes-other
+  - select-oils
 ---

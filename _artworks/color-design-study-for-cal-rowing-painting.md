@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "Color & Design Study for Cal Rowing Painting"
-image: select-gouache/color-design-study-for-cal-rowing-painting.jpg
+image: landscapes-watercolor/color-design-study-for-cal-rowing-painting.jpg
 galleries:
+  - landscapes-watercolor
   - select-gouache
 ---

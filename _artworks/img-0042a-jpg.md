@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "IMG_0042a.jpg"
-image: select-oils/img-0042a-jpg.jpg
+image: figure-paintings/connie-napping-painting.jpg
 galleries:
+  - figure-paintings
   - select-oils
 ---

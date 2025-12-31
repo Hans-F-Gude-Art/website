@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "IMG_0074a.jpg"
-image: figure-heads-faces/img-0074a-jpg.jpg
+image: figure-heads-faces/portrait-study-4.jpg
 galleries:
   - figure-heads-faces
+  - figure-studies
 ---

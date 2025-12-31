@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "Stephens Hall with Coach Pappy Waldorf, University of California, Berkeley"
-image: landscapes-watercolor/stephens-hall-with-coach-pappy-waldorf-university-of-california-berkeley.jpg
+image: uc-berkeley-campus/stephens-hall-with-coach-pappy-uc-berkeley.jpg
 galleries:
   - landscapes-watercolor
+  - uc-berkeley-campus
 ---

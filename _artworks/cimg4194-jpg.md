@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "CIMG4194.JPG"
-image: cal-band-drawings/cimg4194-jpg.jpg
+image: cal-marching-band/cal-band-formation-tracing.jpg
 galleries:
   - cal-band-drawings
+  - cal-marching-band
 ---

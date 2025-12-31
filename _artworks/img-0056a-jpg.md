@@ -1,7 +1,9 @@
 ---
 layout: artwork
 title: "IMG_0056a.jpg"
-image: figure-complete/img-0056a-jpg.jpg
+image: emily/emily-studying.jpg
 galleries:
+  - emily
   - figure-complete
+  - figure-drawings
 ---

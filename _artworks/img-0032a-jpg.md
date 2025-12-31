@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "IMG_0032a.jpg"
-image: select-oils/img-0032a-jpg.jpg
+image: still-lifes/my-old-hiking-boots.jpg
 galleries:
   - select-oils
+  - still-lifes
 ---

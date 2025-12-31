@@ -1,7 +1,8 @@
 ---
 layout: artwork
-title: "California Golden Bear with Sather Tower (the \"Campanile\"), University of California, Berkeley"
-image: sketches-studies/california-golden-bear-with-sather-tower-the-campanile-university-of-california.jpg
+title: "California Golden Bear with Sather Tower (the "Campanile"), University of California, Berkeley"
+image: campus-drawings/california-golden-bear-sproul-plaza-uc-berkeley.jpg
 galleries:
+  - campus-drawings
   - sketches-studies
 ---

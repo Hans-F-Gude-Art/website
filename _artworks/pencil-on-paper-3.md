@@ -1,7 +1,9 @@
 ---
 layout: artwork
 title: "Pencil on Paper"
-image: landscapes-other/pencil-on-paper.jpg
+image: pencil-drawings/landscape-pencil-study.jpg
 galleries:
   - landscapes-other
+  - pencil-drawings
+  - select-oils
 ---

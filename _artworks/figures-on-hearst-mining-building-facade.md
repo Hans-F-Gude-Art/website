@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "Figures on Hearst Mining Building Facade"
-image: select-charcoal/figures-on-hearst-mining-building-facade.jpg
+image: finished-drawings/figures-on-hearst-mining-building-uc-berkeley.jpg
 galleries:
+  - finished-drawings
   - select-charcoal
 ---

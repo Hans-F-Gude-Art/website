@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "IMG_1840 (2).JPG"
-image: pencil-drawings/img-1840-2-jpg.jpg
+image: figure-anatomical/self-portrait-as-anatomical-lesson.jpg
 galleries:
+  - figure-anatomical
   - pencil-drawings
 ---

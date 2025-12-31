@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "IMG_3166b.png"
-image: the-play/img-3166b-png.png
+image: the-play/the-play-illustration-2.png
 galleries:
   - the-play
+  - the-play-illustrations
 ---

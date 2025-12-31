@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "Bridge Over Strawberry Creek"
-image: pencil-drawings/bridge-over-strawberry-creek.jpg
+image: finished-drawings/bridge-over-strawberry-creek-moses-hall-uc-berkeley.jpg
 galleries:
+  - finished-drawings
   - pencil-drawings
 ---

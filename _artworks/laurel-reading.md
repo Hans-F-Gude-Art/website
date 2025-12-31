@@ -4,4 +4,5 @@ title: "Laurel Reading"
 image: figure-complete/laurel-reading.jpg
 galleries:
   - figure-complete
+  - figure-drawings
 ---

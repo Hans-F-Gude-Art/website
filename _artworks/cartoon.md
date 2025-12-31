@@ -1,7 +1,10 @@
 ---
 layout: artwork
 title: "Cartoon"
-image: landscapes-watercolor/cartoon.jpg
+image: illustrations/andy-vs-the-giant.jpg
 galleries:
+  - illustrations
   - landscapes-watercolor
+  - select-watercolors
+  - watercolor-gouache
 ---

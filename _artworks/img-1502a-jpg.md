@@ -1,7 +1,10 @@
 ---
 layout: artwork
 title: "IMG_1502a.jpg"
-image: cal-band-drawings/img-1502a-jpg.jpg
+image: cal-marching-band/cal-band-musician-sitting-study.jpg
 galleries:
   - cal-band-drawings
+  - cal-marching-band
+  - figure-heads-faces
+  - figure-studies
 ---

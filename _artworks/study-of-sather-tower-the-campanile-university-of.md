@@ -1,7 +1,9 @@
 ---
 layout: artwork
-title: "Study of Sather Tower (the \"Campanile,\" University of California, Berkeley"
-image: perspective-studies/study-of-sather-tower-the-campanile-university-of-california-berkeley.jpg
+title: "Study of Sather Tower (the "Campanile," University of California, Berkeley"
+image: campus-drawings/study-of-sather-tower-campanile-uc-berkeley.jpg
 galleries:
+  - campus-drawings
   - perspective-studies
+  - sketches-studies
 ---

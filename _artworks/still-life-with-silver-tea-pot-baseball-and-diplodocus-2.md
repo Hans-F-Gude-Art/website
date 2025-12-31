@@ -1,7 +1,8 @@
 ---
 layout: artwork
 title: "Still Life with Silver Tea Pot, Baseball, and Diplodocus"
-image: select-charcoal/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
+image: still-lifes/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
 galleries:
   - select-charcoal
+  - still-lifes
 ---
