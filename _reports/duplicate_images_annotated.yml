@@ -1,0 +1,1752 @@
+# Annotated Duplicate Image Report
+# Duplicate sets found: 182
+# Total duplicate files: 285
+# Potential space savings: 615.7 MB
+#
+# Each set has two new fields:
+#   file_to_keep: The canonical file to preserve
+#   new_file_name: The best filename to use (may require rename)
+#
+# Review and edit as needed before running apply_deduplication.py
+
+duplicates:
+  - hash: "9b2360f3658feb40..."
+    size_bytes: 876239
+    count: 5
+    files:
+      - assets/images/galleries/cal-rowing/perspective-study-for-figures-carrying-boat-along-multiple-planes.jpg
+      - assets/images/galleries/figure-complete/study-for-cal-mens-rowing-painting.jpg
+      - assets/images/galleries/figure-drawings/study-for-cal-mens-rowing-painting.jpg
+      - assets/images/galleries/perspective-studies/img-20190514-142924347-jpg.jpg
+      - assets/images/galleries/rowing-boathouse/perspective-study-for-figures-carrying-boat-along-multiple-planes.jpg
+    file_to_keep: assets/images/galleries/cal-rowing/perspective-study-for-figures-carrying-boat-along-multiple-planes.jpg
+    new_file_name: perspective-study-for-figures-carrying-boat-along-multiple-planes.jpg
+
+  - hash: "f21377967cb54f9a..."
+    size_bytes: 1998985
+    count: 5
+    files:
+      - assets/images/galleries/emily/emily-in-the-time-of-covid.jpg
+      - assets/images/galleries/figure-heads-faces/emily-in-the-time-of-covid.jpg
+      - assets/images/galleries/figure-studies/emily-in-the-time-of-covid.jpg
+      - assets/images/galleries/finished-drawings/emily-in-the-time-of-covid.jpg
+      - assets/images/galleries/pencil-drawings/emily-in-the-time-of-covid.jpg
+    file_to_keep: assets/images/galleries/emily/emily-in-the-time-of-covid.jpg
+    new_file_name: emily-in-the-time-of-covid.jpg
+
+  - hash: "3571350c499a146a..."
+    size_bytes: 1673154
+    count: 5
+    files:
+      - assets/images/galleries/emily/emmy-with-her-favorite-things.jpg
+      - assets/images/galleries/figure-complete/emmy-with-her-favorite-things.jpg
+      - assets/images/galleries/figure-drawings/emmy-with-her-favorite-things.jpg
+      - assets/images/galleries/finished-drawings/emmy-with-her-favorite-things.jpg
+      - assets/images/galleries/pencil-drawings/emmy-with-her-favorite-things.jpg
+    file_to_keep: assets/images/galleries/emily/emmy-with-her-favorite-things.jpg
+    new_file_name: emmy-with-her-favorite-things.jpg
+
+  - hash: "5a4590d87a4d1b3a..."
+    size_bytes: 1365299
+    count: 5
+    files:
+      - assets/images/galleries/landscapes-other/yosemite-valley.jpg
+      - assets/images/galleries/landscapes-watercolor/yosemite-valley.jpg
+      - assets/images/galleries/select-oils/yosemite-valley.jpg
+      - assets/images/galleries/select-watercolors/yosemite-valley.jpg
+      - assets/images/galleries/watercolor-gouache/yosemite-valley.jpg
+    file_to_keep: assets/images/galleries/landscapes-watercolor/yosemite-valley.jpg
+    new_file_name: yosemite-valley.jpg
+
+  - hash: "ba508d1e08a186e9..."
+    size_bytes: 2167284
+    count: 5
+    files:
+      - assets/images/galleries/charcoal-drawings/img-20190514-142248493-jpg.jpg
+      - assets/images/galleries/landscapes-other/san-francisco-drawbridge.jpg
+      - assets/images/galleries/pen-ink-drawings/img-20190514-142248493-jpg.jpg
+      - assets/images/galleries/select-oils/san-francisco-drawbridge.jpg
+      - assets/images/galleries/sketches-studies/san-francisco-drawbridge.jpg
+    file_to_keep: assets/images/galleries/sketches-studies/san-francisco-drawbridge.jpg
+    new_file_name: san-francisco-drawbridge.jpg
+
+  - hash: "8ee7a75dd7b2da0f..."
+    size_bytes: 2253268
+    count: 5
+    files:
+      - assets/images/galleries/landscapes-other/view-over-the-backyard-fence.jpg
+      - assets/images/galleries/landscapes-outdoors/view-over-the-backyard-fence.jpg
+      - assets/images/galleries/landscapes-watercolor/view-over-the-backyard-fence.jpg
+      - assets/images/galleries/select-gouache/view-over-the-backyard-fence.jpg
+      - assets/images/galleries/select-oils/view-over-the-backyard-fence.jpg
+    file_to_keep: assets/images/galleries/landscapes-outdoors/view-over-the-backyard-fence.jpg
+    new_file_name: view-over-the-backyard-fence.jpg
+
+  - hash: "7697b3d372b33ae3..."
+    size_bytes: 1385849
+    count: 5
+    files:
+      - assets/images/galleries/figure-complete/img-20200610-124733-jpg.jpg
+      - assets/images/galleries/figure-drawings/img-20200610-124733-jpg.jpg
+      - assets/images/galleries/figure-heads-faces/college-self-portrait-in-tv-screen.jpg
+      - assets/images/galleries/figure-studies/college-self-portrait-in-tv-screen.jpg
+      - assets/images/galleries/select-charcoal/img-20200610-124733-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/college-self-portrait-in-tv-screen.jpg
+    new_file_name: college-self-portrait-in-tv-screen.jpg
+
+  - hash: "48758a8d3e954d1a..."
+    size_bytes: 2299513
+    count: 5
+    files:
+      - assets/images/galleries/landscapes-outdoors/back-of-the-hotel.jpg
+      - assets/images/galleries/landscapes-watercolor/back-of-the-hotel-brynilsens-viking-village-new-york.jpg
+      - assets/images/galleries/select-watercolors/back-of-the-hotel.jpg
+      - assets/images/galleries/viking-village/back-of-the-hotel.jpg
+      - assets/images/galleries/watercolor-gouache/back-of-the-hotel.jpg
+    file_to_keep: assets/images/galleries/viking-village/back-of-the-hotel.jpg
+    new_file_name: back-of-the-hotel-brynilsens-viking-village.jpg
+
+  - hash: "28d3a3b4c93665d6..."
+    size_bytes: 1564867
+    count: 5
+    files:
+      - assets/images/galleries/landscapes-outdoors/hotel-roofline.jpg
+      - assets/images/galleries/landscapes-watercolor/hotel-roofline.jpg
+      - assets/images/galleries/select-watercolors/hotel-roofline.jpg
+      - assets/images/galleries/viking-village/watercolor-2.jpg
+      - assets/images/galleries/watercolor-gouache/hotel-roofline.jpg
+    file_to_keep: assets/images/galleries/viking-village/watercolor-2.jpg
+    new_file_name: hotel-roofline-viking-village.jpg
+
+  - hash: "df15999568c0dbd3..."
+    size_bytes: 1537760
+    count: 5
+    files:
+      - assets/images/galleries/landscapes-outdoors/hotel-deck.jpg
+      - assets/images/galleries/landscapes-watercolor/hotel-deck.jpg
+      - assets/images/galleries/select-watercolors/hotel-deck.jpg
+      - assets/images/galleries/viking-village/watercolor.jpg
+      - assets/images/galleries/watercolor-gouache/hotel-deck.jpg
+    file_to_keep: assets/images/galleries/viking-village/watercolor.jpg
+    new_file_name: hotel-deck-viking-village.jpg
+
+  - hash: "609312b4616348df..."
+    size_bytes: 1809795
+    count: 5
+    files:
+      - assets/images/galleries/landscapes-outdoors/blue-boats-outside-the-snack-shack.jpg
+      - assets/images/galleries/landscapes-watercolor/blue-boats-outside-the-snack-shack-brynilsens-viking-village-new-york.jpg
+      - assets/images/galleries/select-watercolors/blue-boats-outside-the-snack-shack.jpg
+      - assets/images/galleries/viking-village/blue-boats-outside-the-snack-shack.jpg
+      - assets/images/galleries/watercolor-gouache/blue-boats-outside-the-snack-shack.jpg
+    file_to_keep: assets/images/galleries/viking-village/blue-boats-outside-the-snack-shack.jpg
+    new_file_name: blue-boats-outside-the-snack-shack.jpg
+
+  - hash: "e466eec7cda12fe1..."
+    size_bytes: 1683554
+    count: 5
+    files:
+      - assets/images/galleries/landscapes-outdoors/img-20190629-221318-jpg.jpg
+      - assets/images/galleries/landscapes-watercolor/view-toward-old-forge-ny.jpg
+      - assets/images/galleries/select-watercolors/view-toward-old-forge-ny.jpg
+      - assets/images/galleries/viking-village/view-toward-old-forge-ny.jpg
+      - assets/images/galleries/watercolor-gouache/view-toward-old-forge-ny.jpg
+    file_to_keep: assets/images/galleries/viking-village/view-toward-old-forge-ny.jpg
+    new_file_name: view-toward-old-forge-ny.jpg
+
+  - hash: "9ebcf5d4cbf801ca..."
+    size_bytes: 2050014
+    count: 5
+    files:
+      - assets/images/galleries/charcoal-drawings/gude-med-res-jpg.jpg
+      - assets/images/galleries/finished-drawings/viking-village-old-forge-new-york.jpg
+      - assets/images/galleries/illustrations/brynilsens-viking-village.jpg
+      - assets/images/galleries/pen-ink-drawings/gude-med-res-jpg.jpg
+      - assets/images/galleries/viking-village/brynilsens-viking-village.jpg
+    file_to_keep: assets/images/galleries/viking-village/brynilsens-viking-village.jpg
+    new_file_name: brynilsens-viking-village.jpg
+
+  - hash: "262f8c9d049000a9..."
+    size_bytes: 1514851
+    count: 4
+    files:
+      - assets/images/galleries/cal-rowing/ky-ebright.jpg
+      - assets/images/galleries/figure-heads-faces/img-20190520-165322891-jpg.jpg
+      - assets/images/galleries/figure-studies/img-20190520-165322891-jpg.jpg
+      - assets/images/galleries/rowing-boathouse/ky-ebright.jpg
+    file_to_keep: assets/images/galleries/cal-rowing/ky-ebright.jpg
+    new_file_name: ky-ebright-portrait.jpg
+
+  - hash: "5beefd054f145f57..."
+    size_bytes: 3501088
+    count: 4
+    files:
+      - assets/images/galleries/figure-heads-faces/pencil-on-paper.jpg
+      - assets/images/galleries/figure-studies/pencil-on-paper.jpg
+      - assets/images/galleries/finished-drawings/portrait-of-a-girl-after-w-m-chase.jpg
+      - assets/images/galleries/pencil-drawings/portrait-of-a-girl-after-w-m-chase.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/portrait-of-a-girl-after-w-m-chase.jpg
+    new_file_name: portrait-of-a-girl-after-w-m-chase.jpg
+
+  - hash: "36af9eae734b2e11..."
+    size_bytes: 1623175
+    count: 4
+    files:
+      - assets/images/galleries/figure-heads-faces/pencil-on-paper-9-x-12-inches-23-x-30-cm.jpg
+      - assets/images/galleries/figure-studies/pencil-on-paper-9-x-12-inches-23-x-30-cm.jpg
+      - assets/images/galleries/pencil-drawings/for-wix-2-jpg.jpg
+      - assets/images/galleries/sketches-studies/for-wix-2-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/pencil-on-paper-9-x-12-inches-23-x-30-cm.jpg
+    new_file_name: portrait-study-pencil.jpg
+
+  - hash: "06d27175d6d90d9f..."
+    size_bytes: 1787957
+    count: 4
+    files:
+      - assets/images/galleries/figure-complete/for-wix-site-jpg.jpg
+      - assets/images/galleries/figure-drawings/for-wix-site-jpg.jpg
+      - assets/images/galleries/finished-drawings/for-wix-site-jpg.jpg
+      - assets/images/galleries/pencil-drawings/for-wix-site-jpg.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/for-wix-site-jpg.jpg
+    new_file_name: figure-drawing-study.jpg
+
+  - hash: "7524dfbdd50e91e4..."
+    size_bytes: 1686392
+    count: 4
+    files:
+      - assets/images/galleries/figure-heads-faces/allante.jpg
+      - assets/images/galleries/figure-studies/allante.jpg
+      - assets/images/galleries/finished-drawings/allante.jpg
+      - assets/images/galleries/pencil-drawings/allante.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/allante.jpg
+    new_file_name: allante.jpg
+
+  - hash: "2623d36baa3323a1..."
+    size_bytes: 1544021
+    count: 4
+    files:
+      - assets/images/galleries/figure-complete/belvedere-torso.jpg
+      - assets/images/galleries/figure-drawings/belvedere-torso.jpg
+      - assets/images/galleries/finished-drawings/the-belvedere-torso.jpg
+      - assets/images/galleries/select-charcoal/the-belvedere-torso.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/the-belvedere-torso.jpg
+    new_file_name: the-belvedere-torso.jpg
+
+  - hash: "c0a0b0f463c8361b..."
+    size_bytes: 1309358
+    count: 4
+    files:
+      - assets/images/galleries/figure-complete/saturn.jpg
+      - assets/images/galleries/figure-drawings/saturn.jpg
+      - assets/images/galleries/finished-drawings/saturn.jpg
+      - assets/images/galleries/select-charcoal/saturn.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/saturn.jpg
+    new_file_name: saturn.jpg
+
+  - hash: "54fe0bd5f461d57f..."
+    size_bytes: 1897544
+    count: 4
+    files:
+      - assets/images/galleries/figure-complete/img-1850-202-jpg.jpg
+      - assets/images/galleries/figure-drawings/img-1850-202-jpg.jpg
+      - assets/images/galleries/figure-heads-faces/img-1850-202-jpg.jpg
+      - assets/images/galleries/figure-studies/img-1850-202-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/img-1850-202-jpg.jpg
+    new_file_name: figure-study-portrait.jpg
+
+  - hash: "cf827a59c5d7aa01..."
+    size_bytes: 2568705
+    count: 4
+    files:
+      - assets/images/galleries/figure-complete/img-1841-202-jpg.jpg
+      - assets/images/galleries/figure-drawings/img-1841-202-jpg.jpg
+      - assets/images/galleries/life-drawing/female-figure-3.jpg
+      - assets/images/galleries/select-charcoal/img-1841-2-jpg.jpg
+    file_to_keep: assets/images/galleries/life-drawing/female-figure-3.jpg
+    new_file_name: female-figure-3.jpg
+
+  - hash: "a354ed9280c26f3d..."
+    size_bytes: 2140676
+    count: 4
+    files:
+      - assets/images/galleries/landscapes-outdoors/canoes.jpg
+      - assets/images/galleries/landscapes-watercolor/canoes.jpg
+      - assets/images/galleries/select-watercolors/canoes.jpg
+      - assets/images/galleries/watercolor-gouache/canoes.jpg
+    file_to_keep: assets/images/galleries/landscapes-outdoors/canoes.jpg
+    new_file_name: canoes.jpg
+
+  - hash: "a1712e9c86d2db69..."
+    size_bytes: 2118157
+    count: 4
+    files:
+      - assets/images/galleries/illustrations/andy-vs-the-giant.jpg
+      - assets/images/galleries/landscapes-watercolor/cartoon.jpg
+      - assets/images/galleries/select-watercolors/cartoon.jpg
+      - assets/images/galleries/watercolor-gouache/cartoon.jpg
+    file_to_keep: assets/images/galleries/illustrations/andy-vs-the-giant.jpg
+    new_file_name: andy-vs-the-giant.jpg
+
+  - hash: "5d9b214767d4e885..."
+    size_bytes: 696234
+    count: 4
+    files:
+      - assets/images/galleries/cal-band-drawings/img-1502a-jpg.jpg
+      - assets/images/galleries/cal-marching-band/img-1502a-jpg.jpg
+      - assets/images/galleries/figure-heads-faces/img-1502a-jpg.jpg
+      - assets/images/galleries/figure-studies/img-1502a-jpg.jpg
+    file_to_keep: assets/images/galleries/cal-marching-band/img-1502a-jpg.jpg
+    new_file_name: cal-band-musician-portrait.jpg
+
+  - hash: "0f6a8b7b2bd1218f..."
+    size_bytes: 2608751
+    count: 4
+    files:
+      - assets/images/galleries/charcoal-drawings/img-9429-jpg.jpg
+      - assets/images/galleries/figure-heads-faces/img-9429-jpg.jpg
+      - assets/images/galleries/figure-studies/img-9429-jpg.jpg
+      - assets/images/galleries/pen-ink-drawings/img-9429-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/img-9429-jpg.jpg
+    new_file_name: portrait-study-charcoal.jpg
+
+  - hash: "e1b38f93f9b88dfe..."
+    size_bytes: 1379315
+    count: 4
+    files:
+      - assets/images/galleries/campus-drawings/steps-next-to-moses-hall-final-ink-drawing-university-of-california-berkeley.jpg
+      - assets/images/galleries/charcoal-drawings/img-20170418-195430-jpg.jpg
+      - assets/images/galleries/finished-drawings/bridge-next-to-moses-hall.jpg
+      - assets/images/galleries/pen-ink-drawings/img-20170418-195430-jpg.jpg
+    file_to_keep: assets/images/galleries/campus-drawings/steps-next-to-moses-hall-final-ink-drawing-university-of-california-berkeley.jpg
+    new_file_name: steps-next-to-moses-hall-uc-berkeley.jpg
+
+  - hash: "f1763d762a8e7c9b..."
+    size_bytes: 593600
+    count: 3
+    files:
+      - assets/images/galleries/figure-heads-faces/img-0017-jpg.jpg
+      - assets/images/galleries/figure-studies/img-0017-jpg.jpg
+      - assets/images/galleries/pencil-drawings/img-0017-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/img-0017-jpg.jpg
+    new_file_name: portrait-sketch.jpg
+
+  - hash: "f916a4d43e63cd7d..."
+    size_bytes: 1451164
+    count: 3
+    files:
+      - assets/images/galleries/landscapes-other/pencil-on-paper.jpg
+      - assets/images/galleries/pencil-drawings/img-20190515-143303670-jpg.jpg
+      - assets/images/galleries/select-oils/pencil-on-paper.jpg
+    file_to_keep: assets/images/galleries/pencil-drawings/img-20190515-143303670-jpg.jpg
+    new_file_name: landscape-pencil-study.jpg
+
+  - hash: "80e5a77c9038a6f2..."
+    size_bytes: 1219329
+    count: 3
+    files:
+      - assets/images/galleries/figure-complete/connie-napping.jpg
+      - assets/images/galleries/figure-drawings/connie-napping.jpg
+      - assets/images/galleries/pencil-drawings/img-0089a-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-complete/connie-napping.jpg
+    new_file_name: connie-napping.jpg
+
+  - hash: "32895f1276c097e7..."
+    size_bytes: 1554426
+    count: 3
+    files:
+      - assets/images/galleries/landscapes-other/imperial-palace-tokyo.jpg
+      - assets/images/galleries/pencil-drawings/img-20190518-164436488-jpg.jpg
+      - assets/images/galleries/sketches-studies/imperial-palace-tokyo.jpg
+    file_to_keep: assets/images/galleries/sketches-studies/imperial-palace-tokyo.jpg
+    new_file_name: imperial-palace-tokyo-sketch.jpg
+
+  - hash: "a2fa5556c8d81593..."
+    size_bytes: 846574
+    count: 3
+    files:
+      - assets/images/galleries/figure-complete/img-20190517-152308874-jpg.jpg
+      - assets/images/galleries/figure-drawings/img-20190517-152308874-jpg.jpg
+      - assets/images/galleries/pencil-drawings/img-20190517-152308874-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-complete/img-20190517-152308874-jpg.jpg
+    new_file_name: figure-study-pencil.jpg
+
+  - hash: "73c13d00328b7825..."
+    size_bytes: 4049136
+    count: 3
+    files:
+      - assets/images/galleries/figure-heads-faces/img-1851-202-jpg.jpg
+      - assets/images/galleries/figure-studies/img-1851-202-jpg.jpg
+      - assets/images/galleries/pencil-drawings/img-1851-202-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/img-1851-202-jpg.jpg
+    new_file_name: portrait-study-large.jpg
+
+  - hash: "5820d39ebb21495a..."
+    size_bytes: 8826922
+    count: 3
+    files:
+      - assets/images/galleries/landscapes-other/oil-on-canvas-3-x-4-feet-1-x-1-3-m.jpg
+      - assets/images/galleries/select-oils/oil-on-canvas-3-x-4-feet-1-x-1-3-m.jpg
+      - assets/images/galleries/uc-berkeley-campus/view-of-sather-tower-from-strawberry-creek.jpg
+    file_to_keep: assets/images/galleries/uc-berkeley-campus/view-of-sather-tower-from-strawberry-creek.jpg
+    new_file_name: view-of-sather-tower-from-strawberry-creek.jpg
+
+  - hash: "957f60febe6bb996..."
+    size_bytes: 19908212
+    count: 3
+    files:
+      - assets/images/galleries/landscapes-other/bridge-over-strawberry-creek.jpg
+      - assets/images/galleries/select-oils/bridge-over-strawberry-creek.jpg
+      - assets/images/galleries/uc-berkeley-campus/steps-to-university-house-university-of-california-berkeley.jpg
+    file_to_keep: assets/images/galleries/uc-berkeley-campus/steps-to-university-house-university-of-california-berkeley.jpg
+    new_file_name: steps-to-university-house-uc-berkeley.jpg
+
+  - hash: "857568bbeff0c0ea..."
+    size_bytes: 1364224
+    count: 3
+    files:
+      - assets/images/galleries/landscapes-other/sather-tower-in-afternoon-light.jpg
+      - assets/images/galleries/select-oils/sather-tower-in-afternoon-light.jpg
+      - assets/images/galleries/uc-berkeley-campus/sather-tower-at-sunset-uc-berkeley.jpg
+    file_to_keep: assets/images/galleries/uc-berkeley-campus/sather-tower-at-sunset-uc-berkeley.jpg
+    new_file_name: sather-tower-at-sunset-uc-berkeley.jpg
+
+  - hash: "bae6ee1053b2f791..."
+    size_bytes: 2641002
+    count: 3
+    files:
+      - assets/images/galleries/landscapes-other/view-toward-moffitt-library-in-fall.png
+      - assets/images/galleries/select-oils/view-toward-moffitt-library-in-fall.png
+      - assets/images/galleries/uc-berkeley-campus/view-of-moffitt-library-in-fall.png
+    file_to_keep: assets/images/galleries/uc-berkeley-campus/view-of-moffitt-library-in-fall.png
+    new_file_name: view-of-moffitt-library-in-fall.png
+
+  - hash: "c490c7296cb4b0ff..."
+    size_bytes: 14325239
+    count: 3
+    files:
+      - assets/images/galleries/landscapes-other/sather-tower-in-morning-fog.jpg
+      - assets/images/galleries/select-oils/sather-tower-in-morning-fog.jpg
+      - assets/images/galleries/uc-berkeley-campus/sather-tower-in-morning-fog.jpg
+    file_to_keep: assets/images/galleries/uc-berkeley-campus/sather-tower-in-morning-fog.jpg
+    new_file_name: sather-tower-in-morning-fog.jpg
+
+  - hash: "a03d68b026d3e7c4..."
+    size_bytes: 1950702
+    count: 3
+    files:
+      - assets/images/galleries/figure-complete/nymph-jpg.jpg
+      - assets/images/galleries/figure-drawings/nymph-jpg.jpg
+      - assets/images/galleries/finished-drawings/nymph-jpg.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/nymph-jpg.jpg
+    new_file_name: nymph.jpg
+
+  - hash: "1a8fd8a9ced96aa1..."
+    size_bytes: 1706366
+    count: 3
+    files:
+      - assets/images/galleries/figure-complete/img-20190515-143349943-jpg.jpg
+      - assets/images/galleries/figure-drawings/img-20190515-143349943-jpg.jpg
+      - assets/images/galleries/life-drawing/img-20190515-143349943-jpg.jpg
+    file_to_keep: assets/images/galleries/life-drawing/img-20190515-143349943-jpg.jpg
+    new_file_name: life-drawing-figure-study.jpg
+
+  - hash: "40a6535bb80c1934..."
+    size_bytes: 3202501
+    count: 3
+    files:
+      - assets/images/galleries/figure-complete/img-1848-202-jpg.jpg
+      - assets/images/galleries/figure-drawings/img-1848-202-jpg.jpg
+      - assets/images/galleries/life-drawing/female-figure.jpg
+    file_to_keep: assets/images/galleries/life-drawing/female-figure.jpg
+    new_file_name: female-figure.jpg
+
+  - hash: "645071d0b1abbfd4..."
+    size_bytes: 782931
+    count: 3
+    files:
+      - assets/images/galleries/figure-complete/reclining-figure-after-iredell.jpg
+      - assets/images/galleries/figure-drawings/reclining-figure-after-iredell.jpg
+      - assets/images/galleries/select-charcoal/reclining-figure-after-iredell.jpg
+    file_to_keep: assets/images/galleries/figure-complete/reclining-figure-after-iredell.jpg
+    new_file_name: reclining-figure-after-iredell.jpg
+
+  - hash: "503ffdcfcfc791ff..."
+    size_bytes: 1645765
+    count: 3
+    files:
+      - assets/images/galleries/emily/emily-studying.jpg
+      - assets/images/galleries/figure-complete/img-0056a-jpg.jpg
+      - assets/images/galleries/figure-drawings/img-0056a-jpg.jpg
+    file_to_keep: assets/images/galleries/emily/emily-studying.jpg
+    new_file_name: emily-studying.jpg
+
+  - hash: "2b284822dea62ddd..."
+    size_bytes: 1514718
+    count: 3
+    files:
+      - assets/images/galleries/landscapes-watercolor/plant-2.jpg
+      - assets/images/galleries/select-watercolors/plant-2.jpg
+      - assets/images/galleries/watercolor-gouache/plant-2.jpg
+    file_to_keep: assets/images/galleries/landscapes-watercolor/plant-2.jpg
+    new_file_name: plant-watercolor-2.jpg
+
+  - hash: "0b5a11a1591f773c..."
+    size_bytes: 1055720
+    count: 3
+    files:
+      - assets/images/galleries/landscapes-watercolor/flower.jpg
+      - assets/images/galleries/select-watercolors/flower.jpg
+      - assets/images/galleries/watercolor-gouache/flower.jpg
+    file_to_keep: assets/images/galleries/landscapes-watercolor/flower.jpg
+    new_file_name: flower-watercolor.jpg
+
+  - hash: "a60a6a34af8bc448..."
+    size_bytes: 1749346
+    count: 3
+    files:
+      - assets/images/galleries/landscapes-watercolor/plant.jpg
+      - assets/images/galleries/select-watercolors/plant.jpg
+      - assets/images/galleries/watercolor-gouache/plant.jpg
+    file_to_keep: assets/images/galleries/landscapes-watercolor/plant.jpg
+    new_file_name: plant-watercolor.jpg
+
+  - hash: "ffcb89ea8036b245..."
+    size_bytes: 1369434
+    count: 3
+    files:
+      - assets/images/galleries/landscapes-watercolor/house-in-the-catskils.jpg
+      - assets/images/galleries/select-watercolors/house-in-the-catskils.jpg
+      - assets/images/galleries/watercolor-gouache/house-in-the-catskils.jpg
+    file_to_keep: assets/images/galleries/landscapes-watercolor/house-in-the-catskils.jpg
+    new_file_name: house-in-the-catskills.jpg
+
+  - hash: "6e63ac8d2a9a385e..."
+    size_bytes: 2004552
+    count: 3
+    files:
+      - assets/images/galleries/landscapes-watercolor/university-house-university-of-california-berkeley.jpg
+      - assets/images/galleries/select-watercolors/university-house-berkeley-campus.jpg
+      - assets/images/galleries/watercolor-gouache/university-house-berkeley-campus.jpg
+    file_to_keep: assets/images/galleries/landscapes-watercolor/university-house-university-of-california-berkeley.jpg
+    new_file_name: university-house-uc-berkeley.jpg
+
+  - hash: "71f9897b2bd9d3a1..."
+    size_bytes: 6139245
+    count: 3
+    files:
+      - assets/images/galleries/campus-drawings/statues-on-facade-of-hearst-memorial-mining-building-university-of-california.jpg
+      - assets/images/galleries/figure-heads-faces/figures-on-facade-of-hearst-mining-building-uc-berkeley.jpg
+      - assets/images/galleries/figure-studies/figures-on-facade-of-hearst-mining-building-uc-berkeley.jpg
+    file_to_keep: assets/images/galleries/campus-drawings/statues-on-facade-of-hearst-memorial-mining-building-university-of-california.jpg
+    new_file_name: statues-on-hearst-mining-building-uc-berkeley.jpg
+
+  - hash: "c28c1934e2bcf7fb..."
+    size_bytes: 570870
+    count: 3
+    files:
+      - assets/images/galleries/figure-heads-faces/theodore.jpg
+      - assets/images/galleries/figure-studies/theodore.jpg
+      - assets/images/galleries/illustrations/theodore-is-the-yellow-witch.jpg
+    file_to_keep: assets/images/galleries/illustrations/theodore-is-the-yellow-witch.jpg
+    new_file_name: theodore-is-the-yellow-witch.jpg
+
+  - hash: "fe37a47fd42e2e15..."
+    size_bytes: 8950523
+    count: 3
+    files:
+      - assets/images/galleries/figure-heads-faces/cory-with-la-vaca-lola.png
+      - assets/images/galleries/figure-studies/cory-with-la-vaca-lola.png
+      - assets/images/galleries/finished-drawings/cory-with-la-vaca-lola.png
+    file_to_keep: assets/images/galleries/finished-drawings/cory-with-la-vaca-lola.png
+    new_file_name: cory-with-la-vaca-lola.png
+
+  - hash: "d92264c4d7af834b..."
+    size_bytes: 14293948
+    count: 3
+    files:
+      - assets/images/galleries/figure-heads-faces/corito-in-an-old-forge-ny-hat.jpg
+      - assets/images/galleries/figure-studies/corito-in-an-old-forge-ny-hat.jpg
+      - assets/images/galleries/finished-drawings/corito-in-an-old-forge-ny-hat.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/corito-in-an-old-forge-ny-hat.jpg
+    new_file_name: corito-in-an-old-forge-ny-hat.jpg
+
+  - hash: "e78dfa7abd3e168d..."
+    size_bytes: 1375029
+    count: 3
+    files:
+      - assets/images/galleries/figure-heads-faces/img-9426-jpg.jpg
+      - assets/images/galleries/figure-studies/img-9426-jpg.jpg
+      - assets/images/galleries/select-charcoal/mark-knopfler.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/img-9426-jpg.jpg
+    new_file_name: mark-knopfler.jpg
+
+  - hash: "040cd73527a0a3ef..."
+    size_bytes: 1546474
+    count: 3
+    files:
+      - assets/images/galleries/emily/emily-at-the-piano.jpg
+      - assets/images/galleries/figure-paintings/emily-at-the-piano.jpg
+      - assets/images/galleries/select-oils/em-20piano-20best-cropped-jpg.jpg
+    file_to_keep: assets/images/galleries/emily/emily-at-the-piano.jpg
+    new_file_name: emily-at-the-piano.jpg
+
+  - hash: "7892a347f6f7aa8f..."
+    size_bytes: 1939244
+    count: 3
+    files:
+      - assets/images/galleries/figure-anatomical/my-toes-big.jpg
+      - assets/images/galleries/select-charcoal/my-toes.jpg
+      - assets/images/galleries/sketches-studies/my-toes-big.jpg
+    file_to_keep: assets/images/galleries/figure-anatomical/my-toes-big.jpg
+    new_file_name: my-toes.jpg
+
+  - hash: "3a98ce57cf8161e3..."
+    size_bytes: 841392
+    count: 3
+    files:
+      - assets/images/galleries/charcoal-drawings/img-20190514-143025569-jpg.jpg
+      - assets/images/galleries/figure-anatomical/img-20190514-143025569-jpg.jpg
+      - assets/images/galleries/pen-ink-drawings/img-20190514-143025569-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-anatomical/img-20190514-143025569-jpg.jpg
+    new_file_name: anatomical-study.jpg
+
+  - hash: "85932ea57b79bc03..."
+    size_bytes: 1732062
+    count: 3
+    files:
+      - assets/images/galleries/charcoal-drawings/dfsd-a-jpg.jpg
+      - assets/images/galleries/pen-ink-drawings/dfsd-a-jpg.jpg
+      - assets/images/galleries/viking-village/pen-and-ink-on-paper.jpg
+    file_to_keep: assets/images/galleries/viking-village/pen-and-ink-on-paper.jpg
+    new_file_name: viking-village-pen-and-ink.jpg
+
+  - hash: "da9ed3f73809faad..."
+    size_bytes: 3863990
+    count: 3
+    files:
+      - assets/images/galleries/charcoal-drawings/img-20180728-101222290-jpg.jpg
+      - assets/images/galleries/pen-ink-drawings/img-20180728-101222290-jpg.jpg
+      - assets/images/galleries/viking-village/hotel.jpg
+    file_to_keep: assets/images/galleries/viking-village/hotel.jpg
+    new_file_name: viking-village-hotel.jpg
+
+  - hash: "52a5c086c29b2a70..."
+    size_bytes: 2341478
+    count: 3
+    files:
+      - assets/images/galleries/charcoal-drawings/img-20180728-101238539-jpg.jpg
+      - assets/images/galleries/pen-ink-drawings/img-20180728-101238539-jpg.jpg
+      - assets/images/galleries/viking-village/pen-and-ink-on-paper-2.jpg
+    file_to_keep: assets/images/galleries/viking-village/pen-and-ink-on-paper-2.jpg
+    new_file_name: viking-village-pen-and-ink-2.jpg
+
+  - hash: "7e7e64054fa37fa2..."
+    size_bytes: 2818150
+    count: 3
+    files:
+      - assets/images/galleries/charcoal-drawings/img-20190518-180750418-jpg.jpg
+      - assets/images/galleries/pen-ink-drawings/img-20190518-180750418-jpg.jpg
+      - assets/images/galleries/viking-village/pen-and-ink-on-paper-5-x-7-inches-13-x-18-cm.jpg
+    file_to_keep: assets/images/galleries/viking-village/pen-and-ink-on-paper-5-x-7-inches-13-x-18-cm.jpg
+    new_file_name: viking-village-pen-and-ink-small.jpg
+
+  - hash: "bd76bbfa3aca02bd..."
+    size_bytes: 3974915
+    count: 3
+    files:
+      - assets/images/galleries/charcoal-drawings/img-20161220-133038544-hdr-jpg.jpg
+      - assets/images/galleries/illustrations/img-20161220-133038544-hdr-jpg.jpg
+      - assets/images/galleries/pen-ink-drawings/img-20161220-133038544-hdr-jpg.jpg
+    file_to_keep: assets/images/galleries/illustrations/img-20161220-133038544-hdr-jpg.jpg
+    new_file_name: illustration-pen-and-ink.jpg
+
+  - hash: "97d775f8a9d01b78..."
+    size_bytes: 2073535
+    count: 3
+    files:
+      - assets/images/galleries/charcoal-drawings/20150913-115319aaa-jpg.jpg
+      - assets/images/galleries/pen-ink-drawings/20150913-115319aaa-jpg.jpg
+      - assets/images/galleries/sketches-studies/animal-skull.jpg
+    file_to_keep: assets/images/galleries/sketches-studies/animal-skull.jpg
+    new_file_name: animal-skull-study.jpg
+
+  - hash: "e1f5108292981c19..."
+    size_bytes: 657156
+    count: 3
+    files:
+      - assets/images/galleries/campus-drawings/study-of-sather-tower-campanile-for-oil-painting-university-of-california.jpg
+      - assets/images/galleries/perspective-studies/study-of-sather-tower-the-campanile-university-of-california-berkeley.jpg
+      - assets/images/galleries/sketches-studies/study-of-sather-tower-the-campanile-university-of-california-berkeley.jpg
+    file_to_keep: assets/images/galleries/campus-drawings/study-of-sather-tower-campanile-for-oil-painting-university-of-california.jpg
+    new_file_name: study-of-sather-tower-campanile-uc-berkeley.jpg
+
+  - hash: "53e60b2faffc4c97..."
+    size_bytes: 1735175
+    count: 2
+    files:
+      - assets/images/galleries/cal-rowing/thumbnail-concept-sketch-for-design-of-painting.jpg
+      - assets/images/galleries/rowing-boathouse/thumbnail-concept-sketch-for-design-of-painting.jpg
+    file_to_keep: assets/images/galleries/cal-rowing/thumbnail-concept-sketch-for-design-of-painting.jpg
+    new_file_name: thumbnail-concept-sketch-for-rowing-painting.jpg
+
+  - hash: "5e373b18478a0591..."
+    size_bytes: 1898694
+    count: 2
+    files:
+      - assets/images/galleries/cal-rowing/final-layout-for-painting.jpg
+      - assets/images/galleries/rowing-boathouse/final-layout-for-painting.jpg
+    file_to_keep: assets/images/galleries/cal-rowing/final-layout-for-painting.jpg
+    new_file_name: final-layout-for-rowing-painting.jpg
+
+  - hash: "cef34a3cd0a215ec..."
+    size_bytes: 1372834
+    count: 2
+    files:
+      - assets/images/galleries/cal-rowing/img-20190520-165231821-jpg.jpg
+      - assets/images/galleries/rowing-boathouse/img-20190520-165231821-jpg.jpg
+    file_to_keep: assets/images/galleries/cal-rowing/img-20190520-165231821-jpg.jpg
+    new_file_name: cal-rowing-study-1.jpg
+
+  - hash: "be070378d496e8b0..."
+    size_bytes: 2074403
+    count: 2
+    files:
+      - assets/images/galleries/cal-rowing/thumbnail-sketch-for-design-of-ebright-painting.jpg
+      - assets/images/galleries/rowing-boathouse/thumbnail-sketch-for-design-of-ebright-painting.jpg
+    file_to_keep: assets/images/galleries/cal-rowing/thumbnail-sketch-for-design-of-ebright-painting.jpg
+    new_file_name: thumbnail-sketch-for-ebright-painting.jpg
+
+  - hash: "8c3743a996ac2a3b..."
+    size_bytes: 1211774
+    count: 2
+    files:
+      - assets/images/galleries/cal-rowing/aerial-view-shadow-studies-of-the-ky-ebright-boat-house.jpg
+      - assets/images/galleries/rowing-boathouse/aerial-view-shadow-studies-of-the-ky-ebright-boat-house.jpg
+    file_to_keep: assets/images/galleries/cal-rowing/aerial-view-shadow-studies-of-the-ky-ebright-boat-house.jpg
+    new_file_name: aerial-view-shadow-studies-ky-ebright-boathouse.jpg
+
+  - hash: "87158dd0500de262..."
+    size_bytes: 1620120
+    count: 2
+    files:
+      - assets/images/galleries/cal-rowing/img-20190520-165223431-jpg.jpg
+      - assets/images/galleries/rowing-boathouse/img-20190520-165223431-jpg.jpg
+    file_to_keep: assets/images/galleries/cal-rowing/img-20190520-165223431-jpg.jpg
+    new_file_name: cal-rowing-study-2.jpg
+
+  - hash: "da4ab6a2b569d4a7..."
+    size_bytes: 540182
+    count: 2
+    files:
+      - assets/images/galleries/cal-rowing/study-of-boathouse-proportions.jpg
+      - assets/images/galleries/rowing-boathouse/study-of-boathouse-proportions.jpg
+    file_to_keep: assets/images/galleries/cal-rowing/study-of-boathouse-proportions.jpg
+    new_file_name: study-of-boathouse-proportions.jpg
+
+  - hash: "5cbc31457c5a455e..."
+    size_bytes: 1609548
+    count: 2
+    files:
+      - assets/images/galleries/cal-rowing/img-20190520-165244592-jpg.jpg
+      - assets/images/galleries/rowing-boathouse/img-20190520-165244592-jpg.jpg
+    file_to_keep: assets/images/galleries/cal-rowing/img-20190520-165244592-jpg.jpg
+    new_file_name: cal-rowing-study-3.jpg
+
+  - hash: "9f1eaa07219f2421..."
+    size_bytes: 1369794
+    count: 2
+    files:
+      - assets/images/galleries/cal-rowing/img-20190520-165332764-jpg.jpg
+      - assets/images/galleries/rowing-boathouse/img-20190520-165332764-jpg.jpg
+    file_to_keep: assets/images/galleries/cal-rowing/img-20190520-165332764-jpg.jpg
+    new_file_name: cal-rowing-study-4.jpg
+
+  - hash: "d6cb7d6b3a921873..."
+    size_bytes: 309771
+    count: 2
+    files:
+      - assets/images/galleries/the-play/img-3183-png.png
+      - assets/images/galleries/the-play-illustrations/img-3183-png.png
+    file_to_keep: assets/images/galleries/the-play/img-3183-png.png
+    new_file_name: the-play-illustration-1.png
+
+  - hash: "ef0f57d05552306e..."
+    size_bytes: 1445667
+    count: 2
+    files:
+      - assets/images/galleries/the-play/img-3166b-png.png
+      - assets/images/galleries/the-play-illustrations/img-3166b-png.png
+    file_to_keep: assets/images/galleries/the-play/img-3166b-png.png
+    new_file_name: the-play-illustration-2.png
+
+  - hash: "52cb9973208c3de3..."
+    size_bytes: 262455
+    count: 2
+    files:
+      - assets/images/galleries/the-play/screenshot-2020-10-27-201621-jpg.jpg
+      - assets/images/galleries/the-play-illustrations/screenshot-2020-10-27-201621-jpg.jpg
+    file_to_keep: assets/images/galleries/the-play/screenshot-2020-10-27-201621-jpg.jpg
+    new_file_name: the-play-screenshot.jpg
+
+  - hash: "ef487edfa572e3da..."
+    size_bytes: 5931053
+    count: 2
+    files:
+      - assets/images/galleries/the-play/img-3182-png.png
+      - assets/images/galleries/the-play-illustrations/img-3182-png.png
+    file_to_keep: assets/images/galleries/the-play/img-3182-png.png
+    new_file_name: the-play-illustration-3.png
+
+  - hash: "bad52f98359d29d6..."
+    size_bytes: 4903457
+    count: 2
+    files:
+      - assets/images/galleries/the-play/img-3171-png.png
+      - assets/images/galleries/the-play-illustrations/img-3171-png.png
+    file_to_keep: assets/images/galleries/the-play/img-3171-png.png
+    new_file_name: the-play-illustration-4.png
+
+  - hash: "5019da86b39df800..."
+    size_bytes: 6347340
+    count: 2
+    files:
+      - assets/images/galleries/the-play/img-3168-png.png
+      - assets/images/galleries/the-play-illustrations/img-3168-png.png
+    file_to_keep: assets/images/galleries/the-play/img-3168-png.png
+    new_file_name: the-play-illustration-5.png
+
+  - hash: "78043450fe871e64..."
+    size_bytes: 4948847
+    count: 2
+    files:
+      - assets/images/galleries/the-play/img-3169-png.png
+      - assets/images/galleries/the-play-illustrations/img-3169-png.png
+    file_to_keep: assets/images/galleries/the-play/img-3169-png.png
+    new_file_name: the-play-illustration-6.png
+
+  - hash: "2edfad8630adaa54..."
+    size_bytes: 328918
+    count: 2
+    files:
+      - assets/images/galleries/the-play/moen-parts-the-red-sea-jpg.jpg
+      - assets/images/galleries/the-play-illustrations/moen-parts-the-red-sea-jpg.jpg
+    file_to_keep: assets/images/galleries/the-play/moen-parts-the-red-sea-jpg.jpg
+    new_file_name: moen-parts-the-red-sea.jpg
+
+  - hash: "b923216472062bf4..."
+    size_bytes: 91909
+    count: 2
+    files:
+      - assets/images/galleries/the-play/img-3181b-edited-jpg.jpg
+      - assets/images/galleries/the-play-illustrations/img-3181b-edited-jpg.jpg
+    file_to_keep: assets/images/galleries/the-play/img-3181b-edited-jpg.jpg
+    new_file_name: the-play-illustration-7.jpg
+
+  - hash: "7f4d2732c617ab41..."
+    size_bytes: 1628974
+    count: 2
+    files:
+      - assets/images/galleries/finished-drawings/bridge-over-strawberry-creek-next-to-moses-hall-university-of-california.jpg
+      - assets/images/galleries/pencil-drawings/bridge-over-strawberry-creek.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/bridge-over-strawberry-creek-next-to-moses-hall-university-of-california.jpg
+    new_file_name: bridge-over-strawberry-creek-moses-hall-uc-berkeley.jpg
+
+  - hash: "d99e19c857a61a8d..."
+    size_bytes: 901944
+    count: 2
+    files:
+      - assets/images/galleries/finished-drawings/view-of-berkeley-lab-from-sproul-plaza.jpg
+      - assets/images/galleries/pencil-drawings/view-of-berkeley-lab-from-sproul-plaza.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/view-of-berkeley-lab-from-sproul-plaza.jpg
+    new_file_name: view-of-berkeley-lab-from-sproul-plaza.jpg
+
+  - hash: "da20e12b9792f14c..."
+    size_bytes: 1763878
+    count: 2
+    files:
+      - assets/images/galleries/finished-drawings/stewarts-instruments.jpg
+      - assets/images/galleries/pencil-drawings/stewarts-instruments.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/stewarts-instruments.jpg
+    new_file_name: stewarts-instruments.jpg
+
+  - hash: "ec037b64445cca50..."
+    size_bytes: 2034794
+    count: 2
+    files:
+      - assets/images/galleries/finished-drawings/view-of-the-lake-and-sun-deck-from-the-hotel.jpg
+      - assets/images/galleries/pencil-drawings/view-of-the-lake-and-sun-deck-from-the-hotel.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/view-of-the-lake-and-sun-deck-from-the-hotel.jpg
+    new_file_name: view-of-the-lake-and-sun-deck-from-the-hotel.jpg
+
+  - hash: "a804541518dc67df..."
+    size_bytes: 919642
+    count: 2
+    files:
+      - assets/images/galleries/finished-drawings/statues-of-uc-berkeley-football-coach-pappy-and-the-wood-nymph-the-last-dryad.jpg
+      - assets/images/galleries/pencil-drawings/cal-coach-pappy-and-the-wood-nymph-dryad.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/statues-of-uc-berkeley-football-coach-pappy-and-the-wood-nymph-the-last-dryad.jpg
+    new_file_name: coach-pappy-and-the-wood-nymph-uc-berkeley.jpg
+
+  - hash: "3deed10b72ec80f0..."
+    size_bytes: 1946283
+    count: 2
+    files:
+      - assets/images/galleries/emily/pxl-20210102-180523581-jpg.jpg
+      - assets/images/galleries/pencil-drawings/pxl-20210102-180523581-jpg.jpg
+    file_to_keep: assets/images/galleries/emily/pxl-20210102-180523581-jpg.jpg
+    new_file_name: emily-portrait-2021.jpg
+
+  - hash: "5b2a33e4723c64ff..."
+    size_bytes: 3643482
+    count: 2
+    files:
+      - assets/images/galleries/figure-anatomical/self-portrait-as-antomical-lesson.jpg
+      - assets/images/galleries/pencil-drawings/img-1840-2-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-anatomical/self-portrait-as-antomical-lesson.jpg
+    new_file_name: self-portrait-as-anatomical-lesson.jpg
+
+  - hash: "597a09b484e1227f..."
+    size_bytes: 792440
+    count: 2
+    files:
+      - assets/images/galleries/pencil-drawings/img-20190514-144146834-jpg.jpg
+      - assets/images/galleries/sketches-studies/george-waits-for-his-ship-to-come-in.jpg
+    file_to_keep: assets/images/galleries/sketches-studies/george-waits-for-his-ship-to-come-in.jpg
+    new_file_name: george-waits-for-his-ship-to-come-in.jpg
+
+  - hash: "6926de4a0ec40eb9..."
+    size_bytes: 3928819
+    count: 2
+    files:
+      - assets/images/galleries/finished-drawings/self-portrait-as-maldoror-or-self-portrait-in-broken-glass.jpg
+      - assets/images/galleries/pencil-drawings/self-portrait-as-maldoror-or-self-portrait-in-broken-glass.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/self-portrait-as-maldoror-or-self-portrait-in-broken-glass.jpg
+    new_file_name: self-portrait-as-maldoror.jpg
+
+  - hash: "58d597d1ec78f048..."
+    size_bytes: 1576801
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/san-francisco-fire-boat.jpg
+      - assets/images/galleries/select-oils/san-francisco-fire-boat.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/san-francisco-fire-boat.jpg
+    new_file_name: san-francisco-fire-boat.jpg
+
+  - hash: "4d03d08e5b9d0ef4..."
+    size_bytes: 1169745
+    count: 2
+    files:
+      - assets/images/galleries/cal-athletics/ky-ebright-boathouse-in-progress.jpg
+      - assets/images/galleries/landscapes-other/cal-mens-rowing-early-morning-workout-circa-1940-in-progress.jpg
+    file_to_keep: assets/images/galleries/cal-athletics/ky-ebright-boathouse-in-progress.jpg
+    new_file_name: cal-mens-rowing-early-morning-workout-in-progress.jpg
+
+  - hash: "837e00c2b80a4e75..."
+    size_bytes: 931460
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/landscape-after-a-bierstadt.jpg
+      - assets/images/galleries/select-oils/landscape-after-a-bierstadt.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/landscape-after-a-bierstadt.jpg
+    new_file_name: landscape-after-bierstadt.jpg
+
+  - hash: "02a0f7e5b9f7ab6f..."
+    size_bytes: 3739708
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/santa-barbara-coastline.jpg
+      - assets/images/galleries/select-oils/santa-barbara-coastline.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/santa-barbara-coastline.jpg
+    new_file_name: santa-barbara-coastline.jpg
+
+  - hash: "bf974be7c5e1b96c..."
+    size_bytes: 2016258
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/sunrise-in-sonoma-county.jpg
+      - assets/images/galleries/select-oils/sunrise-in-sonoma-county.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/sunrise-in-sonoma-county.jpg
+    new_file_name: sunrise-in-sonoma-county.jpg
+
+  - hash: "996227e88514a678..."
+    size_bytes: 70583
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/backyard-20nightscape-jpg.jpg
+      - assets/images/galleries/select-oils/backyard-20nightscape-jpg.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/backyard-20nightscape-jpg.jpg
+    new_file_name: backyard-nightscape.jpg
+
+  - hash: "fbe310a312114e96..."
+    size_bytes: 64899
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/view-of-mt-tam.jpg
+      - assets/images/galleries/select-oils/view-of-mt-tam.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/view-of-mt-tam.jpg
+    new_file_name: view-of-mt-tam.jpg
+
+  - hash: "aac2ca5513e262ce..."
+    size_bytes: 1932080
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/oil-on-canvas.jpg
+      - assets/images/galleries/select-oils/oil-on-canvas.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/oil-on-canvas.jpg
+    new_file_name: landscape-oil-on-canvas.jpg
+
+  - hash: "68f7a2f09ab43069..."
+    size_bytes: 1567848
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/spanish-balcony.jpg
+      - assets/images/galleries/select-oils/spanish-balcony.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/spanish-balcony.jpg
+    new_file_name: spanish-balcony.jpg
+
+  - hash: "3996d94495caf19c..."
+    size_bytes: 1738792
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-mt-diablo/oil-study-of-mt-diablo.jpg
+      - assets/images/galleries/landscapes-other/img-20190518-124420310-jpg.jpg
+    file_to_keep: assets/images/galleries/landscapes-mt-diablo/oil-study-of-mt-diablo.jpg
+    new_file_name: oil-study-of-mt-diablo.jpg
+
+  - hash: "edf17165ca7d7420..."
+    size_bytes: 69127
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/fjord-after-f-church.jpg
+      - assets/images/galleries/select-oils/fjord-after-f-church.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/fjord-after-f-church.jpg
+    new_file_name: fjord-after-frederic-church.jpg
+
+  - hash: "d6934e41c9bb4d40..."
+    size_bytes: 1570234
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/study-for-imperial-palace-tokyo.jpg
+      - assets/images/galleries/select-oils/study-for-imperial-palace-tokyo.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/study-for-imperial-palace-tokyo.jpg
+    new_file_name: study-for-imperial-palace-tokyo.jpg
+
+  - hash: "fab6ba844297eb73..."
+    size_bytes: 1760405
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/imperial-palace.jpg
+      - assets/images/galleries/select-oils/imperial-palace.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/imperial-palace.jpg
+    new_file_name: imperial-palace.jpg
+
+  - hash: "3964284a8256d108..."
+    size_bytes: 1026597
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/cloud-over-berkeley.jpg
+      - assets/images/galleries/select-oils/cloud-over-berkeley.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/cloud-over-berkeley.jpg
+    new_file_name: cloud-over-berkeley.jpg
+
+  - hash: "c9f39574ed4845a5..."
+    size_bytes: 690055
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/half-dome-yosemite.jpg
+      - assets/images/galleries/select-oils/half-dome-yosemite.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/half-dome-yosemite.jpg
+    new_file_name: half-dome-yosemite.jpg
+
+  - hash: "dcd458a3c6d9a2e2..."
+    size_bytes: 701450
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/view-of-coal-oil-point-isla-vista-calif.jpg
+      - assets/images/galleries/select-oils/view-of-coal-oil-point-isla-vista-calif.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/view-of-coal-oil-point-isla-vista-calif.jpg
+    new_file_name: view-of-coal-oil-point-isla-vista.jpg
+
+  - hash: "82152c24af028f22..."
+    size_bytes: 1460789
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/imperial-palace-2.jpg
+      - assets/images/galleries/select-oils/imperial-palace-2.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/imperial-palace-2.jpg
+    new_file_name: imperial-palace-2.jpg
+
+  - hash: "84fcaf0c3126b372..."
+    size_bytes: 1458962
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-other/golden-gate-bridge.jpg
+      - assets/images/galleries/select-oils/golden-gate-bridge.jpg
+    file_to_keep: assets/images/galleries/landscapes-other/golden-gate-bridge.jpg
+    new_file_name: golden-gate-bridge.jpg
+
+  - hash: "8d66996240ebefde..."
+    size_bytes: 1813271
+    count: 2
+    files:
+      - assets/images/galleries/figure-complete/kevin-at-the-woods.jpg
+      - assets/images/galleries/figure-drawings/kevin-at-the-woods.jpg
+    file_to_keep: assets/images/galleries/figure-complete/kevin-at-the-woods.jpg
+    new_file_name: kevin-at-the-woods.jpg
+
+  - hash: "519a9fe26217197c..."
+    size_bytes: 1804386
+    count: 2
+    files:
+      - assets/images/galleries/figure-complete/laurel-reading.jpg
+      - assets/images/galleries/figure-drawings/laurel-reading.jpg
+    file_to_keep: assets/images/galleries/figure-complete/laurel-reading.jpg
+    new_file_name: laurel-reading.jpg
+
+  - hash: "7cbbef943de568c4..."
+    size_bytes: 79355
+    count: 2
+    files:
+      - assets/images/galleries/figure-complete/ldsf-3bfkg-jpg.jpg
+      - assets/images/galleries/figure-drawings/ldsf-3bfkg-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-complete/ldsf-3bfkg-jpg.jpg
+    new_file_name: figure-sketch.jpg
+
+  - hash: "0239ee0335c67e35..."
+    size_bytes: 3006446
+    count: 2
+    files:
+      - assets/images/galleries/figure-complete/img-0003a-jpg.jpg
+      - assets/images/galleries/figure-drawings/img-0003a-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-complete/img-0003a-jpg.jpg
+    new_file_name: figure-drawing-complete.jpg
+
+  - hash: "1d1c21189b3b1538..."
+    size_bytes: 1755588
+    count: 2
+    files:
+      - assets/images/galleries/figure-complete/img-6329a-jpg.jpg
+      - assets/images/galleries/figure-drawings/img-6329a-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-complete/img-6329a-jpg.jpg
+    new_file_name: figure-drawing-2.jpg
+
+  - hash: "4890aa43cde58233..."
+    size_bytes: 1403202
+    count: 2
+    files:
+      - assets/images/galleries/figure-complete/img-20190517-152056676-jpg.jpg
+      - assets/images/galleries/figure-drawings/img-20190517-152056676-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-complete/img-20190517-152056676-jpg.jpg
+    new_file_name: figure-drawing-3.jpg
+
+  - hash: "29d97d213e153fcb..."
+    size_bytes: 2723730
+    count: 2
+    files:
+      - assets/images/galleries/figure-complete/img-6328a-jpg.jpg
+      - assets/images/galleries/figure-drawings/img-6328a-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-complete/img-6328a-jpg.jpg
+    new_file_name: figure-drawing-4.jpg
+
+  - hash: "b93d8f30aa8ec946..."
+    size_bytes: 3946122
+    count: 2
+    files:
+      - assets/images/galleries/figure-complete/figure-study-after-falero.jpg
+      - assets/images/galleries/figure-drawings/figure-study-after-falero.jpg
+    file_to_keep: assets/images/galleries/figure-complete/figure-study-after-falero.jpg
+    new_file_name: figure-study-after-falero.jpg
+
+  - hash: "8634f10ae34136ef..."
+    size_bytes: 54769
+    count: 2
+    files:
+      - assets/images/galleries/figure-complete/drawing-made-during-high-school-library-study-period.jpg
+      - assets/images/galleries/figure-drawings/drawing-made-during-high-school-library-study-period.jpg
+    file_to_keep: assets/images/galleries/figure-complete/drawing-made-during-high-school-library-study-period.jpg
+    new_file_name: high-school-library-drawing.jpg
+
+  - hash: "f7394372403f8d77..."
+    size_bytes: 1138230
+    count: 2
+    files:
+      - assets/images/galleries/figure-complete/lkfdjg-jpg.jpg
+      - assets/images/galleries/figure-drawings/lkfdjg-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-complete/lkfdjg-jpg.jpg
+    new_file_name: figure-drawing-5.jpg
+
+  - hash: "b1327b24369ee38f..."
+    size_bytes: 1452123
+    count: 2
+    files:
+      - assets/images/galleries/select-watercolors/img-20190517-152148159-jpg.jpg
+      - assets/images/galleries/watercolor-gouache/img-20190517-152148159-jpg.jpg
+    file_to_keep: assets/images/galleries/watercolor-gouache/img-20190517-152148159-jpg.jpg
+    new_file_name: watercolor-study.jpg
+
+  - hash: "5c70078617cb3a6d..."
+    size_bytes: 1743385
+    count: 2
+    files:
+      - assets/images/galleries/figure-heads-faces/img-0070a-jpg.jpg
+      - assets/images/galleries/figure-studies/img-0070a-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/img-0070a-jpg.jpg
+    new_file_name: portrait-study-1.jpg
+
+  - hash: "e50d8d980abe0bd1..."
+    size_bytes: 2382260
+    count: 2
+    files:
+      - assets/images/galleries/figure-heads-faces/img-0003a-jpg.jpg
+      - assets/images/galleries/figure-studies/img-0003a-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/img-0003a-jpg.jpg
+    new_file_name: portrait-study-2.jpg
+
+  - hash: "9bc182d994b626d1..."
+    size_bytes: 1817349
+    count: 2
+    files:
+      - assets/images/galleries/figure-heads-faces/img-0088a-jpg.jpg
+      - assets/images/galleries/figure-studies/img-0088a-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/img-0088a-jpg.jpg
+    new_file_name: portrait-study-3.jpg
+
+  - hash: "690ffc0efee130d2..."
+    size_bytes: 1678724
+    count: 2
+    files:
+      - assets/images/galleries/figure-heads-faces/img-0074a-jpg.jpg
+      - assets/images/galleries/figure-studies/img-0074a-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/img-0074a-jpg.jpg
+    new_file_name: portrait-study-4.jpg
+
+  - hash: "dc4926e294beadaa..."
+    size_bytes: 1633060
+    count: 2
+    files:
+      - assets/images/galleries/figure-heads-faces/img-3066a-jpg.jpg
+      - assets/images/galleries/figure-studies/img-3066a-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/img-3066a-jpg.jpg
+    new_file_name: portrait-study-5.jpg
+
+  - hash: "04853e54337486ee..."
+    size_bytes: 65343
+    count: 2
+    files:
+      - assets/images/galleries/figure-heads-faces/biorgraphy0005-jpg.jpg
+      - assets/images/galleries/figure-studies/biorgraphy0005-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/biorgraphy0005-jpg.jpg
+    new_file_name: biography-portrait-1.jpg
+
+  - hash: "1686dcb5ac45e7ba..."
+    size_bytes: 2170053
+    count: 2
+    files:
+      - assets/images/galleries/figure-heads-faces/marilyn-jpg.jpg
+      - assets/images/galleries/figure-studies/marilyn-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/marilyn-jpg.jpg
+    new_file_name: marilyn.jpg
+
+  - hash: "e15e7fead669a5e0..."
+    size_bytes: 68052
+    count: 2
+    files:
+      - assets/images/galleries/figure-heads-faces/biorgraphy0006-jpg.jpg
+      - assets/images/galleries/figure-studies/biorgraphy0006-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/biorgraphy0006-jpg.jpg
+    new_file_name: biography-portrait-2.jpg
+
+  - hash: "ea94ef136a362777..."
+    size_bytes: 60866
+    count: 2
+    files:
+      - assets/images/galleries/figure-heads-faces/self-portrait-as-maldoror-or-self-portrait-in-broken-glass.jpg
+      - assets/images/galleries/figure-studies/self-portrait-as-maldoror-or-self-portrait-in-broken-glass.jpg
+    file_to_keep: assets/images/galleries/figure-heads-faces/self-portrait-as-maldoror-or-self-portrait-in-broken-glass.jpg
+    new_file_name: self-portrait-as-maldoror-small.jpg
+
+  - hash: "a4396ddc2c8aea6d..."
+    size_bytes: 3480717
+    count: 2
+    files:
+      - assets/images/galleries/select-oils/sather-gate-uc-berkeley.jpg
+      - assets/images/galleries/uc-berkeley-campus/sather-gate-uc-berkeley.jpg
+    file_to_keep: assets/images/galleries/uc-berkeley-campus/sather-gate-uc-berkeley.jpg
+    new_file_name: sather-gate-uc-berkeley.jpg
+
+  - hash: "ef13fa406c89fb54..."
+    size_bytes: 693528
+    count: 2
+    files:
+      - assets/images/galleries/select-oils/to-web2-edited-jpg.jpg
+      - assets/images/galleries/still-lifes/still-life-with-swedish-horse-and-skull.jpg
+    file_to_keep: assets/images/galleries/still-lifes/still-life-with-swedish-horse-and-skull.jpg
+    new_file_name: still-life-with-swedish-horse-and-skull.jpg
+
+  - hash: "316ae7e71e7c1f1d..."
+    size_bytes: 1585010
+    count: 2
+    files:
+      - assets/images/galleries/select-oils/img-0032a-jpg.jpg
+      - assets/images/galleries/still-lifes/my-old-hiking-boots.jpg
+    file_to_keep: assets/images/galleries/still-lifes/my-old-hiking-boots.jpg
+    new_file_name: my-old-hiking-boots.jpg
+
+  - hash: "b80a7aa67717d9d3..."
+    size_bytes: 3845357
+    count: 2
+    files:
+      - assets/images/galleries/select-oils/final02-jpg.jpg
+      - assets/images/galleries/still-lifes/apple-pie.jpg
+    file_to_keep: assets/images/galleries/still-lifes/apple-pie.jpg
+    new_file_name: apple-pie.jpg
+
+  - hash: "deb7cfafcda30233..."
+    size_bytes: 1485080
+    count: 2
+    files:
+      - assets/images/galleries/select-oils/img-0025a-jpg.jpg
+      - assets/images/galleries/still-lifes/still-life-with-emmys-pink-bunny.jpg
+    file_to_keep: assets/images/galleries/still-lifes/still-life-with-emmys-pink-bunny.jpg
+    new_file_name: still-life-with-emmys-pink-bunny.jpg
+
+  - hash: "becf7a33ef885e1e..."
+    size_bytes: 987332
+    count: 2
+    files:
+      - assets/images/galleries/figure-paintings/connie-napping.jpg
+      - assets/images/galleries/select-oils/img-0042a-jpg.jpg
+    file_to_keep: assets/images/galleries/figure-paintings/connie-napping.jpg
+    new_file_name: connie-napping-painting.jpg
+
+  - hash: "b69143f3607555e6..."
+    size_bytes: 1123997
+    count: 2
+    files:
+      - assets/images/galleries/select-oils/img-0019a-jpg.jpg
+      - assets/images/galleries/still-lifes/still-life-with-olive-oil.jpg
+    file_to_keep: assets/images/galleries/still-lifes/still-life-with-olive-oil.jpg
+    new_file_name: still-life-with-olive-oil.jpg
+
+  - hash: "2cf48d253db6dbcc..."
+    size_bytes: 4464455
+    count: 2
+    files:
+      - assets/images/galleries/select-oils/2772605131-800182b279-o-jpg.jpg
+      - assets/images/galleries/still-lifes/still-life-with-wooden-elephant.jpg
+    file_to_keep: assets/images/galleries/still-lifes/still-life-with-wooden-elephant.jpg
+    new_file_name: still-life-with-wooden-elephant.jpg
+
+  - hash: "ada137e91e7cd5b7..."
+    size_bytes: 136044
+    count: 2
+    files:
+      - assets/images/galleries/perspective-studies/cal-crew-poster-mockup-jpg.jpg
+      - assets/images/galleries/rowing-montlake/montlake-bridge.jpg
+    file_to_keep: assets/images/galleries/rowing-montlake/montlake-bridge.jpg
+    new_file_name: montlake-bridge.jpg
+
+  - hash: "1ea0c1faccb78aa7..."
+    size_bytes: 624218
+    count: 2
+    files:
+      - assets/images/galleries/perspective-studies/img-20190514-140035759-jpg.jpg
+      - assets/images/galleries/rowing-montlake/rowing-study-6.jpg
+    file_to_keep: assets/images/galleries/rowing-montlake/rowing-study-6.jpg
+    new_file_name: rowing-study-6.jpg
+
+  - hash: "6069e273ccb25daf..."
+    size_bytes: 579969
+    count: 2
+    files:
+      - assets/images/galleries/perspective-studies/img-20170826-165912-jpg.jpg
+      - assets/images/galleries/rowing-montlake/rowing-study-10.jpg
+    file_to_keep: assets/images/galleries/rowing-montlake/rowing-study-10.jpg
+    new_file_name: rowing-study-10.jpg
+
+  - hash: "87e5bb8c7f8babaf..."
+    size_bytes: 435617
+    count: 2
+    files:
+      - assets/images/galleries/perspective-studies/img-20170826-171037-jpg.jpg
+      - assets/images/galleries/rowing-montlake/rowing-study-4.jpg
+    file_to_keep: assets/images/galleries/rowing-montlake/rowing-study-4.jpg
+    new_file_name: rowing-study-4.jpg
+
+  - hash: "70fe778aa2b69f42..."
+    size_bytes: 588523
+    count: 2
+    files:
+      - assets/images/galleries/figure-anatomical/img-20170826-171343-jpg.jpg
+      - assets/images/galleries/rowing-montlake/rowing-study.jpg
+    file_to_keep: assets/images/galleries/rowing-montlake/rowing-study.jpg
+    new_file_name: rowing-study.jpg
+
+  - hash: "1f5a97f6e1d4fee5..."
+    size_bytes: 1622234
+    count: 2
+    files:
+      - assets/images/galleries/perspective-studies/img-20190521-112325166-jpg.jpg
+      - assets/images/galleries/rowing-montlake/rowing-study-8.jpg
+    file_to_keep: assets/images/galleries/rowing-montlake/rowing-study-8.jpg
+    new_file_name: rowing-study-8.jpg
+
+  - hash: "e86bae3050be3493..."
+    size_bytes: 574221
+    count: 2
+    files:
+      - assets/images/galleries/perspective-studies/img-20170826-165726-jpg.jpg
+      - assets/images/galleries/rowing-montlake/rowing-study-11.jpg
+    file_to_keep: assets/images/galleries/rowing-montlake/rowing-study-11.jpg
+    new_file_name: rowing-study-11.jpg
+
+  - hash: "835559c28d966746..."
+    size_bytes: 875851
+    count: 2
+    files:
+      - assets/images/galleries/perspective-studies/img-20190521-112156196-jpg.jpg
+      - assets/images/galleries/rowing-montlake/rowing-study-7.jpg
+    file_to_keep: assets/images/galleries/rowing-montlake/rowing-study-7.jpg
+    new_file_name: rowing-study-7.jpg
+
+  - hash: "9e1f8fd20e2cd5d5..."
+    size_bytes: 19338546
+    count: 2
+    files:
+      - assets/images/galleries/finished-drawings/figures-on-hearst-mining-building-facade-university-of-california-berkeley.jpg
+      - assets/images/galleries/select-charcoal/figures-on-hearst-mining-building-facade.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/figures-on-hearst-mining-building-facade-university-of-california-berkeley.jpg
+    new_file_name: figures-on-hearst-mining-building-uc-berkeley.jpg
+
+  - hash: "ee7c4141a0a04e31..."
+    size_bytes: 1484678
+    count: 2
+    files:
+      - assets/images/galleries/finished-drawings/saturn-detail.jpg
+      - assets/images/galleries/select-charcoal/saturn-detail.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/saturn-detail.jpg
+    new_file_name: saturn-detail.jpg
+
+  - hash: "989175bf0c07bb0f..."
+    size_bytes: 2474965
+    count: 2
+    files:
+      - assets/images/galleries/finished-drawings/animal-skul.jpg
+      - assets/images/galleries/select-charcoal/animal-skull.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/animal-skul.jpg
+    new_file_name: animal-skull.jpg
+
+  - hash: "de0d41777fed94cb..."
+    size_bytes: 3146194
+    count: 2
+    files:
+      - assets/images/galleries/finished-drawings/pxl-20221012-194329828-portrait-jpg.jpg
+      - assets/images/galleries/select-charcoal/pxl-20221012-194329828-portrait-jpg.jpg
+    file_to_keep: assets/images/galleries/finished-drawings/pxl-20221012-194329828-portrait-jpg.jpg
+    new_file_name: portrait-charcoal-2022.jpg
+
+  - hash: "1adea639783bb476..."
+    size_bytes: 1755659
+    count: 2
+    files:
+      - assets/images/galleries/emily/portrait-of-emily-detail.jpg
+      - assets/images/galleries/figure-paintings/emily-at-21-2.jpg
+    file_to_keep: assets/images/galleries/emily/portrait-of-emily-detail.jpg
+    new_file_name: portrait-of-emily-detail.jpg
+
+  - hash: "3838957d6548db6a..."
+    size_bytes: 1103329
+    count: 2
+    files:
+      - assets/images/galleries/emily/portrait-of-emily.jpg
+      - assets/images/galleries/figure-paintings/emily-at-21.jpg
+    file_to_keep: assets/images/galleries/emily/portrait-of-emily.jpg
+    new_file_name: portrait-of-emily.jpg
+
+  - hash: "54fdd43855458fa9..."
+    size_bytes: 6604981
+    count: 2
+    files:
+      - assets/images/galleries/cal-athletics/last-500-meters-in-the-montlake-cut.jpg
+      - assets/images/galleries/figure-paintings/last-500-meters-in-the-montlake-cut.jpg
+    file_to_keep: assets/images/galleries/cal-athletics/last-500-meters-in-the-montlake-cut.jpg
+    new_file_name: last-500-meters-in-the-montlake-cut.jpg
+
+  - hash: "34d965690365587f..."
+    size_bytes: 548266
+    count: 2
+    files:
+      - assets/images/galleries/emily/emily-preparing-the-thanksgiving-rosemary.jpg
+      - assets/images/galleries/figure-paintings/emily-preparing-the-rosemary-for-thanksgiving-dinner-or-triple-portrait-of.jpg
+    file_to_keep: assets/images/galleries/emily/emily-preparing-the-thanksgiving-rosemary.jpg
+    new_file_name: emily-preparing-the-thanksgiving-rosemary.jpg
+
+  - hash: "9b54e2c857a1fa5e..."
+    size_bytes: 1406943
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-watercolor/stephens-hall-with-coach-pappy-waldorf-university-of-california-berkeley.jpg
+      - assets/images/galleries/uc-berkeley-campus/stephens-hall-with-coach-pappy-faculty-glade-uc-berkeley.jpg
+    file_to_keep: assets/images/galleries/uc-berkeley-campus/stephens-hall-with-coach-pappy-faculty-glade-uc-berkeley.jpg
+    new_file_name: stephens-hall-with-coach-pappy-uc-berkeley.jpg
+
+  - hash: "e33ac93a1a0cc246..."
+    size_bytes: 968465
+    count: 2
+    files:
+      - assets/images/galleries/cal-band-drawings/toning-the-canvas.jpg
+      - assets/images/galleries/cal-marching-band/toning-the-canvas.jpg
+    file_to_keep: assets/images/galleries/cal-marching-band/toning-the-canvas.jpg
+    new_file_name: toning-the-canvas.jpg
+
+  - hash: "2a6d999c193bc6b9..."
+    size_bytes: 1083741
+    count: 2
+    files:
+      - assets/images/galleries/cal-band-drawings/4-x-6-foot-canvas.jpg
+      - assets/images/galleries/cal-marching-band/4-x-6-foot-canvas.jpg
+    file_to_keep: assets/images/galleries/cal-marching-band/4-x-6-foot-canvas.jpg
+    new_file_name: 4-x-6-foot-canvas.jpg
+
+  - hash: "6b4fa9bd1c9f3028..."
+    size_bytes: 2690659
+    count: 2
+    files:
+      - assets/images/galleries/cal-band-drawings/study-for-band-painting.jpg
+      - assets/images/galleries/cal-marching-band/study-for-band-painting.jpg
+    file_to_keep: assets/images/galleries/cal-marching-band/study-for-band-painting.jpg
+    new_file_name: study-for-band-painting.jpg
+
+  - hash: "7c7302ac1ecd7440..."
+    size_bytes: 1210973
+    count: 2
+    files:
+      - assets/images/galleries/cal-band-drawings/img-20190515-142738310-jpg.jpg
+      - assets/images/galleries/cal-marching-band/img-20190515-142738310-jpg.jpg
+    file_to_keep: assets/images/galleries/cal-marching-band/img-20190515-142738310-jpg.jpg
+    new_file_name: cal-band-study.jpg
+
+  - hash: "2db6c777ebe0cfc3..."
+    size_bytes: 76052
+    count: 2
+    files:
+      - assets/images/galleries/cal-band-drawings/design-plan-for-the-band-painting.jpg
+      - assets/images/galleries/cal-marching-band/design-plan-for-the-band-painting.jpg
+    file_to_keep: assets/images/galleries/cal-marching-band/design-plan-for-the-band-painting.jpg
+    new_file_name: design-plan-for-the-band-painting.jpg
+
+  - hash: "6dcb1771eb0c5b8b..."
+    size_bytes: 1124339
+    count: 2
+    files:
+      - assets/images/galleries/cal-band-drawings/img-1568a-jpg.jpg
+      - assets/images/galleries/cal-marching-band/img-1568a-jpg.jpg
+    file_to_keep: assets/images/galleries/cal-marching-band/img-1568a-jpg.jpg
+    new_file_name: cal-band-musician.jpg
+
+  - hash: "41e5430204fb7abc..."
+    size_bytes: 4054071
+    count: 2
+    files:
+      - assets/images/galleries/cal-band-drawings/cimg4194-jpg.jpg
+      - assets/images/galleries/cal-marching-band/cimg4194-jpg.jpg
+    file_to_keep: assets/images/galleries/cal-marching-band/cimg4194-jpg.jpg
+    new_file_name: cal-band-performance.jpg
+
+  - hash: "04b7116962ccbc23..."
+    size_bytes: 4038099
+    count: 2
+    files:
+      - assets/images/galleries/cal-band-drawings/cimg4100ab-jpg.jpg
+      - assets/images/galleries/cal-marching-band/cimg4100ab-jpg.jpg
+    file_to_keep: assets/images/galleries/cal-marching-band/cimg4100ab-jpg.jpg
+    new_file_name: cal-band-formation.jpg
+
+  - hash: "84e1d36e70f95433..."
+    size_bytes: 3654777
+    count: 2
+    files:
+      - assets/images/galleries/emily/img-0035-jpg.jpg
+      - assets/images/galleries/sketches-studies/img-0035-jpg.jpg
+    file_to_keep: assets/images/galleries/emily/img-0035-jpg.jpg
+    new_file_name: emily-sketch.jpg
+
+  - hash: "a0f139b9e33850af..."
+    size_bytes: 2082575
+    count: 2
+    files:
+      - assets/images/galleries/sketches-studies/snack-shack-viking-village.jpg
+      - assets/images/galleries/viking-village/snack-shack.jpg
+    file_to_keep: assets/images/galleries/viking-village/snack-shack.jpg
+    new_file_name: snack-shack-viking-village.jpg
+
+  - hash: "245bc054f536ad7d..."
+    size_bytes: 863666
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-watercolor/hotel-side-door-brynilsens-viking-village-new-york.png
+      - assets/images/galleries/viking-village/hotel-side-door.png
+    file_to_keep: assets/images/galleries/viking-village/hotel-side-door.png
+    new_file_name: hotel-side-door.png
+
+  - hash: "58e6b85c35203874..."
+    size_bytes: 1985057
+    count: 2
+    files:
+      - assets/images/galleries/sketches-studies/view-of-the-office-and-hotel-viking-village-adirondacks.jpg
+      - assets/images/galleries/viking-village/pencil-on-paper.jpg
+    file_to_keep: assets/images/galleries/viking-village/pencil-on-paper.jpg
+    new_file_name: view-of-the-office-and-hotel-viking-village.jpg
+
+  - hash: "6391a0cf46aeae96..."
+    size_bytes: 1546533
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-outdoors/snack-shack.jpg
+      - assets/images/galleries/viking-village/snack-shack-2.jpg
+    file_to_keep: assets/images/galleries/viking-village/snack-shack-2.jpg
+    new_file_name: snack-shack-outdoors.jpg
+
+  - hash: "e1e82c602363a79f..."
+    size_bytes: 490265
+    count: 2
+    files:
+      - assets/images/galleries/sketches-studies/door-to-the-old-hotel-viking-village-adirondacks.jpg
+      - assets/images/galleries/viking-village/hotel-side-door.jpg
+    file_to_keep: assets/images/galleries/viking-village/hotel-side-door.jpg
+    new_file_name: door-to-the-old-hotel-viking-village.jpg
+
+  - hash: "4e6d2dc13b283574..."
+    size_bytes: 1257903
+    count: 2
+    files:
+      - assets/images/galleries/select-charcoal/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
+      - assets/images/galleries/still-lifes/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
+    file_to_keep: assets/images/galleries/still-lifes/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
+    new_file_name: still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
+
+  - hash: "2af1b5eeaf0964df..."
+    size_bytes: 502207
+    count: 2
+    files:
+      - assets/images/galleries/life-drawing/hand-detail.jpg
+      - assets/images/galleries/select-charcoal/img-0042-jpg.jpg
+    file_to_keep: assets/images/galleries/life-drawing/hand-detail.jpg
+    new_file_name: hand-detail.jpg
+
+  - hash: "ebb6614731991d05..."
+    size_bytes: 829759
+    count: 2
+    files:
+      - assets/images/galleries/life-drawing/female-figure-7.jpg
+      - assets/images/galleries/select-charcoal/img-0040-cr2-jpg.jpg
+    file_to_keep: assets/images/galleries/life-drawing/female-figure-7.jpg
+    new_file_name: female-figure-7.jpg
+
+  - hash: "06d00c3f33349863..."
+    size_bytes: 2923302
+    count: 2
+    files:
+      - assets/images/galleries/life-drawing/female-figure-4.jpg
+      - assets/images/galleries/select-charcoal/img-1839-202-jpg.jpg
+    file_to_keep: assets/images/galleries/life-drawing/female-figure-4.jpg
+    new_file_name: female-figure-4.jpg
+
+  - hash: "01c93f33d902d02e..."
+    size_bytes: 1693396
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-mt-diablo/study-of-mt-diablo.jpg
+      - assets/images/galleries/landscapes-watercolor/study-of-mt-diablo.jpg
+    file_to_keep: assets/images/galleries/landscapes-mt-diablo/study-of-mt-diablo.jpg
+    new_file_name: study-of-mt-diablo.jpg
+
+  - hash: "ec553ca862e714a0..."
+    size_bytes: 383048
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-mt-diablo/mt-diablo-at-sunset-view-from-byron.jpg
+      - assets/images/galleries/landscapes-outdoors/mt-diablo-at-sunset-view-from-byron.jpg
+    file_to_keep: assets/images/galleries/landscapes-mt-diablo/mt-diablo-at-sunset-view-from-byron.jpg
+    new_file_name: mt-diablo-at-sunset-view-from-byron.jpg
+
+  - hash: "679cfa7affad4a84..."
+    size_bytes: 1520083
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-mt-diablo/study-of-mt-diable.jpg
+      - assets/images/galleries/landscapes-outdoors/study-of-mt-diablo.jpg
+    file_to_keep: assets/images/galleries/landscapes-mt-diablo/study-of-mt-diable.jpg
+    new_file_name: study-of-mt-diablo-2.jpg
+
+  - hash: "9a433278fe7dd056..."
+    size_bytes: 53718
+    count: 2
+    files:
+      - assets/images/galleries/charcoal-drawings/high-20school-20surreal-20sketch-jpg.jpg
+      - assets/images/galleries/pen-ink-drawings/high-20school-20surreal-20sketch-jpg.jpg
+    file_to_keep: assets/images/galleries/charcoal-drawings/high-20school-20surreal-20sketch-jpg.jpg
+    new_file_name: high-school-surreal-sketch.jpg
+
+  - hash: "33634992c61082c0..."
+    size_bytes: 3440764
+    count: 2
+    files:
+      - assets/images/galleries/charcoal-drawings/img-20161223-113619694-jpg.jpg
+      - assets/images/galleries/pen-ink-drawings/img-20161223-113619694-jpg.jpg
+    file_to_keep: assets/images/galleries/charcoal-drawings/img-20161223-113619694-jpg.jpg
+    new_file_name: charcoal-drawing-study.jpg
+
+  - hash: "6cb0e63aa5d1407f..."
+    size_bytes: 1016016
+    count: 2
+    files:
+      - assets/images/galleries/campus-drawings/university-house-university-of-california-berkeley.jpg
+      - assets/images/galleries/sketches-studies/university-house-uc-berkeley.jpg
+    file_to_keep: assets/images/galleries/campus-drawings/university-house-university-of-california-berkeley.jpg
+    new_file_name: university-house-uc-berkeley.jpg
+
+  - hash: "69bc9d50c2a4b18f..."
+    size_bytes: 1022070
+    count: 2
+    files:
+      - assets/images/galleries/campus-drawings/california-golden-bear-lower-sproul-plaza-university-of-california-berkeley.jpg
+      - assets/images/galleries/sketches-studies/california-golden-bear-with-sather-tower-the-campanile-university-of-california.jpg
+    file_to_keep: assets/images/galleries/campus-drawings/california-golden-bear-lower-sproul-plaza-university-of-california-berkeley.jpg
+    new_file_name: california-golden-bear-sproul-plaza-uc-berkeley.jpg
+
+  - hash: "bf757db0747fce47..."
+    size_bytes: 1720286
+    count: 2
+    files:
+      - assets/images/galleries/campus-drawings/stairs-up-to-university-house-study-for-an-oil-painting-university-of.jpg
+      - assets/images/galleries/sketches-studies/steps-to-university-house-university-of-california-berkeley.jpg
+    file_to_keep: assets/images/galleries/campus-drawings/stairs-up-to-university-house-study-for-an-oil-painting-university-of.jpg
+    new_file_name: stairs-to-university-house-uc-berkeley.jpg
+
+  - hash: "c7dbc26553322e62..."
+    size_bytes: 1342496
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-outdoors/view-toward-inlet.jpg
+      - assets/images/galleries/landscapes-watercolor/view-toward-inlet.jpg
+    file_to_keep: assets/images/galleries/landscapes-outdoors/view-toward-inlet.jpg
+    new_file_name: view-toward-inlet.jpg
+
+  - hash: "15f65681ce05f7f4..."
+    size_bytes: 1441183
+    count: 2
+    files:
+      - assets/images/galleries/cal-band-detail/still-life-with-skull-and-uc-marching-band-hat.jpg
+      - assets/images/galleries/still-lifes/still-life-with-cal-band-hat-and-skull.jpg
+    file_to_keep: assets/images/galleries/still-lifes/still-life-with-cal-band-hat-and-skull.jpg
+    new_file_name: still-life-with-cal-band-hat-and-skull.jpg
+
+  - hash: "744a5552adbf9a77..."
+    size_bytes: 6162845
+    count: 2
+    files:
+      - assets/images/galleries/landscapes-watercolor/color-design-study-for-cal-mens-rowing-painting-university-of-california.jpg
+      - assets/images/galleries/select-gouache/color-design-study-for-cal-rowing-painting.jpg
+    file_to_keep: assets/images/galleries/landscapes-watercolor/color-design-study-for-cal-mens-rowing-painting-university-of-california.jpg
+    new_file_name: color-design-study-for-cal-rowing-painting.jpg
