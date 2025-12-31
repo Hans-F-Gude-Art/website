@@ -1,7 +1,7 @@
 ---
 layout: artwork
-title: "Pencil on Paper"
-image: landscapes-other/pencil-on-paper.jpg
+title: "Pencil on paper"
+image: figure-studies/pencil-on-paper.jpg
 galleries:
-  - landscapes-other
+  - figure-studies
 ---

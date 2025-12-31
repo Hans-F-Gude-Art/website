@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "My Toes, Big"
-image: sketches-studies/my-toes-big.jpg
+image: figure-anatomical/my-toes-big.jpg
 galleries:
-  - sketches-studies
+  - figure-anatomical
 ---

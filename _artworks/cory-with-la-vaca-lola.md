@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "\"Cory with La Vaca Lola\""
-image: figure-studies/cory-with-la-vaca-lola.png
+image: figure-heads-faces/cory-with-la-vaca-lola.png
 galleries:
-  - figure-studies
+  - figure-heads-faces
 ---

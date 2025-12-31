@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Plant"
-image: watercolor-gouache/plant-2.jpg
+image: select-watercolors/plant-2.jpg
 galleries:
-  - watercolor-gouache
+  - select-watercolors
 ---

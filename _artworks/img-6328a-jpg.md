@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "IMG_6328a.jpg"
-image: figure-drawings/img-6328a-jpg.jpg
+image: figure-complete/img-6328a-jpg.jpg
 galleries:
-  - figure-drawings
+  - figure-complete
 ---

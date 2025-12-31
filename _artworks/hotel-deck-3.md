@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Hotel Deck"
-image: watercolor-gouache/hotel-deck.jpg
+image: select-watercolors/hotel-deck.jpg
 galleries:
-  - watercolor-gouache
+  - select-watercolors
 ---

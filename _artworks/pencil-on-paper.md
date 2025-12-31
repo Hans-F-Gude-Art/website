@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Pencil on paper"
-image: figure-studies/pencil-on-paper.jpg
+image: figure-heads-faces/pencil-on-paper.jpg
 galleries:
-  - figure-studies
+  - figure-heads-faces
 ---

@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "House in the Catskils"
-image: watercolor-gouache/house-in-the-catskils.jpg
+image: select-watercolors/house-in-the-catskils.jpg
 galleries:
-  - watercolor-gouache
+  - select-watercolors
 ---

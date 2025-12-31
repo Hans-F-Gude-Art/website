@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Canoes"
-image: watercolor-gouache/canoes.jpg
+image: select-watercolors/canoes.jpg
 galleries:
-  - watercolor-gouache
+  - select-watercolors
 ---

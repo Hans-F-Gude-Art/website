@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Emmy with Her Favorite Things"
-image: figure-drawings/emmy-with-her-favorite-things.jpg
+image: figure-complete/emmy-with-her-favorite-things.jpg
 galleries:
-  - figure-drawings
+  - figure-complete
 ---

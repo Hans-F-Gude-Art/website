@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Flower"
-image: watercolor-gouache/flower.jpg
+image: select-watercolors/flower.jpg
 galleries:
-  - watercolor-gouache
+  - select-watercolors
 ---

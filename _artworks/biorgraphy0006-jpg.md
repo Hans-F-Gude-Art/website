@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "biorgraphy0006.jpg"
-image: figure-studies/biorgraphy0006-jpg.jpg
+image: figure-heads-faces/biorgraphy0006-jpg.jpg
 galleries:
-  - figure-studies
+  - figure-heads-faces
 ---

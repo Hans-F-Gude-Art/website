@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Yosemite Valley"
-image: watercolor-gouache/yosemite-valley.jpg
+image: select-oils/yosemite-valley.jpg
 galleries:
-  - watercolor-gouache
+  - select-oils
 ---

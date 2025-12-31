@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Animal Skull"
-image: sketches-studies/animal-skull.jpg
+image: select-charcoal/animal-skull.jpg
 galleries:
-  - sketches-studies
+  - select-charcoal
 ---

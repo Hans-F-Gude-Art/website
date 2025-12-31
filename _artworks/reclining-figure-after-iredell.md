@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Reclining Figure (after Iredell)"
-image: figure-drawings/reclining-figure-after-iredell.jpg
+image: figure-complete/reclining-figure-after-iredell.jpg
 galleries:
-  - figure-drawings
+  - figure-complete
 ---

@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "\"Saturn\""
-image: figure-drawings/saturn.jpg
+image: figure-complete/saturn.jpg
 galleries:
-  - figure-drawings
+  - figure-complete
 ---

@@ -1,199 +1,149 @@
-# WIX to Jekyll Gallery Conversion Plan
+# Extract Missing WIX Galleries
 
-This document tracks the conversion of HFGudeArt from WIX to Jekyll.
-
----
-
-## Project Structure
-
-```
-hfgudeart/
-├── scripts/
-│   └── extract_gallery.py      # Image extraction & download script
-├── _data/
-│   ├── galleries/              # Individual gallery YAML files
-│   │   ├── campus_drawings.yml
-│   │   └── ...
-│   ├── homepage_galleries.yml  # Homepage category thumbnails
-│   └── uc_berkeley_galleries.yml
-├── _layouts/
-│   └── gallery.html            # Gallery page template
-├── assets/images/galleries/    # Downloaded artwork images
-└── *.md                        # Gallery & hub pages
-```
+## Problem
+WIX used "copy-of-" prefixes for sub-galleries, so our extraction script only grabbed top-level galleries. We're missing **18 galleries with ~330 images**.
 
 ---
 
-## Using the Extraction Script
+## Missing Galleries
 
-### Basic Usage
-```bash
-cd hfgudeart
-
-# Dry run (preview what will be extracted)
-python3 scripts/extract_gallery.py <html_file> <gallery-name> --dry-run
-
-# Download images and generate YAML
-python3 scripts/extract_gallery.py <html_file> <gallery-name> --output-dir . --download
-```
-
-### What the Script Does
-1. Parses WIX HTML for `aria-label` attributes (artwork titles)
-2. Extracts wixstatic.com URLs and strips `/v1/...` to get original quality
-3. Slugifies titles to create meaningful filenames (e.g., "Sather Tower" → `sather-tower.jpg`)
-4. Downloads images to `assets/images/galleries/<gallery-name>/`
-5. Generates YAML to `_data/galleries/<gallery_name>.yml`
-
-### Example
-```bash
-python3 scripts/extract_gallery.py \
-  ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/landscapes-mt-diablo.html \
-  landscapes-mt-diablo \
-  --output-dir . \
-  --download
-```
-
-This creates:
-- `assets/images/galleries/landscapes-mt-diablo/*.jpg`
-- `_data/galleries/landscapes_mt_diablo.yml`
+| WIX File | Gallery Name | Images | Parent Category |
+|----------|--------------|--------|-----------------|
+| `copy-of-new-page.html` | Brynilsen's Viking Village | 27 | Landscapes |
+| `copy-of-other-landscapes.html` | Select Oils | 37 | Landscapes |
+| `copy-of-cal-marching-band-1.html` | Cal Marching Band - Detail | 19 | Cal Marching Band |
+| `copy-of-cal-marching-band.html` | Cal Marching Band - Drawings | 11 | Cal Marching Band |
+| `copy-of-cal-men-s-rowing.html` | Cal Athletics - Rowing Drawings | 6 | Cal Rowing |
+| `copy-of-rowing-drawings.html` | Rowing - Boathouse Drawings | 13 | Cal Rowing |
+| `copy-of-rowing-drawings-1.html` | Rowing - Montlake Drawings | 18 | Cal Rowing |
+| `copy-of-campus-paintings.html` | Oski Caricatures | 13 | UC Berkeley |
+| `copy-of-figure-drawings.html` | Figure Drawings - Complete Figures | 27 | Human Figure |
+| `copy-of-figure-drawings-complete-fi.html` | Figure Drawings - Anatomical Studies | 27 | Human Figure |
+| `figures-figure-studies.html` | Figure Drawings - Heads & Faces | 27 | Human Figure |
+| `copy-of-finished-drawings-1.html` | Select Pencil Drawings | 27 | Drawings |
+| `copy-of-finished-drawings.html` | Select Charcoal Drawings | 20 | Drawings |
+| `copy-of-select-charcoal-drawings.html` | Select Pen & Ink Drawings | 15 | Drawings |
+| `copy-of-sketches-studies.html` | Perspective Studies | 20 | Drawings |
+| `copy-of-watercolor-gouache.html` | Select Watercolors | 16 | Other |
+| `copy-of-select-watercolors-gouache.html` | Select Gouache | 7 | Other |
+| `copy-of-the-play-drawings.html` | The Play - Illustrations | 11 | UC Berkeley |
 
 ---
 
-## Completed Galleries ✓
+## Implementation Steps
 
-| Gallery | Images | WIX Source |
-|---------|--------|------------|
-| campus-drawings | 25 | copy-of-berkeley-campus.html |
-| uc-berkeley-campus | 11 | images-of-the-berkeley-campus.html |
-| cal-marching-band | 9 | copy-of-cal-marching-band.html |
-| cal-athletics | 17 | images-of-cal-sports.html |
-| cal-rowing | 11 | copy-of-rowing-drawings.html |
-| the-play | 9 | copy-of-the-play-drawings.html |
-
-**Total: 82 images, ~215MB**
-
----
-
-## Remaining Galleries
-
-### Landscapes (4 galleries)
+### 1. Extract images from missing galleries
+Use existing `scripts/extract_gallery.py` for each missing gallery:
 ```bash
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/landscapes-mt-diablo.html landscapes-mt-diablo --output-dir . --download
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/landscapes-other.html landscapes-other --output-dir . --download
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/landscapes-outdoors.html landscapes-outdoors --output-dir . --download
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/landscapes-watercolor-g.html landscapes-watercolor --output-dir . --download
+uv run --with beautifulsoup4 --with requests --with pyyaml python3 scripts/extract_gallery.py \
+  ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/copy-of-new-page.html \
+  viking-village
 ```
 
-### Human Figure (4 galleries)
-```bash
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/figures-figure-studies.html figure-studies --output-dir . --download
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/figures-life-drawing-class.html life-drawing --output-dir . --download
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/figures-paintings.html figure-paintings --output-dir . --download
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/copy-of-figure-drawings.html figure-drawings --output-dir . --download
-```
+**New gallery slugs to create:**
+- `viking-village`
+- `select-oils`
+- `cal-band-detail`
+- `cal-band-drawings`
+- `rowing-drawings`
+- `rowing-boathouse`
+- `rowing-montlake`
+- `oski-caricatures`
+- `figure-complete`
+- `figure-anatomical`
+- `figure-heads-faces`
+- `pencil-drawings`
+- `select-charcoal` (check overlap with existing charcoal-drawings)
+- `pen-ink-drawings`
+- `perspective-studies`
+- `select-watercolors`
+- `select-gouache`
+- `the-play-illustrations` (check overlap with existing the-play)
 
-### Drawings (3 galleries)
-```bash
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/drawings-finished-drawings.html finished-drawings --output-dir . --download
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/drawings-sketches-studies.html sketches-studies --output-dir . --download
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/copy-of-select-charcoal-drawings.html charcoal-drawings --output-dir . --download
-```
+### 2. Generate artwork markdown files
+Run `scripts/generate_artworks.py` to create `_artworks/*.md` for new images.
 
-### Other (5 galleries)
-```bash
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/still-lifes.html still-lifes --output-dir . --download
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/photographs.html photographs --output-dir . --download
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/emily.html emily --output-dir . --download
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/copy-of-campus-drawings.html illustrations --output-dir . --download
-python3 scripts/extract_gallery.py ../old/hfgudeart.wixsite.com_cleaned/hfgudeart/copy-of-watercolor-gouache.html watercolor-gouache --output-dir . --download
-```
-
----
-
-## Creating Gallery Pages
-
-After extracting images, create a markdown file for each gallery:
-
-```markdown
+### 3. Create gallery markdown pages
+For each new gallery, create a page like:
+```yaml
 ---
 layout: gallery
-title: Mt. Diablo Landscapes
-subtitle: Paintings of Mount Diablo
-gallery_data: landscapes_mt_diablo
+title: Brynilsen's Viking Village
+subtitle: Old Forge, New York
+gallery_id: viking-village
 ---
 ```
 
-The `gallery_data` value must match the YAML filename (without `.yml`, using underscores).
+### 4. Update hub navigation data files
+Add new galleries to appropriate `_data/*_galleries.yml` files:
+- `landscapes_galleries.yml` - add Viking Village, Select Oils
+- `uc_berkeley_galleries.yml` - add Oski Caricatures, The Play Illustrations
+- `figure_galleries.yml` - add Complete Figures, Anatomical Studies, Heads & Faces
+- `drawings_galleries.yml` - add Pencil, Pen & Ink, Perspective Studies
+- Create new hub data files if needed for sub-navigation
+
+### 5. Check for duplicates
+Some galleries may overlap with existing ones:
+- `copy-of-finished-drawings.html` (Select Charcoal) vs `charcoal-drawings`
+- `copy-of-the-play-drawings.html` (The Play Illustrations) vs `the-play`
+- Compare image counts and content before creating duplicates
+
+### 6. Update hub pages
+If adding new sub-gallery levels, update hub pages like:
+- `landscapes.md` - add Viking Village link
+- `human-figure.md` - add sub-galleries for Figure Drawings
+- May need to create intermediate hub pages for 3-level navigation
 
 ---
 
-## Creating Hub Pages
+## Files to Create
 
-Hub pages link to multiple galleries. Example `landscapes.md`:
+| File | Purpose |
+|------|---------|
+| `assets/images/galleries/<new-gallery>/*.jpg` | Downloaded images |
+| `_artworks/<new-artwork>.md` | Artwork collection entries |
+| `<new-gallery>.md` | Gallery pages |
+| `_data/*_galleries.yml` | Updated hub navigation |
 
-```markdown
 ---
-layout: default
-title: Landscapes
----
 
-# Landscape Artwork
+## Hierarchy Structure (3 levels in some cases)
 
-<ul class="gallery-grid">
-{% for item in site.data.landscapes_galleries %}
-  <li>
-    <a href="{{ item.url | relative_url }}">
-      <img src="/assets/images/galleries/{{ item.image }}" alt="{{ item.title }}">
-      <h2>{{ item.title }}</h2>
-    </a>
-  </li>
-{% endfor %}
-</ul>
+```
+Human Figure (hub)
+├── Figure Studies
+├── Life Drawing
+├── Figure Paintings
+└── Figure Drawings (hub)
+    ├── Complete Figures
+    ├── Anatomical Studies
+    └── Heads & Faces
+
+Drawings (hub)
+├── Finished Drawings
+├── Sketches & Studies
+├── Charcoal Drawings
+├── Select Pencil Drawings
+├── Select Pen & Ink Drawings
+└── Perspective Studies
+
+Landscapes (hub)
+├── Mt. Diablo
+├── Brynilsen's Viking Village  ← NEW
+├── Other Landscapes
+├── Select Oils  ← NEW (or merge with Other?)
+├── Painted Outdoors
+└── Watercolors
+
+Cal Rowing (hub or sub-galleries?)
+├── Rowing Paintings (existing)
+├── Boathouse Drawings  ← NEW
+└── Montlake Drawings  ← NEW
 ```
 
-Then create `_data/landscapes_galleries.yml`:
-```yaml
-- title: Mt. Diablo
-  url: /landscapes-mt-diablo
-  image: landscapes-mt-diablo/some-thumbnail.jpg
-
-- title: Plein Air
-  url: /landscapes-outdoors
-  image: landscapes-outdoors/some-thumbnail.jpg
-```
-
 ---
 
-## Hub Pages to Create
-
-| Hub Page | Data File | Sub-galleries |
-|----------|-----------|---------------|
-| `landscapes.md` | `landscapes_galleries.yml` | mt-diablo, other, outdoors, watercolor |
-| `human-figure.md` | `figure_galleries.yml` | figure-studies, life-drawing, paintings, drawings |
-| `drawings.md` | `drawings_galleries.yml` | finished, sketches-studies, charcoal |
-
----
-
-## Testing
-
-```bash
-make build    # Build the site
-make serve    # Local preview at http://localhost:4000
-```
-
----
-
-## Checklist
-
-- [x] Create extraction script
-- [x] Process UC Berkeley galleries (6) - 82 images
-- [x] Process Landscapes galleries (4) - 94 images
-- [x] Process Human Figure galleries (4) - 88 images
-- [x] Process Drawings galleries (3) - 63 images
-- [x] Process Other galleries (5) - 97 images
-- [x] Create gallery markdown pages (22)
-- [x] Create hub pages (3)
-- [x] Update homepage_galleries.yml
-- [ ] Final build test
-
-**Total: 424 images across 22 galleries (832MB)**
+## Notes
+- May need to decide if some "Select X" galleries should be merged with existing galleries or kept separate
+- The 3-level navigation (Human Figure → Figure Drawings → Heads & Faces) may need a new hub page layout
+- Some images may already exist in other galleries - the artworks collection handles this via multi-gallery assignment

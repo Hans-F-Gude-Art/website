@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Hotel Roofline"
-image: watercolor-gouache/hotel-roofline.jpg
+image: select-watercolors/hotel-roofline.jpg
 galleries:
-  - watercolor-gouache
+  - select-watercolors
 ---

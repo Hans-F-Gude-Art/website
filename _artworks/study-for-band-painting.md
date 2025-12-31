@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Study for Band Painting"
-image: cal-marching-band/study-for-band-painting.jpg
+image: cal-band-drawings/study-for-band-painting.jpg
 galleries:
-  - cal-marching-band
+  - cal-band-drawings
 ---

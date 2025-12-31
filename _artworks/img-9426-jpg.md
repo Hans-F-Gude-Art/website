@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "IMG_9426.JPG"
-image: figure-studies/img-9426-jpg.jpg
+image: figure-heads-faces/img-9426-jpg.jpg
 galleries:
-  - figure-studies
+  - figure-heads-faces
 ---

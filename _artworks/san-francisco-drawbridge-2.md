@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "San Francisco Drawbridge"
-image: sketches-studies/san-francisco-drawbridge.jpg
+image: select-oils/san-francisco-drawbridge.jpg
 galleries:
-  - sketches-studies
+  - select-oils
 ---

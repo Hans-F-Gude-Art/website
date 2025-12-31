@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Laurel Reading"
-image: figure-drawings/laurel-reading.jpg
+image: figure-complete/laurel-reading.jpg
 galleries:
-  - figure-drawings
+  - figure-complete
 ---

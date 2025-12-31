@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Allante"
-image: figure-studies/allante.jpg
+image: figure-heads-faces/allante.jpg
 galleries:
-  - figure-studies
+  - figure-heads-faces
 ---

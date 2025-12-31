@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Theodore"
-image: figure-studies/theodore.jpg
+image: figure-heads-faces/theodore.jpg
 galleries:
-  - figure-studies
+  - figure-heads-faces
 ---

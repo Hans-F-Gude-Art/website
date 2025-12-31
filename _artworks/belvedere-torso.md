@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Belvedere Torso"
-image: figure-drawings/belvedere-torso.jpg
+image: figure-complete/belvedere-torso.jpg
 galleries:
-  - figure-drawings
+  - figure-complete
 ---

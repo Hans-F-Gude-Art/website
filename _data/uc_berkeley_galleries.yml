@@ -14,10 +14,34 @@
   url: /cal-rowing
   image: cal-rowing/ky-ebright.jpg
 
+- title: Rowing - Boathouse Drawings
+  url: /rowing-boathouse
+  image: rowing-boathouse/ky-ebright.jpg
+
+- title: Rowing - Montlake Drawings
+  url: /rowing-montlake
+  image: rowing-montlake/final-concept-sketch.jpg
+
 - title: Cal Marching Band
   url: /cal-marching-band
   image: cal-marching-band/study-for-band-painting.jpg
 
+- title: Cal Marching Band - Detail
+  url: /cal-band-detail
+  image: cal-band-detail/the-artist-with-the-installed-painting.jpg
+
+- title: Cal Marching Band - Drawings
+  url: /cal-band-drawings
+  image: cal-band-drawings/study-for-band-painting.jpg
+
 - title: The Play
   url: /the-play
   image: the-play/moen-parts-the-red-sea-jpg.jpg
+
+- title: The Play - Illustrations
+  url: /the-play-illustrations
+  image: the-play-illustrations/moen-parts-the-red-sea-jpg.jpg
+
+- title: Oski Caricatures
+  url: /oski-caricatures
+  image: oski-caricatures/oski-gothic.jpg

@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Sather Gate, UC Berkeley"
-image: uc-berkeley-campus/sather-gate-uc-berkeley.jpg
+image: select-oils/sather-gate-uc-berkeley.jpg
 galleries:
-  - uc-berkeley-campus
+  - select-oils
 ---

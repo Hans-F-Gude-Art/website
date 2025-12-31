@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Cartoon"
-image: watercolor-gouache/cartoon.jpg
+image: select-watercolors/cartoon.jpg
 galleries:
-  - watercolor-gouache
+  - select-watercolors
 ---
