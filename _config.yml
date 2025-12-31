@@ -15,3 +15,9 @@ image: /assets/images/og_image.jpg
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Collections
+collections:
+  artworks:
+    output: true
+    permalink: /artwork/:name/

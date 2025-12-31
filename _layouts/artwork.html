@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article class="artwork-page">
+  <figure class="artwork-display">
+    <img src="/assets/images/galleries/{{ page.image }}" alt="{{ page.title }}">
+    <figcaption>{{ page.title }}</figcaption>
+  </figure>
+
+  <nav class="artwork-nav">
+    {% for gallery_id in page.galleries %}
+      {% assign gallery_page = site.pages | where: "gallery_id", gallery_id | first %}
+      {% if gallery_page %}
+        <a href="{{ gallery_page.url | relative_url }}">&larr; Back to {{ gallery_page.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+</article>

@@ -1,0 +1,7 @@
+---
+layout: artwork
+title: "Half Dome, Yosemite"
+image: landscapes-other/half-dome-yosemite.jpg
+galleries:
+  - landscapes-other
+---

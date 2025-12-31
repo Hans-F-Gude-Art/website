@@ -148,41 +148,48 @@ main {
   @extend .content-container;
 }
 
-// Homepage Gallery
+// Homepage Gallery (hub pages)
 .gallery-grid {
   list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 30px;
-}
 
-.gallery-grid li a {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-}
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-.gallery-grid img {
-  width: 100%;
-  height: 287px;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.3s ease;
-  overflow: hidden;
-}
+  @media (min-width: 900px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-.gallery-grid a:hover img {
-  transform: scale(1.05);
-}
+  li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
 
-.gallery-grid h2 {
-  font-family: $sans-serif-font;
-  font-size: 17px;
-  font-weight: normal;
-  color: $color-black-text;
-  margin: 15px 0 0 0;
+  img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  a:hover img {
+    transform: scale(1.02);
+  }
+
+  h2 {
+    font-family: $sans-serif-font;
+    font-size: 17px;
+    font-weight: normal;
+    color: $color-black-text;
+    margin: 15px 0 0 0;
+  }
 }
 
 // About Page Layout
@@ -244,13 +251,22 @@ main p {
   }
 }
 
+// Individual gallery pages
 .photo-grid {
   list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
+  grid-template-columns: 1fr;
+  gap: 24px;
+
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 900px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
   figure {
     margin: 0;
@@ -259,10 +275,10 @@ main p {
 
   img {
     width: 100%;
-    height: 300px;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
     display: block;
-    background-color: #eee; // Placeholder color
+    background-color: #f5f5f5;
   }
 
   figcaption {
@@ -270,5 +286,56 @@ main p {
     margin-top: 10px;
     color: #555;
     font-style: italic;
+    padding: 0 5px;
+  }
+}
+
+// Individual Artwork Page
+.artwork-page {
+  text-align: center;
+
+  .artwork-display {
+    margin: 0 auto 30px;
+
+    img {
+      max-width: 100%;
+      max-height: 80vh;
+      width: auto;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    figcaption {
+      font-size: 20px;
+      font-family: $serif-font;
+      margin-top: 20px;
+      color: $color-black-text;
+    }
+  }
+
+  .artwork-nav {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+
+    a {
+      display: inline-block;
+      padding: 8px 16px;
+      margin: 5px;
+      font-size: 14px;
+      color: $color-link;
+      text-decoration: none;
+      border: 1px solid $color-link;
+      border-radius: 4px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+
+      &:hover {
+        background-color: $color-link;
+        color: $color-white;
+        text-decoration: none;
+      }
+    }
   }
 }
