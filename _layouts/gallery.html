@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="gallery-page">
+  <header>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p class="subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+
+  <ul class="photo-grid">
+  {% for item in site.data.galleries[page.gallery_data] %}
+    <li>
+      <figure>
+        <img src="/assets/images/galleries/{{ item.image }}" alt="{{ item.alt }}">
+        {% if item.alt %}
+          <figcaption>{{ item.alt }}</figcaption>
+        {% endif %}
+      </figure>
+    </li>
+  {% endfor %}
+  </ul>
+</article>
