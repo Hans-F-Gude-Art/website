@@ -21,3 +21,20 @@ collections:
   artworks:
     output: true
     permalink: /artwork/:name/
+
+# Excluded files from site
+exclude:
+  - .venv/
+  - CLAUDE.md
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - Makefile
+  - README.md
+  - Rakefile
+  - _scripts
+  - _coverage
+  - redirects.json
+  - vendor
