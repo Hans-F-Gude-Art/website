@@ -1,0 +1,28 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby/Bundler
+Gemfile.lock
+.bundle/
+vendor/
+*.gem
+
+# OS
+.DS_Store
+*~
+.directory
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.netrwhist
+
+# Archives
+*.zip
+*.tar
+*.gz

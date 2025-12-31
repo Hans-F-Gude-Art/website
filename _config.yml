@@ -1,0 +1,33 @@
+# _config.yml
+
+# Site metadata
+title: "hfgudeart"
+description: "Art portfolio"
+
+# URL configuration
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+
+# Liquid settings
+liquid:
+  error_mode: lax
+  strict_filters: true
+
+# SASS
+sass:
+  style: compressed
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - Dockerfile
+  - README.md
+  - vendor
+  - .bundle
+  - .git
+  - .gitignore
