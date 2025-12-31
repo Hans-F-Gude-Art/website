@@ -1,18 +1,4 @@
-- title: Drawings
-  url: /drawings
-  image: finished-drawings/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
-
-- title: Human Figure
-  url: /human-figure
-  image: figure-paintings/woman-in-a-winter-landscape.jpg
-
-- title: Illustrations
-  url: /illustrations
-  image: illustrations/brynilsens-viking-village.jpg
-
-- title: Still Lifes
-  url: /still-lifes
-  image: still-lifes/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
+# Homepage navigation - matches original WIX navigation structure
 
 - title: UC Berkeley
   url: /uc-berkeley
@@ -21,3 +7,23 @@
 - title: Landscapes
   url: /landscapes
   image: landscapes-mt-diablo/winter-storm-over-mt-diablo.jpg
+
+- title: Human Figure
+  url: /human-figure
+  image: figure-paintings/woman-in-a-winter-landscape.jpg
+
+- title: Still Lifes
+  url: /still-lifes
+  image: still-lifes/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
+
+- title: Drawings
+  url: /drawings
+  image: finished-drawings/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
+
+- title: Illustrations & Cartoons
+  url: /illustrations
+  image: illustrations/brynilsens-viking-village.jpg
+
+- title: By Medium
+  url: /by-medium
+  image: select-oils/bridge-over-strawberry-creek.jpg

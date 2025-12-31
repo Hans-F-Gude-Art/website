@@ -1,0 +1,26 @@
+# By Medium Hub - matches original WIX structure
+# From: copy-of-landscapes-1.html
+
+- title: Oils
+  url: /select-oils
+  image: select-oils/bridge-over-strawberry-creek.jpg
+
+- title: Watercolor
+  url: /select-watercolors
+  image: select-watercolors/house-in-the-catskils.jpg
+
+- title: Gouache
+  url: /select-gouache
+  image: select-gouache/view-over-the-backyard-fence.jpg
+
+- title: Pen & Ink
+  url: /pen-ink-drawings
+  image: pen-ink-drawings/gude-med-res-jpg.jpg
+
+- title: Charcoal
+  url: /select-charcoal
+  image: select-charcoal/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
+
+- title: Pencil
+  url: /pencil-drawings
+  image: pencil-drawings/stewarts-instruments.jpg

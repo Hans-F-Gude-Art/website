@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Figure Drawings
+title: Artwork by Medium
 ---
 
-# Figure Drawings
+# Artwork by Medium
 
 <ul class="gallery-grid">
-{% for item in site.data.figure_drawings_galleries %}
+{% for item in site.data.by_medium_galleries %}
   <li>
     <a href="{{ item.url | relative_url }}">
       <img src="/assets/images/galleries/{{ item.image }}" alt="{{ item.title }}">

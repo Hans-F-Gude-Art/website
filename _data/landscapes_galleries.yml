@@ -1,31 +1,26 @@
-- title: Mt. Diablo
+# Landscapes Hub - matches original WIX structure
+# From: copy-of-home.html
+
+- title: Mt. Diablo, California
   url: /landscapes-mt-diablo
   image: landscapes-mt-diablo/winter-storm-over-mt-diablo.jpg
-
-- title: Other Landscapes
-  url: /landscapes-other
-  image: landscapes-other/half-dome-yosemite.jpg
-
-- title: Painted Outdoors
-  url: /landscapes-outdoors
-  image: landscapes-outdoors/view-over-the-backyard-fence.jpg
-
-- title: Watercolors & Gouaches
-  url: /landscapes-watercolor
-  image: landscapes-watercolor/house-in-the-catskils.jpg
 
 - title: Brynilsen's Viking Village
   url: /viking-village
   image: viking-village/brynilsens-viking-village.jpg
 
-- title: Select Oils
-  url: /select-oils
-  image: select-oils/bridge-over-strawberry-creek.jpg
+- title: Other Landscapes
+  url: /landscapes-other
+  image: landscapes-other/half-dome-yosemite.jpg
 
-- title: Select Watercolors
-  url: /select-watercolors
-  image: select-watercolors/house-in-the-catskils.jpg
+- title: Watercolor and Gouache
+  url: /landscapes-watercolor
+  image: landscapes-watercolor/house-in-the-catskils.jpg
 
-- title: Select Gouache
-  url: /select-gouache
-  image: select-gouache/view-over-the-backyard-fence.jpg
+- title: Painted Outdoors
+  url: /landscapes-outdoors
+  image: landscapes-outdoors/view-over-the-backyard-fence.jpg
+
+- title: UC Berkeley
+  url: /berkeley-campus-paintings
+  image: uc-berkeley-campus/sather-gate-uc-berkeley.jpg

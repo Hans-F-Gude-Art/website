@@ -1,27 +1,14 @@
-- title: Figure Studies
-  url: /figure-studies
-  image: figure-studies/emily-in-the-time-of-covid.jpg
+# Human Figure Hub - matches original WIX structure
+# From: copy-of-landscapes.html
 
-- title: Life Drawing Class
-  url: /life-drawing
-  image: life-drawing/female-figure.jpg
-
-- title: Figure Paintings
+- title: Paintings
   url: /figure-paintings
   image: figure-paintings/woman-in-a-winter-landscape.jpg
+
+- title: Life Drawing Classes
+  url: /life-drawing
+  image: life-drawing/female-figure.jpg
 
 - title: Figure Drawings
   url: /figure-drawings
   image: figure-drawings/belvedere-torso.jpg
-
-- title: Figure Drawings - Complete Figures
-  url: /figure-complete
-  image: figure-complete/nymph-jpg.jpg
-
-- title: Figure Drawings - Anatomical Studies
-  url: /figure-anatomical
-  image: figure-anatomical/pxl-20211201-223548669-jpg.jpg
-
-- title: Figure Drawings - Heads & Faces
-  url: /figure-heads-faces
-  image: figure-heads-faces/self-portrait-as-maldoror-or-self-portrait-in-broken-glass.jpg

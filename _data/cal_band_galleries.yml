@@ -1,0 +1,10 @@
+# Cal Marching Band Sub-Hub - matches original WIX structure
+# From: images-of-cal-marching-band.html
+
+- title: Painting Details
+  url: /cal-band-detail
+  image: cal-band-detail/the-artist-with-the-installed-painting.jpg
+
+- title: Preparatory Drawings
+  url: /cal-band-drawings
+  image: cal-band-drawings/study-for-band-painting.jpg

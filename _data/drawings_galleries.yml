@@ -1,26 +1,13 @@
+# Drawings Hub - matches original WIX structure
+# From: copy-of-figures.html
+
 - title: Finished Drawings
   url: /finished-drawings
   image: finished-drawings/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
 
-- title: Sketches & Studies
+- title: Sketches and Studies
   url: /sketches-studies
   image: sketches-studies/study-of-sather-tower-the-campanile-university-of-california-berkeley.jpg
-
-- title: Charcoal Drawings
-  url: /charcoal-drawings
-  image: charcoal-drawings/gude-med-res-jpg.jpg
-
-- title: Select Pencil Drawings
-  url: /pencil-drawings
-  image: pencil-drawings/stewarts-instruments.jpg
-
-- title: Select Charcoal Drawings
-  url: /select-charcoal
-  image: select-charcoal/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
-
-- title: Select Pen & Ink Drawings
-  url: /pen-ink-drawings
-  image: pen-ink-drawings/gude-med-res-jpg.jpg
 
 - title: Perspective Studies
   url: /perspective-studies
