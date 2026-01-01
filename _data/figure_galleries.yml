@@ -2,13 +2,13 @@
 # From: copy-of-landscapes.html
 
 - title: Paintings
-  url: /figure-paintings
+  url: /human-figure/paintings
   image: figure-paintings/woman-in-a-winter-landscape.jpg
 
 - title: Life Drawing Classes
-  url: /life-drawing
+  url: /human-figure/life-drawing
   image: life-drawing/female-figure.jpg
 
 - title: Figure Drawings
-  url: /figure-drawings
+  url: /human-figure/figure-drawings
   image: finished-drawings/the-belvedere-torso.jpg

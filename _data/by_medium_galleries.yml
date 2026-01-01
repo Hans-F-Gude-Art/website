@@ -2,25 +2,25 @@
 # From: copy-of-landscapes-1.html
 
 - title: Oils
-  url: /select-oils
+  url: /by-medium/oils
   image: uc-berkeley-campus/steps-to-university-house-uc-berkeley.jpg
 
 - title: Watercolor
-  url: /select-watercolors
+  url: /by-medium/watercolors
   image: landscapes-watercolor/house-in-the-catskills.jpg
 
 - title: Gouache
-  url: /select-gouache
+  url: /by-medium/gouache
   image: landscapes-outdoors/view-over-the-backyard-fence.jpg
 
 - title: Pen & Ink
-  url: /pen-ink-drawings
+  url: /drawings/pen-ink
   image: viking-village/brynilsens-viking-village.jpg
 
 - title: Charcoal
-  url: /select-charcoal
+  url: /by-medium/charcoal
   image: still-lifes/still-life-with-silver-tea-pot-baseball-and-diplodocus.jpg
 
 - title: Pencil
-  url: /pencil-drawings
+  url: /drawings/pencil
   image: finished-drawings/stewarts-instruments.jpg

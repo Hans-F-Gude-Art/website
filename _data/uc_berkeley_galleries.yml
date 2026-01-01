@@ -2,15 +2,15 @@
 # From: uc-berkeley-artworks.html
 
 - title: UC Berkeley Campus
-  url: /berkeley-campus-paintings
+  url: /uc-berkeley/campus-paintings
   image: uc-berkeley-campus/sather-gate-uc-berkeley.jpg
 
 - title: Campus Drawings
-  url: /berkeley-campus-drawings
+  url: /uc-berkeley/campus-drawings
   image: campus-drawings/sather-tower-campanile-university-of-california-berkeley.jpg
 
 - title: Cal Athletics
-  url: /cal-athletics
+  url: /uc-berkeley/cal-athletics
   image: cal-rowing/ky-ebright-portrait.jpg
 
 - title: Oski Caricatures
@@ -18,5 +18,5 @@
   image: oski-caricatures/oski-gothic.jpg
 
 - title: Berkeley Band
-  url: /cal-marching-band
+  url: /uc-berkeley/cal-band
   image: cal-marching-band/study-for-band-painting.jpg
