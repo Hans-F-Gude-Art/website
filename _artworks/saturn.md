@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: ""Saturn""
+title: "Saturn"
 image: finished-drawings/saturn.jpg
 galleries:
   - figure-complete
