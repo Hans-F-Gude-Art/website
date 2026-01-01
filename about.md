@@ -7,7 +7,7 @@ title: Artist Bio
 
 <figure class="bio-figure">
   <img src="/assets/images/bio/hans_painting_about_page_portrait.jpg" alt="Hans working on his Cal Band oil painting.">
-  <figcaption>Hans working on his 4-foot x 6-foot oil painting entitled <em><a href="{{ '/cal-marching-band' | relative_url }}">The Cal Band Relaxing in North Tunnel Before the Big Game</a></em>.</figcaption>
+  <figcaption>Hans working on his 4-foot x 6-foot oil painting entitled <em><a href="{{ '/uc-berkeley/cal-band' | relative_url }}">The Cal Band Relaxing in North Tunnel Before the Big Game</a></em>.</figcaption>
 </figure>
 
 **Hans F. Gude** discovered his interest in and facility for drawing as a
@@ -18,7 +18,7 @@ Bernini, Leonardo, and others.
 
 His father, a civil engineer, introduced him to the principles of
 draftsmanship and linear perspective---[knowledge he applies in his
-landscapes]({{ '/berkeley-campus-drawings' | relative_url }}).
+landscapes]({{ '/uc-berkeley/campus-drawings' | relative_url }}).
 
 Through high school and for two years of college, Hans studied and practiced
 art. He supplemented his coursework with copious reading about art history,
@@ -34,11 +34,11 @@ He adopts Leonardo's advice, moreover, that a painter should not just learn to
 do one thing well, but work to achieve proficiency in all manner of methods
 and subjects, including landscapes, figures, and portraits.
 
-His preferred mediums include [pencil]({{ '/pencil-drawings' | relative_url
-}}), [oil paint]({{ '/oil-paintings' | relative_url }}), [gouache]({{
-'/gouache-paintings' | relative_url }}), [watercolor]({{
-'/watercolor-paintings' | relative_url }}), [charcoal]({{ '/charcoal-drawings'
-| relative_url }}), and [pen & ink]({{ '/pen-ink-drawings' | relative_url }}).
+His preferred mediums include [pencil]({{ '/drawings/pencil' | relative_url
+}}), [oil paint]({{ '/by-medium/oils' | relative_url }}), [gouache]({{
+'/by-medium/gouache' | relative_url }}), [watercolor]({{
+'/by-medium/watercolors' | relative_url }}), [charcoal]({{ '/drawings/charcoal'
+| relative_url }}), and [pen & ink]({{ '/drawings/pen-ink' | relative_url }}).
 He recently began creating digital art by adding Procreate on an iPad Pro to
 his toolbox.
 
