@@ -9,7 +9,7 @@ title: Drawings
 {% for item in site.data.drawings_galleries %}
   <li>
     <a href="{{ item.url | relative_url }}">
-      <img src="/assets/images/galleries/{{ item.image }}" alt="{{ item.title }}">
+      <img src="{{ '/assets/images/galleries/' | append: item.image | relative_url }}" alt="{{ item.title }}">
       <h2>{{ item.title }}</h2>
     </a>
   </li>

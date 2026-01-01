@@ -6,7 +6,7 @@ title: Artist Bio
 # Artist Biography
 
 <figure class="bio-figure">
-  <img src="/assets/images/bio/hans_painting_about_page_portrait.jpg" alt="Hans working on his Cal Band oil painting.">
+  <img src="{{ '/assets/images/bio/hans_painting_about_page_portrait.jpg' | relative_url }}" alt="Hans working on his Cal Band oil painting.">
   <figcaption>Hans working on his 4-foot x 6-foot oil painting entitled <em><a href="{{ '/uc-berkeley/cal-band' | relative_url }}">The Cal Band Relaxing in North Tunnel Before the Big Game</a></em>.</figcaption>
 </figure>
 

@@ -4,10 +4,10 @@ description: "Fine art and illustration. Official Cal (UC Berkeley) Licensed Art
 keywords: "gudeart, Gude Art, Hans Gude, Hans F. Gude, Hans Gude Art"
 
 # The base hostname & protocol for your site.
-# url: "https://www.your-domain.com"
+url: "https://hans-f-gude-art.github.io"
 
 # The subpath of your site, e.g. /blog
-# baseurl: ""
+baseurl: "/website"
 
 # Default social media image
 image: /assets/images/og_image.jpg
