@@ -1,32 +1,11 @@
-- image: oski-caricatures/oski-gothic.jpg
-  alt: "Oski Gothic"
-
-- image: oski-caricatures/oskis-mother.jpg
-  alt: "Oski's Mother"
-
-- image: oski-caricatures/son-of-oski.jpg
-  alt: "Son of Oski"
-
-- image: oski-caricatures/blue-oski-j.jpg
-  alt: "Blue Oski.j"
-
-- image: oski-caricatures/oski-crossing-the-delaware-9x12-jpg.jpg
-  alt: "Oski_Crossing_the_Delaware_9x12.jpg"
-
-- image: oski-caricatures/oski-nighthawk.jpg
-  alt: "Oski Nighthawk"
-
-- image: oski-caricatures/oski-nighthawk-oski-jpg.jpg
-  alt: "Oski Nighthawk--Oski.jpg"
-
-- image: oski-caricatures/oski-nighthawk-tree-jpg.jpg
-  alt: "Oski Nighthawk--Tree.jpg"
-
-- image: oski-caricatures/oski-nighthawk-helmet-jpg.jpg
-  alt: "Oski Nighthawk--Helmet.jpg"
-
-- image: oski-caricatures/oski-nighthawk-axe-jpg.jpg
-  alt: "Oski Nighthawk--Axe.jpg"
-
-- image: oski-caricatures/oski-nighthawk-license-plate-jpg.jpg
-  alt: "Oski Nighthawk--License Plate.jpg"
+- oski-gothic
+- oskis-mother
+- son-of-oski
+- blue-oski-j
+- oski-crossing-the-delaware-9x12-jpg
+- oski-nighthawk
+- oski-nighthawk-oski-jpg
+- oski-nighthawk-tree-jpg
+- oski-nighthawk-helmet-jpg
+- oski-nighthawk-axe-jpg
+- oski-nighthawk-license-plate-jpg
