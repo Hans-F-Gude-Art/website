@@ -58,7 +58,7 @@ a:hover {
 .content-container {
   max-width: $site-width;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 25px;
 }
 
 // Header
@@ -94,14 +94,14 @@ a:hover {
 }
 
 .tagline p {
-  font-size: 25px;
+  font-size: clamp(16px, 4vw, 25px);
   line-height: 1.2em;
   font-style: italic;
   margin: 0;
 }
 
 .tagline h1 {
-  font-size: 27px;
+  font-size: clamp(18px, 4.5vw, 27px);
   line-height: 1.2em;
   font-weight: bold;
   margin: 0;
@@ -295,11 +295,19 @@ main p {
   text-align: center;
 
   .artwork-display {
-    margin: 0 auto 30px;
+    // Break out of the content container to allow wider images
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    margin-bottom: 30px;
+    padding: 0 25px;
+    box-sizing: border-box;
 
     img {
-      max-width: 100%;
-      max-height: 80vh;
+      // Constrain to fit fully on screen (both width and height)
+      max-width: min(calc(100vw - 50px), 1600px);
+      max-height: 85vh;
       width: auto;
       height: auto;
       display: block;
@@ -312,6 +320,10 @@ main p {
       font-family: $serif-font;
       margin-top: 20px;
       color: $color-black-text;
+      // Keep caption readable width
+      max-width: $site-width;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -337,5 +349,94 @@ main p {
         text-decoration: none;
       }
     }
+  }
+}
+
+// ===========================================
+// Mobile Responsive Styles (under 600px)
+// ===========================================
+@media (max-width: 599px) {
+  // Reduce top/bottom padding on main content area
+  #PAGES_CONTAINER {
+    padding: 20px 0;
+  }
+
+  // Stack logo and tagline vertically, center everything
+  .logo-and-tagline {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+
+  // Make logo responsive
+  .logo img {
+    width: 80%;
+    max-width: 280px;
+  }
+
+  // Center tagline text on mobile
+  .tagline {
+    text-align: center;
+  }
+
+  // Tighter navigation on mobile
+  .navigation-menu ul {
+    gap: 3px 8px;
+  }
+
+  .navigation-menu li a {
+    padding: 6px 8px;
+    font-size: 14px;
+  }
+
+  // Reduce grid gaps on mobile
+  .gallery-grid {
+    gap: 20px;
+  }
+
+  .photo-grid {
+    gap: 16px;
+  }
+
+  // Bio figure: stack instead of float
+  .bio-figure {
+    float: none;
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  // Reduce page title size on mobile
+  main h1,
+  .gallery-page h1 {
+    font-size: 20px;
+  }
+
+  .gallery-page .subtitle {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  // Artwork page adjustments
+  .artwork-page {
+    .artwork-display figcaption {
+      font-size: 17px;
+      margin-top: 15px;
+    }
+
+    .artwork-nav {
+      margin-top: 20px;
+
+      a {
+        padding: 10px 14px;
+        font-size: 13px;
+      }
+    }
+  }
+
+  // Footer
+  #SITE_FOOTER {
+    padding: 15px 20px;
   }
 }
