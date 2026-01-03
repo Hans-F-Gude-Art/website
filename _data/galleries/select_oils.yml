@@ -1,107 +1,36 @@
-- image: uc-berkeley-campus/steps-to-university-house-uc-berkeley.jpg
-  alt: "Bridge Over Strawberry Creek"
-
-- image: landscapes-other/half-dome-yosemite.jpg
-  alt: "Half Dome, Yosemite"
-
-- image: landscapes-other/view-of-coal-oil-point-isla-vista.jpg
-  alt: "View of Coal Oil Point, Isla Vista, Calif."
-
-- image: pencil-drawings/landscape-pencil-study.jpg
-  alt: "Pencil on Paper"
-
-- image: uc-berkeley-campus/view-of-moffitt-library-in-fall.png
-  alt: "View Toward Moffitt Library in Fall"
-
-- image: landscapes-outdoors/view-over-the-backyard-fence.jpg
-  alt: "View Over the Backyard Fence"
-
-- image: landscapes-other/sunrise-in-sonoma-county.jpg
-  alt: "Sunrise in Sonoma County"
-
-- image: uc-berkeley-campus/view-of-sather-tower-from-strawberry-creek.jpg
-  alt: "Oil on Canvas, 3 x 4 feet (1 x 1.3 M)"
-
-- image: sketches-studies/san-francisco-drawbridge.jpg
-  alt: "San Francisco Drawbridge"
-
-- image: landscapes-other/landscape-oil-on-canvas.jpg
-  alt: "Oil on Canvas"
-
-- image: landscapes-other/spanish-balcony.jpg
-  alt: "Spanish Balcony"
-
-- image: landscapes-other/san-francisco-fire-boat.jpg
-  alt: "San Francisco Fire Boat"
-
-- image: uc-berkeley-campus/sather-tower-in-morning-fog.jpg
-  alt: "Sather Tower in Morning Fog"
-
-- image: landscapes-other/fjord-after-frederic-church.jpg
-  alt: "Fjord (after F. Church)"
-
-- image: landscapes-other/landscape-after-bierstadt.jpg
-  alt: "Landscape (After A. Bierstadt)"
-
-- image: landscapes-other/view-of-mt-tam.jpg
-  alt: "View of Mt. Tam"
-
-- image: landscapes-other/study-for-imperial-palace-tokyo.jpg
-  alt: "Study for Imperial Palace, Tokyo"
-
-- image: landscapes-other/imperial-palace.jpg
-  alt: "Imperial Palace"
-
-- image: landscapes-other/imperial-palace-2.jpg
-  alt: "Imperial Palace"
-
-- image: uc-berkeley-campus/sather-tower-at-sunset-uc-berkeley.jpg
-  alt: "Sather Tower in Afternoon Light"
-
-- image: landscapes-watercolor/yosemite-valley.jpg
-  alt: "Yosemite Valley"
-
-- image: landscapes-other/cloud-over-berkeley.jpg
-  alt: "Cloud Over Berkeley"
-
-- image: landscapes-other/backyard-nightscape.jpg
-  alt: "Backyard%20Nightscape.jpg"
-
-- image: landscapes-other/santa-barbara-coastline.jpg
-  alt: "Santa Barbara Coastline"
-
-- image: landscapes-other/golden-gate-bridge.jpg
-  alt: "Golden Gate Bridge"
-
-- image: uc-berkeley-campus/sather-gate-uc-berkeley.jpg
-  alt: "Sather Gate, UC Berkeley"
-
-- image: still-lifes/my-old-hiking-boots.jpg
-  alt: "IMG_0032a.jpg"
-
-- image: figure-paintings/connie-napping-painting.jpg
-  alt: "IMG_0042a.jpg"
-
-- image: still-lifes/still-life-with-wooden-elephant.jpg
-  alt: "2772605131_800182b279_o.jpg"
-
-- image: still-lifes/still-life-with-swedish-horse-and-skull.jpg
-  alt: "to web2_edited.jpg"
-
-- image: emily/emily-at-the-piano.jpg
-  alt: "Em%20piano%20best-cropped.jpg"
-
-- image: select-oils/img-20180728-215337-1-jpg.jpg
-  alt: "IMG_20180728_215337 (1).jpg"
-
-- image: still-lifes/apple-pie.jpg
-  alt: "Final02.JPG"
-
-- image: select-oils/img-0008-edited-jpg.jpg
-  alt: "IMG_0008_edited.jpg"
-
-- image: still-lifes/still-life-with-emmys-pink-bunny.jpg
-  alt: "IMG_0025a.jpg"
-
-- image: still-lifes/still-life-with-olive-oil.jpg
-  alt: "IMG_0019a.jpg"
+- bridge-over-strawberry-creek
+- half-dome-yosemite
+- view-of-coal-oil-point-isla-vista-calif
+- pencil-on-paper-3
+- view-of-moffitt-library-in-fall
+- view-over-the-backyard-fence
+- sunrise-in-sonoma-county
+- oil-on-canvas-3-x-4-feet-1-x-1-3-m
+- san-francisco-drawbridge
+- oil-on-canvas
+- spanish-balcony
+- san-francisco-fire-boat
+- sather-tower-in-morning-fog
+- fjord-after-f-church
+- landscape-after-a-bierstadt
+- view-of-mt-tam
+- study-for-imperial-palace-tokyo
+- imperial-palace
+- imperial-palace-2
+- sather-tower-in-afternoon-light
+- yosemite-valley-2
+- cloud-over-berkeley
+- backyard-20nightscape-jpg
+- santa-barbara-coastline
+- golden-gate-bridge
+- sather-gate-uc-berkeley
+- img-0032a-jpg
+- img-0042a-jpg
+- 2772605131-800182b279-o-jpg
+- to-web2-edited-jpg
+- emily-at-the-piano
+- img-20180728-215337-1-jpg
+- apple-pie
+- img-0008-edited-jpg
+- img-0025a-jpg
+- img-0019a-jpg

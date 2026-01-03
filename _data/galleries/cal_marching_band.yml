@@ -1,26 +1,9 @@
-- image: cal-marching-band/cal-band-musician-sitting-study.jpg
-  alt: "IMG_1502a.jpg"
-
-- image: cal-marching-band/cal-band-study.jpg
-  alt: "IMG_20190515_142738310.jpg"
-
-- image: cal-marching-band/cal-band-formation-tracing.jpg
-  alt: "CIMG4194.JPG"
-
-- image: cal-marching-band/study-for-band-painting.jpg
-  alt: "Study for Band Painting"
-
-- image: cal-marching-band/cal-band-formation-study.jpg
-  alt: "CIMG4100ab.jpg"
-
-- image: cal-marching-band/design-plan-for-the-band-painting.jpg
-  alt: "Design Plan for the Band Painting"
-
-- image: cal-marching-band/4-x-6-foot-canvas.jpg
-  alt: "4 x 6-Foot Canvas"
-
-- image: cal-marching-band/toning-the-canvas.jpg
-  alt: "Toning the Canvas"
-
-- image: cal-marching-band/artist-drawing-cal-band-painting.jpg
-  alt: "IMG_1568a.jpg"
+- img-1502a-jpg
+- img-20190515-142738310-jpg
+- cimg4194-jpg
+- study-for-band-painting
+- cimg4100ab-jpg
+- design-plan-for-the-band-painting
+- 4-x-6-foot-canvas
+- toning-the-canvas
+- img-1568a-jpg

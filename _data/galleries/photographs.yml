@@ -1,65 +1,22 @@
-- image: photographs/ash-at-playground-2-jpg.jpg
-  alt: "Ash at playground 2.jpg"
-
-- image: photographs/pxl-20220811-184141090-jpg.jpg
-  alt: "PXL_20220811_184141090.jpg"
-
-- image: photographs/img-0128-jpg.jpg
-  alt: "IMG_0128.jpg"
-
-- image: photographs/img-0285a-jpg.jpg
-  alt: "IMG_0285a.jpg"
-
-- image: photographs/black-tide.jpg
-  alt: "Black Tide"
-
-- image: photographs/sgt-eddie-chan-sjpd.jpg
-  alt: "Sgt. Eddie Chan, SJPD"
-
-- image: photographs/img-0277a-jpg.jpg
-  alt: "IMG_0277a.jpg"
-
-- image: photographs/img-0237d-jpg.jpg
-  alt: "IMG_0237d.jpg"
-
-- image: photographs/alex-and-connie-wedding.jpg
-  alt: "Alex and Connie Wedding"
-
-- image: photographs/uc-berkeley.jpg
-  alt: "UC Berkeley"
-
-- image: photographs/burning-college-notes-at-term-end.jpg
-  alt: "Burning College Notes at Term End"
-
-- image: photographs/img-0051a-jpg.jpg
-  alt: "IMG_0051a.jpg"
-
-- image: photographs/hearst-mining-circle-uc-berkeley.jpg
-  alt: "Hearst Mining Circle, UC Berkeley"
-
-- image: photographs/img-0314a-jpg.jpg
-  alt: "IMG_0314a.jpg"
-
-- image: photographs/chp-team-competition.jpg
-  alt: "CHP Team Competition"
-
-- image: photographs/its-all-about-two-wheels.jpg
-  alt: "It's All About Two Wheels"
-
-- image: photographs/img-0098-jpg.jpg
-  alt: "IMG_0098.JPG"
-
-- image: photographs/img-0060a-jpg.jpg
-  alt: "IMG_0060a.jpg"
-
-- image: photographs/img-0326a-jpg.jpg
-  alt: "IMG_0326a.jpg"
-
-- image: photographs/ferry-boats-san-francisco.jpg
-  alt: "Ferry Boats, San Francisco"
-
-- image: photographs/img-0296a-jpg.jpg
-  alt: "IMG_0296a.jpg"
-
-- image: photographs/img-0255a-jpg.jpg
-  alt: "IMG_0255a.jpg"
+- ash-at-playground-2-jpg
+- pxl-20220811-184141090-jpg
+- img-0128-jpg
+- img-0285a-jpg
+- black-tide
+- sgt-eddie-chan-sjpd
+- img-0277a-jpg
+- img-0237d-jpg
+- alex-and-connie-wedding
+- uc-berkeley
+- burning-college-notes-at-term-end
+- img-0051a-jpg
+- hearst-mining-circle-uc-berkeley
+- img-0314a-jpg
+- chp-team-competition
+- its-all-about-two-wheels
+- img-0098-jpg
+- img-0060a-jpg
+- img-0326a-jpg
+- ferry-boats-san-francisco
+- img-0296a-jpg
+- img-0255a-jpg

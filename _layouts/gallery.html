@@ -11,8 +11,15 @@ layout: default
   </header>
 
   <ul class="photo-grid">
-  {% assign gallery_artworks = site.artworks | where_exp: "art", "art.galleries contains page.gallery_id" %}
-  {% for art in gallery_artworks %}
+  {% comment %}
+    Load gallery order from data file (converts hyphens to underscores for data key).
+    Each slug is looked up in the artworks collection to get metadata.
+  {% endcomment %}
+  {% assign data_key = page.gallery_id | replace: "-", "_" %}
+  {% assign slugs = site.data.galleries[data_key] %}
+  {% for slug in slugs %}
+    {% assign art = site.artworks | where: "slug", slug | first %}
+    {% if art %}
     <li>
       <a href="{{ art.url | relative_url }}">
         <figure>
@@ -21,6 +28,7 @@ layout: default
         </figure>
       </a>
     </li>
+    {% endif %}
   {% endfor %}
   </ul>
 </article>

@@ -1,74 +1,25 @@
-- image: finished-drawings/nymph.jpg
-  alt: "Nymph.jpg"
-
-- image: finished-drawings/woman-in-a-winter-landscape-study.jpg
-  alt: "for wix site.jpg"
-
-- image: finished-drawings/the-belvedere-torso.jpg
-  alt: "Belvedere Torso"
-
-- image: figure-complete/kevin-at-the-woods.jpg
-  alt: "Kevin at the Woods"
-
-- image: life-drawing/female-figure.jpg
-  alt: "IMG_1848%20(2).JPG"
-
-- image: figure-complete/connie-napping.jpg
-  alt: "Connie Napping"
-
-- image: emily/emmy-with-her-favorite-things.jpg
-  alt: "Emmy with Her Favorite Things"
-
-- image: life-drawing/life-drawing-figure-woman-on-chair-study.jpg
-  alt: "IMG_20190515_143349943.jpg"
-
-- image: figure-complete/figure-drawing-dawn-michelangelo.jpg
-  alt: "lkfdjg.jpg"
-
-- image: figure-complete/reclining-figure-after-iredell.jpg
-  alt: "Reclining Figure (after Iredell)"
-
-- image: finished-drawings/saturn.jpg
-  alt: "\"Saturn\""
-
-- image: figure-complete/figure-study-man-with-hat-pencil.jpg
-  alt: "IMG_20190517_152308874.jpg"
-
-- image: life-drawing/female-figure-3.jpg
-  alt: "IMG_1841%20(2).JPG"
-
-- image: figure-complete/figure-drawing-3.jpg
-  alt: "IMG_20190517_152056676.jpg"
-
-- image: figure-heads-faces/self-portrait-young.jpg
-  alt: "IMG_1850%20(2).JPG"
-
-- image: figure-heads-faces/college-self-portrait-in-tv-screen.jpg
-  alt: "IMG_20200610_124733.jpg"
-
-- image: figure-complete/figure-study-after-falero.jpg
-  alt: "Figure Study (after Falero)"
-
-- image: figure-complete/figure-sketch-the-three-nereids-rubens.jpg
-  alt: "ldsf%3Bfkg.jpg"
-
-- image: emily/emily-studying.jpg
-  alt: "IMG_0056a.jpg"
-
-- image: figure-complete/figure-drawing-2.jpg
-  alt: "IMG_6329a.jpg"
-
-- image: figure-complete/figure-drawing-4.jpg
-  alt: "IMG_6328a.jpg"
-
-- image: cal-rowing/perspective-study-for-figures-carrying-boat-along-multiple-planes.jpg
-  alt: "Study for Cal Men's Rowing Painting"
-
-- image: figure-complete/laurel-reading.jpg
-  alt: "Laurel Reading"
-
-- image: figure-complete/high-school-library-drawing.jpg
-  alt: "Drawing made during high school library study period "
-
-- image: figure-complete/figure-drawing-complete.jpg
-  alt: "IMG_0003a.jpg"
+- nymph-jpg
+- for-wix-site-jpg
+- belvedere-torso
+- kevin-at-the-woods
+- female-figure
+- img-0089a-jpg
+- emmy-with-her-favorite-things
+- img-20190515-143349943-jpg
+- lkfdjg-jpg
+- reclining-figure-after-iredell
+- saturn
+- img-20190517-152308874-jpg
+- img-1841-2-jpg
+- img-20190517-152056676-jpg
+- img-1850-202-jpg
+- img-20200610-124733-jpg
+- figure-study-after-falero
+- ldsf-3bfkg-jpg
+- img-0056a-jpg
+- img-6329a-jpg
+- img-6328a-jpg
+- img-20190514-142924347-jpg
+- laurel-reading
+- drawing-made-during-high-school-library-study-period
+- img-0003a-jpg

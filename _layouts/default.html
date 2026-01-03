@@ -1,45 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  {% if page.title %}
-    <title>{{ page.title }} | {{ site.title }}</title>
-  {% else %}
-    <title>{{ site.title }}</title>
-  {% endif %}
-
-  {% assign description = page.description | default: site.description %}
-  {% if description %}
-    <meta name="description" content="{{ description }}">
-    <meta property="og:description" content="{{ description }}">
-    <meta name="twitter:description" content="{{ description }}">
-  {% endif %}
-
-  {% assign keywords = page.keywords | default: site.keywords %}
-  {% if keywords %}
-    <meta name="keywords" content="{{ keywords }}">
-  {% endif %}
-
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-
-  <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:title" content="{{ page.title | default: site.title }}">
-  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
-
-  {% assign image = page.image | default: site.image %}
-  {% if image %}
-    <meta property="og:image" content="{{ image | absolute_url }}">
-    <meta name="twitter:image" content="{{ image | absolute_url }}">
-    <meta name="twitter:card" content="summary_large_image">
-  {% else %}
-    <meta name="twitter:card" content="summary">
-  {% endif %}
-
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% include head.html %}
 </head>
 <body>
   <div id="SITE_CONTAINER">

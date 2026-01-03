@@ -27,6 +27,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Validate gallery data
+        run: python3 _scripts/validate_galleries.py
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:

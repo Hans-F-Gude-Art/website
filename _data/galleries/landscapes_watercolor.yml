@@ -1,59 +1,20 @@
-- image: landscapes-watercolor/house-in-the-catskills.jpg
-  alt: "House in the Catskils"
-
-- image: landscapes-outdoors/view-over-the-backyard-fence.jpg
-  alt: "View Over the Backyard Fence"
-
-- image: viking-village/hotel-side-door.png
-  alt: "Hotel Side Door, Brynilsen's Viking Village, New York"
-
-- image: uc-berkeley-campus/stephens-hall-with-coach-pappy-uc-berkeley.jpg
-  alt: "Stephens Hall with Coach Pappy Waldorf, University of California, Berkeley"
-
-- image: landscapes-watercolor/university-house-uc-berkeley.jpg
-  alt: "University House, University of California, Berkeley "
-
-- image: viking-village/blue-boats-outside-the-snack-shack.jpg
-  alt: "Blue Boats Outside the Snack Shack, Brynilsen's Viking Village, New York"
-
-- image: landscapes-watercolor/color-design-study-for-cal-rowing-painting.jpg
-  alt: "Color & Design Study for Cal Men's Rowing Painting, University of California, Berkeley"
-
-- image: landscapes-outdoors/canoes.jpg
-  alt: "Canoes"
-
-- image: landscapes-watercolor/flower-watercolor.jpg
-  alt: "Flower"
-
-- image: viking-village/back-of-the-hotel-brynilsens-viking-village.jpg
-  alt: "Back of the Hotel, Brynilsen's Viking Village, New York"
-
-- image: landscapes-watercolor/plant-watercolor.jpg
-  alt: "Plant"
-
-- image: viking-village/hotel-deck-viking-village.jpg
-  alt: "Hotel Deck"
-
-- image: viking-village/hotel-roofline-viking-village.jpg
-  alt: "Hotel Roofline"
-
-- image: viking-village/view-toward-old-forge-ny.jpg
-  alt: "View Toward Old Forge, NY"
-
-- image: landscapes-watercolor/plant-watercolor-2.jpg
-  alt: "Plant"
-
-- image: landscapes-mt-diablo/study-of-mt-diablo.jpg
-  alt: "Study of Mt. Diablo"
-
-- image: landscapes-outdoors/view-toward-inlet.jpg
-  alt: "View Toward Inlet"
-
-- image: landscapes-watercolor/yosemite-valley.jpg
-  alt: "Yosemite Valley"
-
-- image: illustrations/andy-vs-the-giant.jpg
-  alt: "Cartoon"
-
-- image: landscapes-watercolor/bunny.jpg
-  alt: "Bunny"
+- house-in-the-catskils
+- view-over-the-backyard-fence
+- hotel-side-door-2
+- stephens-hall-with-coach-pappy-waldorf-university-of
+- university-house-berkeley-campus
+- blue-boats-outside-the-snack-shack
+- color-design-study-for-cal-rowing-painting
+- canoes
+- flower
+- back-of-the-hotel
+- plant
+- hotel-deck
+- watercolor-3
+- img-20190629-221318-jpg
+- plant-2
+- study-of-mt-diablo
+- view-toward-inlet
+- yosemite-valley-2
+- cartoon
+- bunny

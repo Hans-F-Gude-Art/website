@@ -1,38 +1,13 @@
-- image: figure-paintings/woman-in-a-winter-landscape.jpg
-  alt: "Woman in a Winter Landscape"
-
-- image: figure-paintings/pxl-20220307-184124207-jpg.jpg
-  alt: "PXL_20220307_184124207.jpg"
-
-- image: figure-paintings/connie-napping-painting.jpg
-  alt: "Connie Napping"
-
-- image: figure-paintings/connie-napping-detail.jpg
-  alt: "Connie Napping (Detail)"
-
-- image: cal-athletics/last-500-meters-in-the-montlake-cut.jpg
-  alt: "Last 500 Meters in the Montlake Cut"
-
-- image: figure-paintings/theordore.jpg
-  alt: "Theordore"
-
-- image: emily/portrait-of-emily.jpg
-  alt: "Emily at 21"
-
-- image: emily/portrait-of-emily-detail.jpg
-  alt: "Emily at 21"
-
-- image: figure-paintings/alexander.jpg
-  alt: "Alexander"
-
-- image: emily/emily-preparing-the-thanksgiving-rosemary.jpg
-  alt: "Emily Preparing the Rosemary for Thanksgiving Dinner (or Triple Portrait of Emily, Stewart, and Jackson)"
-
-- image: emily/emily-at-the-piano.jpg
-  alt: "Emily at the Piano"
-
-- image: figure-paintings/oil-on-canvas-3-x-4-feet-1-0-x-1-3-m.jpg
-  alt: "Oil on Canvas, 3 x 4 Feet (1.0 x 1.3 M)"
-
-- image: figure-paintings/cal-band.jpg
-  alt: "Cal Band"
+- woman-in-a-winter-landscape
+- pxl-20220307-184124207-jpg
+- img-0042a-jpg
+- connie-napping-detail
+- last-500-meters-in-the-montlake-cut
+- theordore
+- emily-at-21
+- emily-at-21-2
+- alexander
+- emily-preparing-the-thanksgiving-rosemary
+- emily-at-the-piano
+- oil-on-canvas-3-x-4-feet-1-0-x-1-3-m
+- cal-band

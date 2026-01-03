@@ -29,7 +29,7 @@ DOCKER_RUN := docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) 
 .PHONY: serve-drafts serve-profile
 
 # Tier 3: Domain operations
-.PHONY: image-build image-rebuild deps-lock
+.PHONY: image-build image-rebuild deps-lock validate
 
 # Internal targets
 .PHONY: all
@@ -38,6 +38,16 @@ DOCKER_RUN := docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) 
 .PHONY: image refresh lock drafts profile
 
 all: serve
+
+# Install pre-commit hook if it doesn't exist (symlinks version-controlled script)
+.git/hooks/pre-commit: _scripts/pre-commit-hook.sh
+	@echo "Installing pre-commit hook..."
+	@ln -sf ../../_scripts/pre-commit-hook.sh $@
+	@echo "Pre-commit hook installed."
+
+# Run gallery validation manually
+validate:
+	@python3 _scripts/validate_galleries.py
 
 # Manual target to update Gemfile.lock using the correct base Docker image and Bundler version.
 # Uses 'bundle lock --update --normalize-platforms' to regenerate the lockfile.
@@ -84,7 +94,7 @@ clean: image-build
 	@$(DOCKER_RUN) bundle exec jekyll clean
 
 # Build the site for production. Depends on image-build and clean.
-build: image-build clean
+build: .git/hooks/pre-commit image-build clean
 	@echo "Building site for production..."
 	@docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) -e JEKYLL_ENV=production $(IMAGE) bundle exec jekyll build
 
@@ -96,7 +106,7 @@ serve-profile: image-build clean
 
 # Serves the site for local development, with live reloading.
 # This target contains the solution to the '0.0.0.0' URL issue in browsers.
-serve: image-build clean
+serve: .git/hooks/pre-commit image-build clean
 	@echo "Serving site at http://localhost:4000..."
 	@docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) -p 4000:4000 -p 35729:35729 -e JEKYLL_ENV=docker $(IMAGE) \
 		bundle exec jekyll serve --config _config.yml,_config_docker.yml --watch --incremental --livereload
