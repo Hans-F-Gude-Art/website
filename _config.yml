@@ -10,11 +10,15 @@ url: "https://hans-f-gude-art.github.io"
 baseurl: "/website"
 
 # Default social media image
-image: /assets/images/og_image.jpg
+image: /assets/images/logo_on_white.png
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-sitemap
 
 # Collections
 collections:

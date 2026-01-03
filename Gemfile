@@ -11,3 +11,6 @@ gem 'webrick', '~> 1.9'
 
 # Required by Jekyll/deps, will be default gem later
 gem 'logger', '~> 1.7'
+
+# SEO
+gem 'jekyll-sitemap', '~> 1.4'
