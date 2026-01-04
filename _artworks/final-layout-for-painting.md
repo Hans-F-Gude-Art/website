@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Final Layout for Painting"
-image: cal-rowing/final-layout-for-rowing-painting.jpg
+image: /assets/images/galleries/cal-rowing/final-layout-for-rowing-painting.jpg
 galleries:
   - rowing-boathouse
 ---

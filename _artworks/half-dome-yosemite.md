@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Half Dome, Yosemite"
-image: landscapes-other/half-dome-yosemite.jpg
+image: /assets/images/galleries/landscapes-other/half-dome-yosemite.jpg
 galleries:
   - landscapes-other
   - select-oils

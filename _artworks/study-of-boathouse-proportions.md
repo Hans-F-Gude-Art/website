@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Study of Boathouse Proportions"
-image: cal-rowing/study-of-boathouse-proportions.jpg
+image: /assets/images/galleries/cal-rowing/study-of-boathouse-proportions.jpg
 galleries:
   - rowing-boathouse
 ---

@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Study of rower mechanics"
-image: rowing-montlake/study-of-rower-mechanics.jpg
+image: /assets/images/galleries/rowing-montlake/study-of-rower-mechanics.jpg
 galleries:
   - rowing-montlake
 ---

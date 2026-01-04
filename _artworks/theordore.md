@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Theordore"
-image: figure-paintings/theordore.jpg
+image: /assets/images/galleries/figure-paintings/theordore.jpg
 galleries:
   - figure-paintings
 ---

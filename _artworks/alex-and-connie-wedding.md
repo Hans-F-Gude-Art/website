@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Alex and Connie Wedding"
-image: photographs/alex-and-connie-wedding.jpg
+image: /assets/images/galleries/photographs/alex-and-connie-wedding.jpg
 galleries:
   - photographs
 ---

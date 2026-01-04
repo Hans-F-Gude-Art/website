@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Emily at the Piano"
-image: emily/emily-at-the-piano.jpg
+image: /assets/images/galleries/emily/emily-at-the-piano.jpg
 galleries:
   - emily
   - figure-paintings

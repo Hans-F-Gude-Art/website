@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "University House"
-image: uc-berkeley-campus/university-house.jpg
+image: /assets/images/galleries/uc-berkeley-campus/university-house.jpg
 galleries:
   - uc-berkeley-campus
 ---

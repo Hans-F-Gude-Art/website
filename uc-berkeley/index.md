@@ -1,6 +1,7 @@
 ---
 layout: default
 title: UC Berkeley Artwork
+galleries_data: uc_berkeley_galleries
 ---
 
 # Artwork of UC Berkeley
@@ -9,7 +10,7 @@ title: UC Berkeley Artwork
 {% for item in site.data.uc_berkeley_galleries %}
   <li>
     <a href="{{ item.url | relative_url }}">
-      <img src="{{ '/assets/images/galleries/' | append: item.image | relative_url }}" alt="{{ item.title }}">
+      <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
       <h2>{{ item.title }}</h2>
     </a>
   </li>

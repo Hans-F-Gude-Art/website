@@ -4,7 +4,7 @@ layout: default
 
 <article class="artwork-page">
   <figure class="artwork-display">
-    <img src="{{ '/assets/images/galleries/' | append: page.image | relative_url }}" alt="{{ page.title }}">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">
     <figcaption>{{ page.title }}</figcaption>
   </figure>
 

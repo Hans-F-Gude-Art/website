@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Detailed study of the south side of Stephens Hall, with sunlight notes, for gouache painting, University of California, Berkeley"
-image: campus-drawings/detailed-study-of-the-south-side-of-stephens-hall-with-sunlight-notes-for.jpg
+image: /assets/images/galleries/campus-drawings/detailed-study-of-the-south-side-of-stephens-hall-with-sunlight-notes-for.jpg
 galleries:
   - campus-drawings
 ---

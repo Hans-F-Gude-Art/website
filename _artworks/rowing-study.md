@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Rowing Study"
-image: rowing-montlake/rowing-study.jpg
+image: /assets/images/galleries/rowing-montlake/rowing-study.jpg
 galleries:
   - figure-anatomical
   - rowing-montlake

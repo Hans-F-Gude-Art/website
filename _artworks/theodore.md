@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Theodore"
-image: illustrations/theodore-is-the-yellow-witch.jpg
+image: /assets/images/galleries/illustrations/theodore-is-the-yellow-witch.jpg
 galleries:
   - figure-heads-faces
   - figure-studies

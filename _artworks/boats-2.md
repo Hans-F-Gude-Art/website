@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Boats"
-image: viking-village/boats.jpg
+image: /assets/images/galleries/viking-village/boats.jpg
 galleries:
   - viking-village
 ---

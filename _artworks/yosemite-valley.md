@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Yosemite Valley"
-image: landscapes-watercolor/yosemite-valley.jpg
+image: /assets/images/galleries/landscapes-watercolor/yosemite-valley.jpg
 galleries:
   - landscapes-other
   - landscapes-watercolor

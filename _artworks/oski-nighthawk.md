@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Oski Nighthawk"
-image: oski-caricatures/oski-nighthawk.jpg
+image: /assets/images/galleries/oski-caricatures/oski-nighthawk.jpg
 galleries:
   - oski-caricatures
 ---

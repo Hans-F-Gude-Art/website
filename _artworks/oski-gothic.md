@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Oski Gothic"
-image: oski-caricatures/oski-gothic.jpg
+image: /assets/images/galleries/oski-caricatures/oski-gothic.jpg
 galleries:
   - oski-caricatures
 ---

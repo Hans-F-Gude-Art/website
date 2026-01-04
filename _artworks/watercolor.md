@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Watercolor"
-image: landscapes-other/watercolor.jpg
+image: /assets/images/galleries/landscapes-other/watercolor.jpg
 galleries:
   - landscapes-other
 ---

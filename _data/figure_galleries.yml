@@ -3,12 +3,12 @@
 
 - title: Paintings
   url: /human-figure/paintings
-  image: figure-paintings/woman-in-a-winter-landscape.jpg
+  image: /assets/images/galleries/figure-paintings/woman-in-a-winter-landscape.jpg
 
 - title: Life Drawing Classes
   url: /human-figure/life-drawing
-  image: life-drawing/female-figure.jpg
+  image: /assets/images/galleries/life-drawing/female-figure.jpg
 
 - title: Figure Drawings
   url: /human-figure/figure-drawings
-  image: finished-drawings/the-belvedere-torso.jpg
+  image: /assets/images/galleries/finished-drawings/the-belvedere-torso.jpg

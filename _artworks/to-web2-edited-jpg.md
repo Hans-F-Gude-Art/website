@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "to web2_edited.jpg"
-image: still-lifes/still-life-with-swedish-horse-and-skull.jpg
+image: /assets/images/galleries/still-lifes/still-life-with-swedish-horse-and-skull.jpg
 galleries:
   - select-oils
   - still-lifes

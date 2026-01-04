@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Final Concept Sketch"
-image: rowing-montlake/final-concept-sketch.jpg
+image: /assets/images/galleries/rowing-montlake/final-concept-sketch.jpg
 galleries:
   - rowing-montlake
 ---

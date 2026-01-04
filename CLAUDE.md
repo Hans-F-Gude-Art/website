@@ -45,7 +45,7 @@ Two-tier structure:
 ```yaml
 ---
 title: "Artwork Title"
-image: "gallery-id/filename.jpg"
+image: /assets/images/galleries/gallery-id/filename.jpg
 galleries:
   - gallery-id-1
   - gallery-id-2
@@ -67,7 +67,7 @@ galleries:
 
 ### Image Storage
 
-Images stored in `assets/images/galleries/{gallery-id}/`. Use `relative_url` filter for paths since site is hosted at a subpath (`/website`).
+Images stored in `assets/images/galleries/{gallery-id}/`. All `image` fields use absolute paths from site root (e.g., `/assets/images/galleries/...`). Use `relative_url` filter in templates since site is hosted at a subpath (`/website`).
 
 ## Commits
 

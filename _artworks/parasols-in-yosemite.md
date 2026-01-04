@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Parasols in Yosemite"
-image: landscapes-other/parasols-in-yosemite.jpg
+image: /assets/images/galleries/landscapes-other/parasols-in-yosemite.jpg
 galleries:
   - landscapes-other
 ---

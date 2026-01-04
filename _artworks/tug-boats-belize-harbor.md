@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Tug Boats, Belize Harbor"
-image: sketches-studies/tug-boats-belize-harbor.jpg
+image: /assets/images/galleries/sketches-studies/tug-boats-belize-harbor.jpg
 galleries:
   - sketches-studies
 ---

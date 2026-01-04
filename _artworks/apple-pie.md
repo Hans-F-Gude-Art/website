@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Apple Pie"
-image: still-lifes/apple-pie.jpg
+image: /assets/images/galleries/still-lifes/apple-pie.jpg
 galleries:
   - select-oils
   - still-lifes

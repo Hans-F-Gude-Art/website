@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Kevin at the Woods"
-image: figure-complete/kevin-at-the-woods.jpg
+image: /assets/images/galleries/figure-complete/kevin-at-the-woods.jpg
 galleries:
   - figure-complete
   - figure-drawings

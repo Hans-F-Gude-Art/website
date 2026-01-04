@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Spain Poster"
-image: illustrations/spain-poster.jpg
+image: /assets/images/galleries/illustrations/spain-poster.jpg
 galleries:
   - illustrations
 ---

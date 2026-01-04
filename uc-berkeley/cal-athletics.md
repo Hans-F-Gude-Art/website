@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Cal Athletics
+galleries_data: cal_athletics_galleries
 ---
 
 # Cal Athletics
@@ -9,7 +10,7 @@ title: Cal Athletics
 {% for item in site.data.cal_athletics_galleries %}
   <li>
     <a href="{{ item.url | relative_url }}">
-      <img src="{{ '/assets/images/galleries/' | append: item.image | relative_url }}" alt="{{ item.title }}">
+      <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
       <h2>{{ item.title }}</h2>
     </a>
   </li>

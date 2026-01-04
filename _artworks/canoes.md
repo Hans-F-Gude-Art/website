@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Canoes"
-image: landscapes-outdoors/canoes.jpg
+image: /assets/images/galleries/landscapes-outdoors/canoes.jpg
 galleries:
   - landscapes-outdoors
   - landscapes-watercolor

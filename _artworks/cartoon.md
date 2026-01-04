@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Cartoon"
-image: illustrations/andy-vs-the-giant.jpg
+image: /assets/images/galleries/illustrations/andy-vs-the-giant.jpg
 galleries:
   - illustrations
   - landscapes-watercolor

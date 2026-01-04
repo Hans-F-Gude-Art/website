@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Cal Band"
-image: figure-paintings/cal-band.jpg
+image: /assets/images/galleries/figure-paintings/cal-band.jpg
 galleries:
   - figure-paintings
 ---

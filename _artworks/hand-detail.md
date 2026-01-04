@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Hand detail"
-image: life-drawing/hand-detail.jpg
+image: /assets/images/galleries/life-drawing/hand-detail.jpg
 galleries:
   - life-drawing
   - select-charcoal

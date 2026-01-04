@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Snack Shack"
-image: viking-village/snack-shack-outdoors.jpg
+image: /assets/images/galleries/viking-village/snack-shack-outdoors.jpg
 galleries:
   - landscapes-outdoors
   - viking-village

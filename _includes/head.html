@@ -33,7 +33,23 @@
 <meta property="og:title" content="{{ page.title | default: site.title }}">
 <meta name="twitter:title" content="{{ page.title | default: site.title }}">
 
-{% assign image = page.image | default: site.image %}
+{% comment %} Determine OG image: page.image, first gallery artwork, hub data, or site default {% endcomment %}
+{% if page.image %}
+  {% assign image = page.image %}
+{% elsif page.gallery_id %}
+  {% assign data_key = page.gallery_id | replace: "-", "_" %}
+  {% assign first_slug = site.data.galleries[data_key] | first %}
+  {% assign first_art = site.artworks | where: "slug", first_slug | first %}
+  {% if first_art %}
+    {% assign image = first_art.image %}
+  {% endif %}
+{% elsif page.galleries_data %}
+  {% assign first_item = site.data[page.galleries_data] | first %}
+  {% if first_item.image %}
+    {% assign image = first_item.image %}
+  {% endif %}
+{% endif %}
+{% assign image = image | default: site.image %}
 {% if image %}
   <meta property="og:image" content="{{ image | absolute_url }}">
   <meta name="twitter:image" content="{{ image | absolute_url }}">

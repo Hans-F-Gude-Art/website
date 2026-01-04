@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Cal Marching Band
+galleries_data: cal_band_galleries
 ---
 
 # Berkeley Band
@@ -11,7 +12,7 @@ This 4-foot x 6-foot (1.3-m x 2.0-m) oil painting of the band, which the artist 
 {% for item in site.data.cal_band_galleries %}
   <li>
     <a href="{{ item.url | relative_url }}">
-      <img src="{{ '/assets/images/galleries/' | append: item.image | relative_url }}" alt="{{ item.title }}">
+      <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
       <h2>{{ item.title }}</h2>
     </a>
   </li>

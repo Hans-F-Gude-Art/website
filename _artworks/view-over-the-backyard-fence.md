@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "View Over the Backyard Fence"
-image: landscapes-outdoors/view-over-the-backyard-fence.jpg
+image: /assets/images/galleries/landscapes-outdoors/view-over-the-backyard-fence.jpg
 galleries:
   - landscapes-other
   - landscapes-outdoors

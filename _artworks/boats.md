@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Boats"
-image: select-charcoal/boats.jpg
+image: /assets/images/galleries/select-charcoal/boats.jpg
 galleries:
   - select-charcoal
 ---

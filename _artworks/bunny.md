@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Bunny"
-image: landscapes-watercolor/bunny.jpg
+image: /assets/images/galleries/landscapes-watercolor/bunny.jpg
 galleries:
   - landscapes-watercolor
 ---

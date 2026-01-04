@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "My Toes"
-image: figure-anatomical/my-toes.jpg
+image: /assets/images/galleries/figure-anatomical/my-toes.jpg
 galleries:
   - figure-anatomical
   - select-charcoal

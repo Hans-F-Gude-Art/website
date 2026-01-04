@@ -23,7 +23,7 @@ layout: default
     <li>
       <a href="{{ art.url | relative_url }}">
         <figure>
-          <img src="{{ '/assets/images/galleries/' | append: art.image | relative_url }}" alt="{{ art.title }}">
+          <img src="{{ art.image | relative_url }}" alt="{{ art.image_alt | default: art.title }}">
           <figcaption>{{ art.title }}</figcaption>
         </figure>
       </a>
