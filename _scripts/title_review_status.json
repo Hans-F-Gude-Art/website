@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "generated_at": "2026-01-08T01:15:16.805784+00:00",
+  "generated_at": "2026-01-08T01:28:33.723942+00:00",
   "statistics": {
     "total": 420,
-    "needs_review": 160,
-    "has_suggestion": 1,
-    "completed": 1,
+    "needs_review": 100,
+    "has_suggestion": 0,
+    "completed": 62,
     "good": 258
   },
   "by_classification": {
-    "file_extension": 160,
-    "timestamp": 4,
-    "mostly_digits": 60,
+    "file_extension": 159,
+    "timestamp": 3,
+    "mostly_digits": 59,
     "url_encoded": 8,
     "biography_number": 2,
     "underscore_prefix": 1,
@@ -32,49 +32,63 @@
       "final_title": "Cal Band Practice Detail"
     },
     "20140822-132903a-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "20140822_132903a.jpg",
       "reasons": [
         "file_extension",
         "timestamp",
         "mostly_digits"
       ],
-      "suggested_title": "Cal Band Practice Close-Up"
+      "suggested_title": "Cal Band Practice Close-Up",
+      "final_title": "The Cal Band Relaxes in North Tunnel Before the Big Game (Detail)",
+      "completed_at": "2026-01-08T01:44:13.299547+00:00"
     },
     "20140822-133020a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "20140822_133020a.jpg",
       "reasons": [
         "file_extension",
         "timestamp",
         "mostly_digits"
-      ]
+      ],
+      "suggested_title": "Gloved Hand on Saxophone",
+      "final_title": "Gloved Hand on Saxophone",
+      "completed_at": "2026-01-08T01:44:17.212961+00:00"
     },
     "20140822-133036a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "20140822_133036a.jpg",
       "reasons": [
         "file_extension",
         "timestamp",
         "mostly_digits"
-      ]
+      ],
+      "suggested_title": "Marching Band Hands in White Gloves",
+      "final_title": "Marching Band Hands in White Gloves",
+      "completed_at": "2026-01-08T01:44:19.673527+00:00"
     },
     "20140822-133059a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "20140822_133059a.jpg",
       "reasons": [
         "file_extension",
         "timestamp",
         "mostly_digits"
-      ]
+      ],
+      "suggested_title": "Cal Band Member from Behind",
+      "final_title": "Cal Band Member from Behind",
+      "completed_at": "2026-01-08T01:44:21.759890+00:00"
     },
     "2772605131-800182b279-o-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "2772605131_800182b279_o.jpg",
       "reasons": [
         "file_extension",
         "mostly_digits"
-      ]
+      ],
+      "suggested_title": "Still Life with Wine Bottle and Wooden Elephant",
+      "final_title": "Still Life with Wine Bottle and Wooden Elephant",
+      "completed_at": "2026-01-08T01:44:23.857601+00:00"
     },
     "4-x-6-foot-canvas.md": {
       "status": "good",
@@ -117,50 +131,65 @@
       "title": "Apple Pie"
     },
     "asdlkjsafd-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "asdlkjsafd.jpg",
       "reasons": [
         "file_extension"
-      ]
+      ],
+      "suggested_title": "Seated Male Figure Study",
+      "final_title": "Seated Male Figure Study",
+      "completed_at": "2026-01-08T01:44:27.513331+00:00"
     },
     "ash-at-playground-2-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "Ash at playground 2.jpg",
       "reasons": [
         "file_extension"
-      ]
+      ],
+      "suggested_title": "Ash in the Playground Tunnel",
+      "final_title": "Ash in the Playground Tunnel",
+      "completed_at": "2026-01-08T02:04:56.151206+00:00"
     },
     "back-of-the-hotel.md": {
       "status": "good",
       "title": "Back of the Hotel"
     },
     "backyard-20nightscape-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "Backyard%20Nightscape.jpg",
       "reasons": [
         "file_extension",
         "url_encoded"
-      ]
+      ],
+      "suggested_title": "Backyard Nightscape at Dusk",
+      "final_title": "Backyard Nightscape at Dusk",
+      "completed_at": "2026-01-08T02:05:01.105142+00:00"
     },
     "belvedere-torso.md": {
       "status": "good",
       "title": "Belvedere Torso"
     },
     "biorgraphy0005-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "biorgraphy0005.jpg",
       "reasons": [
         "file_extension",
         "biography_number"
-      ]
+      ],
+      "suggested_title": "Portrait Study of Young Man with Hat",
+      "final_title": "Portrait Study of the Artist with Hat",
+      "completed_at": "2026-01-08T02:05:19.327366+00:00"
     },
     "biorgraphy0006-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "biorgraphy0006.jpg",
       "reasons": [
         "file_extension",
         "biography_number"
-      ]
+      ],
+      "suggested_title": "Portrait Study with Long Hair",
+      "final_title": "Portrait Study of the Artist with Long Hair",
+      "completed_at": "2026-01-08T02:05:33.487548+00:00"
     },
     "black-tide.md": {
       "status": "good",
@@ -211,11 +240,14 @@
       "title": "Burning College Notes at Term End"
     },
     "bvv-ink-drawing-detail7-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "BVV Ink Drawing Detail7.JPG",
       "reasons": [
         "file_extension"
-      ]
+      ],
+      "suggested_title": "Viking Village Lakeside Detail",
+      "final_title": "Viking Village Lakeside Detail",
+      "completed_at": "2026-01-08T02:05:37.822797+00:00"
     },
     "cal-band.md": {
       "status": "good",
@@ -230,12 +262,15 @@
       "title": "California Golden Bear with Sather Tower (the 'Campanile'), University of California, Berkeley"
     },
     "calima-poster-general-nov-2021-png.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "_Calima_Poster_General_Nov_2021.png",
       "reasons": [
         "file_extension",
         "underscore_prefix"
-      ]
+      ],
+      "suggested_title": "Calima Hydroelectric Project Poster",
+      "final_title": "Calima Hydroelectric Project Poster",
+      "completed_at": "2026-01-08T02:05:42.148700+00:00"
     },
     "canoes.md": {
       "status": "good",
@@ -266,20 +301,26 @@
       "title": "CHP Team Competition"
     },
     "cimg4100ab-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "CIMG4100ab.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Cal Band Painting Composition Study",
+      "final_title": "Cal Band Painting Composition Study",
+      "completed_at": "2026-01-08T02:05:46.032658+00:00"
     },
     "cimg4194-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "CIMG4194.JPG",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Transferring Cal Band Drawing to Canvas",
+      "final_title": "Transferring Cal Band Drawing to Canvas",
+      "completed_at": "2026-01-08T02:05:49.206886+00:00"
     },
     "cloud-over-berkeley.md": {
       "status": "good",
@@ -314,18 +355,24 @@
       "title": "Detailed study of the south side of Stephens Hall, with sunlight notes, for gouache painting, University of California, Berkeley"
     },
     "dfgefg-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "dfgefg.jpg",
       "reasons": [
         "file_extension"
-      ]
+      ],
+      "suggested_title": "Standing Male Figure Study",
+      "final_title": "Standing Male Figure Study",
+      "completed_at": "2026-01-08T02:05:55.206111+00:00"
     },
     "dfsd-a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "dfsd-a.jpg",
       "reasons": [
         "file_extension"
-      ]
+      ],
+      "suggested_title": "Viking Village Cottage in Pen and Ink",
+      "final_title": "Viking Village Hotel in Pen and Ink",
+      "completed_at": "2026-01-08T02:06:02.943584+00:00"
     },
     "douglas-tildens-statue-the-football-players-university-of-2.md": {
       "status": "good",
@@ -376,18 +423,24 @@
       "title": "Emmy with Her Favorite Things"
     },
     "eyes-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "eyes.jpg",
       "reasons": [
         "file_extension"
-      ]
+      ],
+      "suggested_title": "Studies of Eyes",
+      "final_title": "Studies of Eyes",
+      "completed_at": "2026-01-08T02:06:05.840567+00:00"
     },
     "f11310-4ed5125bcb3f43faa1b1bf5f7ab04bd7.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "f11310_4ed5125bcb3f43faa1b1bf5f7ab04bd7.",
       "reasons": [
         "hash_string"
-      ]
+      ],
+      "suggested_title": "Sather Tower Painting on Easel",
+      "final_title": "Sather Tower Painting on Easel",
+      "completed_at": "2026-01-08T02:06:11.475428+00:00"
     },
     "female-figure-10.md": {
       "status": "good",
@@ -486,32 +539,41 @@
       "title": "Flowers"
     },
     "for-wix-2-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "for wix 2.jpg",
       "reasons": [
         "file_extension",
         "wix_artifact"
-      ]
+      ],
+      "suggested_title": "Portrait of Girl in Sun Hat",
+      "final_title": "Study for Portrait of Girl in Sun Hat",
+      "completed_at": "2026-01-08T02:06:21.954473+00:00"
     },
     "for-wix-site-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "for wix site.jpg",
       "reasons": [
         "file_extension",
         "wix_artifact"
-      ]
+      ],
+      "suggested_title": "Woman in Hat and Coat",
+      "final_title": "Study for Woman in a Winter Landscape",
+      "completed_at": "2026-01-08T02:06:45.707348+00:00"
     },
     "golden-gate-bridge.md": {
       "status": "good",
       "title": "Golden Gate Bridge"
     },
     "gude-med-res-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "Gude med res.jpg",
       "reasons": [
         "file_extension",
         "wix_artifact"
-      ]
+      ],
+      "suggested_title": "Brynilsen's Viking Village Panorama",
+      "final_title": "Brynilsen's Viking Village Poster",
+      "completed_at": "2026-01-08T02:06:52.709960+00:00"
     },
     "half-dome-yosemite.md": {
       "status": "good",
@@ -530,12 +592,15 @@
       "title": "Hearst Mining Circle, UC Berkeley"
     },
     "high-20school-20surreal-20sketch-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "High%20School%20Surreal%20Sketch.jpg",
       "reasons": [
         "file_extension",
         "url_encoded"
-      ]
+      ],
+      "suggested_title": "Surrealist Figure Composition",
+      "final_title": "Surrealist Figure Composition",
+      "completed_at": "2026-01-08T02:26:05.211109+00:00"
     },
     "hotel-deck.md": {
       "status": "good",
@@ -562,321 +627,438 @@
       "title": "House in the Catskils"
     },
     "img-0003a-jpg-3.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0003a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Portrait Sketch of Woman in Thought",
+      "final_title": "Emily with Microphone",
+      "completed_at": "2026-01-08T02:26:19.030044+00:00"
     },
     "img-0003a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0003a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Standing Female Figure with Head Wrap",
+      "final_title": "Standing Female Figure with Head Wrap",
+      "completed_at": "2026-01-08T02:26:21.987894+00:00"
     },
     "img-0008-edited-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0008_edited.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "wix_artifact"
-      ]
+      ],
+      "suggested_title": "Still Life with Skull and Red Drapery",
+      "final_title": "Still Life with Skull and Red Drapery",
+      "completed_at": "2026-01-08T02:26:31.160242+00:00"
     },
     "img-0009a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0009a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Cal Band Member with Plume",
+      "final_title": "Cal Band Member with Plume",
+      "completed_at": "2026-01-08T02:26:39.934978+00:00"
     },
     "img-0015a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0015a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Cal Band Uniform Detail",
+      "final_title": "Cal Band Uniform Detail",
+      "completed_at": "2026-01-08T02:26:42.548913+00:00"
     },
     "img-0017-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0017.JPG",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Portrait of Ash in Profile",
+      "final_title": "Portrait of Ash in Profile",
+      "completed_at": "2026-01-08T02:26:45.356985+00:00"
     },
     "img-0019-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0019.JPG",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Reclining Figure with Raised Hands",
+      "final_title": "Figures on Hearst Mining Building Facade (Left Detail)",
+      "completed_at": "2026-01-08T02:28:21.031543+00:00"
     },
     "img-0019a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0019a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Still Life with Oil Lamp and Fruit",
+      "final_title": "Still Life with Oil, Lamp, and Fruit",
+      "completed_at": "2026-01-08T02:28:30.685110+00:00"
     },
     "img-0023a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0023a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Cal Band Uniform Button Detail",
+      "final_title": "Cal Band Uniform Button Detail",
+      "completed_at": "2026-01-08T02:28:33.707124+00:00"
     },
     "img-0025a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0025a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Still Life with Pink Bunny and Silver Teapot",
+      "final_title": "Still Life with Pink Bunny and Silver Teapot",
+      "completed_at": "2026-01-08T02:28:38.704391+00:00"
     },
     "img-0032a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0032a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Still Life with Hiking Boots and Camping Gear",
+      "final_title": "Still Life with Hiking Boots and Camping Gear",
+      "completed_at": "2026-01-08T02:28:44.148579+00:00"
     },
     "img-0035-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0035.JPG",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Studies of Hands and Emily",
+      "final_title": "Studies for Emmy with Her Favorite Things",
+      "completed_at": "2026-01-08T02:29:14.418477+00:00"
     },
     "img-0038a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0038a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Still Life with Laughing Buddha and Silver Teapot",
+      "final_title": "Still Life with Laughing Buddha and Silver Teapot",
+      "completed_at": "2026-01-08T02:29:18.538268+00:00"
     },
     "img-0040a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0040a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Still Life with Potted Plant and Wine Bottle",
+      "final_title": "Still Life with Potted Plant and Wine Bottle",
+      "completed_at": "2026-01-08T02:29:22.274295+00:00"
     },
     "img-0041a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0041a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Still Life Detail with Plant and Fruit",
+      "final_title": "Still Life with Potted Plant and Wine Bottle (Detail)",
+      "completed_at": "2026-01-08T02:29:56.422442+00:00"
     },
     "img-0042a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0042a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Connie Napping on Green Couch",
+      "final_title": "Connie Napping",
+      "completed_at": "2026-01-08T02:30:02.245257+00:00"
     },
     "img-0051a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0051a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Paper Lanterns in the Garden",
+      "final_title": "Paper Lanterns in the Garden",
+      "completed_at": "2026-01-08T02:33:49.890537+00:00"
     },
     "img-0056a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0056a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Emily at the Piano in the Living Room",
+      "final_title": "Emily in the Living Room",
+      "completed_at": "2026-01-08T02:33:58.774776+00:00"
     },
     "img-0060a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0060a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Backyard Patio with Paper Lanterns at Night",
+      "final_title": "Backyard Patio with Paper Lanterns at Night",
+      "completed_at": "2026-01-08T02:34:02.486569+00:00"
     },
     "img-0066a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0066a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Anatomical Study of the Arm",
+      "final_title": "Anatomical Study of the Arm",
+      "completed_at": "2026-01-08T02:49:43.115533+00:00"
     },
     "img-0067a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0067a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Anatomical Studies of Hands and Joints",
+      "final_title": "Anatomical Studies of Hands and Joints",
+      "completed_at": "2026-01-08T02:49:45.631743+00:00"
     },
     "img-0070a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0070a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Portrait Studies of Male Faces",
+      "final_title": "Portrait Studies of Male Faces",
+      "completed_at": "2026-01-08T02:49:51.216887+00:00"
     },
     "img-0074a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0074a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Portrait Studies from Multiple Angles",
+      "final_title": "Portrait Studies of Multiple Faces",
+      "completed_at": "2026-01-08T02:50:02.803666+00:00"
     },
     "img-0075a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0075a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Figure Study of Back with Drapery",
+      "final_title": "Figure Study Back and Front",
+      "completed_at": "2026-01-08T02:50:21.963283+00:00"
     },
     "img-0088a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0088a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Gentleman Reading in Tricorn Hat",
+      "final_title": "Gentleman Reading in Hat",
+      "completed_at": "2026-01-08T02:57:23.321382+00:00"
     },
     "img-0089a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0089a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Connie Napping Drawing Study",
+      "final_title": "Connie Napping Drawing Study",
+      "completed_at": "2026-01-08T02:57:27.454098+00:00"
     },
     "img-0098-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0098.JPG",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Victorian Row Houses in San Francisco",
+      "final_title": "Victorian Row Houses in San Francisco",
+      "completed_at": "2026-01-08T02:57:32.195815+00:00"
     },
     "img-0128-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0128.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Dancer with Rainbow Silk Fans",
+      "final_title": "Dancer with Rainbow Silk Fans",
+      "completed_at": "2026-01-08T02:57:36.896221+00:00"
     },
     "img-0237d-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0237d.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Children Behind Giant Soap Bubbles",
+      "final_title": "Children Behind Giant Soap Bubbles",
+      "completed_at": "2026-01-08T02:57:39.893019+00:00"
     },
     "img-0255a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0255a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Cal Band Formation with Pyrotechnics",
+      "final_title": "Cal Band Formation with Pyrotechnics",
+      "completed_at": "2026-01-08T02:57:43.797172+00:00"
     },
     "img-0277a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0277a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Bubble Artist in the Park",
+      "final_title": "Bubble Artist in the Park",
+      "completed_at": "2026-01-08T02:57:46.747583+00:00"
     },
     "img-0285a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0285a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Girl with Tiger Face Paint",
+      "final_title": "Girl with Tiger Face Paint",
+      "completed_at": "2026-01-08T02:57:49.509242+00:00"
     },
     "img-0296a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0296a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Friends Around the Fire Pit",
+      "final_title": "Friends Around the Fire Pit",
+      "completed_at": "2026-01-08T02:57:52.060271+00:00"
     },
     "img-0314a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0314a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Sunset at Memorial Stadium",
+      "final_title": "Sunset at Memorial Stadium",
+      "completed_at": "2026-01-08T02:57:56.249123+00:00"
     },
     "img-0326a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0326a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Cal Band in the Stadium Bleachers",
+      "final_title": "Cal Band in the Stadium Bleachers",
+      "completed_at": "2026-01-08T02:57:59.828881+00:00"
     },
     "img-0625-201-edited-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0625%20(1)_edited.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "url_encoded",
         "wix_artifact"
-      ]
+      ],
+      "suggested_title": "Cal Rowers at the Oars",
+      "final_title": "Cal Rowers at the Oars",
+      "completed_at": "2026-01-08T02:58:04.925825+00:00"
     },
     "img-0632-201-edited-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_0632%20(1)_edited.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "url_encoded",
         "wix_artifact"
-      ]
+      ],
+      "suggested_title": "Sunset Clouds Detail",
+      "final_title": "Sunset Clouds Detail",
+      "completed_at": "2026-01-08T02:58:09.530500+00:00"
     },
     "img-1502a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_1502a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Study of Seated Cal Band Musicians",
+      "final_title": "Study of Seated Cal Band Musicians",
+      "completed_at": "2026-01-08T02:58:12.839522+00:00"
     },
     "img-1568a-jpg.md": {
-      "status": "needs_review",
+      "status": "completed",
       "title": "IMG_1568a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
-      ]
+      ],
+      "suggested_title": "Artist at Work on Cal Band Painting",
+      "final_title": "Artist at Work on Cal Band Painting",
+      "completed_at": "2026-01-08T02:58:17.568439+00:00"
     },
     "img-1834-20-20copy-jpg.md": {
       "status": "needs_review",

@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "IMG_0625%20(1)_edited.jpg"
+title: "Cal Rowers at the Oars"
 image: /assets/images/galleries/cal-athletics/img-0625-201-edited-jpg.jpg
 galleries:
   - cal-rowing

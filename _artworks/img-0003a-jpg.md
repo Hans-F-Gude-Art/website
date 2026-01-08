@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "IMG_0003a.jpg"
+title: "Standing Female Figure with Head Wrap"
 image: /assets/images/galleries/figure-complete/figure-drawing-complete.jpg
 galleries:
   - figure-complete

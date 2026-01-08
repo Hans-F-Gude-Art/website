@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "IMG_0042a.jpg"
+title: "Connie Napping"
 image: /assets/images/galleries/figure-paintings/connie-napping-painting.jpg
 galleries:
   - figure-paintings

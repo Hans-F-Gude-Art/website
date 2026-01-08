@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "Backyard%20Nightscape.jpg"
+title: "Backyard Nightscape at Dusk"
 image: /assets/images/galleries/landscapes-other/backyard-nightscape.jpg
 galleries:
   - landscapes-other

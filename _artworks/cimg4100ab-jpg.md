@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "CIMG4100ab.jpg"
+title: "Cal Band Painting Composition Study"
 image: /assets/images/galleries/cal-marching-band/cal-band-formation-study.jpg
 galleries:
   - cal-band-drawings

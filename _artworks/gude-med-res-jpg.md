@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "Gude med res.jpg"
+title: "Brynilsen's Viking Village Poster"
 image: /assets/images/galleries/viking-village/brynilsens-viking-village.jpg
 galleries:
   - finished-drawings

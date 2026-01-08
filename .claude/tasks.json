@@ -1,0 +1,254 @@
+{
+  "version": "1",
+  "created_at": "2026-01-08T00:59:54.492662+00:00",
+  "updated_at": "2026-01-08T01:30:07.717022+00:00",
+  "tasks": [
+    {
+      "id": "161dd4b8",
+      "title": "Build triage script to identify bad titles",
+      "status": "complete",
+      "created_at": "2026-01-08T01:01:59.865574+00:00",
+      "updated_at": "2026-01-08T01:15:41.110956+00:00",
+      "description": "Create Python script that scans _artworks/*.md and identifies titles that are filenames, timestamps, or nonsense",
+      "approach": "Scan all artwork files, match against bad title patterns (file extensions, camera prefixes, timestamps, URL encoding, wix artifacts), output tracking JSON",
+      "acceptance_criteria": [
+        "Script runs via uv",
+        "Detects ~160 bad titles",
+        "Outputs title_review_status.json",
+        "Preserves existing completed status on re-run"
+      ],
+      "relevant_files": [
+        "_scripts/triage_titles.py",
+        "_scripts/title_review_status.json",
+        "_artworks/"
+      ],
+      "number": 1,
+      "subtasks": [
+        {
+          "id": "87837ad6",
+          "title": "Implement bad title pattern detection",
+          "status": "complete",
+          "created_at": "2026-01-08T01:02:10.133245+00:00",
+          "updated_at": "2026-01-08T01:15:40.825091+00:00",
+          "description": "Create regex patterns and logic to identify bad titles",
+          "acceptance_criteria": [
+            "Detects file extensions (.jpg, .png, etc)",
+            "Detects camera prefixes (IMG_, CIMG, DSC)",
+            "Detects timestamps (YYYYMMDD_HHMMSS)",
+            "Detects URL encoding (%20, %3B)",
+            "Detects wix artifacts",
+            "Detects Flickr IDs",
+            "Detects short/nonsense strings"
+          ],
+          "number": 1
+        },
+        {
+          "id": "23989a44",
+          "title": "Generate tracking JSON with statistics",
+          "status": "complete",
+          "created_at": "2026-01-08T01:02:10.481300+00:00",
+          "updated_at": "2026-01-08T01:15:40.921941+00:00",
+          "description": "Output title_review_status.json with per-artwork status and aggregate stats",
+          "acceptance_criteria": [
+            "JSON includes version and timestamp",
+            "Per-artwork status (needs_review, has_suggestion, completed, good)",
+            "Classification reason for bad titles",
+            "Aggregate statistics"
+          ],
+          "number": 2
+        },
+        {
+          "id": "4bd829d5",
+          "title": "Support incremental updates",
+          "status": "complete",
+          "created_at": "2026-01-08T01:02:10.798089+00:00",
+          "updated_at": "2026-01-08T01:15:41.013600+00:00",
+          "description": "Re-running triage should preserve completed items and detect new artworks",
+          "acceptance_criteria": [
+            "Completed artworks stay completed",
+            "New artworks are detected",
+            "Changed artworks are re-evaluated"
+          ],
+          "number": 3
+        }
+      ],
+      "notes": [
+        {
+          "text": "Pure pattern matching - no AI needed. Just regex/string checks for bad title patterns.",
+          "created_at": "2026-01-08T01:09:37.451271+00:00"
+        }
+      ]
+    },
+    {
+      "id": "83f71c2b",
+      "title": "Build review web application",
+      "status": "complete",
+      "created_at": "2026-01-08T01:02:21.291051+00:00",
+      "updated_at": "2026-01-08T01:27:45.188093+00:00",
+      "description": "Create Flask app for reviewing AI-suggested titles with approve/skip/back workflow",
+      "approach": "Flask app that reads artworks with suggested_title field, displays image and titles, allows editing and approval, updates frontmatter on approve",
+      "acceptance_criteria": [
+        "App starts via uv run",
+        "Displays artwork images correctly",
+        "Shows current title and suggested title",
+        "Editable title field",
+        "Approve updates frontmatter",
+        "Skip moves to next",
+        "Back returns to previous",
+        "Progress indicator shows X of Y"
+      ],
+      "relevant_files": [
+        "_scripts/title_reviewer/app.py",
+        "_scripts/title_reviewer/templates/review.html",
+        "_scripts/title_reviewer/templates/complete.html",
+        "_scripts/title_reviewer/static/style.css"
+      ],
+      "dependencies": [
+        "161dd4b8"
+      ],
+      "number": 2,
+      "subtasks": [
+        {
+          "id": "20c7df61",
+          "title": "Create Flask app skeleton with routes",
+          "status": "complete",
+          "created_at": "2026-01-08T01:02:31.978800+00:00",
+          "updated_at": "2026-01-08T01:27:44.776948+00:00",
+          "description": "Set up Flask app with routes for /, /review/<filename>, /approve, /skip, /status, /complete",
+          "acceptance_criteria": [
+            "GET / redirects to first unreviewed",
+            "GET /review/<filename> shows review UI",
+            "POST /approve saves and redirects",
+            "POST /skip redirects to next",
+            "GET /status returns JSON progress",
+            "GET /complete shows completion page"
+          ],
+          "number": 1
+        },
+        {
+          "id": "b250ee0f",
+          "title": "Create review interface template",
+          "status": "complete",
+          "created_at": "2026-01-08T01:02:32.296717+00:00",
+          "updated_at": "2026-01-08T01:27:44.871230+00:00",
+          "description": "HTML template showing image, current title, editable suggested title, and action buttons",
+          "acceptance_criteria": [
+            "Image displays at max 800px width",
+            "Current (bad) title shown prominently",
+            "Suggested title in editable field",
+            "Approve/Skip/Back buttons",
+            "Progress indicator"
+          ],
+          "number": 2
+        },
+        {
+          "id": "e5363699",
+          "title": "Implement approve functionality",
+          "status": "complete",
+          "created_at": "2026-01-08T01:02:32.606099+00:00",
+          "updated_at": "2026-01-08T01:27:44.984724+00:00",
+          "description": "On approve: update title in frontmatter, remove suggested_title, update tracking file",
+          "acceptance_criteria": [
+            "Updates title field in artwork markdown",
+            "Removes suggested_title field",
+            "Updates status to completed in tracking file",
+            "Records final_title and completion timestamp"
+          ],
+          "number": 3
+        },
+        {
+          "id": "114abb00",
+          "title": "Add basic styling",
+          "status": "complete",
+          "created_at": "2026-01-08T01:02:32.928496+00:00",
+          "updated_at": "2026-01-08T01:27:45.088409+00:00",
+          "description": "CSS for clean, functional review interface",
+          "acceptance_criteria": [
+            "Clean layout",
+            "Readable typography",
+            "Clear button styling",
+            "Responsive image display"
+          ],
+          "number": 4
+        }
+      ],
+      "notes": [
+        {
+          "text": "Use uv run for all scripts - no global installs. Dependencies: pyyaml, flask.",
+          "created_at": "2026-01-08T01:09:37.741402+00:00"
+        }
+      ]
+    },
+    {
+      "id": "af66d7bd",
+      "title": "Test end-to-end workflow",
+      "status": "complete",
+      "created_at": "2026-01-08T01:02:40.108787+00:00",
+      "updated_at": "2026-01-08T01:28:46.616047+00:00",
+      "description": "Verify the complete pipeline works: triage identifies bad titles, review app displays and saves correctly",
+      "approach": "Run triage to generate tracking file, manually add suggested_title to one artwork, test review app approval flow, verify markdown is updated",
+      "acceptance_criteria": [
+        "Triage identifies ~160 bad titles",
+        "Flask app starts without errors",
+        "Image displays correctly in browser",
+        "Approve action updates markdown file",
+        "Progress tracking persists across sessions"
+      ],
+      "dependencies": [
+        "161dd4b8",
+        "83f71c2b"
+      ],
+      "number": 3,
+      "subtasks": []
+    },
+    {
+      "id": "da90eed2",
+      "title": "Generate title suggestions (incremental)",
+      "status": "in_progress",
+      "created_at": "2026-01-08T01:02:46.859094+00:00",
+      "updated_at": "2026-01-08T01:30:07.717017+00:00",
+      "description": "Claude Code views artwork images and adds suggested_title to frontmatter, 5-10 artworks per session",
+      "approach": "Read tracking file to find needs_review artworks, read each image, generate descriptive title following style guidelines, add suggested_title to frontmatter, update tracking file",
+      "acceptance_criteria": [
+        "Titles are descriptive and title-cased",
+        "Titles follow style guidelines (3-10 words)",
+        "suggested_title added to artwork frontmatter",
+        "Tracking file updated to has_suggestion status"
+      ],
+      "dependencies": [
+        "af66d7bd"
+      ],
+      "number": 4,
+      "subtasks": [],
+      "notes": [
+        {
+          "text": "Conversational batch control: user says 'do 5 more' or 'suggest titles for next 10'. Progress tracked in title_review_status.json so sessions can resume.",
+          "created_at": "2026-01-08T01:09:38.041667+00:00"
+        },
+        {
+          "text": "Added suggested titles to first batch of 5 artworks: Cal Band details (3), still life, and life drawing.",
+          "created_at": "2026-01-08T01:30:07.716759+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a28fb6a8",
+      "title": "Complete review cycle",
+      "status": "pending",
+      "created_at": "2026-01-08T01:02:52.620668+00:00",
+      "updated_at": "2026-01-08T01:02:52.620887+00:00",
+      "description": "Review all AI-suggested titles via web app and verify all bad titles have been replaced",
+      "approach": "Use review web app to approve/edit all suggested titles, run triage to verify no bad titles remain",
+      "acceptance_criteria": [
+        "All ~160 bad titles have been reviewed",
+        "Zero artworks remain with filename-style titles",
+        "All titles are descriptive and properly formatted"
+      ],
+      "dependencies": [
+        "da90eed2"
+      ],
+      "number": 5,
+      "subtasks": []
+    }
+  ]
+}

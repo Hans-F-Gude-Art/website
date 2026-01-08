@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "IMG_0056a.jpg"
+title: "Emily in the Living Room"
 image: /assets/images/galleries/emily/emily-studying.jpg
 galleries:
   - emily

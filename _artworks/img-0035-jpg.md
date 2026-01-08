@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "IMG_0035.JPG"
+title: "Studies for Emmy with Her Favorite Things"
 image: /assets/images/galleries/emily/emily-study-for-favorite-things.jpg
 galleries:
   - emily

@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "IMG_1568a.jpg"
+title: "Artist at Work on Cal Band Painting"
 image: /assets/images/galleries/cal-marching-band/artist-drawing-cal-band-painting.jpg
 galleries:
   - cal-band-drawings

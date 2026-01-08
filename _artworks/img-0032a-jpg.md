@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "IMG_0032a.jpg"
+title: "Still Life with Hiking Boots and Camping Gear"
 image: /assets/images/galleries/still-lifes/my-old-hiking-boots.jpg
 galleries:
   - select-oils

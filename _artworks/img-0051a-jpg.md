@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "IMG_0051a.jpg"
+title: "Paper Lanterns in the Garden"
 image: /assets/images/galleries/photographs/img-0051a-jpg.jpg
 galleries:
   - photographs

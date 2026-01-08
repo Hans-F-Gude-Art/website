@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "CIMG4194.JPG"
+title: "Transferring Cal Band Drawing to Canvas"
 image: /assets/images/galleries/cal-marching-band/cal-band-formation-tracing.jpg
 galleries:
   - cal-band-drawings
