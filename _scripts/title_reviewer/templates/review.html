@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title Review - {{ current_index }} of {{ total_count }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Artwork Title Review</h1>
+            <div class="progress">
+                <span class="progress-text">{{ current_index }} of {{ total_count }}</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: {{ (current_index / total_count * 100)|int }}%"></div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="image-container">
+                {% if image_path %}
+                <img src="/assets{{ image_path.replace('/assets', '') }}" alt="{{ current_title }}">
+                {% else %}
+                <div class="no-image">No image available</div>
+                {% endif %}
+            </div>
+
+            <div class="title-section">
+                <div class="current-title">
+                    <label>Current Title (bad):</label>
+                    <p class="bad-title">{{ current_title }}</p>
+                </div>
+
+                <form action="{{ url_for('approve') }}" method="POST" class="review-form">
+                    <input type="hidden" name="filename" value="{{ filename }}">
+
+                    <div class="suggested-title">
+                        <label for="title">Suggested Title:</label>
+                        <input type="text" id="title" name="title" value="{{ suggested_title }}" required>
+                    </div>
+
+                    <div class="actions">
+                        <div class="nav-buttons">
+                            {% if prev_filename %}
+                            <button type="button" class="btn btn-secondary" onclick="goBack()">Back</button>
+                            {% else %}
+                            <button type="button" class="btn btn-secondary" disabled>Back</button>
+                            {% endif %}
+
+                            <button type="button" class="btn btn-secondary" onclick="skip()">Skip</button>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Approve</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p class="filename">File: {{ filename }}</p>
+        </footer>
+    </div>
+
+    <form id="skip-form" action="{{ url_for('skip') }}" method="POST" style="display: none;">
+        <input type="hidden" name="filename" value="{{ filename }}">
+    </form>
+
+    <form id="back-form" action="{{ url_for('back') }}" method="POST" style="display: none;">
+        <input type="hidden" name="filename" value="{{ filename }}">
+    </form>
+
+    <script>
+        function skip() {
+            document.getElementById('skip-form').submit();
+        }
+
+        function goBack() {
+            document.getElementById('back-form').submit();
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            // Enter to approve (when not in input)
+            if (e.key === 'Enter' && e.target.tagName !== 'INPUT') {
+                document.querySelector('.review-form').submit();
+            }
+            // Escape or S to skip
+            if (e.key === 'Escape' || (e.key === 's' && e.target.tagName !== 'INPUT')) {
+                skip();
+            }
+            // B for back (when not in input)
+            if (e.key === 'b' && e.target.tagName !== 'INPUT') {
+                goBack();
+            }
+        });
+    </script>
+</body>
+</html>

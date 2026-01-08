@@ -3,8 +3,8 @@
   "generated_at": "2026-01-08T01:15:16.805784+00:00",
   "statistics": {
     "total": 420,
-    "needs_review": 161,
-    "has_suggestion": 0,
+    "needs_review": 160,
+    "has_suggestion": 1,
     "completed": 1,
     "good": 258
   },
@@ -32,13 +32,14 @@
       "final_title": "Cal Band Practice Detail"
     },
     "20140822-132903a-jpg.md": {
-      "status": "needs_review",
+      "status": "has_suggestion",
       "title": "20140822_132903a.jpg",
       "reasons": [
         "file_extension",
         "timestamp",
         "mostly_digits"
-      ]
+      ],
+      "suggested_title": "Cal Band Practice Close-Up"
     },
     "20140822-133020a-jpg.md": {
       "status": "needs_review",
