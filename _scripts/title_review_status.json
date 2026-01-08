@@ -1,0 +1,2406 @@
+{
+  "version": 1,
+  "generated_at": "2026-01-08T01:15:16.805784+00:00",
+  "statistics": {
+    "total": 420,
+    "needs_review": 161,
+    "has_suggestion": 0,
+    "completed": 1,
+    "good": 258
+  },
+  "by_classification": {
+    "file_extension": 160,
+    "timestamp": 4,
+    "mostly_digits": 60,
+    "url_encoded": 8,
+    "biography_number": 2,
+    "underscore_prefix": 1,
+    "camera_prefix": 126,
+    "hash_string": 1,
+    "wix_artifact": 10,
+    "screenshot": 1
+  },
+  "artworks": {
+    "20140822-131431a-jpg.md": {
+      "status": "completed",
+      "title": "20140822_131431a.jpg",
+      "reasons": [
+        "file_extension",
+        "timestamp",
+        "mostly_digits"
+      ],
+      "final_title": "Cal Band Practice Detail"
+    },
+    "20140822-132903a-jpg.md": {
+      "status": "needs_review",
+      "title": "20140822_132903a.jpg",
+      "reasons": [
+        "file_extension",
+        "timestamp",
+        "mostly_digits"
+      ]
+    },
+    "20140822-133020a-jpg.md": {
+      "status": "needs_review",
+      "title": "20140822_133020a.jpg",
+      "reasons": [
+        "file_extension",
+        "timestamp",
+        "mostly_digits"
+      ]
+    },
+    "20140822-133036a-jpg.md": {
+      "status": "needs_review",
+      "title": "20140822_133036a.jpg",
+      "reasons": [
+        "file_extension",
+        "timestamp",
+        "mostly_digits"
+      ]
+    },
+    "20140822-133059a-jpg.md": {
+      "status": "needs_review",
+      "title": "20140822_133059a.jpg",
+      "reasons": [
+        "file_extension",
+        "timestamp",
+        "mostly_digits"
+      ]
+    },
+    "2772605131-800182b279-o-jpg.md": {
+      "status": "needs_review",
+      "title": "2772605131_800182b279_o.jpg",
+      "reasons": [
+        "file_extension",
+        "mostly_digits"
+      ]
+    },
+    "4-x-6-foot-canvas.md": {
+      "status": "good",
+      "title": "4 x 6-Foot Canvas"
+    },
+    "a-few-of-coritos-favorite-things-in-progress.md": {
+      "status": "good",
+      "title": "A Few of Corito's Favorite Things  (In Progress)"
+    },
+    "aerial-view-shadow-studies-of-the-ky-ebright-boat-house.md": {
+      "status": "good",
+      "title": "Aerial View--Shadow Studies of the Ky Ebright Boat House"
+    },
+    "alex-and-connie-wedding.md": {
+      "status": "good",
+      "title": "Alex and Connie Wedding"
+    },
+    "alexander.md": {
+      "status": "good",
+      "title": "Alexander"
+    },
+    "allante.md": {
+      "status": "good",
+      "title": "Allante"
+    },
+    "alpine-scene-after-bierstadt.md": {
+      "status": "good",
+      "title": "Alpine Scene (after Bierstadt)"
+    },
+    "animal-skul.md": {
+      "status": "good",
+      "title": "Animal Skul"
+    },
+    "animal-skull-2.md": {
+      "status": "good",
+      "title": "Animal Skull"
+    },
+    "apple-pie.md": {
+      "status": "good",
+      "title": "Apple Pie"
+    },
+    "asdlkjsafd-jpg.md": {
+      "status": "needs_review",
+      "title": "asdlkjsafd.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "ash-at-playground-2-jpg.md": {
+      "status": "needs_review",
+      "title": "Ash at playground 2.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "back-of-the-hotel.md": {
+      "status": "good",
+      "title": "Back of the Hotel"
+    },
+    "backyard-20nightscape-jpg.md": {
+      "status": "needs_review",
+      "title": "Backyard%20Nightscape.jpg",
+      "reasons": [
+        "file_extension",
+        "url_encoded"
+      ]
+    },
+    "belvedere-torso.md": {
+      "status": "good",
+      "title": "Belvedere Torso"
+    },
+    "biorgraphy0005-jpg.md": {
+      "status": "needs_review",
+      "title": "biorgraphy0005.jpg",
+      "reasons": [
+        "file_extension",
+        "biography_number"
+      ]
+    },
+    "biorgraphy0006-jpg.md": {
+      "status": "needs_review",
+      "title": "biorgraphy0006.jpg",
+      "reasons": [
+        "file_extension",
+        "biography_number"
+      ]
+    },
+    "black-tide.md": {
+      "status": "good",
+      "title": "Black Tide"
+    },
+    "blue-boat-2.md": {
+      "status": "good",
+      "title": "Blue Boat"
+    },
+    "blue-boat.md": {
+      "status": "good",
+      "title": "Blue Boat"
+    },
+    "blue-boats-outside-the-snack-shack.md": {
+      "status": "good",
+      "title": "Blue Boats Outside the Snack Shack"
+    },
+    "blue-oski-j.md": {
+      "status": "good",
+      "title": "Blue Oski.j"
+    },
+    "boats-2.md": {
+      "status": "good",
+      "title": "Boats"
+    },
+    "boats.md": {
+      "status": "good",
+      "title": "Boats"
+    },
+    "bridge-over-strawberry-creek-2.md": {
+      "status": "good",
+      "title": "Bridge Over Strawberry Creek"
+    },
+    "bridge-over-strawberry-creek-next-to-moses-hall-university.md": {
+      "status": "good",
+      "title": "Bridge Over Strawberry Creek Next to Moses Hall, University of California, Berkeley"
+    },
+    "bridge-over-strawberry-creek.md": {
+      "status": "good",
+      "title": "Bridge Over Strawberry Creek"
+    },
+    "bunny.md": {
+      "status": "good",
+      "title": "Bunny"
+    },
+    "burning-college-notes-at-term-end.md": {
+      "status": "good",
+      "title": "Burning College Notes at Term End"
+    },
+    "bvv-ink-drawing-detail7-jpg.md": {
+      "status": "needs_review",
+      "title": "BVV Ink Drawing Detail7.JPG",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "cal-band.md": {
+      "status": "good",
+      "title": "Cal Band"
+    },
+    "cal-coach-pappy-and-the-wood-nymph-dryad.md": {
+      "status": "good",
+      "title": "Cal Coach Pappy and the Wood Nymph (Dryad)"
+    },
+    "california-golden-bear-with-sather-tower-the-campanile.md": {
+      "status": "good",
+      "title": "California Golden Bear with Sather Tower (the 'Campanile'), University of California, Berkeley"
+    },
+    "calima-poster-general-nov-2021-png.md": {
+      "status": "needs_review",
+      "title": "_Calima_Poster_General_Nov_2021.png",
+      "reasons": [
+        "file_extension",
+        "underscore_prefix"
+      ]
+    },
+    "canoes.md": {
+      "status": "good",
+      "title": "Canoes"
+    },
+    "cartoon.md": {
+      "status": "good",
+      "title": "Cartoon"
+    },
+    "charcoal-with-white-highlights-on-toned-butcher-paper-2.md": {
+      "status": "good",
+      "title": "Charcoal with white highlights on toned butcher paper"
+    },
+    "charcoal-with-white-highlights-on-toned-butcher-paper-3.md": {
+      "status": "good",
+      "title": "Charcoal with white highlights on toned butcher paper"
+    },
+    "charcoal-with-white-highlights-on-toned-butcher-paper-4.md": {
+      "status": "good",
+      "title": "Charcoal with white highlights on toned butcher paper"
+    },
+    "charcoal-with-white-highlights-on-toned-butcher-paper.md": {
+      "status": "good",
+      "title": "Charcoal with white highlights on toned butcher paper"
+    },
+    "chp-team-competition.md": {
+      "status": "good",
+      "title": "CHP Team Competition"
+    },
+    "cimg4100ab-jpg.md": {
+      "status": "needs_review",
+      "title": "CIMG4100ab.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "cimg4194-jpg.md": {
+      "status": "needs_review",
+      "title": "CIMG4194.JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "cloud-over-berkeley.md": {
+      "status": "good",
+      "title": "Cloud Over Berkeley"
+    },
+    "color-and-design-study-for-rowing-painting.md": {
+      "status": "good",
+      "title": "Color and Design Study for Rowing Painting"
+    },
+    "color-design-study-for-cal-rowing-painting.md": {
+      "status": "good",
+      "title": "Color & Design Study for Cal Rowing Painting"
+    },
+    "connie-napping-detail.md": {
+      "status": "good",
+      "title": "Connie Napping (Detail)"
+    },
+    "corito-in-an-old-forge-ny-hat.md": {
+      "status": "good",
+      "title": "Corito in an Old Forge, NY, Hat"
+    },
+    "cory-with-la-vaca-lola.md": {
+      "status": "good",
+      "title": "Cory with La Vaca Lola"
+    },
+    "design-plan-for-the-band-painting.md": {
+      "status": "good",
+      "title": "Design Plan for the Band Painting"
+    },
+    "detailed-study-of-the-south-side-of-stephens-hall-with.md": {
+      "status": "good",
+      "title": "Detailed study of the south side of Stephens Hall, with sunlight notes, for gouache painting, University of California, Berkeley"
+    },
+    "dfgefg-jpg.md": {
+      "status": "needs_review",
+      "title": "dfgefg.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "dfsd-a-jpg.md": {
+      "status": "needs_review",
+      "title": "dfsd-a.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "douglas-tildens-statue-the-football-players-university-of-2.md": {
+      "status": "good",
+      "title": "Douglas Tilden's statue \\\"The Football Players,\\\" University of California, Berkeley"
+    },
+    "douglas-tildens-statue-the-football-players-university-of.md": {
+      "status": "good",
+      "title": "Douglas Tilden's statue \\\"The Football Players,\\\" University of California, Berkeley "
+    },
+    "drawing-made-during-high-school-library-study-period.md": {
+      "status": "good",
+      "title": "Drawing made during high school library study period "
+    },
+    "drawing-on-canvas-for-connie-napping-painting.md": {
+      "status": "good",
+      "title": "Drawing on Canvas for 'Connie Napping Painting'"
+    },
+    "early-concept-sketch.md": {
+      "status": "good",
+      "title": "Early concept sketch"
+    },
+    "elevator-bank.md": {
+      "status": "good",
+      "title": "Elevator Bank "
+    },
+    "emily-at-21-2.md": {
+      "status": "good",
+      "title": "Emily at 21"
+    },
+    "emily-at-21.md": {
+      "status": "good",
+      "title": "Emily at 21"
+    },
+    "emily-at-the-piano.md": {
+      "status": "good",
+      "title": "Emily at the Piano"
+    },
+    "emily-in-the-time-of-covid.md": {
+      "status": "good",
+      "title": "Emily in the Time of COVID"
+    },
+    "emily-preparing-the-thanksgiving-rosemary.md": {
+      "status": "good",
+      "title": "Emily Preparing the Thanksgiving Rosemary"
+    },
+    "emmy-with-her-favorite-things.md": {
+      "status": "good",
+      "title": "Emmy with Her Favorite Things"
+    },
+    "eyes-jpg.md": {
+      "status": "needs_review",
+      "title": "eyes.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "f11310-4ed5125bcb3f43faa1b1bf5f7ab04bd7.md": {
+      "status": "needs_review",
+      "title": "f11310_4ed5125bcb3f43faa1b1bf5f7ab04bd7.",
+      "reasons": [
+        "hash_string"
+      ]
+    },
+    "female-figure-10.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure-11.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure-12.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure-13.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure-14.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure-15.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure-2.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure-4.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure-5.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure-6.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure-7.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure-8.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure-9.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "female-figure.md": {
+      "status": "good",
+      "title": "Female figure"
+    },
+    "ferry-boats-san-francisco.md": {
+      "status": "good",
+      "title": "Ferry Boats, San Francisco"
+    },
+    "figure-study-after-falero.md": {
+      "status": "good",
+      "title": "Figure Study (after Falero)"
+    },
+    "figures-on-hearst-mining-building-facade.md": {
+      "status": "good",
+      "title": "Figures on Hearst Mining Building Facade"
+    },
+    "final-concept-sketch.md": {
+      "status": "good",
+      "title": "Final Concept Sketch"
+    },
+    "final-drawing-for-trompe-loeil-painting.md": {
+      "status": "good",
+      "title": "Final Drawing for Trompe l'oeil Painting"
+    },
+    "final-layout-for-painting.md": {
+      "status": "good",
+      "title": "Final Layout for Painting"
+    },
+    "fjord-after-f-church.md": {
+      "status": "good",
+      "title": "Fjord (after F. Church)"
+    },
+    "flower.md": {
+      "status": "good",
+      "title": "Flower"
+    },
+    "flowers-2.md": {
+      "status": "good",
+      "title": "Flowers"
+    },
+    "flowers.md": {
+      "status": "good",
+      "title": "Flowers"
+    },
+    "for-wix-2-jpg.md": {
+      "status": "needs_review",
+      "title": "for wix 2.jpg",
+      "reasons": [
+        "file_extension",
+        "wix_artifact"
+      ]
+    },
+    "for-wix-site-jpg.md": {
+      "status": "needs_review",
+      "title": "for wix site.jpg",
+      "reasons": [
+        "file_extension",
+        "wix_artifact"
+      ]
+    },
+    "golden-gate-bridge.md": {
+      "status": "good",
+      "title": "Golden Gate Bridge"
+    },
+    "gude-med-res-jpg.md": {
+      "status": "needs_review",
+      "title": "Gude med res.jpg",
+      "reasons": [
+        "file_extension",
+        "wix_artifact"
+      ]
+    },
+    "half-dome-yosemite.md": {
+      "status": "good",
+      "title": "Half Dome, Yosemite"
+    },
+    "hand-detail.md": {
+      "status": "good",
+      "title": "Hand detail"
+    },
+    "hans-painting-under-the-pagoda-at-viking-village.md": {
+      "status": "good",
+      "title": "Hans Painting Under the Pagoda at Viking Village"
+    },
+    "hearst-mining-circle-uc-berkeley.md": {
+      "status": "good",
+      "title": "Hearst Mining Circle, UC Berkeley"
+    },
+    "high-20school-20surreal-20sketch-jpg.md": {
+      "status": "needs_review",
+      "title": "High%20School%20Surreal%20Sketch.jpg",
+      "reasons": [
+        "file_extension",
+        "url_encoded"
+      ]
+    },
+    "hotel-deck.md": {
+      "status": "good",
+      "title": "Hotel Deck"
+    },
+    "hotel-side-door-2.md": {
+      "status": "good",
+      "title": "Hotel Side Door"
+    },
+    "hotel-side-door-3.md": {
+      "status": "good",
+      "title": "Hotel Side Door"
+    },
+    "hotel-side-door.md": {
+      "status": "good",
+      "title": "Hotel Side Door"
+    },
+    "hotel.md": {
+      "status": "good",
+      "title": "Hotel"
+    },
+    "house-in-the-catskils.md": {
+      "status": "good",
+      "title": "House in the Catskils"
+    },
+    "img-0003a-jpg-3.md": {
+      "status": "needs_review",
+      "title": "IMG_0003a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0003a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0003a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0008-edited-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0008_edited.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "wix_artifact"
+      ]
+    },
+    "img-0009a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0009a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0015a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0015a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0017-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0017.JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0019-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0019.JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0019a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0019a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0023a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0023a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0025a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0025a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0032a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0032a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0035-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0035.JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0038a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0038a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0040a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0040a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0041a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0041a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0042a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0042a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0051a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0051a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0056a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0056a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0060a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0060a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0066a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0066a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0067a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0067a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0070a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0070a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0074a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0074a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0075a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0075a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0088a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0088a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0089a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0089a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0098-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0098.JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0128-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0128.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0237d-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0237d.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0255a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0255a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0277a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0277a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0285a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0285a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0296a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0296a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0314a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0314a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0326a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0326a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-0625-201-edited-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0625%20(1)_edited.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "url_encoded",
+        "wix_artifact"
+      ]
+    },
+    "img-0632-201-edited-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_0632%20(1)_edited.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "url_encoded",
+        "wix_artifact"
+      ]
+    },
+    "img-1502a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_1502a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-1568a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_1568a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-1834-20-20copy-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_1834%20-%20Copy.JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "url_encoded"
+      ]
+    },
+    "img-1840-2-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_1840 (2).JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-1841-2-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_1841 (2).JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-1850-202-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_1850%20(2).JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "url_encoded"
+      ]
+    },
+    "img-1851-202-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_1851%20(2).JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "url_encoded"
+      ]
+    },
+    "img-20160918-161807421-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20160918_161807421.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20161220-133038544-hdr-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20161220_133038544_HDR.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20161223-113619694-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20161223_113619694.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20170418-195430-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20170418_195430.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20170813-122453-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20170813_122453.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20170826-165827-edited-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20170826_165827_edited.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "wix_artifact"
+      ]
+    },
+    "img-20180728-215337-1-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20180728_215337 (1).jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190326-123621634-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190326_123621634.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190514-142621319-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190514_142621319.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190514-142924347-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190514_142924347.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190514-143018811-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190514_143018811.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190514-143025569-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190514_143025569.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190514-143102040-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190514_143102040.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190514-143322358-1-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190514_143322358 (1).jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190514-143322358-2-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190514_143322358 (2).jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190514-143322358-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190514_143322358.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190514-143935273-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190514_143935273.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190514-143945183-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190514_143945183.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190514-144146834-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190514_144146834.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190514-151523842-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190514_151523842.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190515-142738310-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190515_142738310.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190515-143349943-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190515_143349943.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190515-144600186-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190515_144600186.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190517-152040886-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190517_152040886.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190517-152056676-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190517_152056676.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190517-152108988-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190517_152108988.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190517-152148159-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190517_152148159.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190517-152308874-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190517_152308874.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190518-180750418-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190518_180750418.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190520-165223431-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190520_165223431.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190520-165231821-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190520_165231821.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190520-165244592-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190520_165244592.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190520-165332764-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190520_165332764.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190629-221318-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190629_221318.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190926-160911-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190926_160911.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20190926-170510-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20190926_170510.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20191005-145549-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20191005_145549.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20191005-145616-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20191005_145616.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20191005-145628-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20191005_145628.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20191005-145653-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20191005_145653.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20191005-145704-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20191005_145704.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20191005-145735-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20191005_145735.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20191005-145845-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20191005_145845.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20191005-145908-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20191005_145908.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20191005-150021-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20191005_150021.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20191218-143636-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20191218_143636.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20191218-143643-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20191218_143643.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20191218-143652-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20191218_143652.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-20200610-124733-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_20200610_124733.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "img-2874-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_2874.JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-3066a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_3066a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-3166b-png.md": {
+      "status": "needs_review",
+      "title": "IMG_3166b.png",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-3168-png.md": {
+      "status": "needs_review",
+      "title": "IMG_3168.png",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-3169-png.md": {
+      "status": "needs_review",
+      "title": "IMG_3169.png",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-3171-png.md": {
+      "status": "needs_review",
+      "title": "IMG_3171.png",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-3181b-edited-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_3181b_edited.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "wix_artifact"
+      ]
+    },
+    "img-3182-png.md": {
+      "status": "needs_review",
+      "title": "IMG_3182.png",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-3183-png.md": {
+      "status": "needs_review",
+      "title": "IMG_3183.png",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-4942-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_4942.JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-6325a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_6325a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-6328a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_6328a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-6329a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_6329a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-6340a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_6340a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-6362a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_6362a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-8587a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_8587a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-8597a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_8597a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-8599a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_8599a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-8601a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_8601a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-8605a-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_8605a.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-9426-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_9426.JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "img-9429-jpg.md": {
+      "status": "needs_review",
+      "title": "IMG_9429.JPG",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "imperial-palace-2.md": {
+      "status": "good",
+      "title": "Imperial Palace"
+    },
+    "imperial-palace-tokyo.md": {
+      "status": "good",
+      "title": "Imperial Palace, Tokyo"
+    },
+    "imperial-palace.md": {
+      "status": "good",
+      "title": "Imperial Palace"
+    },
+    "its-all-about-two-wheels.md": {
+      "status": "good",
+      "title": "It's All About Two Wheels"
+    },
+    "jpg-of-final-poster-jpg.md": {
+      "status": "needs_review",
+      "title": "JPG of final poster.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "kevin-at-the-woods.md": {
+      "status": "good",
+      "title": "Kevin at the Woods"
+    },
+    "ky-ebright-boathouse-in-progress.md": {
+      "status": "good",
+      "title": "Ky Ebright Boathouse (in progress)"
+    },
+    "ky-ebright.md": {
+      "status": "good",
+      "title": "Ky Ebright"
+    },
+    "lake-scene-adirondacks.md": {
+      "status": "good",
+      "title": "Lake Scene, Adirondacks"
+    },
+    "landscape-after-a-bierstadt.md": {
+      "status": "good",
+      "title": "Landscape (After A. Bierstadt)"
+    },
+    "last-500-meters-in-the-montlake-cut.md": {
+      "status": "good",
+      "title": "Last 500 Meters in the Montlake Cut"
+    },
+    "laurel-reading.md": {
+      "status": "good",
+      "title": "Laurel Reading"
+    },
+    "layout-design-for-painting.md": {
+      "status": "good",
+      "title": "Layout Design for Painting"
+    },
+    "ldsf-3bfkg-jpg.md": {
+      "status": "needs_review",
+      "title": "ldsf%3Bfkg.jpg",
+      "reasons": [
+        "file_extension",
+        "url_encoded"
+      ]
+    },
+    "lincoln-bust-at-the-base-of-sather-tower-campanile.md": {
+      "status": "good",
+      "title": "Lincoln bust at the base of Sather Tower (Campanile), University of California, Berkeley"
+    },
+    "living-room-corner.md": {
+      "status": "good",
+      "title": "Living Room Corner"
+    },
+    "lkfdjg-jpg.md": {
+      "status": "needs_review",
+      "title": "lkfdjg.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "marilyn-jpg.md": {
+      "status": "needs_review",
+      "title": "marilyn.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "mclaughlin-hall-university-of-california-berkeley.md": {
+      "status": "good",
+      "title": "McLaughlin Hall, University of California, Berkeley"
+    },
+    "moen-parts-the-red-sea-jpg.md": {
+      "status": "needs_review",
+      "title": "Moen Parts the Red Sea.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "montlake-bridge.md": {
+      "status": "good",
+      "title": "Montlake Bridge"
+    },
+    "mt-diablo-at-sunrise.md": {
+      "status": "good",
+      "title": "Mt. Diablo at Sunrise"
+    },
+    "mt-diablo-at-sunset-detail-2.md": {
+      "status": "good",
+      "title": "Mt. Diablo at Sunset (detail)"
+    },
+    "mt-diablo-at-sunset-detail.md": {
+      "status": "good",
+      "title": "Mt. Diablo at Sunset (detail)"
+    },
+    "mt-diablo-at-sunset-in-progress.md": {
+      "status": "good",
+      "title": "Mt. Diablo at Sunset (in progress)"
+    },
+    "mt-diablo-at-sunset-view-from-byron.md": {
+      "status": "good",
+      "title": "Mt. Diablo at Sunset (View from Byron)"
+    },
+    "mt-diablo-at-sunset.md": {
+      "status": "good",
+      "title": "Mt. Diablo at Sunset"
+    },
+    "mt-diablo-in-morning-fog.md": {
+      "status": "good",
+      "title": "Mt. Diablo in Morning Fog"
+    },
+    "mt-diablo-in-winter-in-progress.md": {
+      "status": "good",
+      "title": "Mt. Diablo in Winter (in progress)"
+    },
+    "my-toes.md": {
+      "status": "good",
+      "title": "My Toes"
+    },
+    "nymph-jpg.md": {
+      "status": "needs_review",
+      "title": "Nymph.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "office-and-hotel-2.md": {
+      "status": "good",
+      "title": "Office and Hotel"
+    },
+    "office-and-hotel.md": {
+      "status": "good",
+      "title": "Office and Hotel"
+    },
+    "oil-on-canvas-3-x-4-feet-1-0-x-1-3-m.md": {
+      "status": "good",
+      "title": "Oil on Canvas, 3 x 4 Feet (1.0 x 1.3 M)"
+    },
+    "oil-on-canvas-3-x-4-feet-1-x-1-3-m.md": {
+      "status": "good",
+      "title": "Oil on Canvas, 3 x 4 feet (1 x 1.3 M)"
+    },
+    "oil-on-canvas-3.md": {
+      "status": "good",
+      "title": "Oil on Canvas"
+    },
+    "oil-on-canvas-board-11-x-14-inches-28-x-36-cm.md": {
+      "status": "good",
+      "title": "Oil on Canvas Board, 11 x 14 inches (28 x 36 cm)"
+    },
+    "oil-on-canvas.md": {
+      "status": "good",
+      "title": "Oil on Canvas"
+    },
+    "oil-on-paper.md": {
+      "status": "good",
+      "title": "Oil on Paper"
+    },
+    "oil-study-of-mt-diablo.md": {
+      "status": "good",
+      "title": "Oil Study of Mt. Diablo"
+    },
+    "old-chair-in-the-spruce.md": {
+      "status": "good",
+      "title": "Old Chair in the Spruce"
+    },
+    "oski-crossing-the-delaware-9x12-jpg.md": {
+      "status": "needs_review",
+      "title": "Oski_Crossing_the_Delaware_9x12.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "oski-gothic.md": {
+      "status": "good",
+      "title": "Oski Gothic"
+    },
+    "oski-nighthawk-axe-jpg.md": {
+      "status": "needs_review",
+      "title": "Oski Nighthawk--Axe.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "oski-nighthawk-helmet-jpg.md": {
+      "status": "needs_review",
+      "title": "Oski Nighthawk--Helmet.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "oski-nighthawk-license-plate-jpg.md": {
+      "status": "needs_review",
+      "title": "Oski Nighthawk--License Plate.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "oski-nighthawk-oski-jpg.md": {
+      "status": "needs_review",
+      "title": "Oski Nighthawk--Oski.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "oski-nighthawk-tree-jpg.md": {
+      "status": "needs_review",
+      "title": "Oski Nighthawk--Tree.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "oski-nighthawk.md": {
+      "status": "good",
+      "title": "Oski Nighthawk"
+    },
+    "oskis-mother.md": {
+      "status": "good",
+      "title": "Oski's Mother"
+    },
+    "parasols-in-yosemite.md": {
+      "status": "good",
+      "title": "Parasols in Yosemite"
+    },
+    "pen-and-ink-on-paper-2.md": {
+      "status": "good",
+      "title": "Pen and Ink on Paper"
+    },
+    "pen-ink-on-paper.md": {
+      "status": "good",
+      "title": "Pen & Ink on Paper"
+    },
+    "pencil-on-paper-3.md": {
+      "status": "good",
+      "title": "Pencil on Paper"
+    },
+    "pencil-on-paper-5.md": {
+      "status": "good",
+      "title": "Pencil on Paper"
+    },
+    "pencil-on-paper-6.md": {
+      "status": "good",
+      "title": "Pencil on Paper"
+    },
+    "pencil-on-paper-7.md": {
+      "status": "good",
+      "title": "Pencil on Paper"
+    },
+    "pencil-on-paper-with-white-gouache-highlights-8-x-10.md": {
+      "status": "good",
+      "title": "Pencil on Paper with White Gouache Highlights, 8 x 10"
+    },
+    "pencil-on-paper.md": {
+      "status": "good",
+      "title": "Pencil on paper"
+    },
+    "plant-2.md": {
+      "status": "good",
+      "title": "Plant"
+    },
+    "plant.md": {
+      "status": "good",
+      "title": "Plant"
+    },
+    "plaque-under-the-painting.md": {
+      "status": "good",
+      "title": "Plaque under the painting."
+    },
+    "pxl-20210102-180523581-jpg.md": {
+      "status": "needs_review",
+      "title": "PXL_20210102_180523581.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "pxl-20210322-225724434-jpg.md": {
+      "status": "needs_review",
+      "title": "PXL_20210322_225724434.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "pxl-20211201-223548669-jpg.md": {
+      "status": "needs_review",
+      "title": "PXL_20211201_223548669.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "pxl-20220307-184124207-jpg.md": {
+      "status": "needs_review",
+      "title": "PXL_20220307_184124207.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "pxl-20220811-184141090-jpg.md": {
+      "status": "needs_review",
+      "title": "PXL_20220811_184141090.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "pxl-20220811-230209999-jpg.md": {
+      "status": "needs_review",
+      "title": "PXL_20220811_230209999.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "mostly_digits"
+      ]
+    },
+    "pxl-20220811-230936107-portrait-jpg.md": {
+      "status": "needs_review",
+      "title": "PXL_20220811_230936107.PORTRAIT.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "pxl-20220817-204301312-edited-jpg.md": {
+      "status": "needs_review",
+      "title": "PXL_20220817_204301312_edited.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix",
+        "wix_artifact",
+        "mostly_digits"
+      ]
+    },
+    "pxl-20221012-194329828-portrait-jpg.md": {
+      "status": "needs_review",
+      "title": "PXL_20221012_194329828.PORTRAIT.jpg",
+      "reasons": [
+        "file_extension",
+        "camera_prefix"
+      ]
+    },
+    "reclining-figure-after-iredell.md": {
+      "status": "good",
+      "title": "Reclining Figure (after Iredell)"
+    },
+    "reclining-nude-after-iradell.md": {
+      "status": "good",
+      "title": "Reclining Nude (After Iradell)"
+    },
+    "rowing-study-10.md": {
+      "status": "good",
+      "title": "Rowing Study"
+    },
+    "rowing-study-11.md": {
+      "status": "good",
+      "title": "Rowing Study"
+    },
+    "rowing-study-2.md": {
+      "status": "good",
+      "title": "Rowing Study"
+    },
+    "rowing-study-3.md": {
+      "status": "good",
+      "title": "Rowing Study"
+    },
+    "rowing-study-4.md": {
+      "status": "good",
+      "title": "Rowing Study"
+    },
+    "rowing-study-5.md": {
+      "status": "good",
+      "title": "Rowing Study"
+    },
+    "rowing-study-6.md": {
+      "status": "good",
+      "title": "Rowing study"
+    },
+    "rowing-study-7.md": {
+      "status": "good",
+      "title": "Rowing Study"
+    },
+    "rowing-study-8.md": {
+      "status": "good",
+      "title": "Rowing study"
+    },
+    "rowing-study-9.md": {
+      "status": "good",
+      "title": "Rowing Study"
+    },
+    "rowing-study.md": {
+      "status": "good",
+      "title": "Rowing Study"
+    },
+    "san-francisco-drawbridge.md": {
+      "status": "good",
+      "title": "San Francisco Drawbridge"
+    },
+    "san-francisco-fire-boat.md": {
+      "status": "good",
+      "title": "San Francisco Fire Boat"
+    },
+    "santa-barbara-coastline.md": {
+      "status": "good",
+      "title": "Santa Barbara Coastline"
+    },
+    "sather-gate-uc-berkeley.md": {
+      "status": "good",
+      "title": "Sather Gate, UC Berkeley"
+    },
+    "sather-tower-campanile-university-of-california-berkeley-2.md": {
+      "status": "good",
+      "title": "Sather Tower (Campanile), University of California, Berkeley"
+    },
+    "sather-tower-campanile-university-of-california-berkeley.md": {
+      "status": "good",
+      "title": "Sather Tower (Campanile), University of California, Berkeley"
+    },
+    "sather-tower-in-afternoon-light.md": {
+      "status": "good",
+      "title": "Sather Tower in Afternoon Light"
+    },
+    "sather-tower-in-morning-fog.md": {
+      "status": "good",
+      "title": "Sather Tower in Morning Fog"
+    },
+    "sather-tower-with-the-big-c-uc-berkeley.md": {
+      "status": "good",
+      "title": "Sather Tower with the Big C, UC Berkeley"
+    },
+    "saturn-detail.md": {
+      "status": "good",
+      "title": "Saturn (detail)"
+    },
+    "saturn.md": {
+      "status": "good",
+      "title": "Saturn"
+    },
+    "scandinavian-fjord-after-f-church.md": {
+      "status": "good",
+      "title": "Scandinavian Fjord (after F. Church)"
+    },
+    "screenshot-2020-10-27-201621-jpg.md": {
+      "status": "needs_review",
+      "title": "Screenshot 2020-10-27 201621.jpg",
+      "reasons": [
+        "file_extension",
+        "screenshot"
+      ]
+    },
+    "self-portrait-as-anatomical-study.md": {
+      "status": "good",
+      "title": "Self-Portrait as Anatomical Study"
+    },
+    "self-portrait-as-maldoror-or-self-portrait-in-broken-glass-3.md": {
+      "status": "good",
+      "title": "Self-Portrait as Maldoror (or Self-Portrait in Broken Glass)"
+    },
+    "self-portrait-as-maldoror-or-self-portrait-in-broken-glass.md": {
+      "status": "good",
+      "title": "Self-Portrait as Maldoror (or Self-Portrait in Broken Glass)"
+    },
+    "sewing-table-in-the-sun.md": {
+      "status": "good",
+      "title": "Sewing Table in the Sun"
+    },
+    "sgt-eddie-chan-sjpd.md": {
+      "status": "good",
+      "title": "Sgt. Eddie Chan, SJPD"
+    },
+    "sketchbook-page.md": {
+      "status": "good",
+      "title": "Sketchbook page"
+    },
+    "snack-shack-2.md": {
+      "status": "good",
+      "title": "Snack Shack"
+    },
+    "snack-shack.md": {
+      "status": "good",
+      "title": "Snack Shack"
+    },
+    "son-of-oski.md": {
+      "status": "good",
+      "title": "Son of Oski"
+    },
+    "spain-poster.md": {
+      "status": "good",
+      "title": "Spain Poster"
+    },
+    "spanish-balcony.md": {
+      "status": "good",
+      "title": "Spanish Balcony"
+    },
+    "stairs-up-to-university-house-study-for-an-oil-painting.md": {
+      "status": "good",
+      "title": "Stairs Up to University House, Study for an Oil Painting, University of California, Berkeley"
+    },
+    "statue-on-facade-of-hearst-memorial-mining-building-2.md": {
+      "status": "good",
+      "title": "Statue on facade of Hearst Memorial Mining Building, University of California, Berkeley"
+    },
+    "statue-on-facade-of-hearst-memorial-mining-building.md": {
+      "status": "good",
+      "title": "Statue on facade of Hearst Memorial Mining Building, University of California, Berkeley"
+    },
+    "statues-of-coach-pappy-waldorf-and-the-last-dryaduniversity.md": {
+      "status": "good",
+      "title": "Statues of Coach Pappy Waldorf and \\\"the Last Dryad,\\\"University of California, Berkeley on Faculty Glade"
+    },
+    "statues-on-facade-of-hearst-memorial-mining-building.md": {
+      "status": "good",
+      "title": "Statues on facade of Hearst Memorial Mining Building, University of California, Berkeley"
+    },
+    "stephens-hall-uc-berkeley.md": {
+      "status": "good",
+      "title": "Stephens Hall, UC Berkeley"
+    },
+    "stephens-hall-with-coach-pappy-waldorf-university-of.md": {
+      "status": "good",
+      "title": "Stephens Hall with Coach Pappy Waldorf, University of California, Berkeley"
+    },
+    "steps-next-to-moses-hall-beginning-the-drawing-on-campus.md": {
+      "status": "good",
+      "title": "Steps Next to Moses Hall. Beginning the drawing on campus..."
+    },
+    "steps-next-to-moses-hall-beginning-to-apply-ink.md": {
+      "status": "good",
+      "title": "Steps Next to Moses Hall. Beginning to apply ink..."
+    },
+    "stewarts-instruments.md": {
+      "status": "good",
+      "title": "Stewart's Instruments"
+    },
+    "stewarts-trumpet.md": {
+      "status": "good",
+      "title": "Stewart's Trumpet"
+    },
+    "still-life-with-blue-bottle.md": {
+      "status": "good",
+      "title": "Still Life with Blue Bottle"
+    },
+    "still-life-with-cal-band-hat-and-skull.md": {
+      "status": "good",
+      "title": "Still Life with Cal Band Hat and Skull"
+    },
+    "still-life-with-silver-tea-pot-baseball-and-diplodocus-2.md": {
+      "status": "good",
+      "title": "Still Life with Silver Tea Pot, Baseball, and Diplodocus"
+    },
+    "still-life-with-silver-tea-pot-baseball-and-diplodocus.md": {
+      "status": "good",
+      "title": "Still Life with Silver Tea Pot, Baseball, and Diplodocus"
+    },
+    "still-life-with-skull.md": {
+      "status": "good",
+      "title": "Still Life with Skull"
+    },
+    "still-life-with-swedish-horse-and-skull-detail.md": {
+      "status": "good",
+      "title": "Still Life with Swedish Horse and Skull (detail)"
+    },
+    "still-life-with-ukulele.md": {
+      "status": "good",
+      "title": "Still Life with Ukulele"
+    },
+    "studies-of-the-skull.md": {
+      "status": "good",
+      "title": "Studies of the Skull"
+    },
+    "study-for-band-painting.md": {
+      "status": "good",
+      "title": "Study for Band Painting"
+    },
+    "study-for-imperial-palace-tokyo.md": {
+      "status": "good",
+      "title": "Study for Imperial Palace, Tokyo"
+    },
+    "study-for-mclaughlin-hall-university-of-california-berkeley.md": {
+      "status": "good",
+      "title": "Study for McLaughlin Hall, University of California, Berkeley"
+    },
+    "study-of-a-face.md": {
+      "status": "good",
+      "title": "Study of a Face"
+    },
+    "study-of-a-football-player.md": {
+      "status": "good",
+      "title": "Study of a Football Player"
+    },
+    "study-of-airplane-wing.md": {
+      "status": "good",
+      "title": "Study of Airplane Wing"
+    },
+    "study-of-boat-in-belize-harbor-2.md": {
+      "status": "good",
+      "title": "Study of Boat in Belize Harbor"
+    },
+    "study-of-boat-in-belize-harbor.md": {
+      "status": "good",
+      "title": "Study of Boat in Belize Harbor"
+    },
+    "study-of-boathouse-proportions.md": {
+      "status": "good",
+      "title": "Study of Boathouse Proportions"
+    },
+    "study-of-boats-in-belize-harbor.md": {
+      "status": "good",
+      "title": "Study of Boats in Belize Harbor"
+    },
+    "study-of-mt-diable.md": {
+      "status": "good",
+      "title": "Study of Mt. Diable"
+    },
+    "study-of-mt-diablo-3.md": {
+      "status": "good",
+      "title": "Study of Mt. Diablo"
+    },
+    "study-of-mt-diablo-4.md": {
+      "status": "good",
+      "title": "Study of Mt. Diablo"
+    },
+    "study-of-mt-diablo-5.md": {
+      "status": "good",
+      "title": "Study of Mt. Diablo"
+    },
+    "study-of-mt-diablo-before-sunrise.md": {
+      "status": "good",
+      "title": "Study of Mt. Diablo Before Sunrise"
+    },
+    "study-of-mt-diablo.md": {
+      "status": "good",
+      "title": "Study of Mt. Diablo"
+    },
+    "study-of-rower-mechanics.md": {
+      "status": "good",
+      "title": "Study of rower mechanics"
+    },
+    "study-of-rowers.md": {
+      "status": "good",
+      "title": "Study of Rowers"
+    },
+    "study-of-rowing-painting.md": {
+      "status": "good",
+      "title": "Study of Rowing Painting"
+    },
+    "study-of-sather-tower-the-campanile-university-of.md": {
+      "status": "good",
+      "title": "Study of Sather Tower (the 'Campanile'), University of California, Berkeley"
+    },
+    "study-with-annotations-for-oil-painting.md": {
+      "status": "good",
+      "title": "Study with Annotations for Oil Painting"
+    },
+    "sunrise-effect-over-mt-diablo.md": {
+      "status": "good",
+      "title": "Sunrise Effect Over Mt. Diablo"
+    },
+    "sunrise-in-sonoma-county.md": {
+      "status": "good",
+      "title": "Sunrise in Sonoma County"
+    },
+    "sunrise-over-mt-diablo-2.md": {
+      "status": "good",
+      "title": "Sunrise Over Mt. Diablo"
+    },
+    "sunrise-over-mt-diablo-3.md": {
+      "status": "good",
+      "title": "Sunrise Over Mt. Diablo"
+    },
+    "sunrise-over-mt-diablo-4.md": {
+      "status": "good",
+      "title": "Sunrise Over Mt. Diablo"
+    },
+    "sunrise-over-mt-diablo.md": {
+      "status": "good",
+      "title": "Sunrise Over Mt. Diablo"
+    },
+    "the-artist-with-the-installed-painting.md": {
+      "status": "good",
+      "title": "The artist with the installed painting."
+    },
+    "theodore.md": {
+      "status": "good",
+      "title": "Theodore"
+    },
+    "theordore.md": {
+      "status": "good",
+      "title": "Theordore"
+    },
+    "thumbnail-concept-sketch-for-design-of-painting.md": {
+      "status": "good",
+      "title": "Thumbnail Concept Sketch for Design of Painting"
+    },
+    "thumbnail-concept-sketch-for-painting.md": {
+      "status": "good",
+      "title": "Thumbnail Concept Sketch for Painting"
+    },
+    "thumbnail-sketch-for-design-of-ebright-painting.md": {
+      "status": "good",
+      "title": "Thumbnail Sketch for Design of Ebright Painting"
+    },
+    "to-web2-edited-jpg.md": {
+      "status": "needs_review",
+      "title": "to web2_edited.jpg",
+      "reasons": [
+        "file_extension",
+        "wix_artifact"
+      ]
+    },
+    "toning-the-canvas.md": {
+      "status": "good",
+      "title": "Toning the Canvas"
+    },
+    "tug-boats-belize-harbor.md": {
+      "status": "good",
+      "title": "Tug Boats, Belize Harbor"
+    },
+    "u-house-jpg.md": {
+      "status": "needs_review",
+      "title": "U House.jpg",
+      "reasons": [
+        "file_extension"
+      ]
+    },
+    "uc-berkeley.md": {
+      "status": "good",
+      "title": "UC Berkeley"
+    },
+    "university-house-berkeley-campus.md": {
+      "status": "good",
+      "title": "University House, Berkeley Campus"
+    },
+    "university-house-uc-berkeley.md": {
+      "status": "good",
+      "title": "University House, UC Berkeley"
+    },
+    "university-house.md": {
+      "status": "good",
+      "title": "University House"
+    },
+    "view-of-berkeley-lab-from-sproul-plaza.md": {
+      "status": "good",
+      "title": "View of Berkeley Lab from Sproul Plaza"
+    },
+    "view-of-coal-oil-point-isla-vista-calif.md": {
+      "status": "good",
+      "title": "View of Coal Oil Point, Isla Vista, Calif."
+    },
+    "view-of-lawrence-hall-of-science.md": {
+      "status": "good",
+      "title": "View of Lawrence Hall of Science"
+    },
+    "view-of-lbnl-and-lhs-from-sproul-plaza.md": {
+      "status": "good",
+      "title": "View of LBNL and LHS from Sproul Plaza"
+    },
+    "view-of-moffitt-library-in-fall.md": {
+      "status": "good",
+      "title": "View of Moffitt Library in Fall"
+    },
+    "view-of-moffitt-library-uc-berkeley.md": {
+      "status": "good",
+      "title": "View of Moffitt Library, UC Berkeley"
+    },
+    "view-of-moffitt-library-university-of-california-berkeley.md": {
+      "status": "good",
+      "title": "View of Moffitt Library, University of California, Berkeley"
+    },
+    "view-of-mt-tam.md": {
+      "status": "good",
+      "title": "View of Mt. Tam"
+    },
+    "view-of-sather-tower-from-strawberry-creek-university-of.md": {
+      "status": "good",
+      "title": "View of Sather Tower from Strawberry Creek, University of California, Berkeley"
+    },
+    "view-of-the-hotel-from-the-back.md": {
+      "status": "good",
+      "title": "View of the Hotel from the Back"
+    },
+    "view-of-the-hotel-from-the-side.md": {
+      "status": "good",
+      "title": "View of the Hotel from the Side"
+    },
+    "view-of-the-hotel.md": {
+      "status": "good",
+      "title": "View of the Hotel"
+    },
+    "view-of-the-lake-and-sun-deck-from-the-hotel.md": {
+      "status": "good",
+      "title": "View of the Lake and Sun Deck from the Hotel"
+    },
+    "view-of-the-valley-life-sciences-building-university-of.md": {
+      "status": "good",
+      "title": "View of the Valley Life Sciences Building, University of California, Berkeley"
+    },
+    "view-over-the-backyard-fence.md": {
+      "status": "good",
+      "title": "View Over the Backyard Fence"
+    },
+    "view-toward-inlet.md": {
+      "status": "good",
+      "title": "View Toward Inlet"
+    },
+    "view-toward-moffitt-library-and-sather-tower-campanile.md": {
+      "status": "good",
+      "title": "View Toward Moffitt Library and Sather Tower (Campanile), University of California, Berkeley"
+    },
+    "watercolor-3.md": {
+      "status": "good",
+      "title": "Watercolor"
+    },
+    "watercolor.md": {
+      "status": "good",
+      "title": "Watercolor"
+    },
+    "winter-storm-over-mt-diablo.md": {
+      "status": "good",
+      "title": "Winter Storm Over Mt. Diablo"
+    },
+    "winter-sunset-over-the-green-belt.md": {
+      "status": "good",
+      "title": "Winter Sunset Over the Green Belt"
+    },
+    "woman-in-a-winter-landscape.md": {
+      "status": "good",
+      "title": "Woman in a Winter Landscape"
+    },
+    "yosemite-valley-2.md": {
+      "status": "good",
+      "title": "Yosemite Valley"
+    },
+    "yosemite-valley-after-bierstadt.md": {
+      "status": "good",
+      "title": "Yosemite Valley (after Bierstadt)"
+    },
+    "yosemite-valley.md": {
+      "status": "good",
+      "title": "Yosemite Valley"
+    }
+  }
+}
