@@ -4,8 +4,8 @@
   "statistics": {
     "total": 420,
     "needs_review": 0,
-    "has_suggestion": 100,
-    "completed": 62,
+    "has_suggestion": 0,
+    "completed": 162,
     "good": 258
   },
   "by_classification": {
@@ -1061,741 +1061,893 @@
       "completed_at": "2026-01-08T02:58:17.568439+00:00"
     },
     "img-1834-20-20copy-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_1834%20-%20Copy.JPG",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "url_encoded"
       ],
-      "suggested_title": "Standing Male Figure Leaning"
+      "suggested_title": "Standing Male Figure Leaning",
+      "final_title": "Standing Male Figure Hands on Hip",
+      "completed_at": "2026-01-11T02:52:33.369824+00:00"
     },
     "img-1840-2-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_1840 (2).JPG",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Self-Portrait as Anatomical Overlay"
+      "suggested_title": "Self-Portrait as Anatomical Overlay",
+      "final_title": "Self-Portrait as Anatomical Overlay",
+      "completed_at": "2026-01-11T02:52:36.848656+00:00"
     },
     "img-1841-2-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_1841 (2).JPG",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Female Torso Study on Toned Paper"
+      "suggested_title": "Female Torso Study on Toned Paper",
+      "final_title": "Female Torso Study on Toned Paper",
+      "completed_at": "2026-01-11T02:52:40.722540+00:00"
     },
     "img-1850-202-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_1850%20(2).JPG",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "url_encoded"
       ],
-      "suggested_title": "Self-Portrait as Young Man in Suit"
+      "suggested_title": "Self-Portrait as Young Man in Suit",
+      "final_title": "Self-Portrait as Young Man in Suit",
+      "completed_at": "2026-01-11T02:52:43.948109+00:00"
     },
     "img-1851-202-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_1851%20(2).JPG",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "url_encoded"
       ],
-      "suggested_title": "Self-Portrait Detail with Mustache"
+      "suggested_title": "Self-Portrait Detail with Mustache",
+      "final_title": "Self-Portrait Detail with Mustache",
+      "completed_at": "2026-01-11T02:52:48.045626+00:00"
     },
     "img-20160918-161807421-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20160918_161807421.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Perspective Study of Buildings"
+      "suggested_title": "Perspective Study of Buildings",
+      "final_title": "Perspective Study of Buildings",
+      "completed_at": "2026-01-11T02:52:51.594330+00:00"
     },
     "img-20161220-133038544-hdr-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20161220_133038544_HDR.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Artist at Work on Viking Village Drawing"
+      "suggested_title": "Artist at Work on Viking Village Drawing",
+      "final_title": "Artist at Work on Viking Village Drawing",
+      "completed_at": "2026-01-11T02:52:54.201732+00:00"
     },
     "img-20161223-113619694-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20161223_113619694.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Viking Village Cabin Detail"
+      "suggested_title": "Viking Village Cabin Detail",
+      "final_title": "Viking Village Cabin Detail",
+      "completed_at": "2026-01-11T02:52:56.453903+00:00"
     },
     "img-20170418-195430-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20170418_195430.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Steps Next to Moses Hall, UC Berkeley"
+      "suggested_title": "Steps Next to Moses Hall, UC Berkeley",
+      "final_title": "Steps Next to Moses Hall, UC Berkeley",
+      "completed_at": "2026-01-11T02:53:02.127871+00:00"
     },
     "img-20170813-122453-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20170813_122453.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Perspective Study of Boat Hull"
+      "suggested_title": "Perspective Study of Boat Hull",
+      "final_title": "Perspective Study of Boat Hull",
+      "completed_at": "2026-01-11T02:53:06.445511+00:00"
     },
     "img-20170826-165827-edited-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20170826_165827_edited.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "wix_artifact"
       ],
-      "suggested_title": "Perspective Study of Rowing Shell and Oars"
+      "suggested_title": "Perspective Study of Rowing Shell and Oars",
+      "final_title": "Perspective Study of Rowing Shell and Oars",
+      "completed_at": "2026-01-11T02:53:22.964270+00:00"
     },
     "img-20180728-215337-1-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20180728_215337 (1).jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Ash in Blue Sun Hat"
+      "suggested_title": "Ash in Blue Sun Hat",
+      "final_title": "Theo in Blue Sun Hat",
+      "completed_at": "2026-01-11T02:53:30.622535+00:00"
     },
     "img-20190326-123621634-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190326_123621634.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Cal Band Rehearsal Room"
+      "suggested_title": "Cal Band Rehearsal Room",
+      "final_title": "Cal Band Rehearsal Room with Painting",
+      "completed_at": "2026-01-11T02:53:37.804536+00:00"
     },
     "img-20190514-142621319-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190514_142621319.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Seated Male Figure from Behind"
+      "suggested_title": "Seated Male Figure from Behind",
+      "final_title": "Seated Male Figure from Behind",
+      "completed_at": "2026-01-11T02:53:41.501116+00:00"
     },
     "img-20190514-142924347-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190514_142924347.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Rowers Carrying Shell to Cal Boathouse"
+      "suggested_title": "Rowers Carrying Shell to Cal Boathouse",
+      "final_title": "Rowers Carrying Shell from Cal Boathouse Study",
+      "completed_at": "2026-01-11T02:53:52.718359+00:00"
     },
     "img-20190514-143018811-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190514_143018811.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Figure and Hand Studies"
+      "suggested_title": "Figure and Hand Studies",
+      "final_title": "Figure and Hand Studies",
+      "completed_at": "2026-01-11T02:53:55.820024+00:00"
     },
     "img-20190514-143025569-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190514_143025569.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Anatomical Studies of Skulls"
+      "suggested_title": "Anatomical Studies of Skulls",
+      "final_title": "Anatomical Studies of Skulls",
+      "completed_at": "2026-01-11T02:53:58.297121+00:00"
     },
     "img-20190514-143102040-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190514_143102040.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Figure Studies with Construction Lines"
+      "suggested_title": "Figure Studies with Construction Lines",
+      "final_title": "Self-Portrait Studies with Cross",
+      "completed_at": "2026-01-11T02:54:15.306623+00:00"
     },
     "img-20190514-143322358-1-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190514_143322358 (1).jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Anatomical Study of Extended Arm"
+      "suggested_title": "Anatomical Study of Extended Arm",
+      "final_title": "Anatomical Study of Extended Arm",
+      "completed_at": "2026-01-11T02:54:18.959173+00:00"
     },
     "img-20190514-143322358-2-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190514_143322358 (2).jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Figure Study with Arms Raised"
+      "suggested_title": "Figure Study with Arms Raised",
+      "final_title": "Crucifix Study with Arms Raised",
+      "completed_at": "2026-01-11T02:54:41.221510+00:00"
     },
     "img-20190514-143322358-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190514_143322358.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Figure Study in Cruciform Pose"
+      "suggested_title": "Figure Study in Cruciform Pose",
+      "final_title": "Figure Study in Cruciform Pose",
+      "completed_at": "2026-01-11T02:54:46.784119+00:00"
     },
     "img-20190514-143935273-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190514_143935273.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Studies of Arm and Torso"
+      "suggested_title": "Studies of Arm and Torso",
+      "final_title": "Studies of Arm and Torso",
+      "completed_at": "2026-01-11T02:54:50.004160+00:00"
     },
     "img-20190514-143945183-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190514_143945183.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Figure and Skull Studies"
+      "suggested_title": "Figure and Skull Studies",
+      "final_title": "Figure and Skull Studies",
+      "completed_at": "2026-01-11T02:54:53.013955+00:00"
     },
     "img-20190514-144146834-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190514_144146834.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "George Waits for His Ship to Come In"
+      "suggested_title": "George Waits for His Ship to Come In",
+      "final_title": "George Waits for His Ship to Come In",
+      "completed_at": "2026-01-11T02:55:00.695874+00:00"
     },
     "img-20190514-151523842-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190514_151523842.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Standing Female Figure on Toned Paper"
+      "suggested_title": "Standing Female Figure on Toned Paper",
+      "final_title": "Standing Female Figure on Toned Paper",
+      "completed_at": "2026-01-11T02:55:03.397937+00:00"
     },
     "img-20190515-142738310-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190515_142738310.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Studies of Cal Band Musicians"
+      "suggested_title": "Studies of Cal Band Musicians",
+      "final_title": "Studies of Cal Band Musicians",
+      "completed_at": "2026-01-11T02:55:05.661251+00:00"
     },
     "img-20190515-143349943-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190515_143349943.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Seated Woman in Dress"
+      "suggested_title": "Seated Woman in Dress",
+      "final_title": "Seated Woman in Dress",
+      "completed_at": "2026-01-11T02:55:08.798869+00:00"
     },
     "img-20190515-144600186-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190515_144600186.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "View of Sather Tower from Strawberry Creek"
+      "suggested_title": "View of Sather Tower from Strawberry Creek",
+      "final_title": "View of Sather Tower from Strawberry Creek",
+      "completed_at": "2026-01-11T02:55:12.998593+00:00"
     },
     "img-20190517-152040886-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190517_152040886.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Study for Dryad Figure"
+      "suggested_title": "Study for Dryad Figure",
+      "final_title": "Study Statues on Facade of Hearst Memorial Mining Building",
+      "completed_at": "2026-01-11T02:56:08.828931+00:00"
     },
     "img-20190517-152056676-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190517_152056676.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Reclining Male Figure with Extended Arm"
+      "suggested_title": "Reclining Male Figure with Extended Arm",
+      "final_title": "Study of The Creation of Adam",
+      "completed_at": "2026-01-11T02:56:31.957527+00:00"
     },
     "img-20190517-152108988-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190517_152108988.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Study of Hands After Michelangelo"
+      "suggested_title": "Study of Hands After Michelangelo",
+      "final_title": "Study of Hands After Michelangelo",
+      "completed_at": "2026-01-11T02:56:36.434409+00:00"
     },
     "img-20190517-152148159-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190517_152148159.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Amazon Warrior with Spear"
+      "suggested_title": "Amazon Warrior with Spear",
+      "final_title": "Amazon Warrior with Spear",
+      "completed_at": "2026-01-11T02:56:54.376949+00:00"
     },
     "img-20190517-152308874-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190517_152308874.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Bearded Man in Coat Holding Hat"
+      "suggested_title": "Bearded Man in Coat Holding Hat",
+      "final_title": "Bearded Man in Coat Holding Hat",
+      "completed_at": "2026-01-11T02:56:58.082309+00:00"
     },
     "img-20190518-180750418-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190518_180750418.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Viking Village Rooftops"
+      "suggested_title": "Viking Village Rooftops",
+      "final_title": "Viking Village Rooftops",
+      "completed_at": "2026-01-11T02:57:00.242268+00:00"
     },
     "img-20190520-165223431-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190520_165223431.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Composition Study for Rowing Painting"
+      "suggested_title": "Composition Study for Rowing Painting",
+      "final_title": "Composition Study for Rowing Painting",
+      "completed_at": "2026-01-11T02:57:04.413613+00:00"
     },
     "img-20190520-165231821-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190520_165231821.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Studies of Coach Ky Ebright"
+      "suggested_title": "Studies of Coach Ky Ebright",
+      "final_title": "Studies of Coach Ky Ebright",
+      "completed_at": "2026-01-11T02:57:06.876452+00:00"
     },
     "img-20190520-165244592-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190520_165244592.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Figure Studies for Rowing Painting"
+      "suggested_title": "Figure Studies for Rowing Painting",
+      "final_title": "Figure Studies for Rowing Painting",
+      "completed_at": "2026-01-11T02:57:09.363830+00:00"
     },
     "img-20190520-165332764-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190520_165332764.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Study of Figure at Cal Boathouse"
+      "suggested_title": "Study of Figure at Cal Boathouse",
+      "final_title": "Study of Figure at Cal Boathouse",
+      "completed_at": "2026-01-11T02:57:11.295513+00:00"
     },
     "img-20190629-221318-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190629_221318.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "View Toward Old Forge, New York"
+      "suggested_title": "View Toward Old Forge, New York",
+      "final_title": "View Toward Old Forge, New York",
+      "completed_at": "2026-01-11T02:57:14.005933+00:00"
     },
     "img-20190926-160911-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190926_160911.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Sather Gate Drawing in Progress"
+      "suggested_title": "Sather Gate Drawing in Progress",
+      "final_title": "Sather Gate Drawing in Progress",
+      "completed_at": "2026-01-11T02:57:24.078100+00:00"
     },
     "img-20190926-170510-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20190926_170510.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Sather Tower Model and Drawing"
+      "suggested_title": "Sather Tower Model and Drawing",
+      "final_title": "Sather Tower Model and Drawing",
+      "completed_at": "2026-01-11T02:57:27.594272+00:00"
     },
     "img-20191005-145549-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20191005_145549.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Rowing Painting Detail with Cheering Crowd"
+      "suggested_title": "Rowing Painting Detail with Cheering Crowd",
+      "final_title": "Rowing Painting Detail with Cheering Crowd",
+      "completed_at": "2026-01-11T02:57:32.263629+00:00"
     },
     "img-20191005-145616-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20191005_145616.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Lighthouse Tower Detail"
+      "suggested_title": "Lighthouse Tower Detail",
+      "final_title": "Lighthouse Tower Detail",
+      "completed_at": "2026-01-11T02:57:35.265950+00:00"
     },
     "img-20191005-145628-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20191005_145628.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Cal Rowers Detail with Muscular Backs"
+      "suggested_title": "Cal Rowers Detail with Muscular Backs",
+      "final_title": "Cal Rowers Detail",
+      "completed_at": "2026-01-11T02:57:42.695614+00:00"
     },
     "img-20191005-145653-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20191005_145653.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Cal Rower Against Blue Sky"
+      "suggested_title": "Cal Rower Against Blue Sky",
+      "final_title": "Cal Rower Against Blue Sky",
+      "completed_at": "2026-01-11T02:57:45.000490+00:00"
     },
     "img-20191005-145704-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20191005_145704.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Clouds and Tower Spire Detail"
+      "suggested_title": "Clouds and Tower Spire Detail",
+      "final_title": "Clouds and Tower Spire Detail",
+      "completed_at": "2026-01-11T02:57:47.566979+00:00"
     },
     "img-20191005-145735-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20191005_145735.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Oar Blade in Water Detail"
+      "suggested_title": "Oar Blade in Water Detail",
+      "final_title": "Oar Blade in Water Detail",
+      "completed_at": "2026-01-11T02:57:50.622024+00:00"
     },
     "img-20191005-145845-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20191005_145845.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Oars and Water Reflections Detail"
+      "suggested_title": "Oars and Water Reflections Detail",
+      "final_title": "Oars and Water Reflections Detail",
+      "completed_at": "2026-01-11T02:57:52.973389+00:00"
     },
     "img-20191005-145908-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20191005_145908.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Two Cal Rowers from Behind"
+      "suggested_title": "Two Cal Rowers from Behind",
+      "final_title": "Two Cal Rowers from Behind",
+      "completed_at": "2026-01-11T02:57:55.196506+00:00"
     },
     "img-20191005-150021-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20191005_150021.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Tower and Bridge with Spectators"
+      "suggested_title": "Tower and Bridge with Spectators",
+      "final_title": "Tower and Bridge with Spectators",
+      "completed_at": "2026-01-11T02:57:58.503185+00:00"
     },
     "img-20191218-143636-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20191218_143636.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Rowers' Hands Gripping Oars"
+      "suggested_title": "Rowers' Hands Gripping Oars",
+      "final_title": "Rowers' Hands Gripping Oars",
+      "completed_at": "2026-01-11T02:58:00.964531+00:00"
     },
     "img-20191218-143643-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20191218_143643.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Cal Rower Shoulder Detail"
+      "suggested_title": "Cal Rower Shoulder Detail",
+      "final_title": "Cal Rower Shoulder Detail",
+      "completed_at": "2026-01-11T02:58:02.918216+00:00"
     },
     "img-20191218-143652-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20191218_143652.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Water Reflections with Oar Blade"
+      "suggested_title": "Water Reflections with Oar Blade",
+      "final_title": "Water Reflections with Oar Blade",
+      "completed_at": "2026-01-11T02:58:04.850112+00:00"
     },
     "img-20200610-124733-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_20200610_124733.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Self-Portrait Watching TV in Dorm Room"
+      "suggested_title": "Self-Portrait Watching TV in Dorm Room",
+      "final_title": "Self-Portrait Watching TV in Dorm Room",
+      "completed_at": "2026-01-11T02:58:08.593094+00:00"
     },
     "img-2874-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_2874.JPG",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Studies of Hands and Arms"
+      "suggested_title": "Studies of Hands and Arms",
+      "final_title": "Studies of Hands and Arms",
+      "completed_at": "2026-01-11T02:58:10.989938+00:00"
     },
     "img-3066a-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_3066a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Portrait Study of Young Man in Tricorn Hat"
+      "suggested_title": "Portrait Study of Young Man in Tricorn Hat",
+      "final_title": "Portrait Study of Young Man in Hat",
+      "completed_at": "2026-01-11T02:58:25.689936+00:00"
     },
     "img-3166b-png.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_3166b.png",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "The Play: Ford to Moen Lateral"
+      "suggested_title": "The Play: Ford to Moen Lateral",
+      "final_title": "The Play: Ford to Moen Lateral",
+      "completed_at": "2026-01-11T02:58:36.214640+00:00"
     },
     "img-3168-png.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_3168.png",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "The Play: Kevin Moen on the Field"
+      "suggested_title": "The Play: Kevin Moen on the Field",
+      "final_title": "The Play: Kevin Moen on the Field",
+      "completed_at": "2026-01-11T02:58:39.897824+00:00"
     },
     "img-3169-png.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_3169.png",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "The Play: Ford Receives Lateral"
+      "suggested_title": "The Play: Ford Receives Lateral",
+      "final_title": "The Play: Ford Receives Lateral",
+      "completed_at": "2026-01-11T02:58:46.111882+00:00"
     },
     "img-3171-png.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_3171.png",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "The Play: Stanford Band Flees the Field"
+      "suggested_title": "The Play: Stanford Band Flees the Field",
+      "final_title": "The Play: Stanford Band Flees the Field",
+      "completed_at": "2026-01-11T02:58:50.352588+00:00"
     },
     "img-3181b-edited-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_3181b_edited.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "wix_artifact"
       ],
-      "suggested_title": "The Play: Moen Runs Through the Band"
+      "suggested_title": "The Play: Moen Runs Through the Band",
+      "final_title": "The Play: Moen Runs Through the Band",
+      "completed_at": "2026-01-11T02:58:53.966342+00:00"
     },
     "img-3182-png.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_3182.png",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "The Play: Poster Layout with Scoreboards"
+      "suggested_title": "The Play: Poster Layout with Scoreboards",
+      "final_title": "The Play: Poster Layout with Scoreboards",
+      "completed_at": "2026-01-11T02:58:57.429730+00:00"
     },
     "img-3183-png.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_3183.png",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "The Play: Poster Template"
+      "suggested_title": "The Play: Poster Template",
+      "final_title": "The Play: Poster Template",
+      "completed_at": "2026-01-11T02:59:06.502277+00:00"
     },
     "img-4942-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_4942.JPG",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "JR Goes to Puerto Vallarta"
+      "suggested_title": "JR Goes to Puerto Vallarta",
+      "final_title": "JR Goes to Puerto Vallarta",
+      "completed_at": "2026-01-11T02:59:08.542350+00:00"
     },
     "img-6325a-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_6325a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Anatomical Studies of Torso and Pelvis"
+      "suggested_title": "Anatomical Studies of Torso and Pelvis",
+      "final_title": "Anatomical Studies of Torso and Pelvis",
+      "completed_at": "2026-01-11T02:59:10.677925+00:00"
     },
     "img-6328a-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_6328a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Study After Cain and Abel"
+      "suggested_title": "Study After Cain and Abel",
+      "final_title": "Study After The Death of Jane McCrea",
+      "completed_at": "2026-01-11T03:01:30.884163+00:00"
     },
     "img-6329a-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_6329a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Dancing Figure with Flowing Drapery"
+      "suggested_title": "Dancing Figure with Flowing Drapery",
+      "final_title": "Study of Laoco\u00f6n and His Sons",
+      "completed_at": "2026-01-11T03:02:33.078289+00:00"
     },
     "img-6340a-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_6340a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Lincoln Bust in the Campanile"
+      "suggested_title": "Lincoln Bust in the Campanile",
+      "final_title": "Lincoln Bust in the Campanile",
+      "completed_at": "2026-01-11T03:02:35.493398+00:00"
     },
     "img-6362a-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_6362a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Eye Studies"
+      "suggested_title": "Eye Studies",
+      "final_title": "Eye Studies",
+      "completed_at": "2026-01-11T03:02:37.073646+00:00"
     },
     "img-8587a-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_8587a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Cal Band Member Seated with Cap"
+      "suggested_title": "Cal Band Member Seated with Cap",
+      "final_title": "Cal Band Member Seated with Cap",
+      "completed_at": "2026-01-11T03:02:39.297732+00:00"
     },
     "img-8597a-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_8597a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Cal Band Member Face Detail"
+      "suggested_title": "Cal Band Member Face Detail",
+      "final_title": "Cal Band Member Face Detail",
+      "completed_at": "2026-01-11T03:02:41.231893+00:00"
     },
     "img-8599a-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_8599a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Cal Band Member with Beret from Behind"
+      "suggested_title": "Cal Band Member with Beret from Behind",
+      "final_title": "Cal Band Member with Hat from Behind",
+      "completed_at": "2026-01-11T03:02:47.121052+00:00"
     },
     "img-8601a-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_8601a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Cal Band Foot on Stanford Cap"
+      "suggested_title": "Cal Band Foot on Stanford Cap",
+      "final_title": "Cal Band Foot on Stanford Cap",
+      "completed_at": "2026-01-11T03:02:50.124802+00:00"
     },
     "img-8605a-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_8605a.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Artist in Studio with Cal Band Painting"
+      "suggested_title": "Artist in Studio with Cal Band Painting",
+      "final_title": "Artist in Studio with Cal Band Painting",
+      "completed_at": "2026-01-11T03:02:52.731992+00:00"
     },
     "img-9426-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_9426.JPG",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Portrait of Mark Knopfler"
+      "suggested_title": "Portrait of Mark Knopfler",
+      "final_title": "Portrait of Mark Knopfler",
+      "completed_at": "2026-01-11T03:02:56.422642+00:00"
     },
     "img-9429-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "IMG_9429.JPG",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Face Study Close-Up"
+      "suggested_title": "Face Study Close-Up",
+      "final_title": "Face Self-Portrait Close-Up",
+      "completed_at": "2026-01-11T03:03:07.723987+00:00"
     },
     "imperial-palace-2.md": {
       "status": "good",
@@ -1814,12 +1966,14 @@
       "title": "It's All About Two Wheels"
     },
     "jpg-of-final-poster-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "JPG of final poster.jpg",
       "reasons": [
         "file_extension"
       ],
-      "suggested_title": "The Play: Complete Poster"
+      "suggested_title": "The Play: Complete Poster",
+      "final_title": "The Play: Complete Poster",
+      "completed_at": "2026-01-11T03:03:10.132898+00:00"
     },
     "kevin-at-the-woods.md": {
       "status": "good",
@@ -1854,13 +2008,15 @@
       "title": "Layout Design for Painting"
     },
     "ldsf-3bfkg-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "ldsf%3Bfkg.jpg",
       "reasons": [
         "file_extension",
         "url_encoded"
       ],
-      "suggested_title": "Study After Rubens: The Three Nereids"
+      "suggested_title": "Study After Rubens: The Three Nereids",
+      "final_title": "Study After Rubens: The Three Nereids",
+      "completed_at": "2026-01-11T03:03:14.330043+00:00"
     },
     "lincoln-bust-at-the-base-of-sather-tower-campanile.md": {
       "status": "good",
@@ -1871,32 +2027,38 @@
       "title": "Living Room Corner"
     },
     "lkfdjg-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "lkfdjg.jpg",
       "reasons": [
         "file_extension"
       ],
-      "suggested_title": "Study After Michelangelo: Dawn"
+      "suggested_title": "Study After Michelangelo: Dawn",
+      "final_title": "Study After Michelangelo: Dawn",
+      "completed_at": "2026-01-11T03:03:17.161914+00:00"
     },
     "marilyn-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "marilyn.jpg",
       "reasons": [
         "file_extension"
       ],
-      "suggested_title": "Portrait Studies of Marilyn Monroe"
+      "suggested_title": "Portrait Studies of Marilyn Monroe",
+      "final_title": "Portrait Studies of Marilyn Monroe",
+      "completed_at": "2026-01-11T03:03:19.294616+00:00"
     },
     "mclaughlin-hall-university-of-california-berkeley.md": {
       "status": "good",
       "title": "McLaughlin Hall, University of California, Berkeley"
     },
     "moen-parts-the-red-sea-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "Moen Parts the Red Sea.jpg",
       "reasons": [
         "file_extension"
       ],
-      "suggested_title": "The Play: Moen Parts the Red Sea"
+      "suggested_title": "The Play: Moen Parts the Red Sea",
+      "final_title": "The Play: Moen Parts the Red Sea",
+      "completed_at": "2026-01-11T03:03:26.733419+00:00"
     },
     "montlake-bridge.md": {
       "status": "good",
@@ -1939,12 +2101,14 @@
       "title": "My Toes"
     },
     "nymph-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "Nymph.jpg",
       "reasons": [
         "file_extension"
       ],
-      "suggested_title": "Nymph with Flowers"
+      "suggested_title": "Nymph with Flowers",
+      "final_title": "Nymph with Flowers",
+      "completed_at": "2026-01-11T03:03:32.752948+00:00"
     },
     "office-and-hotel-2.md": {
       "status": "good",
@@ -1987,56 +2151,68 @@
       "title": "Old Chair in the Spruce"
     },
     "oski-crossing-the-delaware-9x12-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "Oski_Crossing_the_Delaware_9x12.jpg",
       "reasons": [
         "file_extension"
       ],
-      "suggested_title": "Oski Crossing the Delaware"
+      "suggested_title": "Oski Crossing the Delaware",
+      "final_title": "Oski Crossing the Delaware",
+      "completed_at": "2026-01-11T03:03:34.991454+00:00"
     },
     "oski-gothic.md": {
       "status": "good",
       "title": "Oski Gothic"
     },
     "oski-nighthawk-axe-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "Oski Nighthawk--Axe.jpg",
       "reasons": [
         "file_extension"
       ],
-      "suggested_title": "Oski Nighthawks: The Axe Detail"
+      "suggested_title": "Oski Nighthawks: The Axe Detail",
+      "final_title": "Oski Nighthawks: The Axe Detail",
+      "completed_at": "2026-01-11T03:03:36.225336+00:00"
     },
     "oski-nighthawk-helmet-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "Oski Nighthawk--Helmet.jpg",
       "reasons": [
         "file_extension"
       ],
-      "suggested_title": "Oski Nighthawks: Helmet Detail"
+      "suggested_title": "Oski Nighthawks: Helmet Detail",
+      "final_title": "Oski Nighthawks: Helmet Detail",
+      "completed_at": "2026-01-11T03:03:37.698823+00:00"
     },
     "oski-nighthawk-license-plate-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "Oski Nighthawk--License Plate.jpg",
       "reasons": [
         "file_extension"
       ],
-      "suggested_title": "Oski Nighthawks: License Plate Detail"
+      "suggested_title": "Oski Nighthawks: License Plate Detail",
+      "final_title": "Oski Nighthawks: License Plate Detail",
+      "completed_at": "2026-01-11T03:05:43.757678+00:00"
     },
     "oski-nighthawk-oski-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "Oski Nighthawk--Oski.jpg",
       "reasons": [
         "file_extension"
       ],
-      "suggested_title": "Oski Nighthawks: Oski and Cheerleader"
+      "suggested_title": "Oski Nighthawks: Oski and Cheerleader",
+      "final_title": "Oski Nighthawks: Oski and Cheerleader",
+      "completed_at": "2026-01-11T03:05:45.790084+00:00"
     },
     "oski-nighthawk-tree-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "Oski Nighthawk--Tree.jpg",
       "reasons": [
         "file_extension"
       ],
-      "suggested_title": "Oski Nighthawks: Tree Sprig Detail"
+      "suggested_title": "Oski Nighthawks: Tree Sprig Detail",
+      "final_title": "Oski Nighthawks: Tree Sprig Detail",
+      "completed_at": "2026-01-11T03:05:48.196058+00:00"
     },
     "oski-nighthawk.md": {
       "status": "good",
@@ -2095,76 +2271,90 @@
       "title": "Plaque under the painting."
     },
     "pxl-20210102-180523581-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "PXL_20210102_180523581.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Portrait of Emily in Thought"
+      "suggested_title": "Portrait of Emily in Thought",
+      "final_title": "Portrait of Emily with Microphone",
+      "completed_at": "2026-01-11T03:05:56.996707+00:00"
     },
     "pxl-20210322-225724434-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "PXL_20210322_225724434.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Emily Portrait Studies"
+      "suggested_title": "Emily Portrait Studies",
+      "final_title": "Emily Portrait Studies",
+      "completed_at": "2026-01-11T03:06:39.629746+00:00"
     },
     "pxl-20211201-223548669-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "PXL_20211201_223548669.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Anatomical Figure Study: Woman Tying Hair"
+      "suggested_title": "Anatomical Figure Study: Woman Tying Hair",
+      "final_title": "Anatomical Figure Study: Woman Tying Hair",
+      "completed_at": "2026-01-11T03:06:42.057296+00:00"
     },
     "pxl-20220307-184124207-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "PXL_20220307_184124207.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Girl on the Beach with Red Hat"
+      "suggested_title": "Girl on the Beach with Red Hat",
+      "final_title": "Girl on the Beach with Red Hat",
+      "completed_at": "2026-01-11T03:06:44.662569+00:00"
     },
     "pxl-20220811-184141090-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "PXL_20220811_184141090.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Toddler in Playground Tunnel"
+      "suggested_title": "Toddler in Playground Tunnel",
+      "final_title": "Ash in Playground Tunnel",
+      "completed_at": "2026-01-11T03:06:55.518717+00:00"
     },
     "pxl-20220811-230209999-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "PXL_20220811_230209999.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix",
         "mostly_digits"
       ],
-      "suggested_title": "Architectural Perspective Studies"
+      "suggested_title": "Architectural Perspective Studies",
+      "final_title": "Architectural Perspective Studies",
+      "completed_at": "2026-01-11T03:07:00.426048+00:00"
     },
     "pxl-20220811-230936107-portrait-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "PXL_20220811_230936107.PORTRAIT.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Perspective Study for Rowing Ramp"
+      "suggested_title": "Perspective Study for Rowing Ramp",
+      "final_title": "Perspective Study for Rowing Ramp",
+      "completed_at": "2026-01-11T03:07:03.095283+00:00"
     },
     "pxl-20220817-204301312-edited-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "PXL_20220817_204301312_edited.jpg",
       "reasons": [
         "file_extension",
@@ -2172,16 +2362,20 @@
         "wix_artifact",
         "mostly_digits"
       ],
-      "suggested_title": "Victorian House Rooftops Sketch"
+      "suggested_title": "Victorian House Rooftops Sketch",
+      "final_title": "The Woods Hotel Rooftops Sketch",
+      "completed_at": "2026-01-11T03:07:12.531563+00:00"
     },
     "pxl-20221012-194329828-portrait-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "PXL_20221012_194329828.PORTRAIT.jpg",
       "reasons": [
         "file_extension",
         "camera_prefix"
       ],
-      "suggested_title": "Still Life with Kettle and Geometric Forms"
+      "suggested_title": "Still Life with Kettle and Geometric Forms",
+      "final_title": "Still Life with Kettle and Geometric Forms",
+      "completed_at": "2026-01-11T03:07:14.899503+00:00"
     },
     "reclining-figure-after-iredell.md": {
       "status": "good",
@@ -2284,13 +2478,15 @@
       "title": "Scandinavian Fjord (after F. Church)"
     },
     "screenshot-2020-10-27-201621-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "Screenshot 2020-10-27 201621.jpg",
       "reasons": [
         "file_extension",
         "screenshot"
       ],
-      "suggested_title": "The Play: Stanford Band Fleeing"
+      "suggested_title": "The Play: Stanford Band Fleeing",
+      "final_title": "The Play: Stanford Band Fleeing",
+      "completed_at": "2026-01-11T03:07:17.806953+00:00"
     },
     "self-portrait-as-anatomical-study.md": {
       "status": "good",
@@ -2545,13 +2741,15 @@
       "title": "Thumbnail Sketch for Design of Ebright Painting"
     },
     "to-web2-edited-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "to web2_edited.jpg",
       "reasons": [
         "file_extension",
         "wix_artifact"
       ],
-      "suggested_title": "Still Life with Swedish Horse and Snake Plant"
+      "suggested_title": "Still Life with Swedish Horse and Snake Plant",
+      "final_title": "Still Life with Swedish Horse and Snake Plant",
+      "completed_at": "2026-01-11T03:07:22.104453+00:00"
     },
     "toning-the-canvas.md": {
       "status": "good",
@@ -2562,12 +2760,14 @@
       "title": "Tug Boats, Belize Harbor"
     },
     "u-house-jpg.md": {
-      "status": "has_suggestion",
+      "status": "completed",
       "title": "U House.jpg",
       "reasons": [
         "file_extension"
       ],
-      "suggested_title": "University House, UC Berkeley"
+      "suggested_title": "University House, UC Berkeley",
+      "final_title": "University House, UC Berkeley",
+      "completed_at": "2026-01-11T03:07:24.995869+00:00"
     },
     "uc-berkeley.md": {
       "status": "good",
