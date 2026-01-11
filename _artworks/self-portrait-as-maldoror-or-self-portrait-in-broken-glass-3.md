@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "Self-Portrait as Maldoror (or Self-Portrait in Broken Glass)"
+title: "Self-Portrait in Broken Glass"
 image: /assets/images/galleries/finished-drawings/self-portrait-as-maldoror.jpg
 galleries:
   - finished-drawings

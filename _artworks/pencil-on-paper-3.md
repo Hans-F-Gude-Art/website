@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "Pencil on Paper"
+title: "Betsy's Cabin in the Catskills"
 image: /assets/images/galleries/pencil-drawings/landscape-pencil-study.jpg
 galleries:
   - landscapes-other

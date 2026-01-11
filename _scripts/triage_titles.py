@@ -3,7 +3,7 @@
 Triage artwork titles to identify files needing review.
 
 Scans _artworks/*.md and identifies titles that appear to be filenames,
-timestamps, nonsense strings, or other non-descriptive patterns.
+timestamps, nonsense strings, duplicate titles, or other non-descriptive patterns.
 
 Usage:
     uv run python3 _scripts/triage_titles.py
@@ -11,8 +11,34 @@ Usage:
 
 import json
 import re
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
+
+
+# Generic titles that are too vague to be useful as unique identifiers
+GENERIC_TITLES = {
+    "watercolor",
+    "oil on canvas",
+    "pencil on paper",
+    "charcoal on paper",
+    "ink on paper",
+    "pastel",
+    "gouache",
+    "acrylic",
+    "mixed media",
+    "untitled",
+    "study",
+    "sketch",
+    "drawing",
+    "painting",
+    "portrait",
+    "landscape",
+    "still life",
+    "figure",
+    "nude",
+    "abstract",
+}
 
 
 # Bad title patterns with classification reasons
@@ -55,9 +81,13 @@ PATTERNS = {
 }
 
 
-def classify_title(title: str) -> tuple[bool, list[str]]:
+def classify_title(title: str, title_counts: Counter | None = None) -> tuple[bool, list[str]]:
     """
     Check if a title is a bad (non-descriptive) title.
+
+    Args:
+        title: The title to check
+        title_counts: Counter of all titles (for duplicate detection)
 
     Returns:
         Tuple of (is_bad, list of reasons)
@@ -66,6 +96,7 @@ def classify_title(title: str) -> tuple[bool, list[str]]:
 
     # Strip whitespace for analysis
     title_stripped = title.strip()
+    title_lower = title_stripped.lower()
 
     for pattern_name, pattern in PATTERNS.items():
         if pattern.search(title_stripped):
@@ -88,6 +119,14 @@ def classify_title(title: str) -> tuple[bool, list[str]]:
             # Looks like a filename slug
             if "filename_pattern" not in reasons:
                 reasons.append("filename_pattern")
+
+    # Check for duplicate titles (same title used by multiple artworks)
+    if title_counts and title_counts.get(title_lower, 0) > 1:
+        reasons.append("duplicate_title")
+
+    # Check for generic/vague titles
+    if title_lower in GENERIC_TITLES:
+        reasons.append("generic_title")
 
     return len(reasons) > 0, reasons
 
@@ -143,6 +182,29 @@ def main():
     artwork_files = sorted(artworks_dir.glob("*.md"))
     print(f"Scanning {len(artwork_files)} artwork files...")
 
+    # FIRST PASS: Collect all titles to detect duplicates
+    print("Pass 1: Collecting titles for duplicate detection...")
+    all_titles: dict[str, str] = {}  # filename -> title
+    for artwork_file in artwork_files:
+        with open(artwork_file, "r", encoding="utf-8") as f:
+            content = f.read()
+        frontmatter = parse_frontmatter(content)
+        title = frontmatter.get("title", "")
+        if title:
+            all_titles[artwork_file.name] = title
+
+    # Count title occurrences (case-insensitive)
+    title_counts = Counter(t.lower() for t in all_titles.values())
+
+    # Find duplicates for reporting
+    duplicates = {title: count for title, count in title_counts.items() if count > 1}
+    if duplicates:
+        print(f"  Found {len(duplicates)} duplicate titles:")
+        for title, count in sorted(duplicates.items(), key=lambda x: -x[1])[:10]:
+            print(f"    '{title}' appears {count} times")
+        if len(duplicates) > 10:
+            print(f"    ... and {len(duplicates) - 10} more")
+
     # Results
     results = {
         "version": 1,
@@ -158,14 +220,11 @@ def main():
         "artworks": {},
     }
 
+    # SECOND PASS: Classify each title
+    print("Pass 2: Classifying titles...")
     for artwork_file in artwork_files:
         filename = artwork_file.name
-
-        with open(artwork_file, "r", encoding="utf-8") as f:
-            content = f.read()
-
-        frontmatter = parse_frontmatter(content)
-        title = frontmatter.get("title", "")
+        title = all_titles.get(filename, "")
 
         if not title:
             print(f"  Warning: No title found in {filename}")
@@ -187,8 +246,8 @@ def main():
             results["statistics"]["has_suggestion"] += 1
             continue
 
-        # Classify the title
-        is_bad, reasons = classify_title(title)
+        # Classify the title (now with duplicate detection)
+        is_bad, reasons = classify_title(title, title_counts)
 
         if is_bad:
             results["artworks"][filename] = {

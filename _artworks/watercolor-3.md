@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "Watercolor"
+title: "Viking Village Hotel Roofline"
 image: /assets/images/galleries/viking-village/hotel-roofline-viking-village.jpg
 galleries:
   - landscapes-outdoors

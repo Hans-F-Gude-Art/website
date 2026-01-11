@@ -1,25 +1,14 @@
 {
   "version": 1,
-  "generated_at": "2026-01-08T01:28:33.723942+00:00",
+  "generated_at": "2026-01-11T04:03:02.935051+00:00",
   "statistics": {
     "total": 420,
     "needs_review": 0,
     "has_suggestion": 0,
-    "completed": 162,
-    "good": 258
+    "completed": 244,
+    "good": 176
   },
-  "by_classification": {
-    "file_extension": 159,
-    "timestamp": 3,
-    "mostly_digits": 59,
-    "url_encoded": 8,
-    "biography_number": 2,
-    "underscore_prefix": 1,
-    "camera_prefix": 126,
-    "hash_string": 1,
-    "wix_artifact": 10,
-    "screenshot": 1
-  },
+  "by_classification": {},
   "artworks": {
     "20140822-131431a-jpg.md": {
       "status": "completed",
@@ -196,12 +185,24 @@
       "title": "Black Tide"
     },
     "blue-boat-2.md": {
-      "status": "good",
-      "title": "Blue Boat"
+      "status": "completed",
+      "title": "Blue Boat",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Blue Boat in Harbor",
+      "final_title": "Blue Boat at the Woods",
+      "completed_at": "2026-01-11T03:52:03.800428+00:00"
     },
     "blue-boat.md": {
-      "status": "good",
-      "title": "Blue Boat"
+      "status": "completed",
+      "title": "Blue Boat",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Blue Boat at Anchor",
+      "final_title": "Blue Boat on the Dock at the Woods",
+      "completed_at": "2026-01-11T03:52:22.473027+00:00"
     },
     "blue-boats-outside-the-snack-shack.md": {
       "status": "good",
@@ -212,24 +213,48 @@
       "title": "Blue Oski.j"
     },
     "boats-2.md": {
-      "status": "good",
-      "title": "Boats"
+      "status": "completed",
+      "title": "Boats",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Boats in Morning Mist",
+      "final_title": "Boats by the Snack Shack",
+      "completed_at": "2026-01-11T03:52:31.552570+00:00"
     },
     "boats.md": {
-      "status": "good",
-      "title": "Boats"
+      "status": "completed",
+      "title": "Boats",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Boats at the Dock",
+      "final_title": "Boats Under a Tree",
+      "completed_at": "2026-01-11T03:52:48.282270+00:00"
     },
     "bridge-over-strawberry-creek-2.md": {
-      "status": "good",
-      "title": "Bridge Over Strawberry Creek"
+      "status": "completed",
+      "title": "Bridge Over Strawberry Creek",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Wooden Bridge Over Strawberry Creek",
+      "final_title": "Wooden Bridge Over Strawberry Creek",
+      "completed_at": "2026-01-11T03:52:52.695538+00:00"
     },
     "bridge-over-strawberry-creek-next-to-moses-hall-university.md": {
       "status": "good",
       "title": "Bridge Over Strawberry Creek Next to Moses Hall, University of California, Berkeley"
     },
     "bridge-over-strawberry-creek.md": {
-      "status": "good",
-      "title": "Bridge Over Strawberry Creek"
+      "status": "completed",
+      "title": "Bridge Over Strawberry Creek",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Stone Bridge Over Strawberry Creek",
+      "final_title": "Bridge Over Strawberry Creek",
+      "completed_at": "2026-01-11T03:53:01.524345+00:00"
     },
     "bunny.md": {
       "status": "good",
@@ -281,20 +306,44 @@
       "title": "Cartoon"
     },
     "charcoal-with-white-highlights-on-toned-butcher-paper-2.md": {
-      "status": "good",
-      "title": "Charcoal with white highlights on toned butcher paper"
+      "status": "completed",
+      "title": "Charcoal with white highlights on toned butcher paper",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Standing Figure on Toned Paper",
+      "final_title": "Sitting Male Figure on Toned Paper",
+      "completed_at": "2026-01-11T03:53:11.619137+00:00"
     },
     "charcoal-with-white-highlights-on-toned-butcher-paper-3.md": {
-      "status": "good",
-      "title": "Charcoal with white highlights on toned butcher paper"
+      "status": "completed",
+      "title": "Charcoal with white highlights on toned butcher paper",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Seated Figure on Brown Paper",
+      "final_title": "Seated Figure on Brown Paper",
+      "completed_at": "2026-01-11T03:53:14.413322+00:00"
     },
     "charcoal-with-white-highlights-on-toned-butcher-paper-4.md": {
-      "status": "good",
-      "title": "Charcoal with white highlights on toned butcher paper"
+      "status": "completed",
+      "title": "Charcoal with white highlights on toned butcher paper",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Reclining Figure on Warm Paper",
+      "final_title": "Stretching Figure on Warm Paper",
+      "completed_at": "2026-01-11T03:53:25.991285+00:00"
     },
     "charcoal-with-white-highlights-on-toned-butcher-paper.md": {
-      "status": "good",
-      "title": "Charcoal with white highlights on toned butcher paper"
+      "status": "completed",
+      "title": "Charcoal with white highlights on toned butcher paper",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Figure Study on Ochre Paper",
+      "final_title": "Figure Study on Ochre Paper",
+      "completed_at": "2026-01-11T03:53:27.998999+00:00"
     },
     "chp-team-competition.md": {
       "status": "good",
@@ -399,12 +448,24 @@
       "title": "Elevator Bank "
     },
     "emily-at-21-2.md": {
-      "status": "good",
-      "title": "Emily at 21"
+      "status": "completed",
+      "title": "Emily at 21",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Emily at 21, Three-Quarter View",
+      "final_title": "Emily at 21, Three-Quarter View",
+      "completed_at": "2026-01-11T03:53:31.763100+00:00"
     },
     "emily-at-21.md": {
-      "status": "good",
-      "title": "Emily at 21"
+      "status": "completed",
+      "title": "Emily at 21",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Emily at 21, Portrait",
+      "final_title": "Emily at 21, Portrait",
+      "completed_at": "2026-01-11T03:53:34.133904+00:00"
     },
     "emily-at-the-piano.md": {
       "status": "good",
@@ -443,60 +504,144 @@
       "completed_at": "2026-01-08T02:06:11.475428+00:00"
     },
     "female-figure-10.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Bust Study with Hair Up",
+      "final_title": "Bust Study with Hair Up",
+      "completed_at": "2026-01-11T03:53:38.305547+00:00"
     },
     "female-figure-11.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Reclining Figure with Long Straight Hair",
+      "final_title": "Reclining Figure with Long Hair",
+      "completed_at": "2026-01-11T03:53:46.105305+00:00"
     },
     "female-figure-12.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Figure Leaning on Pedestal",
+      "final_title": "Nude Figure Leaning on Pedestal",
+      "completed_at": "2026-01-11T03:53:53.359616+00:00"
     },
     "female-figure-13.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Seated Figure in Wooden Rocking Chair",
+      "final_title": "Seated Figure in Wooden Rocking Chair",
+      "completed_at": "2026-01-11T03:53:57.075822+00:00"
     },
     "female-figure-14.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Anatomical Studies of Legs and Torso",
+      "final_title": "Anatomical Studies of Legs",
+      "completed_at": "2026-01-11T03:54:02.833064+00:00"
     },
     "female-figure-15.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Seated Figure with Legs Extended",
+      "final_title": "Reclining Nude with Legs Extended",
+      "completed_at": "2026-01-11T03:54:18.204693+00:00"
     },
     "female-figure-2.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Standing Figure, Three-Quarter View",
+      "final_title": "Standing Figure, Three-Quarter View",
+      "completed_at": "2026-01-11T03:54:20.948693+00:00"
     },
     "female-figure-4.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Reclining Nude with Long Hair and Jacket",
+      "final_title": "Reclining Nude with Long Hair and Jacket",
+      "completed_at": "2026-01-11T03:54:24.950370+00:00"
     },
     "female-figure-5.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Crouching Figure from Behind",
+      "final_title": "Sleeping Figure from Behind",
+      "completed_at": "2026-01-11T03:54:36.987591+00:00"
     },
     "female-figure-6.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Standing Nude with Short Hair",
+      "final_title": "Standing Nude with Short Hair",
+      "completed_at": "2026-01-11T03:54:39.401230+00:00"
     },
     "female-figure-7.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Portrait Study in Profile with Natural Hair",
+      "final_title": "Portrait Study in Profile with Natural Hair",
+      "completed_at": "2026-01-11T03:54:44.246982+00:00"
     },
     "female-figure-8.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Torso Study with Arms Raised",
+      "final_title": "Torso Study of Standing Nude",
+      "completed_at": "2026-01-11T03:54:54.933773+00:00"
     },
     "female-figure-9.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Standing Figure in Pencil",
+      "final_title": "Resting Figure in Pencil",
+      "completed_at": "2026-01-11T03:55:03.253983+00:00"
     },
     "female-figure.md": {
-      "status": "good",
-      "title": "Female figure"
+      "status": "completed",
+      "title": "Female figure",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Seated Nude with Hat in Profile",
+      "final_title": "Seated Nude with Hat in Profile",
+      "completed_at": "2026-01-11T03:55:05.253386+00:00"
     },
     "ferry-boats-san-francisco.md": {
       "status": "good",
@@ -531,12 +676,24 @@
       "title": "Flower"
     },
     "flowers-2.md": {
-      "status": "good",
-      "title": "Flowers"
+      "status": "completed",
+      "title": "Flowers",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Wildflowers in Ceramic Pot",
+      "final_title": "Flowers in Ceramic Pot",
+      "completed_at": "2026-01-11T03:55:12.173207+00:00"
     },
     "flowers.md": {
-      "status": "good",
-      "title": "Flowers"
+      "status": "completed",
+      "title": "Flowers",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Flowers in Glass Vase",
+      "final_title": "Flowers in Glass Vase",
+      "completed_at": "2026-01-11T03:55:15.645954+00:00"
     },
     "for-wix-2-jpg.md": {
       "status": "completed",
@@ -607,16 +764,34 @@
       "title": "Hotel Deck"
     },
     "hotel-side-door-2.md": {
-      "status": "good",
-      "title": "Hotel Side Door"
+      "status": "completed",
+      "title": "Hotel Side Door",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Hotel Side Door with Shadows",
+      "final_title": "Hotel Side Door with Shadows",
+      "completed_at": "2026-01-11T03:55:18.678456+00:00"
     },
     "hotel-side-door-3.md": {
-      "status": "good",
-      "title": "Hotel Side Door"
+      "status": "completed",
+      "title": "Hotel Side Door",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Hotel Side Door in Afternoon Light",
+      "final_title": "Hotel Side Door Sketch",
+      "completed_at": "2026-01-11T03:55:29.060214+00:00"
     },
     "hotel-side-door.md": {
-      "status": "good",
-      "title": "Hotel Side Door"
+      "status": "completed",
+      "title": "Hotel Side Door",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Viking Village Hotel Side Entrance",
+      "final_title": "Viking Village Hotel Side Entrance",
+      "completed_at": "2026-01-11T03:55:34.172238+00:00"
     },
     "hotel.md": {
       "status": "good",
@@ -1950,16 +2125,28 @@
       "completed_at": "2026-01-11T03:03:07.723987+00:00"
     },
     "imperial-palace-2.md": {
-      "status": "good",
-      "title": "Imperial Palace"
+      "status": "completed",
+      "title": "Imperial Palace",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Imperial Palace Gardens",
+      "final_title": "Imperial Palace Gardens",
+      "completed_at": "2026-01-11T03:55:38.279338+00:00"
     },
     "imperial-palace-tokyo.md": {
       "status": "good",
       "title": "Imperial Palace, Tokyo"
     },
     "imperial-palace.md": {
-      "status": "good",
-      "title": "Imperial Palace"
+      "status": "completed",
+      "title": "Imperial Palace",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Imperial Palace, Front View",
+      "final_title": "Imperial Palace Drawing",
+      "completed_at": "2026-01-11T03:55:44.801321+00:00"
     },
     "its-all-about-two-wheels.md": {
       "status": "good",
@@ -2069,12 +2256,24 @@
       "title": "Mt. Diablo at Sunrise"
     },
     "mt-diablo-at-sunset-detail-2.md": {
-      "status": "good",
-      "title": "Mt. Diablo at Sunset (detail)"
+      "status": "completed",
+      "title": "Mt. Diablo at Sunset (detail)",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Mt. Diablo at Sunset, Mountain Detail",
+      "final_title": "Mt. Diablo at Sunset, Figure Detail",
+      "completed_at": "2026-01-11T03:55:50.974409+00:00"
     },
     "mt-diablo-at-sunset-detail.md": {
-      "status": "good",
-      "title": "Mt. Diablo at Sunset (detail)"
+      "status": "completed",
+      "title": "Mt. Diablo at Sunset (detail)",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Mt. Diablo at Sunset, Sky Detail",
+      "final_title": "Mt. Diablo at Sunset, Tree Detail",
+      "completed_at": "2026-01-11T03:55:53.921268+00:00"
     },
     "mt-diablo-at-sunset-in-progress.md": {
       "status": "good",
@@ -2111,12 +2310,24 @@
       "completed_at": "2026-01-11T03:03:32.752948+00:00"
     },
     "office-and-hotel-2.md": {
-      "status": "good",
-      "title": "Office and Hotel"
+      "status": "completed",
+      "title": "Office and Hotel",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Office and Hotel at Dusk",
+      "final_title": "Office and Hotel Linework",
+      "completed_at": "2026-01-11T03:56:03.300017+00:00"
     },
     "office-and-hotel.md": {
-      "status": "good",
-      "title": "Office and Hotel"
+      "status": "completed",
+      "title": "Office and Hotel",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Viking Village Office and Hotel",
+      "final_title": "Viking Village Office and Hotel",
+      "completed_at": "2026-01-11T03:56:06.353315+00:00"
     },
     "oil-on-canvas-3-x-4-feet-1-0-x-1-3-m.md": {
       "status": "good",
@@ -2127,16 +2338,30 @@
       "title": "Oil on Canvas, 3 x 4 feet (1 x 1.3 M)"
     },
     "oil-on-canvas-3.md": {
-      "status": "good",
-      "title": "Oil on Canvas"
+      "status": "completed",
+      "title": "Oil on Canvas",
+      "reasons": [
+        "duplicate_title",
+        "generic_title"
+      ],
+      "suggested_title": "Figure Oil Study",
+      "final_title": "View Towards Old Forge from the Docks",
+      "completed_at": "2026-01-11T03:56:20.976606+00:00"
     },
     "oil-on-canvas-board-11-x-14-inches-28-x-36-cm.md": {
       "status": "good",
       "title": "Oil on Canvas Board, 11 x 14 inches (28 x 36 cm)"
     },
     "oil-on-canvas.md": {
-      "status": "good",
-      "title": "Oil on Canvas"
+      "status": "completed",
+      "title": "Oil on Canvas",
+      "reasons": [
+        "duplicate_title",
+        "generic_title"
+      ],
+      "suggested_title": "Landscape Oil Study",
+      "final_title": "Over the Backyard Fence",
+      "completed_at": "2026-01-11T03:56:30.249420+00:00"
     },
     "oil-on-paper.md": {
       "status": "good",
@@ -2235,36 +2460,83 @@
       "title": "Pen & Ink on Paper"
     },
     "pencil-on-paper-3.md": {
-      "status": "good",
-      "title": "Pencil on Paper"
+      "status": "completed",
+      "title": "Pencil on Paper",
+      "reasons": [
+        "duplicate_title",
+        "generic_title"
+      ],
+      "suggested_title": "Figure Study in Graphite",
+      "final_title": "Betsy's Cabin in the Catskills",
+      "completed_at": "2026-01-11T03:56:44.798945+00:00"
     },
     "pencil-on-paper-5.md": {
-      "status": "good",
-      "title": "Pencil on Paper"
+      "status": "completed",
+      "title": "Pencil on Paper",
+      "reasons": [
+        "duplicate_title",
+        "generic_title"
+      ],
+      "suggested_title": "Architectural Sketch in Pencil",
+      "final_title": "Office and Hotel Sketch in Pencil",
+      "completed_at": "2026-01-11T03:56:59.487520+00:00"
     },
     "pencil-on-paper-6.md": {
-      "status": "good",
-      "title": "Pencil on Paper"
+      "status": "completed",
+      "title": "Pencil on Paper",
+      "reasons": [
+        "duplicate_title",
+        "generic_title"
+      ],
+      "suggested_title": "Portrait Study in Graphite",
+      "final_title": "View West on Forth Lake",
+      "completed_at": "2026-01-11T03:57:11.127865+00:00"
     },
     "pencil-on-paper-7.md": {
-      "status": "good",
-      "title": "Pencil on Paper"
+      "status": "completed",
+      "title": "Pencil on Paper",
+      "reasons": [
+        "duplicate_title",
+        "generic_title"
+      ],
+      "suggested_title": "Landscape in Pencil",
+      "final_title": "Snake Shack, Viking Village in Pencil",
+      "completed_at": "2026-01-11T03:57:25.306827+00:00"
     },
     "pencil-on-paper-with-white-gouache-highlights-8-x-10.md": {
       "status": "good",
       "title": "Pencil on Paper with White Gouache Highlights, 8 x 10"
     },
     "pencil-on-paper.md": {
-      "status": "good",
-      "title": "Pencil on paper"
+      "status": "completed",
+      "title": "Pencil on paper",
+      "reasons": [
+        "duplicate_title",
+        "generic_title"
+      ],
+      "suggested_title": "Campus Scene in Pencil",
+      "final_title": "Boy with Hat in Pencil",
+      "completed_at": "2026-01-11T03:57:40.108675+00:00"
     },
     "plant-2.md": {
-      "status": "good",
-      "title": "Plant"
+      "status": "completed",
+      "title": "Plant",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Snake Plant in Corner",
+      "final_title": "Snake Plant in Corner",
+      "completed_at": "2026-01-11T03:57:44.131248+00:00"
     },
     "plant.md": {
-      "status": "good",
-      "title": "Plant"
+      "status": "completed",
+      "title": "Plant",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Potted Plant by Window",
+      "final_title": "Potted Plant Watercolor",
+      "completed_at": "2026-01-11T03:57:53.727716+00:00"
     },
     "plaque-under-the-painting.md": {
       "status": "good",
@@ -2386,48 +2658,114 @@
       "title": "Reclining Nude (After Iradell)"
     },
     "rowing-study-10.md": {
-      "status": "good",
-      "title": "Rowing Study"
+      "status": "completed",
+      "title": "Rowing Study",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Cal Crew Rowing Formation",
+      "final_title": "Cal Crew Rowing Sketch",
+      "completed_at": "2026-01-11T03:58:06.522610+00:00"
     },
     "rowing-study-11.md": {
-      "status": "good",
-      "title": "Rowing Study"
+      "status": "completed",
+      "title": "Rowing Study",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Boathouse and Shell Study",
+      "final_title": "Boathouse and Shell Study",
+      "completed_at": "2026-01-11T03:58:09.467717+00:00"
     },
     "rowing-study-2.md": {
-      "status": "good",
-      "title": "Rowing Study"
+      "status": "completed",
+      "title": "Rowing Study",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Rower from Behind in Pencil",
+      "final_title": "Rower from Behind in Pencil",
+      "completed_at": "2026-01-11T03:58:12.171464+00:00"
     },
     "rowing-study-3.md": {
-      "status": "good",
-      "title": "Rowing Study"
+      "status": "completed",
+      "title": "Rowing Study",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Coach with Megaphone and Crew",
+      "final_title": "Figure From Behind Rowing Study",
+      "completed_at": "2026-01-11T03:58:35.389481+00:00"
     },
     "rowing-study-4.md": {
-      "status": "good",
-      "title": "Rowing Study"
+      "status": "completed",
+      "title": "Rowing Study",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Rower and Arm Study in Boathouse",
+      "final_title": "Rower and Arm Study in Boathouse",
+      "completed_at": "2026-01-11T03:58:37.525615+00:00"
     },
     "rowing-study-5.md": {
-      "status": "good",
-      "title": "Rowing Study"
+      "status": "completed",
+      "title": "Rowing Study",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Single Sculler with Cal Oar Blade",
+      "final_title": "Single Sculler with Cal Oar Blade",
+      "completed_at": "2026-01-11T03:58:42.438685+00:00"
     },
     "rowing-study-6.md": {
-      "status": "good",
-      "title": "Rowing study"
+      "status": "completed",
+      "title": "Rowing study",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Crew Perspective Study with Grid",
+      "final_title": "Crew Perspective Study with Grid",
+      "completed_at": "2026-01-11T03:58:45.347340+00:00"
     },
     "rowing-study-7.md": {
-      "status": "good",
-      "title": "Rowing Study"
+      "status": "completed",
+      "title": "Rowing Study",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Eight-Man Shell from Above",
+      "final_title": "Eight-Man Shell Geometric Study",
+      "completed_at": "2026-01-11T03:58:56.535220+00:00"
     },
     "rowing-study-8.md": {
-      "status": "good",
-      "title": "Rowing study"
+      "status": "completed",
+      "title": "Rowing study",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Perspective Study with Color Grid",
+      "final_title": "Perspective Study with Color Grid",
+      "completed_at": "2026-01-11T03:59:01.446941+00:00"
     },
     "rowing-study-9.md": {
-      "status": "good",
-      "title": "Rowing Study"
+      "status": "completed",
+      "title": "Rowing Study",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Rowers in Motion Study",
+      "final_title": "Rowers in Motion Study",
+      "completed_at": "2026-01-11T03:59:04.648425+00:00"
     },
     "rowing-study.md": {
-      "status": "good",
-      "title": "Rowing Study"
+      "status": "completed",
+      "title": "Rowing Study",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Cal Rower Studies with Hand Detail",
+      "final_title": "Cal Rower Studies with Hand Detail",
+      "completed_at": "2026-01-11T03:59:07.293849+00:00"
     },
     "san-francisco-drawbridge.md": {
       "status": "good",
@@ -2446,12 +2784,24 @@
       "title": "Sather Gate, UC Berkeley"
     },
     "sather-tower-campanile-university-of-california-berkeley-2.md": {
-      "status": "good",
-      "title": "Sather Tower (Campanile), University of California, Berkeley"
+      "status": "completed",
+      "title": "Sather Tower (Campanile), University of California, Berkeley",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Sather Tower Through the Trees",
+      "final_title": "Sather Tower Line Study",
+      "completed_at": "2026-01-11T03:59:21.146021+00:00"
     },
     "sather-tower-campanile-university-of-california-berkeley.md": {
-      "status": "good",
-      "title": "Sather Tower (Campanile), University of California, Berkeley"
+      "status": "completed",
+      "title": "Sather Tower (Campanile), University of California, Berkeley",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Sather Tower from South Hall",
+      "final_title": "Sather Tower Perspective Study",
+      "completed_at": "2026-01-11T03:59:30.027413+00:00"
     },
     "sather-tower-in-afternoon-light.md": {
       "status": "good",
@@ -2493,12 +2843,24 @@
       "title": "Self-Portrait as Anatomical Study"
     },
     "self-portrait-as-maldoror-or-self-portrait-in-broken-glass-3.md": {
-      "status": "good",
-      "title": "Self-Portrait as Maldoror (or Self-Portrait in Broken Glass)"
+      "status": "completed",
+      "title": "Self-Portrait as Maldoror (or Self-Portrait in Broken Glass)",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Self-Portrait in Broken Glass, Detail",
+      "final_title": "Self-Portrait in Broken Glass",
+      "completed_at": "2026-01-11T03:59:37.632278+00:00"
     },
     "self-portrait-as-maldoror-or-self-portrait-in-broken-glass.md": {
-      "status": "good",
-      "title": "Self-Portrait as Maldoror (or Self-Portrait in Broken Glass)"
+      "status": "completed",
+      "title": "Self-Portrait as Maldoror (or Self-Portrait in Broken Glass)",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Self-Portrait as Maldoror, Full View",
+      "final_title": "Self-Portrait as Maldoror, Full View",
+      "completed_at": "2026-01-11T03:59:43.983632+00:00"
     },
     "sewing-table-in-the-sun.md": {
       "status": "good",
@@ -2513,12 +2875,24 @@
       "title": "Sketchbook page"
     },
     "snack-shack-2.md": {
-      "status": "good",
-      "title": "Snack Shack"
+      "status": "completed",
+      "title": "Snack Shack",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Snack Shack with Customers",
+      "final_title": "Snack Shack from the Water",
+      "completed_at": "2026-01-11T03:59:52.587762+00:00"
     },
     "snack-shack.md": {
-      "status": "good",
-      "title": "Snack Shack"
+      "status": "completed",
+      "title": "Snack Shack",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Viking Village Snack Shack",
+      "final_title": "Viking Village Snack Shack",
+      "completed_at": "2026-01-11T03:59:57.270670+00:00"
     },
     "son-of-oski.md": {
       "status": "good",
@@ -2537,12 +2911,24 @@
       "title": "Stairs Up to University House, Study for an Oil Painting, University of California, Berkeley"
     },
     "statue-on-facade-of-hearst-memorial-mining-building-2.md": {
-      "status": "good",
-      "title": "Statue on facade of Hearst Memorial Mining Building, University of California, Berkeley"
+      "status": "completed",
+      "title": "Statue on facade of Hearst Memorial Mining Building, University of California, Berkeley",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Hearst Mining Building Statue, Right",
+      "final_title": "Hearst Mining Building Statue, Right",
+      "completed_at": "2026-01-11T04:00:02.586985+00:00"
     },
     "statue-on-facade-of-hearst-memorial-mining-building.md": {
-      "status": "good",
-      "title": "Statue on facade of Hearst Memorial Mining Building, University of California, Berkeley"
+      "status": "completed",
+      "title": "Statue on facade of Hearst Memorial Mining Building, University of California, Berkeley",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Hearst Mining Building Statue, Left",
+      "final_title": "Hearst Mining Building Statue, Left",
+      "completed_at": "2026-01-11T04:00:04.581652+00:00"
     },
     "statues-of-coach-pappy-waldorf-and-the-last-dryaduniversity.md": {
       "status": "good",
@@ -2585,12 +2971,24 @@
       "title": "Still Life with Cal Band Hat and Skull"
     },
     "still-life-with-silver-tea-pot-baseball-and-diplodocus-2.md": {
-      "status": "good",
-      "title": "Still Life with Silver Tea Pot, Baseball, and Diplodocus"
+      "status": "completed",
+      "title": "Still Life with Silver Tea Pot, Baseball, and Diplodocus",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Still Life with Silver Tea Pot, Drawing",
+      "final_title": "Still Life with Silver Tea Pot, Baseball, and Diplodocus",
+      "completed_at": "2026-01-11T04:00:20.967537+00:00"
     },
     "still-life-with-silver-tea-pot-baseball-and-diplodocus.md": {
-      "status": "good",
-      "title": "Still Life with Silver Tea Pot, Baseball, and Diplodocus"
+      "status": "completed",
+      "title": "Still Life with Silver Tea Pot, Baseball, and Diplodocus",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Still Life with Silver Tea Pot, Oil",
+      "final_title": "Still Life with Silver Tea Pot, Baseball, and Diplodocus Detail",
+      "completed_at": "2026-01-11T04:00:27.221179+00:00"
     },
     "still-life-with-skull.md": {
       "status": "good",
@@ -2633,12 +3031,24 @@
       "title": "Study of Airplane Wing"
     },
     "study-of-boat-in-belize-harbor-2.md": {
-      "status": "good",
-      "title": "Study of Boat in Belize Harbor"
+      "status": "completed",
+      "title": "Study of Boat in Belize Harbor",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Boat in Belize Harbor, Afternoon",
+      "final_title": "Study of Boat in Belize Harbor",
+      "completed_at": "2026-01-11T04:00:37.952448+00:00"
     },
     "study-of-boat-in-belize-harbor.md": {
-      "status": "good",
-      "title": "Study of Boat in Belize Harbor"
+      "status": "completed",
+      "title": "Study of Boat in Belize Harbor",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Boat in Belize Harbor, Morning",
+      "final_title": "Boat Mored in Belize Harbor",
+      "completed_at": "2026-01-11T04:00:49.002104+00:00"
     },
     "study-of-boathouse-proportions.md": {
       "status": "good",
@@ -2653,24 +3063,48 @@
       "title": "Study of Mt. Diable"
     },
     "study-of-mt-diablo-3.md": {
-      "status": "good",
-      "title": "Study of Mt. Diablo"
+      "status": "completed",
+      "title": "Study of Mt. Diablo",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Mt. Diablo from the East",
+      "final_title": "Mt. Diablo from the East",
+      "completed_at": "2026-01-11T04:00:55.961672+00:00"
     },
     "study-of-mt-diablo-4.md": {
-      "status": "good",
-      "title": "Study of Mt. Diablo"
+      "status": "completed",
+      "title": "Study of Mt. Diablo",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Mt. Diablo Sunset Colors",
+      "final_title": "Mt. Diablo Grid Study",
+      "completed_at": "2026-01-11T04:01:05.036135+00:00"
     },
     "study-of-mt-diablo-5.md": {
-      "status": "good",
-      "title": "Study of Mt. Diablo"
+      "status": "completed",
+      "title": "Study of Mt. Diablo",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Mt. Diablo with Cloud Shadows",
+      "final_title": "Mt. Diablo and Shell Ridge",
+      "completed_at": "2026-01-11T04:01:14.984145+00:00"
     },
     "study-of-mt-diablo-before-sunrise.md": {
       "status": "good",
       "title": "Study of Mt. Diablo Before Sunrise"
     },
     "study-of-mt-diablo.md": {
-      "status": "good",
-      "title": "Study of Mt. Diablo"
+      "status": "completed",
+      "title": "Study of Mt. Diablo",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Mt. Diablo Morning Light Study",
+      "final_title": "Mt. Diablo Morning Light Study",
+      "completed_at": "2026-01-11T04:01:17.654224+00:00"
     },
     "study-of-rower-mechanics.md": {
       "status": "good",
@@ -2701,20 +3135,44 @@
       "title": "Sunrise in Sonoma County"
     },
     "sunrise-over-mt-diablo-2.md": {
-      "status": "good",
-      "title": "Sunrise Over Mt. Diablo"
+      "status": "completed",
+      "title": "Sunrise Over Mt. Diablo",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Sunrise Over Mt. Diablo, Misty Morning",
+      "final_title": "Sunrise Over Mt. Diablo",
+      "completed_at": "2026-01-11T04:01:23.304673+00:00"
     },
     "sunrise-over-mt-diablo-3.md": {
-      "status": "good",
-      "title": "Sunrise Over Mt. Diablo"
+      "status": "completed",
+      "title": "Sunrise Over Mt. Diablo",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Sunrise Over Mt. Diablo, Clear Sky",
+      "final_title": "Sunrise Over Mt. Diablo, Clear Sky",
+      "completed_at": "2026-01-11T04:01:28.582536+00:00"
     },
     "sunrise-over-mt-diablo-4.md": {
-      "status": "good",
-      "title": "Sunrise Over Mt. Diablo"
+      "status": "completed",
+      "title": "Sunrise Over Mt. Diablo",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Sunrise Over Mt. Diablo, Purple Haze",
+      "final_title": "Sunrise Over Mt. Diablo, Purple Haze",
+      "completed_at": "2026-01-11T04:01:37.422055+00:00"
     },
     "sunrise-over-mt-diablo.md": {
-      "status": "good",
-      "title": "Sunrise Over Mt. Diablo"
+      "status": "completed",
+      "title": "Sunrise Over Mt. Diablo",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Sunrise Over Mt. Diablo with Orange Clouds",
+      "final_title": "Sunrise Over Mt. Diablo with Orange Clouds",
+      "completed_at": "2026-01-11T04:01:39.764312+00:00"
     },
     "the-artist-with-the-installed-painting.md": {
       "status": "good",
@@ -2778,8 +3236,14 @@
       "title": "University House, Berkeley Campus"
     },
     "university-house-uc-berkeley.md": {
-      "status": "good",
-      "title": "University House, UC Berkeley"
+      "status": "completed",
+      "title": "University House, UC Berkeley",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "University House, UC Berkeley, Pencil Study",
+      "final_title": "University House, UC Berkeley, Pencil Study",
+      "completed_at": "2026-01-11T04:01:44.587324+00:00"
     },
     "university-house.md": {
       "status": "good",
@@ -2854,12 +3318,26 @@
       "title": "View Toward Moffitt Library and Sather Tower (Campanile), University of California, Berkeley"
     },
     "watercolor-3.md": {
-      "status": "good",
-      "title": "Watercolor"
+      "status": "completed",
+      "title": "Watercolor",
+      "reasons": [
+        "duplicate_title",
+        "generic_title"
+      ],
+      "suggested_title": "Viking Village Hotel Roofline",
+      "final_title": "Viking Village Hotel Roofline",
+      "completed_at": "2026-01-11T04:01:47.877264+00:00"
     },
     "watercolor.md": {
-      "status": "good",
-      "title": "Watercolor"
+      "status": "completed",
+      "title": "Watercolor",
+      "reasons": [
+        "duplicate_title",
+        "generic_title"
+      ],
+      "suggested_title": "Watercolor Landscape Study",
+      "final_title": "Watercolor of Betsy's Catskill Cabin",
+      "completed_at": "2026-01-11T04:02:01.751879+00:00"
     },
     "winter-storm-over-mt-diablo.md": {
       "status": "good",
@@ -2874,16 +3352,28 @@
       "title": "Woman in a Winter Landscape"
     },
     "yosemite-valley-2.md": {
-      "status": "good",
-      "title": "Yosemite Valley"
+      "status": "completed",
+      "title": "Yosemite Valley",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Yosemite Valley, Watercolor Study",
+      "final_title": "Yosemite Valley, Watercolor Study",
+      "completed_at": "2026-01-11T04:02:21.056573+00:00"
     },
     "yosemite-valley-after-bierstadt.md": {
       "status": "good",
       "title": "Yosemite Valley (after Bierstadt)"
     },
     "yosemite-valley.md": {
-      "status": "good",
-      "title": "Yosemite Valley"
+      "status": "completed",
+      "title": "Yosemite Valley",
+      "reasons": [
+        "duplicate_title"
+      ],
+      "suggested_title": "Yosemite Valley, After Bierstadt",
+      "final_title": "Yosemite Valley, After Bierstadt",
+      "completed_at": "2026-01-11T04:02:24.026340+00:00"
     }
   }
 }
