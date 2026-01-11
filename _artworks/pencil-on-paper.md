@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "Boy with Hat in Pencil"
+title: "Portrait of a Girl, After W.M. Chase"
 image: /assets/images/galleries/finished-drawings/portrait-of-a-girl-after-w-m-chase.jpg
 galleries:
   - figure-heads-faces

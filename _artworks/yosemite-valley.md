@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "Yosemite Valley, After Bierstadt"
+title: "Yosemite Valley in Oil, After Bierstadt"
 image: /assets/images/galleries/landscapes-watercolor/yosemite-valley.jpg
 galleries:
   - landscapes-other
