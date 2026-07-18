@@ -256,10 +256,6 @@ def main() -> None:
                         help="Rewrite gallery data files to archive order (not yet implemented)")
     args = parser.parse_args()
 
-    if args.fix_order:
-        print("--fix-order not yet implemented; run without the flag first", file=sys.stderr)
-        sys.exit(1)
-
     rename_map = load_rename_map()
     artworks = load_artworks()
     inventory = load_inventory()
@@ -368,6 +364,54 @@ def main() -> None:
                 "archive_order": archive_order,
                 "repo_order": repo_order,
             })
+
+    # --- Fix gallery order ---
+    if args.fix_order:
+        # Collect archive items per gallery (multiple archive pages may share one gallery)
+        gallery_archive_items: dict[str, list] = {}
+        for page_slug, gallery_id in GALLERY_MAP.items():
+            if gallery_id is None:
+                continue
+            page_data = inventory.get(page_slug, {})
+            items = sorted(
+                page_data.get("items", []),
+                key=lambda x: x.get("order_index", 9999),
+            )
+            if items:
+                gallery_archive_items.setdefault(gallery_id, []).extend(items)
+
+        updated = 0
+        for gallery_id, archive_items in gallery_archive_items.items():
+            repo_order = load_gallery_order(gallery_id)
+            if not repo_order:
+                continue
+
+            # Build archive-ordered slug list (deduplicated, skip unmatched)
+            seen: set[str] = set()
+            archive_order: list[str] = []
+            for item in archive_items:
+                slug = match_item(item, rename_map, artworks, gallery_id)
+                if slug and slug not in seen:
+                    archive_order.append(slug)
+                    seen.add(slug)
+
+            # Append repo-only items in their original relative order
+            for slug in repo_order:
+                if slug not in seen:
+                    archive_order.append(slug)
+                    seen.add(slug)
+
+            if archive_order == repo_order:
+                continue
+
+            path = GALLERIES_DIR / f"{gallery_id}.yml"
+            with open(path, "w", encoding="utf-8") as f:
+                for slug in archive_order:
+                    f.write(f"- {slug}\n")
+            print(f"  Updated order: {gallery_id} ({len(archive_order)} slugs)")
+            updated += 1
+
+        print(f"\nUpdated {updated} gallery data files")
 
     # --- Unmatched repo artworks ---
     matched_set = set(matched_slugs.keys())
