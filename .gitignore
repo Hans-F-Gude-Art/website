@@ -26,3 +26,9 @@ vendor/
 *.zip
 *.tar
 *.gz
+
+# Plan files
+plan.md
+
+# Python bytecode
+__pycache__/

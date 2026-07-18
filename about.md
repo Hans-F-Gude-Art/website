@@ -5,6 +5,10 @@ image: /assets/images/bio/hans_painting_about_page_portrait.jpg
 image_alt: Hans working on his Cal Band oil painting.
 ---
 
+> "In art, 'intentions' have no place; only results. In good art, the results do not have to be explained by any personally conducted eulogy."
+>
+> — <cite>Elementary Principles of Landscape Painting</cite>, John Carlson, 1927
+
 # Artist Biography
 
 <figure class="bio-figure">
@@ -56,3 +60,11 @@ Northern California for college, graduating from the [University of
 California, Berkeley]({{ '/uc-berkeley' | relative_url }}), with a bachelor's
 degree in philosophy. Later he took an MBA degree (finance) from Cal State
 East Bay.
+
+## Cal Licensed Artist in Residence
+
+Owing to the quality and unique vision of his campus artworks, Hans was
+selected as the official **Cal Licensed Artist in Residence** in October 2017.
+This designation authorizes him to officially represent the campus through his
+artwork, to affix the UC Berkeley trademark to his images, and to offer
+licensed products bearing the University's marks.

@@ -1,6 +1,7 @@
 ---
 layout: artwork
 title: "Study for Band Painting"
+description: "Pencil on Paper"
 image: /assets/images/galleries/cal-marching-band/study-for-band-painting.jpg
 galleries:
   - cal-band-drawings
