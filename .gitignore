@@ -29,3 +29,6 @@ vendor/
 
 # Plan files
 plan.md
+
+# Python bytecode
+__pycache__/
