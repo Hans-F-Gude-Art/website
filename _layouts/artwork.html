@@ -5,7 +5,10 @@ layout: default
 <article class="artwork-page">
   <figure class="artwork-display">
     <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">
-    <figcaption>{{ page.title }}</figcaption>
+    <figcaption>
+      {{ page.title }}
+      {% if page.description %}<p class="artwork-description">{{ page.description }}</p>{% endif %}
+    </figcaption>
   </figure>
 
   <nav class="artwork-nav">
