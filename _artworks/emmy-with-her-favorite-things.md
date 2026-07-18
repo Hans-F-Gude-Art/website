@@ -1,6 +1,7 @@
 ---
 layout: artwork
 title: "Emmy with Her Favorite Things"
+description: "Pencil on Paper"
 image: /assets/images/galleries/emily/emmy-with-her-favorite-things.jpg
 galleries:
   - emily
