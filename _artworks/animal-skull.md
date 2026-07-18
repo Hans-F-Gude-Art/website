@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Animal Skull"
-description: "Charcoal on Toned Paper"
+description: "Pen and ink"
 image: /assets/images/galleries/sketches-studies/animal-skull.jpg
 galleries:
   - pen-ink-drawings
