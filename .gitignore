@@ -26,3 +26,6 @@ vendor/
 *.zip
 *.tar
 *.gz
+
+# Plan files
+plan.md
