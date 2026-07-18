@@ -1,6 +1,6 @@
 ---
 layout: artwork
-title: "Portrait of a Girl, After W.M. Chase"
+title: "Portrait of a Girl (after W.M. Chase)"
 description: "Pencil on Paper"
 image: /assets/images/galleries/finished-drawings/portrait-of-a-girl-after-wm-chase.jpg
 galleries:
