@@ -29,20 +29,20 @@ DOCKER_RUN := docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) 
 .PHONY: serve-drafts serve-profile
 
 # Tier 3: Domain operations
-.PHONY: image-build image-rebuild deps-lock validate
+.PHONY: image-build image-rebuild deps-lock validate hooks-install
 
 # Internal targets
 .PHONY: all
 
 # Tier 4: Backward compatibility aliases
-.PHONY: image refresh lock drafts profile
+.PHONY: image refresh lock drafts profile install-hook
 
 all: serve
 
-# Install pre-commit hook if it doesn't exist (symlinks version-controlled script)
-.git/hooks/pre-commit: _scripts/pre-commit-hook.sh
+# Install pre-commit hook (symlinks version-controlled script).
+hooks-install: _scripts/pre-commit-hook.sh
 	@echo "Installing pre-commit hook..."
-	@ln -sf ../../_scripts/pre-commit-hook.sh $@
+	@ln -sf ../../_scripts/pre-commit-hook.sh .git/hooks/pre-commit
 	@echo "Pre-commit hook installed."
 
 # Run gallery validation manually
@@ -64,6 +64,11 @@ deps-lock: .ruby-version # Dependency on .ruby-version
 		              echo 'Running bundle lock --update --normalize-platforms...' && \
 		              bundle lock --update --normalize-platforms"
 	@echo "Gemfile.lock updated and normalized successfully. Please commit Gemfile, Gemfile.lock, and .ruby-version."
+
+# Guard: fail early with a helpful message if Gemfile.lock is missing.
+Gemfile.lock:
+	@echo "Error: Gemfile.lock not found. Run 'make deps-lock' first." >&2
+	@exit 1
 
 # Build the Docker image using '.' as build context.
 # Pass the Ruby and Bundler versions as build arguments.
@@ -94,7 +99,7 @@ clean: image-build
 	@$(DOCKER_RUN) bundle exec jekyll clean
 
 # Build the site for production. Depends on image-build and clean.
-build: .git/hooks/pre-commit image-build clean
+build: image-build clean
 	@echo "Building site for production..."
 	@docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) -e JEKYLL_ENV=production $(IMAGE) bundle exec jekyll build
 
@@ -106,7 +111,7 @@ serve-profile: image-build clean
 
 # Serves the site for local development, with live reloading.
 # This target contains the solution to the '0.0.0.0' URL issue in browsers.
-serve: .git/hooks/pre-commit image-build clean
+serve: image-build clean
 	@echo "Serving site at http://localhost:4000..."
 	@docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) -p 4000:4000 -p 35729:35729 -e JEKYLL_ENV=docker $(IMAGE) \
 		bundle exec jekyll serve --config _config.yml,_config_docker.yml --watch --incremental --livereload
@@ -149,3 +154,4 @@ refresh: image-rebuild
 lock: deps-lock
 drafts: serve-drafts
 profile: serve-profile
+install-hook: hooks-install
