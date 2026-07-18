@@ -100,18 +100,23 @@ def slugify(text: str) -> str:
     s = urllib.parse.unquote(text)
     s = s.lower()
     # Remove characters the repo strips (apostrophes, quotes, parens, brackets, &)
-    s = re.sub(r"['\"‘’“”()\[\]&]", "", s)
+    s = re.sub(r"['\"''""()\[\]&]", "", s)
     s = re.sub(r"[^a-z0-9]+", "-", s)
     return s.strip("-")
 
 
 def normalize_title(title: str) -> str:
-    """Normalize whitespace and common quote/dash variants for comparison."""
+    """Normalize whitespace, HTML entities, and quote/dash variants for comparison."""
     title = title.strip()
+    # Decode HTML entities before other normalization
+    title = title.replace("&amp;", "&").replace("&quot;", '"')
+    title = title.replace("&#x27;", "'").replace("&#39;", "'")
+    title = title.replace("&lt;", "<").replace("&gt;", ">")
+    title = re.sub(r"&#\d+;", "", title)
     title = re.sub(r"\s+", " ", title)
     # Straight quotes only
-    title = title.replace("‘", "'").replace("’", "'")
-    title = title.replace("“", '"').replace("”", '"')
+    title = title.replace("'", "'").replace("'", "'")
+    title = title.replace(""", '"').replace(""", '"')
     # Em dash / en dash → regular hyphen for comparison
     title = title.replace("—", "--").replace("–", "-")
     return title
