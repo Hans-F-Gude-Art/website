@@ -5,4 +5,7 @@ description: "Charcoal on Toned Paper with White Highlights, 18 x 24 inches (46 
 image: /assets/images/galleries/finished-drawings/reclining-nude-after-iradell.jpg
 galleries:
   - finished-drawings
+  - figure-complete
+  - figure-drawings
+  - select-charcoal
 ---
