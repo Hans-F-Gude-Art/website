@@ -20,6 +20,7 @@ about2:
 
 cal-branded-artwork:
   page_title: "Cal-Branded Artwork | hfgudeart"
+  no_items_reason: no gallery content in any capture
   items: []
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
@@ -33,6 +34,7 @@ cal-branded-artwork:
 
 cal-campus:
   page_title: "UC Berkeley Campus | hfgudeart"
+  no_items_reason: no gallery content in any capture
   items: []
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
@@ -42,6 +44,7 @@ cal-campus:
 
 cal-men-s-rowing:
   page_title: "Cal Athletics | hfgudeart"
+  no_items_reason: no gallery content in any capture
   items: []
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
@@ -76,7 +79,191 @@ copy-of-artist-bio:
 
 copy-of-berkeley-campus:
   page_title: "Campus Drawings | hfgudeart"
-  items: []
+  item_count: 46
+  items:
+    - order_index: 1
+      media_name: f11310_126be1e07f7f4aaea821630d0e9c3d00~mv2
+      media_hash: f11310_126be1e07f7f4aaea821630d0e9c3d00~mv2
+    - order_index: 2
+      media_name: f11310_d6cb5296a99747b4ae7301ae20f50fbc~mv2
+      media_hash: f11310_d6cb5296a99747b4ae7301ae20f50fbc~mv2
+      title: "Bridge Over Strawberry Creek Next to Moses Hall, University of California, Berkeley"
+    - order_index: 3
+      media_name: f11310_2f4b0b0e12534e3b87d7574823c8ffc8~mv2
+      media_hash: f11310_2f4b0b0e12534e3b87d7574823c8ffc8~mv2
+      title: "California Golden Bear, Lower Sproul Plaza, University of California, Berkeley"
+    - order_index: 4
+      media_name: f11310_92946ac70f0940e983fe5f2cdb85c101
+      media_hash: f11310_92946ac70f0940e983fe5f2cdb85c101
+      title: "University House, University of California, Berkeley"
+    - order_index: 5
+      media_name: f11310_6e8218693509417fb38fec7392e5af81~mv2
+      media_hash: f11310_6e8218693509417fb38fec7392e5af81~mv2
+      title: "View Toward Moffitt Library and Sather Tower (Campanile), University of California, Berkeley"
+    - order_index: 6
+      media_name: f11310_7aa64fb9e97a4a61a97305e6808caf48
+      media_hash: f11310_7aa64fb9e97a4a61a97305e6808caf48
+      title: "View of the Valley Life Sciences Building, University of California, Berkeley"
+    - order_index: 7
+      media_name: f11310_4b7d67f5500547e0b01209315751b03d~mv2
+      media_hash: f11310_4b7d67f5500547e0b01209315751b03d~mv2
+      title: "Stairs Up to University House, Study for an Oil Painting, University of California, Berkeley"
+    - order_index: 8
+      media_name: f11310_1ab15a950f014ad493e5f76de7b1a211~mv2
+      media_hash: f11310_1ab15a950f014ad493e5f76de7b1a211~mv2
+      title: "Study of Sather Tower (Campanile) for Oil Painting, University of California, Berkeley"
+    - order_index: 9
+      media_name: f11310_e3516130efea4029bc9f714d025347e9~mv2
+      media_hash: f11310_e3516130efea4029bc9f714d025347e9~mv2
+      title: Steps Next to Moses Hall. Beginning the drawing on campus...
+    - order_index: 10
+      media_name: f11310_90b233a6ea1d4cfb95b57aaf4a776532~mv2
+      media_hash: f11310_90b233a6ea1d4cfb95b57aaf4a776532~mv2
+      title: Steps Next to Moses Hall. Beginning to apply ink...
+    - order_index: 11
+      media_name: f11310_98f1e9b0c23b459b914314125022352d~mv2
+      media_hash: f11310_98f1e9b0c23b459b914314125022352d~mv2
+      title: "Steps Next to Moses Hall. Final ink drawing, University of California, Berkeley"
+    - order_index: 12
+      media_name: f11310_5c18ea0acd0e4484a3ef9f68a46afb3b~mv2
+      media_hash: f11310_5c18ea0acd0e4484a3ef9f68a46afb3b~mv2
+      title: "View of Moffitt Library, University of California, Berkeley"
+    - order_index: 13
+      media_name: f11310_c92c434c4bf94a3aaa227dfe8e4ce057~mv2
+      media_hash: f11310_c92c434c4bf94a3aaa227dfe8e4ce057~mv2
+      title: "Statues of Coach Pappy Waldorf and &quot;the Last Dryad,&quot;University of California, Berkeley on Faculty Glade"
+    - order_index: 14
+      media_name: f11310_b70e9e5556a24efe86ec7b813e8d3888~mv2
+      media_hash: f11310_b70e9e5556a24efe86ec7b813e8d3888~mv2
+      title: "Douglas Tilden&#x27;s statue &quot;The Football Players,&quot; University of California, Berkeley"
+    - order_index: 15
+      media_name: f11310_1072cc264ad94723afd86ac0e07de5ef~mv2
+      media_hash: f11310_1072cc264ad94723afd86ac0e07de5ef~mv2
+      title: "Douglas Tilden&#x27;s statue &quot;The Football Players,&quot; University of California, Berkeley"
+    - order_index: 16
+      media_name: f11310_4aa2770b58b1472aafc5006d1b953dbd~mv2
+      media_hash: f11310_4aa2770b58b1472aafc5006d1b953dbd~mv2
+      title: "Lincoln bust at the base of Sather Tower (Campanile), University of California, Berkeley"
+    - order_index: 17
+      media_name: f11310_4a943390600a40229ba20f183a1ed53c~mv2
+      media_hash: f11310_4a943390600a40229ba20f183a1ed53c~mv2
+      title: "Statue on facade of Hearst Memorial Mining Building, University of California, Berkeley"
+    - order_index: 18
+      media_name: f11310_d908cc3acb6e4bb4bc1d690bcc32f0a8~mv2
+      media_hash: f11310_d908cc3acb6e4bb4bc1d690bcc32f0a8~mv2
+      title: "Statue on facade of Hearst Memorial Mining Building, University of California, Berkeley"
+    - order_index: 19
+      media_name: f11310_8d72034aeebd4bd693e97efc6a27eaff~mv2
+      media_hash: f11310_8d72034aeebd4bd693e97efc6a27eaff~mv2
+      title: "Statues on facade of Hearst Memorial Mining Building, University of California, Berkeley"
+    - order_index: 20
+      media_name: f11310_31a68ae4044642f78f3bde451bbcbf9c~mv2
+      media_hash: f11310_31a68ae4044642f78f3bde451bbcbf9c~mv2
+      title: "McLaughlin Hall, University of California, Berkeley"
+    - order_index: 21
+      media_name: f11310_a93d1a27f50645018e1c980fc3d05703~mv2
+      media_hash: f11310_a93d1a27f50645018e1c980fc3d05703~mv2
+      title: "Study for McLaughlin Hall, University of California, Berkeley"
+    - order_index: 22
+      media_name: f11310_57137b9df2c1461f98c905b48b566ec7~mv2
+      media_hash: f11310_57137b9df2c1461f98c905b48b566ec7~mv2
+      title: "Detailed study of the south side of Stephens Hall, with sunlight notes, for gouache painting, University of California, Berkeley"
+    - order_index: 23
+      media_name: f11310_acad0bf28dce4a629b5593eb1e850f32~mv2
+      media_hash: f11310_acad0bf28dce4a629b5593eb1e850f32~mv2
+      title: "Sather Tower (Campanile), University of California, Berkeley"
+    - order_index: 24
+      media_name: f11310_a5de433242d34fed9a5ca6f3c6024a1e~mv2
+      media_hash: f11310_a5de433242d34fed9a5ca6f3c6024a1e~mv2
+      title: "Sather Tower (Campanile), University of California, Berkeley"
+    - order_index: 25
+      media_name: f11310_04b0bf23a6ab4392a90998fc2e9fa1d8~mv2
+      media_hash: f11310_04b0bf23a6ab4392a90998fc2e9fa1d8~mv2
+      title: "View of Sather Tower from Strawberry Creek, University of California, Berkeley"
+    - order_index: 26
+      media_name: f11310_c3ef83c432be453787ac300c8677b1e3~mv2
+      media_hash: f11310_c3ef83c432be453787ac300c8677b1e3~mv2
+      title: "Cal men&#x27;s rowing team bringing the boat out"
+    - order_index: 27
+      media_name: f11310_401dd928e39c445b9f5a990dd5afefb1~mv2
+      media_hash: f11310_401dd928e39c445b9f5a990dd5afefb1~mv2
+      title: "Study of light and shadow on the Lawrence Hall of Science, UC Berkeley"
+    - order_index: 28
+      media_name: f11310_aecce77bc92749b4b8f372d4266f4919~mv2
+      media_hash: f11310_aecce77bc92749b4b8f372d4266f4919~mv2
+      title: "Lawrence Hall of Science, UC Berkeley, design study for oil painting, University of California, Berkeley"
+    - order_index: 29
+      media_name: f11310_8538d92120d945b3a9a881840e2b5f0a~mv2
+      media_hash: f11310_8538d92120d945b3a9a881840e2b5f0a~mv2
+      title: "California Marching Band, UC Berkeley, in North Tunnel, design study for oil painting"
+    - order_index: 30
+      media_name: f11310_a12d26ddadbd426b8eb3dce7cb23d2c1~mv2
+      media_hash: f11310_a12d26ddadbd426b8eb3dce7cb23d2c1~mv2
+      title: "Steps to University House, University of California, Berkeley"
+    - order_index: 31
+      media_name: f11310_b5e0916f7e264fdbb186aff5c93c99eb~mv2
+      media_hash: f11310_b5e0916f7e264fdbb186aff5c93c99eb~mv2
+      title: "International House, University of California, Berkeley"
+    - order_index: 32
+      media_name: f11310_b3b47dd4bdc04e0a9d494828d62ea6ce~mv2
+      media_hash: f11310_b3b47dd4bdc04e0a9d494828d62ea6ce~mv2
+      title: "University House, University of California, Berkeley"
+    - order_index: 33
+      media_name: f11310_edd94ca5f99f4bf48d06276b3b7e5b77~mv2
+      media_hash: f11310_edd94ca5f99f4bf48d06276b3b7e5b77~mv2
+      title: "Sketch of the roofline of South Hall, UC Berkeley, and students on lawn"
+    - order_index: 34
+      media_name: f11310_f5daf84af5c4488ab1a1e3c162223cd6~mv2
+      media_hash: f11310_f5daf84af5c4488ab1a1e3c162223cd6~mv2
+      title: "Bridge over Strawberry Creek, study for oil painting, University of California, Berkeley"
+    - order_index: 35
+      media_name: f11310_6849669e1fd14335955e5a3eae629e96~mv2
+      media_hash: f11310_6849669e1fd14335955e5a3eae629e96~mv2
+      title: "Study of a typical campus light pole, UC Berkeley"
+    - order_index: 36
+      media_name: f11310_9071e700051347a987de0c83bdb7ad18~mv2
+      media_hash: f11310_9071e700051347a987de0c83bdb7ad18~mv2
+      title: "Study for &#x27;Moen enters the end zone,&#x27; the Play, UC Berkeley Big Game, 1982"
+    - order_index: 37
+      media_name: f11310_fb12cbc1509541a4b9e118d4222d8ded~mv2
+      media_hash: f11310_fb12cbc1509541a4b9e118d4222d8ded~mv2
+      title: "Study for The Play, Ford to Moen, The Big Game, 1982"
+    - order_index: 38
+      media_name: f11310_6e1b51a3878943819be198196e3b59b7~mv2
+      media_hash: f11310_6e1b51a3878943819be198196e3b59b7~mv2
+      title: Coach Pappy Waldorf
+    - order_index: 39
+      media_name: f11310_9ad16008ac8c4879a2eacfd70a3d982d~mv2
+      media_hash: f11310_9ad16008ac8c4879a2eacfd70a3d982d~mv2
+      title: A tree on the Berkeley campus
+    - order_index: 40
+      media_name: f11310_718c83aeeac9483db8f86bcb691309c1~mv2
+      media_hash: f11310_718c83aeeac9483db8f86bcb691309c1~mv2
+      title: "Study of a band member, California Marching Band, UC Berkeley"
+    - order_index: 41
+      media_name: f11310_dc5fb89ad2344752a8638ee296260f86~mv2
+      media_hash: f11310_dc5fb89ad2344752a8638ee296260f86~mv2
+      title: "Perspective study for ramps at the old UC Berkeley men&#x27;s rowing team boathouse"
+    - order_index: 42
+      media_name: f11310_6440c03756444e949ca7f0e126bb8a50~mv2
+      media_hash: f11310_6440c03756444e949ca7f0e126bb8a50~mv2
+      title: "Old Cal men&#x27;s rowing boathouse, final design layout for oil painting"
+    - order_index: 43
+      media_name: f11310_176a38889ed84a1da0c09e6037d2fced~mv2
+      media_hash: f11310_176a38889ed84a1da0c09e6037d2fced~mv2
+      title: "Cal men&#x27;s rowing crew, study for oil painting"
+    - order_index: 44
+      media_name: f11310_7f9802a69e114fc78035a7ebdad7201c~mv2
+      media_hash: f11310_7f9802a69e114fc78035a7ebdad7201c~mv2
+      title: "Studies for Cal men&#x27;s rowing crew member"
+    - order_index: 45
+      media_name: f11310_3fc6b01dd75348008244d2ba71e83a72~mv2
+      media_hash: f11310_3fc6b01dd75348008244d2ba71e83a72~mv2
+      title: "Study of oars, Cal men&#x27;s rowing"
+    - order_index: 46
+      media_name: f11310_46dab53a00f047ad8b4242eea0c519b3~mv2
+      media_hash: f11310_46dab53a00f047ad8b4242eea0c519b3~mv2
+      title: "Cal men&#x27;s rowing, study for design of oil painting"
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
     - Hans F. Gude
@@ -155,7 +342,62 @@ copy-of-cal-marching-band:
 
 copy-of-cal-marching-band-1:
   page_title: "Cal Marching Band - Detail | hfgudeart"
-  items: []
+  item_count: 17
+  items:
+    - order_index: 1
+      media_name: f11310_dfe1c54882fc44a5b563feba588336a4~mv2
+      media_hash: f11310_dfe1c54882fc44a5b563feba588336a4~mv2
+    - order_index: 2
+      media_name: f11310_a44394c4682845debe6d4788ced30669~mv2
+      media_hash: f11310_a44394c4682845debe6d4788ced30669~mv2
+    - order_index: 3
+      media_name: f11310_616de2cd220844618d21a739cba1b885~mv2
+      media_hash: f11310_616de2cd220844618d21a739cba1b885~mv2
+    - order_index: 4
+      media_name: f11310_c2cec01a08144d73a75c9469db331f76~mv2
+      media_hash: f11310_c2cec01a08144d73a75c9469db331f76~mv2
+    - order_index: 5
+      media_name: f11310_f5b51db54ad1449b9e377c36d4db97be~mv2
+      media_hash: f11310_f5b51db54ad1449b9e377c36d4db97be~mv2
+    - order_index: 6
+      media_name: f11310_7234e8efcb8348f4bff56155dd7872dd~mv2
+      media_hash: f11310_7234e8efcb8348f4bff56155dd7872dd~mv2
+    - order_index: 7
+      media_name: f11310_529b6396bc18428a880f1809038ec165~mv2
+      media_hash: f11310_529b6396bc18428a880f1809038ec165~mv2
+    - order_index: 8
+      media_name: f11310_9e4999420d4f4ed687c2bf39b227782a~mv2
+      media_hash: f11310_9e4999420d4f4ed687c2bf39b227782a~mv2
+    - order_index: 9
+      media_name: f11310_4a8084298d2a48ebafac50268758f9d8~mv2
+      media_hash: f11310_4a8084298d2a48ebafac50268758f9d8~mv2
+    - order_index: 10
+      media_name: f11310_02a1d96fa7e84295b7223a5c797ffe4c~mv2
+      media_hash: f11310_02a1d96fa7e84295b7223a5c797ffe4c~mv2
+    - order_index: 11
+      media_name: f11310_fc014f3a4d184f34a4bdf005f4d9bd04~mv2
+      media_hash: f11310_fc014f3a4d184f34a4bdf005f4d9bd04~mv2
+    - order_index: 12
+      media_name: f11310_7aa39ff11af6429ab4b93f20e6d58837~mv2
+      media_hash: f11310_7aa39ff11af6429ab4b93f20e6d58837~mv2
+    - order_index: 13
+      media_name: f11310_ad2a4bbb84cd4b478ebd55f9ac8f5aa5~mv2
+      media_hash: f11310_ad2a4bbb84cd4b478ebd55f9ac8f5aa5~mv2
+    - order_index: 14
+      media_name: f11310_b0e0abadb54340aca882b84b2b4ce5aa~mv2
+      media_hash: f11310_b0e0abadb54340aca882b84b2b4ce5aa~mv2
+      title: The artist with the installed painting.
+    - order_index: 15
+      media_name: f11310_ed22324903974124bcef24f28edd8910~mv2
+      media_hash: f11310_ed22324903974124bcef24f28edd8910~mv2
+      title: Plaque under the painting.
+    - order_index: 16
+      media_name: f11310_8844a2dc883d4c5bb4002a2c72a958b5~mv2
+      media_hash: f11310_8844a2dc883d4c5bb4002a2c72a958b5~mv2
+    - order_index: 17
+      media_name: f11310_499da75191b54e35a6ab211304e3f968~mv2
+      media_hash: f11310_499da75191b54e35a6ab211304e3f968~mv2
+      title: Still Life with Skull and UC Marching Band Hat
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
     - Hans F. Gude
@@ -165,6 +407,7 @@ copy-of-cal-marching-band-1:
 
 copy-of-cal-men-s-rowing:
   page_title: "Cal Athletics - Rowing Drawings | hfgudeart"
+  no_items_reason: no gallery content in any capture
   items: []
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
@@ -336,7 +579,36 @@ copy-of-campus-paintings:
 
 copy-of-campus-paintings-1:
   page_title: "Approved UC Berkeley-Branded Images | hfgudeart"
-  items: []
+  item_count: 7
+  items:
+    - order_index: 1
+      media_name: f11310_ed1167a282ba4b05a9cebc796c8ec79a~mv2
+      media_hash: f11310_ed1167a282ba4b05a9cebc796c8ec79a~mv2
+      title: "View of Sather Gate and Sather Tower, UC Berkeley"
+    - order_index: 2
+      media_name: f11310_819c9ef58021472492488be276fe6d21~mv2
+      media_hash: f11310_819c9ef58021472492488be276fe6d21~mv2
+      title: "View of Sather Tower from Strawberry Creek, UC Berkeley"
+    - order_index: 3
+      media_name: f11310_f2ff48ff46414877bd9bd65a3fa15315~mv2
+      media_hash: f11310_f2ff48ff46414877bd9bd65a3fa15315~mv2
+      title: "Sather Tower &amp; the Big C"
+    - order_index: 4
+      media_name: f11310_8e754b736f1e43b4baa260a94ab7201e~mv2
+      media_hash: f11310_8e754b736f1e43b4baa260a94ab7201e~mv2
+      title: "View Toward Moffitt Library in the Fall, UC Berkeley"
+    - order_index: 5
+      media_name: f11310_b2024e442f6e4ac5832712bc2c430c9f~mv2
+      media_hash: f11310_b2024e442f6e4ac5832712bc2c430c9f~mv2
+      title: "Sather Tower in Morning Mist, with Fiat Lux logo"
+    - order_index: 6
+      media_name: f11310_b0c847973cf44b9aa7bdb82741d585eb~mv2
+      media_hash: f11310_b0c847973cf44b9aa7bdb82741d585eb~mv2
+      title: "Sather Tower in Morning Mist, UC Berkeley"
+    - order_index: 7
+      media_name: f11310_1b08385b745949ce99103cd4afcc5436~mv2
+      media_hash: f11310_1b08385b745949ce99103cd4afcc5436~mv2
+      title: Statue on Facade of Hearst Memorial Mining Building
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
     - Hans F. Gude
@@ -345,11 +617,179 @@ copy-of-campus-paintings-1:
     - "&copy; 2018&nbsp;by Hans F. Gude"
 
 copy-of-figure-drawings:
-  items: []
+  item_count: 20
+  items:
+    - order_index: 1
+      media_name: f11310_6ed6d6eb88944c8bbd403b012217b30b~mv2
+      media_hash: f11310_6ed6d6eb88944c8bbd403b012217b30b~mv2
+      title: "&quot;Saturn&quot;"
+    - order_index: 2
+      media_name: f11310_823833eb9179401eb924839cd1cac731~mv2
+      media_hash: f11310_823833eb9179401eb924839cd1cac731~mv2
+      title: Kevin at the Woods
+    - order_index: 3
+      media_name: f11310_4cf4873fbb34415bb4ec4262c8652ed2~mv2
+      media_hash: f11310_4cf4873fbb34415bb4ec4262c8652ed2~mv2
+      title: Belvedere Torso
+    - order_index: 4
+      media_name: f11310_e39be0753ec84511b132d30c607d1540
+      media_hash: f11310_e39be0753ec84511b132d30c607d1540
+      title: Connie Napping
+    - order_index: 5
+      media_name: f11310_e79528b4d4b6495089bf4f87300c0841
+      media_hash: f11310_e79528b4d4b6495089bf4f87300c0841
+    - order_index: 6
+      media_name: f11310_0637cadac546412da15493bf4d7c6945~mv2
+      media_hash: f11310_0637cadac546412da15493bf4d7c6945~mv2
+      title: Emmy with Her Favorite Things
+    - order_index: 7
+      media_name: f11310_ba5f990b24454d2cbddacd1d37abcc13~mv2
+      media_hash: f11310_ba5f990b24454d2cbddacd1d37abcc13~mv2
+      title: Reclining Figure (after Iredell)
+    - order_index: 8
+      media_name: f11310_19dcf9c0ec834e388da38b2b6ef4be1c~mv2
+      media_hash: f11310_19dcf9c0ec834e388da38b2b6ef4be1c~mv2
+    - order_index: 9
+      media_name: f11310_fd21a9b3b86a4aa3ae1ab9c51eab95e9~mv2
+      media_hash: f11310_fd21a9b3b86a4aa3ae1ab9c51eab95e9~mv2
+    - order_index: 10
+      media_name: f11310_773a229f0337480c93dadc055c463122
+      media_hash: f11310_773a229f0337480c93dadc055c463122
+    - order_index: 11
+      media_name: f11310_9aa21a8ead5b4c0290d68da6ef9123cf
+      media_hash: f11310_9aa21a8ead5b4c0290d68da6ef9123cf
+      title: Figure Study (after Falero)
+    - order_index: 12
+      media_name: f11310_a33771d630d540ab8991d948309de49d
+      media_hash: f11310_a33771d630d540ab8991d948309de49d
+    - order_index: 13
+      media_name: f11310_0591513ec2b94b16ada22cde8fe6e4cd
+      media_hash: f11310_0591513ec2b94b16ada22cde8fe6e4cd
+    - order_index: 14
+      media_name: f11310_5e59fa22c22b4823ad4e45c51114bed2
+      media_hash: f11310_5e59fa22c22b4823ad4e45c51114bed2
+    - order_index: 15
+      media_name: f11310_748c4b244e6842dc9df3254684170522~mv2
+      media_hash: f11310_748c4b244e6842dc9df3254684170522~mv2
+    - order_index: 16
+      media_name: f11310_c3ef83c432be453787ac300c8677b1e3~mv2
+      media_hash: f11310_c3ef83c432be453787ac300c8677b1e3~mv2
+      title: "Study for Cal Men&#x27;s Rowing Painting"
+    - order_index: 17
+      media_name: f11310_6490148623664e549ebddb0bb94127d8~mv2
+      media_hash: f11310_6490148623664e549ebddb0bb94127d8~mv2
+      title: Laurel Reading
+    - order_index: 18
+      media_name: f11310_c3e0aac6f02641738edcf76ddc877a94
+      media_hash: f11310_c3e0aac6f02641738edcf76ddc877a94
+      title: Drawing made during high school library study period
+    - order_index: 19
+      media_name: f11310_83791de5e3f94a09adb608e756204b7a
+      media_hash: f11310_83791de5e3f94a09adb608e756204b7a
+    - order_index: 20
+      media_name: f11310_4c8a2761cc4e48cdaca7accb35d7d332~mv2
+      media_hash: f11310_4c8a2761cc4e48cdaca7accb35d7d332~mv2
+      title: Statue Discoverd on Sidewalk in Tokyo
+  page_texts:
+    - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
+    - Hans F. Gude
+    - "Figure Drawings&mdash;Complete Figures"
+    - "&copy; 2018&nbsp;by Hans F. Gude"
 
 copy-of-figure-drawings-complete-fi:
   page_title: "Figure Drawings--Anatomical and OStudies | hfgudeart"
-  items: []
+  item_count: 27
+  items:
+    - order_index: 1
+      media_name: f11310_34f6c57f01044e5e82544986773d5d7b
+      media_hash: f11310_34f6c57f01044e5e82544986773d5d7b
+    - order_index: 2
+      media_name: f11310_e8fcfe747d14429ca80598c6698fb6a0~mv2
+      media_hash: f11310_e8fcfe747d14429ca80598c6698fb6a0~mv2
+      title: "Drawing on Canvas for &#x27;Connie Napping Painting&#x27;"
+    - order_index: 3
+      media_name: f11310_b12d2190047b40ce9baf90788897725c~mv2
+      media_hash: f11310_b12d2190047b40ce9baf90788897725c~mv2
+    - order_index: 4
+      media_name: f11310_b4190380b036468b84eab7f629c9687e~mv2
+      media_hash: f11310_b4190380b036468b84eab7f629c9687e~mv2
+    - order_index: 5
+      media_name: f11310_2e501fae9b4247599f9bc0388bbe3c78~mv2
+      media_hash: f11310_2e501fae9b4247599f9bc0388bbe3c78~mv2
+      title: "Pencil on Paper with White Gouache Highlights, 8 x 10"
+    - order_index: 6
+      media_name: f11310_cdd93ba34f4745b683afd199624097a5
+      media_hash: f11310_cdd93ba34f4745b683afd199624097a5
+    - order_index: 7
+      media_name: f11310_25b7190c77c14f57aebebd47d35ddcbd
+      media_hash: f11310_25b7190c77c14f57aebebd47d35ddcbd
+    - order_index: 8
+      media_name: f11310_0ec47d9b927843b7bc628fb34dc702e8~mv2
+      media_hash: f11310_0ec47d9b927843b7bc628fb34dc702e8~mv2
+      title: "My Toes, Big"
+    - order_index: 9
+      media_name: f11310_f20c61e92106491d852637f0082bc869
+      media_hash: f11310_f20c61e92106491d852637f0082bc869
+    - order_index: 10
+      media_name: f11310_7547f0f495c84696b901e6b2596f8366
+      media_hash: f11310_7547f0f495c84696b901e6b2596f8366
+    - order_index: 11
+      media_name: f11310_87cca39a062944ef97fab82e22128e59
+      media_hash: f11310_87cca39a062944ef97fab82e22128e59
+    - order_index: 12
+      media_name: f11310_7f9802a69e114fc78035a7ebdad7201c~mv2
+      media_hash: f11310_7f9802a69e114fc78035a7ebdad7201c~mv2
+    - order_index: 13
+      media_name: f11310_fc9d2770e8f44f439c45ab75cd035c95~mv2
+      media_hash: f11310_fc9d2770e8f44f439c45ab75cd035c95~mv2
+      title: Study of Rowing Painting
+    - order_index: 14
+      media_name: f11310_4dc06af7b6c841468d853ff0ff04f679~mv2
+      media_hash: f11310_4dc06af7b6c841468d853ff0ff04f679~mv2
+    - order_index: 15
+      media_name: f11310_9cb429dba0be44139db97c025e51cf26
+      media_hash: f11310_9cb429dba0be44139db97c025e51cf26
+      title: Self-Portrait as Antomical Lesson
+    - order_index: 16
+      media_name: f11310_61ff7d3a1b15490284611f7891bfcd2f~mv2
+      media_hash: f11310_61ff7d3a1b15490284611f7891bfcd2f~mv2
+      title: Self-Portrait as Anatomical Study
+    - order_index: 17
+      media_name: f11310_a06a7be282cb4829bb2b817ca7455b55~mv2
+      media_hash: f11310_a06a7be282cb4829bb2b817ca7455b55~mv2
+    - order_index: 18
+      media_name: f11310_1ab30f3f0eaa4f5b96ab26a12010aa77~mv2
+      media_hash: f11310_1ab30f3f0eaa4f5b96ab26a12010aa77~mv2
+    - order_index: 19
+      media_name: f11310_e91ad8218a9b495c9959517d8103b953~mv2
+      media_hash: f11310_e91ad8218a9b495c9959517d8103b953~mv2
+    - order_index: 20
+      media_name: f11310_20fda393d2364ac3bf14511ecd4b7ec9~mv2
+      media_hash: f11310_20fda393d2364ac3bf14511ecd4b7ec9~mv2
+    - order_index: 21
+      media_name: f11310_2bb116704f8247baaa38a81e427d493c~mv2
+      media_hash: f11310_2bb116704f8247baaa38a81e427d493c~mv2
+    - order_index: 22
+      media_name: f11310_42a3abb20daa471d8371b3ce608a476a~mv2
+      media_hash: f11310_42a3abb20daa471d8371b3ce608a476a~mv2
+    - order_index: 23
+      media_name: f11310_88407effbae14de199023262c59832d7~mv2
+      media_hash: f11310_88407effbae14de199023262c59832d7~mv2
+      title: Studies of the Skull
+    - order_index: 24
+      media_name: f11310_4dea99d25c1d46bf84d08f41b2fc1ea2~mv2
+      media_hash: f11310_4dea99d25c1d46bf84d08f41b2fc1ea2~mv2
+    - order_index: 25
+      media_name: f11310_583c4fe29dc8414483ed4b24c833a3f1~mv2
+      media_hash: f11310_583c4fe29dc8414483ed4b24c833a3f1~mv2
+      title: Study of a Skull
+    - order_index: 26
+      media_name: f11310_3c7fca267a664f3383dc251c63ce687d~mv2
+      media_hash: f11310_3c7fca267a664f3383dc251c63ce687d~mv2
+      title: .jpg
+    - order_index: 27
+      media_name: f11310_308b930263464c2793dbbc7453983935~mv2
+      media_hash: f11310_308b930263464c2793dbbc7453983935~mv2
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
     - Hans F. Gude
@@ -358,6 +798,7 @@ copy-of-figure-drawings-complete-fi:
 
 copy-of-figures:
   page_title: "HFGudeArt | Hans F. Gude Fine Art &amp; Illustration"
+  no_items_reason: no gallery content in any capture
   items: []
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
@@ -370,6 +811,7 @@ copy-of-figures:
 
 copy-of-figures-1:
   page_title: "HFGudeArt | Hans F. Gude Fine Art &amp; Illustration"
+  no_items_reason: no gallery content in any capture
   items: []
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
@@ -489,6 +931,7 @@ copy-of-finished-drawings:
       height: 3066
     - order_index: 15
       media_name: f11310_e4736179a82842d9b3db59209f5b7bf4.jpg
+      media_hash: f11310_e4736179a82842d9b3db59209f5b7bf4
       original_filename: IMG_9426.JPG
       width: 1559
       height: 2350
@@ -496,6 +939,7 @@ copy-of-finished-drawings:
       description: "Charcoal on Paper, 8 x 10 inches (20 x 25 cm)"
     - order_index: 16
       media_name: f11310_b8ec7a0179ab45f1bf89a4fa06de9718.jpg
+      media_hash: f11310_b8ec7a0179ab45f1bf89a4fa06de9718
       original_filename: IMG_0502a%20(2).jpg
       width: 2304
       height: 3072
@@ -503,6 +947,7 @@ copy-of-finished-drawings:
       description: Charcoal on Toned Paper
     - order_index: 17
       media_name: f11310_6def5722dc0146e9a1c0192a7dbab781.jpg
+      media_hash: f11310_6def5722dc0146e9a1c0192a7dbab781
       original_filename: IMG_1839%20(2).JPG
       width: 2932
       height: 2294
@@ -522,7 +967,84 @@ copy-of-finished-drawings:
 
 copy-of-finished-drawings-1:
   page_title: "Select Drawings | hfgudeart"
-  items: []
+  item_count: 22
+  items:
+    - order_index: 1
+      media_name: f11310_bd67292ce0de40e0b1ce8ba17a9447e8
+      media_hash: f11310_bd67292ce0de40e0b1ce8ba17a9447e8
+      title: "Stewart&#x27;s Instruments"
+    - order_index: 2
+      media_name: f11310_8c4d0ba0a16e447484d1a44662d351d2~mv2
+      media_hash: f11310_8c4d0ba0a16e447484d1a44662d351d2~mv2
+      title: "&quot;Emily in the Time of COVID&quot;"
+    - order_index: 3
+      media_name: f11310_67e069d99c0e48fbadf02ca6d32df1de
+      media_hash: f11310_67e069d99c0e48fbadf02ca6d32df1de
+      title: Bridge Over Strawberry Creek
+    - order_index: 4
+      media_name: f11310_6a3b858871e640eab6d186b72bd06c7e~mv2
+      media_hash: f11310_6a3b858871e640eab6d186b72bd06c7e~mv2
+      title: Portrait of a Girl (after W.M. Chase)
+    - order_index: 5
+      media_name: f11310_874994583dda4a44b068ffc7aa175dae~mv2
+      media_hash: f11310_874994583dda4a44b068ffc7aa175dae~mv2
+      title: Cal Coach Pappy and the Wood Nymph (Dryad)
+    - order_index: 6
+      media_name: f11310_5999ce98038649c38bdd76c27bbad8aa~mv2
+      media_hash: f11310_5999ce98038649c38bdd76c27bbad8aa~mv2
+    - order_index: 7
+      media_name: f11310_c82f6a2f6b4e4e9e905abb6ab404fa10~mv2
+      media_hash: f11310_c82f6a2f6b4e4e9e905abb6ab404fa10~mv2
+      title: Allante
+    - order_index: 8
+      media_name: f11310_535eed260f5a4e38b2092ecc2c542f4c
+      media_hash: f11310_535eed260f5a4e38b2092ecc2c542f4c
+      title: Self-Portrait as Maldoror (or Self-Portrait in Broken Glass)
+    - order_index: 9
+      media_name: f11310_0637cadac546412da15493bf4d7c6945~mv2
+      media_hash: f11310_0637cadac546412da15493bf4d7c6945~mv2
+      title: Emmy with Her Favorite Things
+    - order_index: 10
+      media_name: f11310_6f7444b0ff254a7fb4518cbb23872a64~mv2
+      media_hash: f11310_6f7444b0ff254a7fb4518cbb23872a64~mv2
+    - order_index: 11
+      media_name: f11310_e33e03869baf4457aba59fe4be0a65d3~mv2
+      media_hash: f11310_e33e03869baf4457aba59fe4be0a65d3~mv2
+    - order_index: 12
+      media_name: f11310_e39be0753ec84511b132d30c607d1540
+      media_hash: f11310_e39be0753ec84511b132d30c607d1540
+    - order_index: 13
+      media_name: f11310_faf41815e553427ea6c2a661fce82d45
+      media_hash: f11310_faf41815e553427ea6c2a661fce82d45
+    - order_index: 14
+      media_name: f11310_19dcf9c0ec834e388da38b2b6ef4be1c~mv2
+      media_hash: f11310_19dcf9c0ec834e388da38b2b6ef4be1c~mv2
+    - order_index: 15
+      media_name: f11310_cf56a0e75a9d43bdaf7c0bb204401d2f~mv2
+      media_hash: f11310_cf56a0e75a9d43bdaf7c0bb204401d2f~mv2
+    - order_index: 16
+      media_name: f11310_ea9379e21dea49d498a87fe91d44ac09~mv2
+      media_hash: f11310_ea9379e21dea49d498a87fe91d44ac09~mv2
+    - order_index: 17
+      media_name: f11310_f951b0a8003a435592dc4c2004f297a9~mv2
+      media_hash: f11310_f951b0a8003a435592dc4c2004f297a9~mv2
+    - order_index: 18
+      media_name: f11310_f0b2ec23e90949a89dec21a4c62bd182
+      media_hash: f11310_f0b2ec23e90949a89dec21a4c62bd182
+    - order_index: 19
+      media_name: f11310_00f851f5bc8b4fd79f0e9899fe24ddf9~mv2
+      media_hash: f11310_00f851f5bc8b4fd79f0e9899fe24ddf9~mv2
+    - order_index: 20
+      media_name: f11310_95c9820563794b80b8720bd9d3f6fb7b~mv2
+      media_hash: f11310_95c9820563794b80b8720bd9d3f6fb7b~mv2
+    - order_index: 21
+      media_name: f11310_3bdabfc53e0c4ad2a9e65e1fb54e6583
+      media_hash: f11310_3bdabfc53e0c4ad2a9e65e1fb54e6583
+      title: View of Berkeley Lab from Sproul Plaza
+    - order_index: 22
+      media_name: f11310_f74c5ba2a5fc4cf7be739c74485d32b4~mv2
+      media_hash: f11310_f74c5ba2a5fc4cf7be739c74485d32b4~mv2
+      title: View of the Lake and Sun Deck from the Hotel
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
     - Hans F. Gude
@@ -545,6 +1067,7 @@ copy-of-home:
 
 copy-of-landscapes:
   page_title: "HFGudeArt | Hans F. Gude Fine Art &amp; Illustration"
+  no_items_reason: no gallery content in any capture
   items: []
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
@@ -556,6 +1079,7 @@ copy-of-landscapes:
 
 copy-of-landscapes-1:
   page_title: "HFGudeArt | Hans F. Gude Fine Art &amp; Illustration"
+  no_items_reason: no gallery content in any capture
   items: []
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
@@ -578,6 +1102,7 @@ copy-of-new-page:
       description: "Pen & Ink with Ink Wash and White Gouache on Paper, 18 x 24 inches (46 x 61 centimeters)"
     - order_index: 2
       media_name: f11310_a9198f1045f9454ca67d9d6210a340f2.jpg
+      media_hash: f11310_a9198f1045f9454ca67d9d6210a340f2
       original_filename: IMG_0009a.jpg
       width: 2950
       height: 2271
@@ -585,6 +1110,7 @@ copy-of-new-page:
       description: Oil on Canvas Board
     - order_index: 3
       media_name: f11310_5645517393fa4200a0643c3c32fcfa41.jpg
+      media_hash: f11310_5645517393fa4200a0643c3c32fcfa41
       original_filename: IMG_0003-002a.jpg
       width: 3026
       height: 2276
@@ -592,6 +1118,7 @@ copy-of-new-page:
       description: Watercolor
     - order_index: 4
       media_name: f11310_fb122ccd21fa45a6b2cf94d5f036fbd4.png
+      media_hash: f11310_fb122ccd21fa45a6b2cf94d5f036fbd4
       original_filename: IMG_9000a_edited.jpg
       width: 670
       height: 504
@@ -615,12 +1142,14 @@ copy-of-new-page:
       description: "Watercolor and Pen & Ink on Paper"
     - order_index: 7
       media_name: f11310_2f6a91fcd5544c74afb390c0f8c92faa.jpg
+      media_hash: f11310_2f6a91fcd5544c74afb390c0f8c92faa
       original_filename: Sample%20paintings0009.jpg
       width: 640
       height: 446
       description: Oil on Canvas
     - order_index: 8
       media_name: f11310_5dd24049b38d44008f4b0e7c144cf87b.jpg
+      media_hash: f11310_5dd24049b38d44008f4b0e7c144cf87b
       original_filename: IMG_0084a.jpg
       width: 3044
       height: 2205
@@ -643,6 +1172,7 @@ copy-of-new-page:
       description: "Pen & Ink on Paper"
     - order_index: 11
       media_name: f11310_cf167d2adc7844368aa2e63a74f7ef39.jpg
+      media_hash: f11310_cf167d2adc7844368aa2e63a74f7ef39
       original_filename: Hotel%20side%20door%20drawing.jpg
       width: 761
       height: 1255
@@ -658,6 +1188,7 @@ copy-of-new-page:
       description: Pencil and Ink on Paper
     - order_index: 13
       media_name: f11310_9123779825f945f8905dd1752d4b17d4.jpg
+      media_hash: f11310_9123779825f945f8905dd1752d4b17d4
       original_filename: dfsd-a.jpg
       width: 1753
       height: 1275
@@ -671,6 +1202,7 @@ copy-of-new-page:
       description: "Pen and Ink on Paper, 5 x 7 inches (13 x 18 cm)"
     - order_index: 15
       media_name: f11310_1361653c43744f22b729c5df99cde751.jpg
+      media_hash: f11310_1361653c43744f22b729c5df99cde751
       original_filename: IMG_6350a.jpg
       width: 2853
       height: 1739
@@ -684,6 +1216,7 @@ copy-of-new-page:
       description: Pen and Ink on Paper
     - order_index: 17
       media_name: f11310_b9bdde3d4f594ad69f1bfe62999cf14e.jpg
+      media_hash: f11310_b9bdde3d4f594ad69f1bfe62999cf14e
       original_filename: IMG_0083a.jpg
       width: 3279
       height: 2377
@@ -705,6 +1238,7 @@ copy-of-new-page:
       description: "Pen & Ink on Paper"
     - order_index: 20
       media_name: f11310_f4e67ed84f5443b2bd21f6d0be6719d5.jpg
+      media_hash: f11310_f4e67ed84f5443b2bd21f6d0be6719d5
       original_filename: IMG_6347a.jpg
       width: 2611
       height: 1597
@@ -719,6 +1253,7 @@ copy-of-new-page:
       description: "Watercolor with gouache on paper, 5 x 7 inches (13 x 18 cm)"
     - order_index: 22
       media_name: f11310_379f5de451704497bcf65c4a055c4c75.jpg
+      media_hash: f11310_379f5de451704497bcf65c4a055c4c75
       original_filename: IMG_6348a.jpg
       width: 2885
       height: 1780
@@ -726,6 +1261,7 @@ copy-of-new-page:
       description: Pencil on Paper
     - order_index: 23
       media_name: f11310_e3ac695b24264746b2dfabe1679d0deb.jpg
+      media_hash: f11310_e3ac695b24264746b2dfabe1679d0deb
       original_filename: IMG_0030a.jpg
       width: 2676
       height: 2007
@@ -733,6 +1269,7 @@ copy-of-new-page:
       description: Oil on Canvas Board
     - order_index: 24
       media_name: f11310_7ba515addee04236a6ff07bd6f47ff92.jpg
+      media_hash: f11310_7ba515addee04236a6ff07bd6f47ff92
       original_filename: IMG_6351a.jpg
       width: 2799
       height: 1714
@@ -767,16 +1304,19 @@ copy-of-other-landscapes:
       description: "Oil on canvas, 18 x 24 inches (46 x 61 cm)"
     - order_index: 2
       media_name: f11310_e22bff6c1d2e41ecb9f88ce71e216f2e.jpg
+      media_hash: f11310_e22bff6c1d2e41ecb9f88ce71e216f2e
       original_filename: IMG_0032a.jpg
       width: 2753
       height: 2137
     - order_index: 3
       media_name: f11310_2a20ecaad13a47418f6f72110db56c5b.jpg
+      media_hash: f11310_2a20ecaad13a47418f6f72110db56c5b
       original_filename: IMG_0042a.jpg
       width: 2609
       height: 1914
     - order_index: 4
       media_name: f11310_e08c379b8d0e4ca3be4dc4af2eac5c98.jpg
+      media_hash: f11310_e08c379b8d0e4ca3be4dc4af2eac5c98
       original_filename: 2772605131_800182b279_o.jpg
       width: 2013
       height: 2571
@@ -788,6 +1328,7 @@ copy-of-other-landscapes:
       height: 2795
     - order_index: 6
       media_name: f11310_c18a46714014461882dd04d151960713.jpg
+      media_hash: f11310_c18a46714014461882dd04d151960713
       original_filename: Em%20piano%20best-cropped.jpg
       width: 2390
       height: 1795
@@ -799,6 +1340,7 @@ copy-of-other-landscapes:
       height: 2801
     - order_index: 8
       media_name: f11310_a042e1b813c245dd8eedbe62fc281503.jpg
+      media_hash: f11310_a042e1b813c245dd8eedbe62fc281503
       original_filename: Final02.JPG
       width: 2174
       height: 1965
@@ -818,6 +1360,7 @@ copy-of-other-landscapes:
       height: 2565
     - order_index: 11
       media_name: f11310_9ff4d28696be495bb1474685c656412b.jpg
+      media_hash: f11310_9ff4d28696be495bb1474685c656412b
       original_filename: Final%20Version.jpg
       width: 1950
       height: 1460
@@ -825,16 +1368,19 @@ copy-of-other-landscapes:
       description: "Oil on Canvas, 18 x 24 inches (46 x 61 cm)"
     - order_index: 12
       media_name: f11310_f1c35ccbf6cb4dae87e6e94e08141a09.jpg
+      media_hash: f11310_f1c35ccbf6cb4dae87e6e94e08141a09
       original_filename: IMG_0025a.jpg
       width: 2643
       height: 2068
     - order_index: 13
       media_name: f11310_e5c2b262e80c40508c9409b2cbe12320.jpg
+      media_hash: f11310_e5c2b262e80c40508c9409b2cbe12320
       original_filename: IMG_0019a.jpg
       width: 2173
       height: 2780
     - order_index: 14
       media_name: f11310_b8a379a1ea8c43deb577ba6af2a6888d.jpg
+      media_hash: f11310_b8a379a1ea8c43deb577ba6af2a6888d
       original_filename: Final.jpg
       width: 1432
       height: 1841
@@ -865,6 +1411,7 @@ copy-of-other-landscapes:
       description: Gouache on Paper
     - order_index: 18
       media_name: f11310_013278b58f714fd39093234632891353.jpg
+      media_hash: f11310_013278b58f714fd39093234632891353
       original_filename: IMG_0322a.jpg
       width: 2300
       height: 1927
@@ -894,6 +1441,7 @@ copy-of-other-landscapes:
       description: Oil on Canvas
     - order_index: 22
       media_name: f11310_833825c2c6d54a4cad8fdd69ea3278bf.jpg
+      media_hash: f11310_833825c2c6d54a4cad8fdd69ea3278bf
       original_filename: IMG_0039a.jpg
       width: 3155
       height: 2339
@@ -901,6 +1449,7 @@ copy-of-other-landscapes:
       description: Oil on Canvas Paper with Ballpoint Pen
     - order_index: 23
       media_name: f11310_a8cf2d001b9f491dac07c5daf62301de.jpg
+      media_hash: f11310_a8cf2d001b9f491dac07c5daf62301de
       original_filename: IMG_0034a.jpg
       width: 3108
       height: 2031
@@ -916,6 +1465,7 @@ copy-of-other-landscapes:
       description: Oil on Canvas
     - order_index: 25
       media_name: f11310_ff7d913d44594944926de0d9d77d63c7.jpg
+      media_hash: f11310_ff7d913d44594944926de0d9d77d63c7
       original_filename: print4-1a.jpg
       width: 589
       height: 591
@@ -923,6 +1473,7 @@ copy-of-other-landscapes:
       description: Oil on Paper
     - order_index: 26
       media_name: f11310_e9c8ecae1b7f492c8b89a7b4347d6db3.jpg
+      media_hash: f11310_e9c8ecae1b7f492c8b89a7b4347d6db3
       original_filename: cropped2.jpg
       width: 2847
       height: 2038
@@ -930,6 +1481,7 @@ copy-of-other-landscapes:
       description: Oil on Paper
     - order_index: 27
       media_name: f11310_d079d10a41534f87a14d705bb6e7cd32.jpg
+      media_hash: f11310_d079d10a41534f87a14d705bb6e7cd32
       original_filename: Sample%20paintings0008.jpg
       width: 640
       height: 483
@@ -945,6 +1497,7 @@ copy-of-other-landscapes:
       description: Pencil on Paper
     - order_index: 29
       media_name: f11310_a8310f0e0fb14e1e9e326f6a23557429.jpg
+      media_hash: f11310_a8310f0e0fb14e1e9e326f6a23557429
       original_filename: IMG_6366a.jpg
       width: 2493
       height: 1959
@@ -952,6 +1505,7 @@ copy-of-other-landscapes:
       description: Pencil on Paper
     - order_index: 30
       media_name: f11310_f29f89fb71f9458c8731d8cbce6b651c.jpg
+      media_hash: f11310_f29f89fb71f9458c8731d8cbce6b651c
       original_filename: IMG_0057a.jpg
       width: 2876
       height: 2123
@@ -967,6 +1521,7 @@ copy-of-other-landscapes:
       description: Oil on Canvas
     - order_index: 32
       media_name: f11310_3957d40590a24ee29cc886d402ccdec8.jpg
+      media_hash: f11310_3957d40590a24ee29cc886d402ccdec8
       original_filename: IMG_0090a.jpg
       width: 2975
       height: 2217
@@ -982,6 +1537,7 @@ copy-of-other-landscapes:
       description: Oil on Canvas Board
     - order_index: 34
       media_name: f11310_e4d58e148e6a44af9d87ff6d43589ead.jpg
+      media_hash: f11310_e4d58e148e6a44af9d87ff6d43589ead
       original_filename: Backyard%20Nightscape.jpg
       width: 420
       height: 573
@@ -1384,11 +1940,13 @@ copy-of-select-charcoal-drawings:
       height: 2793
     - order_index: 8
       media_name: f11310_9123779825f945f8905dd1752d4b17d4.jpg
+      media_hash: f11310_9123779825f945f8905dd1752d4b17d4
       original_filename: dfsd-a.jpg
       width: 1753
       height: 1275
     - order_index: 9
       media_name: f11310_89012b851dda47d0a2ac069f7ff36212.jpg
+      media_hash: f11310_89012b851dda47d0a2ac069f7ff36212
       original_filename: High%20School%20Surreal%20Sketch.jpg
       width: 420
       height: 640
@@ -1400,11 +1958,13 @@ copy-of-select-charcoal-drawings:
       height: 3451
     - order_index: 11
       media_name: f11310_12a33bdc974548b0936b58bdf9d66453.jpg
+      media_hash: f11310_12a33bdc974548b0936b58bdf9d66453
       original_filename: 20150913_115319aaa.jpg
       width: 2133
       height: 2807
     - order_index: 12
       media_name: f11310_7054e4b3fc004dd3ad39f608605e7365.jpg
+      media_hash: f11310_7054e4b3fc004dd3ad39f608605e7365
       original_filename: IMG_9429.JPG
       width: 2950
       height: 1973
@@ -1421,7 +1981,33 @@ copy-of-select-charcoal-drawings:
     - "&copy; 2018&nbsp;by Hans F. Gude"
 
 copy-of-select-watercolors-gouache:
-  items: []
+  item_count: 5
+  items:
+    - order_index: 1
+      media_name: f11310_2970036f5ae1411593b254273d33cd60~mv2
+      media_hash: f11310_2970036f5ae1411593b254273d33cd60~mv2
+      title: View Over the Backyard Fence
+    - order_index: 2
+      media_name: f11310_e70ed5cff79f4589b55bee6ba6faff9b~mv2
+      media_hash: f11310_e70ed5cff79f4589b55bee6ba6faff9b~mv2
+      title: "Color &amp; Design Study for Cal Rowing Painting"
+    - order_index: 3
+      media_name: f11310_dc529500491b40b99315e5e26677d18a~mv2
+      media_hash: f11310_dc529500491b40b99315e5e26677d18a~mv2
+      title: Hotel Side Door
+    - order_index: 4
+      media_name: f11310_dfe2398f45df449aa20cec5bbea37bcf~mv2
+      media_hash: f11310_dfe2398f45df449aa20cec5bbea37bcf~mv2
+      title: "Stephens Hall, UC Berkeley"
+    - order_index: 5
+      media_name: f11310_5b9d0f39f3c9463f86f1a6b5f7850a32~mv2
+      media_hash: f11310_5b9d0f39f3c9463f86f1a6b5f7850a32~mv2
+      title: Study of a Football Player
+  page_texts:
+    - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
+    - Hans F. Gude
+    - Select Gouache Paintings
+    - "&copy; 2018&nbsp;by Hans F. Gude"
 
 copy-of-sketches-studies:
   page_title: "Perspective Studies | hfgudeart"
@@ -1635,6 +2221,7 @@ copy-of-watercolor-gouache:
   items:
     - order_index: 1
       media_name: f11310_5645517393fa4200a0643c3c32fcfa41.jpg
+      media_hash: f11310_5645517393fa4200a0643c3c32fcfa41
       original_filename: IMG_0003-002a.jpg
       width: 3026
       height: 2276
@@ -1658,6 +2245,7 @@ copy-of-watercolor-gouache:
       description: "Watercolor and Pen & Ink on Paper"
     - order_index: 4
       media_name: f11310_267707cdb9fb4a898a573732c636fd49.jpg
+      media_hash: f11310_267707cdb9fb4a898a573732c636fd49
       original_filename: IMG_1118-a.jpg
       width: 2464
       height: 1802
@@ -1665,6 +2253,7 @@ copy-of-watercolor-gouache:
       description: "Watercolor with Pen & Ink"
     - order_index: 5
       media_name: f11310_b9bdde3d4f594ad69f1bfe62999cf14e.jpg
+      media_hash: f11310_b9bdde3d4f594ad69f1bfe62999cf14e
       original_filename: IMG_0083a.jpg
       width: 3279
       height: 2377
@@ -1672,6 +2261,7 @@ copy-of-watercolor-gouache:
       description: "Watercolor with Pen & Ink"
     - order_index: 6
       media_name: f11310_5dd24049b38d44008f4b0e7c144cf87b.jpg
+      media_hash: f11310_5dd24049b38d44008f4b0e7c144cf87b
       original_filename: IMG_0084a.jpg
       width: 3044
       height: 2205
@@ -1711,6 +2301,7 @@ copy-of-watercolor-gouache:
       description: "Watercolor with Pen & Ink"
     - order_index: 11
       media_name: f11310_3957d40590a24ee29cc886d402ccdec8.jpg
+      media_hash: f11310_3957d40590a24ee29cc886d402ccdec8
       original_filename: IMG_0090a.jpg
       width: 2975
       height: 2217
@@ -1758,6 +2349,7 @@ drawings:
       description: Pen and Ink on Paper
     - order_index: 2
       media_name: f11310_bd67292ce0de40e0b1ce8ba17a9447e8.jpg
+      media_hash: f11310_bd67292ce0de40e0b1ce8ba17a9447e8
       original_filename: Instruments final.jpg
       width: 2216
       height: 2764
@@ -1797,6 +2389,7 @@ drawings:
       description: "Charcoal on Blue-Toned Paper with White Highlights, 18 x 24 inches"
     - order_index: 7
       media_name: f11310_535eed260f5a4e38b2092ecc2c542f4c.jpg
+      media_hash: f11310_535eed260f5a4e38b2092ecc2c542f4c
       original_filename: IMG_0001-001.JPG
       width: 2430
       height: 3218
@@ -1812,6 +2405,7 @@ drawings:
       description: "Pen and Ink on Paper with Ink Washes and Gouache Highlights, 18 x 24 inches, 2016"
     - order_index: 9
       media_name: f11310_b8ec7a0179ab45f1bf89a4fa06de9718.jpg
+      media_hash: f11310_b8ec7a0179ab45f1bf89a4fa06de9718
       original_filename: IMG_0502a%20(2).jpg
       width: 2304
       height: 3072
@@ -1827,6 +2421,7 @@ drawings:
       description: "Pencil on Paper, with Colored-Pencil Highlight"
     - order_index: 11
       media_name: f11310_67e069d99c0e48fbadf02ca6d32df1de.jpg
+      media_hash: f11310_67e069d99c0e48fbadf02ca6d32df1de
       original_filename: IMG_0502aa.jpg
       width: 1827
       height: 1821
@@ -1834,6 +2429,7 @@ drawings:
       description: Pencil on Paper
     - order_index: 12
       media_name: f11310_8854eaa3903b40f6b1f2f566db61c13a.jpg
+      media_hash: f11310_8854eaa3903b40f6b1f2f566db61c13a
       original_filename: lkjfda.jpg
       width: 800
       height: 1216
@@ -1847,6 +2443,7 @@ drawings:
       description: Pencil on Paper
     - order_index: 14
       media_name: f11310_92946ac70f0940e983fe5f2cdb85c101.jpg
+      media_hash: f11310_92946ac70f0940e983fe5f2cdb85c101
       original_filename: imagea.jpg
       width: 1898
       height: 1526
@@ -1862,11 +2459,13 @@ drawings:
       description: "Pen & Ink on Paper"
     - order_index: 16
       media_name: f11310_379f5de451704497bcf65c4a055c4c75.jpg
+      media_hash: f11310_379f5de451704497bcf65c4a055c4c75
       original_filename: IMG_6348a.jpg
       width: 2885
       height: 1780
     - order_index: 17
       media_name: f11310_3bdabfc53e0c4ad2a9e65e1fb54e6583.jpg
+      media_hash: f11310_3bdabfc53e0c4ad2a9e65e1fb54e6583
       original_filename: LBNL%20From%20Sproul.jpg
       width: 1875
       height: 1587
@@ -1874,6 +2473,7 @@ drawings:
       description: Pencil on Paper
     - order_index: 18
       media_name: f11310_b70bc90ee03548798bbf8935a2384cb5.jpg
+      media_hash: f11310_b70bc90ee03548798bbf8935a2384cb5
       original_filename: WP--Figure.JPG
       width: 2312
       height: 3071
@@ -1881,6 +2481,7 @@ drawings:
       description: "Charcoal on Toned Paper with White Highlights, 18 x 24 inches"
     - order_index: 19
       media_name: f11310_123602ae9cea458687f0138afe98281a.jpg
+      media_hash: f11310_123602ae9cea458687f0138afe98281a
       original_filename: Plane%20wing%20dwg.jpg
       width: 1405
       height: 1183
@@ -1904,6 +2505,7 @@ drawings:
       description: Pencil on Paper
     - order_index: 22
       media_name: f11310_7aa03e7fdded4002a850219647a031bc.jpg
+      media_hash: f11310_7aa03e7fdded4002a850219647a031bc
       original_filename: IMG_6345a.jpg
       width: 2902
       height: 2082
@@ -1911,6 +2513,7 @@ drawings:
       description: Pencil on Paper
     - order_index: 23
       media_name: f11310_a8310f0e0fb14e1e9e326f6a23557429.jpg
+      media_hash: f11310_a8310f0e0fb14e1e9e326f6a23557429
       original_filename: IMG_6366a.jpg
       width: 2493
       height: 1959
@@ -1938,11 +2541,13 @@ drawings:
       height: 3094
     - order_index: 27
       media_name: f11310_2626bef0bc57498f9f7354703fcb9547.jpg
+      media_hash: f11310_2626bef0bc57498f9f7354703fcb9547
       original_filename: Berkeley%20Glen%20complete2.jpg
       width: 2844
       height: 2226
     - order_index: 28
       media_name: f11310_12a33bdc974548b0936b58bdf9d66453.jpg
+      media_hash: f11310_12a33bdc974548b0936b58bdf9d66453
       original_filename: 20150913_115319aaa.jpg
       width: 2133
       height: 2807
@@ -1954,6 +2559,7 @@ drawings:
       height: 2884
     - order_index: 30
       media_name: f11310_ce7a558dc598464fa11b1a0facce27e9.jpg
+      media_hash: f11310_ce7a558dc598464fa11b1a0facce27e9
       original_filename: IMG_0002-003aa.JPG
       width: 2248
       height: 3219
@@ -1965,11 +2571,13 @@ drawings:
       height: 3697
     - order_index: 32
       media_name: f11310_1361653c43744f22b729c5df99cde751.jpg
+      media_hash: f11310_1361653c43744f22b729c5df99cde751
       original_filename: IMG_6350a.jpg
       width: 2853
       height: 1739
     - order_index: 33
       media_name: f11310_e786aa2e9eff4d549103a6a924e96143.jpg
+      media_hash: f11310_e786aa2e9eff4d549103a6a924e96143
       original_filename: dslfksfd.jpg
       width: 1218
       height: 760
@@ -1983,36 +2591,43 @@ drawings:
       description: Pencil on Paper
     - order_index: 35
       media_name: f11310_cf167d2adc7844368aa2e63a74f7ef39.jpg
+      media_hash: f11310_cf167d2adc7844368aa2e63a74f7ef39
       original_filename: Hotel%20side%20door%20drawing.jpg
       width: 761
       height: 1255
     - order_index: 36
       media_name: f11310_32625eb25eaa4f64b549909a3489af58.jpg
+      media_hash: f11310_32625eb25eaa4f64b549909a3489af58
       original_filename: image-1.jpg
       width: 1931
       height: 1609
     - order_index: 37
       media_name: f11310_c259e9f2d4ac4f8b90960abdf73bcd03.jpg
+      media_hash: f11310_c259e9f2d4ac4f8b90960abdf73bcd03
       original_filename: sdfl%3Bkjfe.jpg
       width: 1218
       height: 775
     - order_index: 38
       media_name: f11310_c2a8071798f347dd95746b17f6cd4a54.jpg
+      media_hash: f11310_c2a8071798f347dd95746b17f6cd4a54
       original_filename: IMG_6354a.jpg
       width: 2885
       height: 2216
     - order_index: 39
       media_name: f11310_bc8f674f70764b20944191364d4ef389.jpg
+      media_hash: f11310_bc8f674f70764b20944191364d4ef389
       original_filename: Self-Portrait with Forage Cap Mar 2016.J
       width: 2357
       height: 2991
     - order_index: 40
       media_name: f11310_9123779825f945f8905dd1752d4b17d4.jpg
+      media_hash: f11310_9123779825f945f8905dd1752d4b17d4
       original_filename: dfsd-a.jpg
       width: 1753
       height: 1275
     - order_index: 41
       media_name: f11310_14806d246ae247b9a55e5ffeefc8b4b1.jpg
+      media_hash: f11310_14806d246ae247b9a55e5ffeefc8b4b1
       original_filename: IMG_9499.JPG
       width: 1454
       height: 2183
@@ -2054,6 +2669,7 @@ drawings-finished-drawings:
       description: "Graphite and white charcoal on blue-toned paper, 11 x 17 inches"
     - order_index: 4
       media_name: f11310_535eed260f5a4e38b2092ecc2c542f4c.jpg
+      media_hash: f11310_535eed260f5a4e38b2092ecc2c542f4c
       original_filename: IMG_0001-001.JPG
       width: 2430
       height: 3218
@@ -2077,6 +2693,7 @@ drawings-finished-drawings:
       description: "Pen and Ink on Paper with Ink Washes and Gouache Highlights, 18 x 24 inches, 2016"
     - order_index: 7
       media_name: f11310_67e069d99c0e48fbadf02ca6d32df1de.jpg
+      media_hash: f11310_67e069d99c0e48fbadf02ca6d32df1de
       original_filename: IMG_0502aa.jpg
       width: 1827
       height: 1821
@@ -2180,6 +2797,7 @@ drawings-finished-drawings:
       description: Pencil on Paper
     - order_index: 20
       media_name: f11310_bd67292ce0de40e0b1ce8ba17a9447e8.jpg
+      media_hash: f11310_bd67292ce0de40e0b1ce8ba17a9447e8
       original_filename: Instruments final.jpg
       width: 2216
       height: 2764
@@ -2187,6 +2805,7 @@ drawings-finished-drawings:
       description: Pencil on Paper
     - order_index: 21
       media_name: f11310_b8ec7a0179ab45f1bf89a4fa06de9718.jpg
+      media_hash: f11310_b8ec7a0179ab45f1bf89a4fa06de9718
       original_filename: IMG_0502a%20(2).jpg
       width: 2304
       height: 3072
@@ -2210,6 +2829,7 @@ drawings-finished-drawings:
       description: Pencil on paper
     - order_index: 24
       media_name: f11310_3bdabfc53e0c4ad2a9e65e1fb54e6583.jpg
+      media_hash: f11310_3bdabfc53e0c4ad2a9e65e1fb54e6583
       original_filename: LBNL%20From%20Sproul.jpg
       width: 1875
       height: 1587
@@ -2217,6 +2837,7 @@ drawings-finished-drawings:
       description: Pencil with White Gouache Highlights on Paper
     - order_index: 25
       media_name: f11310_b70bc90ee03548798bbf8935a2384cb5.jpg
+      media_hash: f11310_b70bc90ee03548798bbf8935a2384cb5
       original_filename: WP--Figure.JPG
       width: 2312
       height: 3071
@@ -2250,6 +2871,7 @@ drawings-sketches-studies:
       description: "Pencil on paper, 9 x 12 inches (23 x 30 cm)"
     - order_index: 3
       media_name: f11310_1361653c43744f22b729c5df99cde751.jpg
+      media_hash: f11310_1361653c43744f22b729c5df99cde751
       original_filename: IMG_6350a.jpg
       width: 2853
       height: 1739
@@ -2257,6 +2879,7 @@ drawings-sketches-studies:
       description: Pencil on paper
     - order_index: 4
       media_name: f11310_92946ac70f0940e983fe5f2cdb85c101.jpg
+      media_hash: f11310_92946ac70f0940e983fe5f2cdb85c101
       original_filename: imagea.jpg
       width: 1898
       height: 1526
@@ -2264,6 +2887,7 @@ drawings-sketches-studies:
       description: Pencil on Paper
     - order_index: 5
       media_name: f11310_379f5de451704497bcf65c4a055c4c75.jpg
+      media_hash: f11310_379f5de451704497bcf65c4a055c4c75
       original_filename: IMG_6348a.jpg
       width: 2885
       height: 1780
@@ -2287,6 +2911,7 @@ drawings-sketches-studies:
       description: Pencil on Masonite
     - order_index: 8
       media_name: f11310_12a33bdc974548b0936b58bdf9d66453.jpg
+      media_hash: f11310_12a33bdc974548b0936b58bdf9d66453
       original_filename: 20150913_115319aaa.jpg
       width: 2133
       height: 2807
@@ -2302,6 +2927,7 @@ drawings-sketches-studies:
       description: Pencil on paper
     - order_index: 10
       media_name: f11310_123602ae9cea458687f0138afe98281a.jpg
+      media_hash: f11310_123602ae9cea458687f0138afe98281a
       original_filename: Plane%20wing%20dwg.jpg
       width: 1405
       height: 1183
@@ -2349,6 +2975,7 @@ drawings-sketches-studies:
       description: Pencil on Paper
     - order_index: 16
       media_name: f11310_7aa03e7fdded4002a850219647a031bc.jpg
+      media_hash: f11310_7aa03e7fdded4002a850219647a031bc
       original_filename: IMG_6345a.jpg
       width: 2902
       height: 2082
@@ -2364,6 +2991,7 @@ drawings-sketches-studies:
       description: "Pencil on Paper, 8 x 10 inches (20 x 25 inches)"
     - order_index: 18
       media_name: f11310_cf167d2adc7844368aa2e63a74f7ef39.jpg
+      media_hash: f11310_cf167d2adc7844368aa2e63a74f7ef39
       original_filename: Hotel%20side%20door%20drawing.jpg
       width: 761
       height: 1255
@@ -2408,6 +3036,7 @@ drawings-sketches-studies:
       description: Pencil on paper
     - order_index: 24
       media_name: f11310_ce7a558dc598464fa11b1a0facce27e9.jpg
+      media_hash: f11310_ce7a558dc598464fa11b1a0facce27e9
       original_filename: IMG_0002-003aa.JPG
       width: 2248
       height: 3219
@@ -2447,6 +3076,7 @@ emily:
       height: 3271
     - order_index: 3
       media_name: f11310_c18a46714014461882dd04d151960713.jpg
+      media_hash: f11310_c18a46714014461882dd04d151960713
       original_filename: Em%20piano%20best-cropped.jpg
       width: 2390
       height: 1795
@@ -2484,6 +3114,7 @@ emily:
       description: Oil on canvas
     - order_index: 8
       media_name: f11310_2083932eee7944ba8af79e558793aea5.jpg
+      media_hash: f11310_2083932eee7944ba8af79e558793aea5
       original_filename: Emily%20Preparing%20the%20Rosemary%20FIN
       width: 1470
       height: 1844
@@ -2491,6 +3122,7 @@ emily:
       description: Oil on canvas
     - order_index: 9
       media_name: f11310_0591513ec2b94b16ada22cde8fe6e4cd.jpg
+      media_hash: f11310_0591513ec2b94b16ada22cde8fe6e4cd
       original_filename: IMG_0056a.jpg
       width: 2933
       height: 2388
@@ -2521,6 +3153,7 @@ figures:
       description: "Oil on Canvas, 16 x 12 inches, July 2018"
     - order_index: 2
       media_name: f11310_2a20ecaad13a47418f6f72110db56c5b.jpg
+      media_hash: f11310_2a20ecaad13a47418f6f72110db56c5b
       original_filename: IMG_0042a.jpg
       width: 2609
       height: 1914
@@ -2528,6 +3161,7 @@ figures:
       description: Oil on Canvas
     - order_index: 3
       media_name: f11310_b3d8b8a1290a471584d1db229098c9a6.jpg
+      media_hash: f11310_b3d8b8a1290a471584d1db229098c9a6
       original_filename: IMG_0043a.jpg
       width: 3906
       height: 2602
@@ -2547,16 +3181,19 @@ figures:
       height: 3017
     - order_index: 6
       media_name: f11310_34f6c57f01044e5e82544986773d5d7b.jpg
+      media_hash: f11310_34f6c57f01044e5e82544986773d5d7b
       original_filename: IMG_6362a.jpg
       width: 2304
       height: 3072
     - order_index: 7
       media_name: f11310_e4736179a82842d9b3db59209f5b7bf4.jpg
+      media_hash: f11310_e4736179a82842d9b3db59209f5b7bf4
       original_filename: IMG_9426.JPG
       width: 1559
       height: 2350
     - order_index: 8
       media_name: f11310_e39be0753ec84511b132d30c607d1540.jpg
+      media_hash: f11310_e39be0753ec84511b132d30c607d1540
       original_filename: IMG_0089a.jpg
       width: 2732
       height: 2179
@@ -2576,6 +3213,7 @@ figures:
       height: 3556
     - order_index: 11
       media_name: f11310_dc062e5c0d994a9cb063fbd7ce09eeeb.jpg
+      media_hash: f11310_dc062e5c0d994a9cb063fbd7ce09eeeb
       original_filename: IMG_0050a.jpg
       width: 2136
       height: 2590
@@ -2583,6 +3221,7 @@ figures:
       description: Oil on Canvas
     - order_index: 12
       media_name: f11310_2083932eee7944ba8af79e558793aea5.jpg
+      media_hash: f11310_2083932eee7944ba8af79e558793aea5
       original_filename: Emily%20Preparing%20the%20Rosemary%20FIN
       width: 1470
       height: 1844
@@ -2598,6 +3237,7 @@ figures:
       description: Oil on Canvas
     - order_index: 14
       media_name: f11310_e227cc2fbc014022aaddb4b06324d478.jpg
+      media_hash: f11310_e227cc2fbc014022aaddb4b06324d478
       original_filename: IMG_0027a.jpg
       width: 3169
       height: 2391
@@ -2610,11 +3250,13 @@ figures:
       height: 7144
     - order_index: 16
       media_name: f11310_c8b2e526315046189999a889ab0bdcff.jpg
+      media_hash: f11310_c8b2e526315046189999a889ab0bdcff
       original_filename: IMG_0003a.jpg
       width: 2219
       height: 2707
     - order_index: 17
       media_name: f11310_e79528b4d4b6495089bf4f87300c0841.jpg
+      media_hash: f11310_e79528b4d4b6495089bf4f87300c0841
       original_filename: lkfdjg.jpg
       width: 1275
       height: 1753
@@ -2643,71 +3285,85 @@ figures:
       description: "Pencil on Paper with White Gouache Highlights, 8 x 10"
     - order_index: 21
       media_name: f11310_cdd93ba34f4745b683afd199624097a5.jpg
+      media_hash: f11310_cdd93ba34f4745b683afd199624097a5
       original_filename: IMG_0075a.jpg
       width: 2537
       height: 3771
     - order_index: 22
       media_name: f11310_c7e1eaf6882448968c56c19072cdee0e.jpg
+      media_hash: f11310_c7e1eaf6882448968c56c19072cdee0e
       original_filename: IMG_0070a.jpg
       width: 2571
       height: 3406
     - order_index: 23
       media_name: f11310_2729b07db768426b8019edc520d80c42.jpg
+      media_hash: f11310_2729b07db768426b8019edc520d80c42
       original_filename: biorgraphy0006.jpg
       width: 427
       height: 640
     - order_index: 24
       media_name: f11310_6d68b9d36b5845988f08fe1cf2847afb.jpg
+      media_hash: f11310_6d68b9d36b5845988f08fe1cf2847afb
       original_filename: biorgraphy0005.jpg
       width: 442
       height: 640
     - order_index: 25
       media_name: f11310_0c3d5b96872a4ee5b0791443ffdb636c.jpg
+      media_hash: f11310_0c3d5b96872a4ee5b0791443ffdb636c
       original_filename: IMG_0013a.jpg
       width: 2265
       height: 3030
     - order_index: 26
       media_name: f11310_25b7190c77c14f57aebebd47d35ddcbd.jpg
+      media_hash: f11310_25b7190c77c14f57aebebd47d35ddcbd
       original_filename: IMG_2874.JPG
       width: 2136
       height: 2766
     - order_index: 27
       media_name: f11310_773a229f0337480c93dadc055c463122.jpg
+      media_hash: f11310_773a229f0337480c93dadc055c463122
       original_filename: IMG_1850%20(2).JPG
       width: 1375
       height: 2611
     - order_index: 28
       media_name: f11310_f0b2ec23e90949a89dec21a4c62bd182.jpg
+      media_hash: f11310_f0b2ec23e90949a89dec21a4c62bd182
       original_filename: IMG_1851%20(2).JPG
       width: 2304
       height: 3072
     - order_index: 29
       media_name: f11310_6eecb8bd1a3140d9921c5b4b334c1e76.jpg
+      media_hash: f11310_6eecb8bd1a3140d9921c5b4b334c1e76
       original_filename: marilyn.jpg
       width: 1716
       height: 2577
     - order_index: 30
       media_name: f11310_7054e4b3fc004dd3ad39f608605e7365.jpg
+      media_hash: f11310_7054e4b3fc004dd3ad39f608605e7365
       original_filename: IMG_9429.JPG
       width: 2950
       height: 1973
     - order_index: 31
       media_name: f11310_f20c61e92106491d852637f0082bc869.jpg
+      media_hash: f11310_f20c61e92106491d852637f0082bc869
       original_filename: IMG_0066a.jpg
       width: 2508
       height: 3600
     - order_index: 32
       media_name: f11310_7547f0f495c84696b901e6b2596f8366.jpg
+      media_hash: f11310_7547f0f495c84696b901e6b2596f8366
       original_filename: IMG_0067a.jpg
       width: 2379
       height: 3236
     - order_index: 33
       media_name: f11310_87cca39a062944ef97fab82e22128e59.jpg
+      media_hash: f11310_87cca39a062944ef97fab82e22128e59
       original_filename: IMG_6325a.jpg
       width: 2134
       height: 2750
     - order_index: 34
       media_name: f11310_4b798f55694946979b0c6bc2f5021e96.jpg
+      media_hash: f11310_4b798f55694946979b0c6bc2f5021e96
       original_filename: IMG_3066a.jpg
       width: 1961
       height: 2226
@@ -2735,6 +3391,7 @@ figures:
       height: 4160
     - order_index: 38
       media_name: f11310_4b3979398ada4e08b69d9f9b673056dc.jpg
+      media_hash: f11310_4b3979398ada4e08b69d9f9b673056dc
       original_filename: saedtfhs.jpg
       width: 578
       height: 848
@@ -2746,6 +3403,7 @@ figures:
       height: 3985
     - order_index: 40
       media_name: f11310_e019c5bdd9c74cf9aa96260c43f45882.jpg
+      media_hash: f11310_e019c5bdd9c74cf9aa96260c43f45882
       original_filename: asdlkjsafd.jpg
       width: 582
       height: 783
@@ -2757,6 +3415,7 @@ figures:
       height: 4081
     - order_index: 42
       media_name: f11310_3e35c3b6b3c04dd490cdeb2d34bd3dd9.jpg
+      media_hash: f11310_3e35c3b6b3c04dd490cdeb2d34bd3dd9
       original_filename: IMG_1838%20(2).JPG
       width: 2016
       height: 2864
@@ -2774,21 +3433,25 @@ figures:
       height: 2970
     - order_index: 45
       media_name: f11310_277fe15b808d4309b1685c29c93a09e1.jpg
+      media_hash: f11310_277fe15b808d4309b1685c29c93a09e1
       original_filename: IMG_1841%20(2).JPG
       width: 2219
       height: 3066
     - order_index: 46
       media_name: f11310_24ff446cb5bd4a258537cb6b280a5aac.jpg
+      media_hash: f11310_24ff446cb5bd4a258537cb6b280a5aac
       original_filename: IMG_1848%20(2).JPG
       width: 2190
       height: 2686
     - order_index: 47
       media_name: f11310_61c224e1b1184e0db96cec606b89085d.jpg
+      media_hash: f11310_61c224e1b1184e0db96cec606b89085d
       original_filename: IMG_1842%20(2).JPG
       width: 1984
       height: 3028
     - order_index: 48
       media_name: f11310_b066b21f6657406fa7b32df364869705.jpg
+      media_hash: f11310_b066b21f6657406fa7b32df364869705
       original_filename: IMG_1843%20(2).JPG
       width: 2304
       height: 3072
@@ -2800,6 +3463,7 @@ figures:
       height: 3533
     - order_index: 50
       media_name: f11310_d3e9cae35a3a4feba3dcf9a760586c81.jpg
+      media_hash: f11310_d3e9cae35a3a4feba3dcf9a760586c81
       original_filename: IMG_1845%20(2).JPG
       width: 2258
       height: 2709
@@ -2823,6 +3487,7 @@ figures:
       height: 3910
     - order_index: 54
       media_name: f11310_a4ca67c12cbc47a1aa3e87ba3840d8dc.jpg
+      media_hash: f11310_a4ca67c12cbc47a1aa3e87ba3840d8dc
       original_filename: IMG_1834%20-%20Copy.JPG
       width: 1716
       height: 2246
@@ -2840,16 +3505,19 @@ figures:
       height: 3067
     - order_index: 57
       media_name: f11310_bb366e566f6d4984ba0dfd75965c5dd2.jpg
+      media_hash: f11310_bb366e566f6d4984ba0dfd75965c5dd2
       original_filename: IMG_1847%20(2).JPG
       width: 3072
       height: 2304
     - order_index: 58
       media_name: f11310_7482921b69c64644975aee7a6237e955.jpg
+      media_hash: f11310_7482921b69c64644975aee7a6237e955
       original_filename: IMG_1846%20(2).JPG
       width: 1948
       height: 2582
     - order_index: 59
       media_name: f11310_4bd837ba8abb458096bd18947a4eaca7.jpg
+      media_hash: f11310_4bd837ba8abb458096bd18947a4eaca7
       original_filename: dfgefg.jpg
       width: 585
       height: 869
@@ -2891,6 +3559,7 @@ figures-figure-studies:
       description: "Pencil on paper, 9 x 12 inches (23 x 30 cm)"
     - order_index: 3
       media_name: f11310_33ceeb98cc6e484ab5c507315ab4f76b.jpg
+      media_hash: f11310_33ceeb98cc6e484ab5c507315ab4f76b
       original_filename: biorgraphy0001.jpg
       width: 454
       height: 640
@@ -2945,6 +3614,7 @@ figures-figure-studies:
       description: "\"Charcoal\" drawing in Procreate on an iPad Pro."
     - order_index: 10
       media_name: f11310_e4736179a82842d9b3db59209f5b7bf4.jpg
+      media_hash: f11310_e4736179a82842d9b3db59209f5b7bf4
       original_filename: IMG_9426.JPG
       width: 1559
       height: 2350
@@ -2958,21 +3628,25 @@ figures-figure-studies:
       description: Cropped Version
     - order_index: 12
       media_name: f11310_c8b2e526315046189999a889ab0bdcff.jpg
+      media_hash: f11310_c8b2e526315046189999a889ab0bdcff
       original_filename: IMG_0003a.jpg
       width: 2219
       height: 2707
     - order_index: 13
       media_name: f11310_c7e1eaf6882448968c56c19072cdee0e.jpg
+      media_hash: f11310_c7e1eaf6882448968c56c19072cdee0e
       original_filename: IMG_0070a.jpg
       width: 2571
       height: 3406
     - order_index: 14
       media_name: f11310_2729b07db768426b8019edc520d80c42.jpg
+      media_hash: f11310_2729b07db768426b8019edc520d80c42
       original_filename: biorgraphy0006.jpg
       width: 427
       height: 640
     - order_index: 15
       media_name: f11310_6d68b9d36b5845988f08fe1cf2847afb.jpg
+      media_hash: f11310_6d68b9d36b5845988f08fe1cf2847afb
       original_filename: biorgraphy0005.jpg
       width: 442
       height: 640
@@ -2986,36 +3660,43 @@ figures-figure-studies:
       description: "Pencil on Paper, with Colored-Pencil Highlight, 16 x 19 inches (41 x 48 cm)."
     - order_index: 17
       media_name: f11310_773a229f0337480c93dadc055c463122.jpg
+      media_hash: f11310_773a229f0337480c93dadc055c463122
       original_filename: IMG_1850%20(2).JPG
       width: 1375
       height: 2611
     - order_index: 18
       media_name: f11310_f0b2ec23e90949a89dec21a4c62bd182.jpg
+      media_hash: f11310_f0b2ec23e90949a89dec21a4c62bd182
       original_filename: IMG_1851%20(2).JPG
       width: 2304
       height: 3072
     - order_index: 19
       media_name: f11310_6eecb8bd1a3140d9921c5b4b334c1e76.jpg
+      media_hash: f11310_6eecb8bd1a3140d9921c5b4b334c1e76
       original_filename: marilyn.jpg
       width: 1716
       height: 2577
     - order_index: 20
       media_name: f11310_7054e4b3fc004dd3ad39f608605e7365.jpg
+      media_hash: f11310_7054e4b3fc004dd3ad39f608605e7365
       original_filename: IMG_9429.JPG
       width: 2950
       height: 1973
     - order_index: 21
       media_name: f11310_4b798f55694946979b0c6bc2f5021e96.jpg
+      media_hash: f11310_4b798f55694946979b0c6bc2f5021e96
       original_filename: IMG_3066a.jpg
       width: 1961
       height: 2226
     - order_index: 22
       media_name: f11310_7e4dc7b3f5b74a409e0e05f98be21105.jpg
+      media_hash: f11310_7e4dc7b3f5b74a409e0e05f98be21105
       original_filename: IMG_0088a.jpg
       width: 2347
       height: 2718
     - order_index: 23
       media_name: f11310_aad8fc01436141b1b9468b0528e4b8d8.jpg
+      media_hash: f11310_aad8fc01436141b1b9468b0528e4b8d8
       original_filename: IMG_0074a.jpg
       width: 2396
       height: 2961
@@ -3043,6 +3724,7 @@ figures-life-drawing-class:
   items:
     - order_index: 1
       media_name: f11310_24ff446cb5bd4a258537cb6b280a5aac.jpg
+      media_hash: f11310_24ff446cb5bd4a258537cb6b280a5aac
       original_filename: IMG_1848%20(2).JPG
       width: 2190
       height: 2686
@@ -3050,12 +3732,14 @@ figures-life-drawing-class:
       description: Charcoal with white highlights on toned butcher paper
     - order_index: 2
       media_name: f11310_4b3979398ada4e08b69d9f9b673056dc.jpg
+      media_hash: f11310_4b3979398ada4e08b69d9f9b673056dc
       original_filename: saedtfhs.jpg
       width: 578
       height: 848
       description: Charcoal with white highlights on toned butcher paper
     - order_index: 3
       media_name: f11310_7482921b69c64644975aee7a6237e955.jpg
+      media_hash: f11310_7482921b69c64644975aee7a6237e955
       original_filename: IMG_1846%20(2).JPG
       width: 1948
       height: 2582
@@ -3069,11 +3753,13 @@ figures-life-drawing-class:
       title: Female figure
     - order_index: 5
       media_name: f11310_e019c5bdd9c74cf9aa96260c43f45882.jpg
+      media_hash: f11310_e019c5bdd9c74cf9aa96260c43f45882
       original_filename: asdlkjsafd.jpg
       width: 582
       height: 783
     - order_index: 6
       media_name: f11310_277fe15b808d4309b1685c29c93a09e1.jpg
+      media_hash: f11310_277fe15b808d4309b1685c29c93a09e1
       original_filename: IMG_1841%20(2).JPG
       width: 2219
       height: 3066
@@ -3102,6 +3788,7 @@ figures-life-drawing-class:
       height: 3985
     - order_index: 10
       media_name: f11310_3e35c3b6b3c04dd490cdeb2d34bd3dd9.jpg
+      media_hash: f11310_3e35c3b6b3c04dd490cdeb2d34bd3dd9
       original_filename: IMG_1838%20(2).JPG
       width: 2016
       height: 2864
@@ -3133,12 +3820,14 @@ figures-life-drawing-class:
       description: Charcoal with white highlights on toned butcher paper
     - order_index: 14
       media_name: f11310_61c224e1b1184e0db96cec606b89085d.jpg
+      media_hash: f11310_61c224e1b1184e0db96cec606b89085d
       original_filename: IMG_1842%20(2).JPG
       width: 1984
       height: 3028
       title: Female figure
     - order_index: 15
       media_name: f11310_b066b21f6657406fa7b32df364869705.jpg
+      media_hash: f11310_b066b21f6657406fa7b32df364869705
       original_filename: IMG_1843%20(2).JPG
       width: 2304
       height: 3072
@@ -3151,6 +3840,7 @@ figures-life-drawing-class:
       height: 3533
     - order_index: 17
       media_name: f11310_d3e9cae35a3a4feba3dcf9a760586c81.jpg
+      media_hash: f11310_d3e9cae35a3a4feba3dcf9a760586c81
       original_filename: IMG_1845%20(2).JPG
       width: 2258
       height: 2709
@@ -3171,6 +3861,7 @@ figures-life-drawing-class:
       title: Female figure
     - order_index: 20
       media_name: f11310_a4ca67c12cbc47a1aa3e87ba3840d8dc.jpg
+      media_hash: f11310_a4ca67c12cbc47a1aa3e87ba3840d8dc
       original_filename: IMG_1834%20-%20Copy.JPG
       width: 1716
       height: 2246
@@ -3197,12 +3888,14 @@ figures-life-drawing-class:
       description: Female figure
     - order_index: 24
       media_name: f11310_bb366e566f6d4984ba0dfd75965c5dd2.jpg
+      media_hash: f11310_bb366e566f6d4984ba0dfd75965c5dd2
       original_filename: IMG_1847%20(2).JPG
       width: 3072
       height: 2304
       description: Charcoal with white highlights on toned butcher paper
     - order_index: 25
       media_name: f11310_4bd837ba8abb458096bd18947a4eaca7.jpg
+      media_hash: f11310_4bd837ba8abb458096bd18947a4eaca7
       original_filename: dfgefg.jpg
       width: 585
       height: 869
@@ -3234,6 +3927,7 @@ figures-paintings:
       description: "Oil on canvas, 18 x 24 inches (46 x 61 cm)"
     - order_index: 3
       media_name: f11310_2a20ecaad13a47418f6f72110db56c5b.jpg
+      media_hash: f11310_2a20ecaad13a47418f6f72110db56c5b
       original_filename: IMG_0042a.jpg
       width: 2609
       height: 1914
@@ -3241,6 +3935,7 @@ figures-paintings:
       description: Oil on Canvas
     - order_index: 4
       media_name: f11310_b3d8b8a1290a471584d1db229098c9a6.jpg
+      media_hash: f11310_b3d8b8a1290a471584d1db229098c9a6
       original_filename: IMG_0043a.jpg
       width: 3906
       height: 2602
@@ -3280,6 +3975,7 @@ figures-paintings:
       description: Detail
     - order_index: 9
       media_name: f11310_dc062e5c0d994a9cb063fbd7ce09eeeb.jpg
+      media_hash: f11310_dc062e5c0d994a9cb063fbd7ce09eeeb
       original_filename: IMG_0050a.jpg
       width: 2136
       height: 2590
@@ -3287,6 +3983,7 @@ figures-paintings:
       description: "Oil on Canvas, 21 x 24 inches (53 x 61 cm)"
     - order_index: 10
       media_name: f11310_2083932eee7944ba8af79e558793aea5.jpg
+      media_hash: f11310_2083932eee7944ba8af79e558793aea5
       original_filename: Emily%20Preparing%20the%20Rosemary%20FIN
       width: 1470
       height: 1844
@@ -3302,6 +3999,7 @@ figures-paintings:
       description: "Oil on Canvas, 12 x 16 inches (23 x 41 cm)"
     - order_index: 12
       media_name: f11310_e227cc2fbc014022aaddb4b06324d478.jpg
+      media_hash: f11310_e227cc2fbc014022aaddb4b06324d478
       original_filename: IMG_0027a.jpg
       width: 3169
       height: 2391
@@ -3334,6 +4032,7 @@ hfgudeart:
 
 images-of-cal-marching-band:
   page_title: "Cal Marching Band | hfgudeart"
+  no_items_reason: no gallery content in any capture
   items: []
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
@@ -3466,7 +4165,51 @@ images-of-cal-sports:
 
 images-of-the-berkeley-campus:
   page_title: "Campus Paintings | hfgudeart"
-  items: []
+  item_count: 11
+  items:
+    - order_index: 1
+      media_name: f11310_540bd00834244e439af9432e2b35f697~mv2
+      media_hash: f11310_540bd00834244e439af9432e2b35f697~mv2
+      title: "Sather Gate, UC Berkeley"
+    - order_index: 2
+      media_name: f11310_158ec81b2a7f4cb4b01b2bdeee17812c~mv2
+      media_hash: f11310_158ec81b2a7f4cb4b01b2bdeee17812c~mv2
+      title: "Sather Tower with the Big C, UC Berkeley"
+    - order_index: 3
+      media_name: f11310_a5242d7bb89847099bfc5d73147cc702~mv2
+      media_hash: f11310_a5242d7bb89847099bfc5d73147cc702~mv2
+      title: View of Moffitt Library in Fall
+    - order_index: 4
+      media_name: f11310_ea068822229e4a1b8aa59c69d88a9434~mv2
+      media_hash: f11310_ea068822229e4a1b8aa59c69d88a9434~mv2
+      title: "Steps to University House, University of California, Berkeley"
+    - order_index: 5
+      media_name: f11310_b892239849c1417ea69f429716fb8a5e~mv2
+      media_hash: f11310_b892239849c1417ea69f429716fb8a5e~mv2
+      title: Sather Tower in Morning Fog
+    - order_index: 6
+      media_name: f11310_9bede5db9bf44df29fecef95a2385222~mv2
+      media_hash: f11310_9bede5db9bf44df29fecef95a2385222~mv2
+      title: View of Sather Tower from Strawberry Creek
+    - order_index: 7
+      media_name: f11310_8fedff37f923448598ec6147eaf79b35~mv2
+      media_hash: f11310_8fedff37f923448598ec6147eaf79b35~mv2
+    - order_index: 8
+      media_name: f11310_875129a3c7554766ae5c5c3391b6688b~mv2
+      media_hash: f11310_875129a3c7554766ae5c5c3391b6688b~mv2
+      title: View of Lawrence Hall of Science
+    - order_index: 9
+      media_name: f11310_44d76a0a23f043119091185c720e27d8~mv2
+      media_hash: f11310_44d76a0a23f043119091185c720e27d8~mv2
+      title: "Stephens Hall with Coach Pappy, Faculty Glade, UC Berkeley"
+    - order_index: 10
+      media_name: f11310_6a4812ff7b694c759593d1629a129aeb~mv2
+      media_hash: f11310_6a4812ff7b694c759593d1629a129aeb~mv2
+      title: "Sather Tower at Sunset, UC Berkeley"
+    - order_index: 11
+      media_name: f11310_76c15968894641c29c932385b411732e~mv2
+      media_hash: f11310_76c15968894641c29c932385b411732e~mv2
+      title: University House
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
     - Hans F. Gude
@@ -3531,6 +4274,7 @@ landscapes:
       description: Gouache on Paper
     - order_index: 2
       media_name: f11310_fb122ccd21fa45a6b2cf94d5f036fbd4.png
+      media_hash: f11310_fb122ccd21fa45a6b2cf94d5f036fbd4
       original_filename: IMG_9000a_edited.jpg
       width: 670
       height: 504
@@ -3546,6 +4290,7 @@ landscapes:
       description: Watercolor
     - order_index: 4
       media_name: f11310_267707cdb9fb4a898a573732c636fd49.jpg
+      media_hash: f11310_267707cdb9fb4a898a573732c636fd49
       original_filename: IMG_1118-a.jpg
       width: 2464
       height: 1802
@@ -3569,6 +4314,7 @@ landscapes:
       description: Gouache on Paper
     - order_index: 7
       media_name: f11310_a9198f1045f9454ca67d9d6210a340f2.jpg
+      media_hash: f11310_a9198f1045f9454ca67d9d6210a340f2
       original_filename: IMG_0009a.jpg
       width: 2950
       height: 2271
@@ -3576,6 +4322,7 @@ landscapes:
       description: Oil on Canvas Board
     - order_index: 8
       media_name: f11310_5645517393fa4200a0643c3c32fcfa41.jpg
+      media_hash: f11310_5645517393fa4200a0643c3c32fcfa41
       original_filename: IMG_0003-002a.jpg
       width: 3026
       height: 2276
@@ -3599,6 +4346,7 @@ landscapes:
       description: Oil Painting by Karl Gude
     - order_index: 11
       media_name: f11310_e3ac695b24264746b2dfabe1679d0deb.jpg
+      media_hash: f11310_e3ac695b24264746b2dfabe1679d0deb
       original_filename: IMG_0030a.jpg
       width: 2676
       height: 2007
@@ -3629,6 +4377,7 @@ landscapes:
       title: Mt. Diablo at Sunset (View from Byron)
     - order_index: 15
       media_name: f11310_f1283d098784469caa77244e10edc6a3.jpg
+      media_hash: f11310_f1283d098784469caa77244e10edc6a3
       original_filename: IMG_0003a.jpg
       width: 3161
       height: 2110
@@ -3652,6 +4401,7 @@ landscapes:
       description: Watercolor
     - order_index: 18
       media_name: f11310_d2f87427e0b0432fa91e15162b82292e.jpg
+      media_hash: f11310_d2f87427e0b0432fa91e15162b82292e
       original_filename: IMG_0005a.jpg
       width: 3037
       height: 2261
@@ -3667,6 +4417,7 @@ landscapes:
       description: Oil on Canvas
     - order_index: 20
       media_name: f11310_5dd24049b38d44008f4b0e7c144cf87b.jpg
+      media_hash: f11310_5dd24049b38d44008f4b0e7c144cf87b
       original_filename: IMG_0084a.jpg
       width: 3044
       height: 2205
@@ -3674,6 +4425,7 @@ landscapes:
       description: "Watercolor with Pen & Ink"
     - order_index: 21
       media_name: f11310_11276cd43ec24bb49ebc3497bfd8f411.jpg
+      media_hash: f11310_11276cd43ec24bb49ebc3497bfd8f411
       original_filename: IMG_0053a.jpg
       width: 2789
       height: 2062
@@ -3705,6 +4457,7 @@ landscapes:
       description: "Oil on Canvas, 4 x 4 feet (1.3 x 1.3 M)"
     - order_index: 25
       media_name: f11310_3592e6e9690a4d4fb09cd326660d8a58.jpg
+      media_hash: f11310_3592e6e9690a4d4fb09cd326660d8a58
       original_filename: IMG_0012-001--Final.jpg
       width: 2857
       height: 2279
@@ -3712,22 +4465,26 @@ landscapes:
       description: Oil on Canvas Board
     - order_index: 26
       media_name: f11310_a237d3c7eb9042f298c752a10b7364cd.jpg
+      media_hash: f11310_a237d3c7eb9042f298c752a10b7364cd
       original_filename: IMG_0008a.jpg
       width: 2568
       height: 1933
     - order_index: 27
       media_name: f11310_ffb70b985e8a4f128c19a5f6d8babc14.jpg
+      media_hash: f11310_ffb70b985e8a4f128c19a5f6d8babc14
       original_filename: IMG_0001-002--Final.jpg
       width: 2878
       height: 2217
     - order_index: 28
       media_name: f11310_266e905c45174803ad80f39919ab81d0.jpg
+      media_hash: f11310_266e905c45174803ad80f39919ab81d0
       original_filename: IMG_0021a.jpg
       width: 3080
       height: 2233
       description: Oil on Paper
     - order_index: 29
       media_name: f11310_acd393b64829482a94211a328ac390ce.jpg
+      media_hash: f11310_acd393b64829482a94211a328ac390ce
       original_filename: Mt.%20Diablo%20Study.jpg
       width: 1984
       height: 1511
@@ -3735,6 +4492,7 @@ landscapes:
       description: Oil on Canvas Board
     - order_index: 30
       media_name: f11310_b190517d8ccb47c3b4af1802a8f883f4.jpg
+      media_hash: f11310_b190517d8ccb47c3b4af1802a8f883f4
       original_filename: IMG_0012a.jpg
       width: 3330
       height: 2430
@@ -3742,6 +4500,7 @@ landscapes:
       description: Oil on Paper
     - order_index: 31
       media_name: f11310_b9bdde3d4f594ad69f1bfe62999cf14e.jpg
+      media_hash: f11310_b9bdde3d4f594ad69f1bfe62999cf14e
       original_filename: IMG_0083a.jpg
       width: 3279
       height: 2377
@@ -3757,6 +4516,7 @@ landscapes:
       description: Oil on Canvas
     - order_index: 33
       media_name: f11310_b8a379a1ea8c43deb577ba6af2a6888d.jpg
+      media_hash: f11310_b8a379a1ea8c43deb577ba6af2a6888d
       original_filename: Final.jpg
       width: 1432
       height: 1841
@@ -3780,6 +4540,7 @@ landscapes:
       description: "Pen & Ink on Paper"
     - order_index: 36
       media_name: f11310_9ff4d28696be495bb1474685c656412b.jpg
+      media_hash: f11310_9ff4d28696be495bb1474685c656412b
       original_filename: Final%20Version.jpg
       width: 1950
       height: 1460
@@ -3802,6 +4563,7 @@ landscapes:
       description: Oil on Canvas
     - order_index: 39
       media_name: f11310_013278b58f714fd39093234632891353.jpg
+      media_hash: f11310_013278b58f714fd39093234632891353
       original_filename: IMG_0322a.jpg
       width: 2300
       height: 1927
@@ -3831,6 +4593,7 @@ landscapes:
       description: Oil on Canvas
     - order_index: 43
       media_name: f11310_833825c2c6d54a4cad8fdd69ea3278bf.jpg
+      media_hash: f11310_833825c2c6d54a4cad8fdd69ea3278bf
       original_filename: IMG_0039a.jpg
       width: 3155
       height: 2339
@@ -3838,6 +4601,7 @@ landscapes:
       description: Oil on Canvas Paper with Ballpoint Pen
     - order_index: 44
       media_name: f11310_a8cf2d001b9f491dac07c5daf62301de.jpg
+      media_hash: f11310_a8cf2d001b9f491dac07c5daf62301de
       original_filename: IMG_0034a.jpg
       width: 3108
       height: 2031
@@ -3853,6 +4617,7 @@ landscapes:
       description: Oil on Canvas
     - order_index: 46
       media_name: f11310_ff7d913d44594944926de0d9d77d63c7.jpg
+      media_hash: f11310_ff7d913d44594944926de0d9d77d63c7
       original_filename: print4-1a.jpg
       width: 589
       height: 591
@@ -3860,6 +4625,7 @@ landscapes:
       description: Oil on Paper
     - order_index: 47
       media_name: f11310_e9c8ecae1b7f492c8b89a7b4347d6db3.jpg
+      media_hash: f11310_e9c8ecae1b7f492c8b89a7b4347d6db3
       original_filename: cropped2.jpg
       width: 2847
       height: 2038
@@ -3875,6 +4641,7 @@ landscapes:
       description: Oil on Canvas Board
     - order_index: 49
       media_name: f11310_5f845e9465ca45daa39fd5b4fc411511.jpg
+      media_hash: f11310_5f845e9465ca45daa39fd5b4fc411511
       original_filename: IMG_6322b.jpg
       width: 2580
       height: 2028
@@ -3882,6 +4649,7 @@ landscapes:
       description: Pencil and Ink on Paper
     - order_index: 50
       media_name: f11310_cf167d2adc7844368aa2e63a74f7ef39.jpg
+      media_hash: f11310_cf167d2adc7844368aa2e63a74f7ef39
       original_filename: Hotel%20side%20door%20drawing.jpg
       width: 761
       height: 1255
@@ -3889,6 +4657,7 @@ landscapes:
       description: Pencil on Paper
     - order_index: 51
       media_name: f11310_1361653c43744f22b729c5df99cde751.jpg
+      media_hash: f11310_1361653c43744f22b729c5df99cde751
       original_filename: IMG_6350a.jpg
       width: 2853
       height: 1739
@@ -3902,18 +4671,21 @@ landscapes:
       description: Pen and Ink on Paper
     - order_index: 53
       media_name: f11310_9123779825f945f8905dd1752d4b17d4.jpg
+      media_hash: f11310_9123779825f945f8905dd1752d4b17d4
       original_filename: dfsd-a.jpg
       width: 1753
       height: 1275
       description: Pen and Ink on Paper
     - order_index: 54
       media_name: f11310_2f6a91fcd5544c74afb390c0f8c92faa.jpg
+      media_hash: f11310_2f6a91fcd5544c74afb390c0f8c92faa
       original_filename: Sample%20paintings0009.jpg
       width: 640
       height: 446
       description: Oil on Canvas
     - order_index: 55
       media_name: f11310_f4e67ed84f5443b2bd21f6d0be6719d5.jpg
+      media_hash: f11310_f4e67ed84f5443b2bd21f6d0be6719d5
       original_filename: IMG_6347a.jpg
       width: 2611
       height: 1597
@@ -3928,6 +4700,7 @@ landscapes:
       description: Pencil and Ink on Paper
     - order_index: 57
       media_name: f11310_379f5de451704497bcf65c4a055c4c75.jpg
+      media_hash: f11310_379f5de451704497bcf65c4a055c4c75
       original_filename: IMG_6348a.jpg
       width: 2885
       height: 1780
@@ -3935,6 +4708,7 @@ landscapes:
       description: Pencil on Paper
     - order_index: 58
       media_name: f11310_7ba515addee04236a6ff07bd6f47ff92.jpg
+      media_hash: f11310_7ba515addee04236a6ff07bd6f47ff92
       original_filename: IMG_6351a.jpg
       width: 2799
       height: 1714
@@ -3949,6 +4723,7 @@ landscapes:
       description: Pencil on Paper
     - order_index: 60
       media_name: f11310_8c52768d569e4bbbacf76bde75b58d8a.jpg
+      media_hash: f11310_8c52768d569e4bbbacf76bde75b58d8a
       original_filename: Sample%20paintings0010.jpg
       width: 640
       height: 512
@@ -3972,6 +4747,7 @@ landscapes:
       description: "Pencil on Paper, Ready to Transfer to Canvas"
     - order_index: 63
       media_name: f11310_b4f6125d5f3248158b2dacba1668770e.jpg
+      media_hash: f11310_b4f6125d5f3248158b2dacba1668770e
       original_filename: IMG_0031a.jpg
       width: 2421
       height: 1925
@@ -3979,6 +4755,7 @@ landscapes:
       description: Oil on Canvas Board
     - order_index: 64
       media_name: f11310_d079d10a41534f87a14d705bb6e7cd32.jpg
+      media_hash: f11310_d079d10a41534f87a14d705bb6e7cd32
       original_filename: Sample%20paintings0008.jpg
       width: 640
       height: 483
@@ -3994,6 +4771,7 @@ landscapes:
       description: Pencil on Paper
     - order_index: 66
       media_name: f11310_a8310f0e0fb14e1e9e326f6a23557429.jpg
+      media_hash: f11310_a8310f0e0fb14e1e9e326f6a23557429
       original_filename: IMG_6366a.jpg
       width: 2493
       height: 1959
@@ -4001,6 +4779,7 @@ landscapes:
       description: Pencil on Paper
     - order_index: 67
       media_name: f11310_f29f89fb71f9458c8731d8cbce6b651c.jpg
+      media_hash: f11310_f29f89fb71f9458c8731d8cbce6b651c
       original_filename: IMG_0057a.jpg
       width: 2876
       height: 2123
@@ -4024,6 +4803,7 @@ landscapes:
       description: Oil on Canvas Board
     - order_index: 70
       media_name: f11310_e4d58e148e6a44af9d87ff6d43589ead.jpg
+      media_hash: f11310_e4d58e148e6a44af9d87ff6d43589ead
       original_filename: Backyard%20Nightscape.jpg
       width: 420
       height: 573
@@ -4085,6 +4865,7 @@ landscapes:
       description: Pencil on Paper
     - order_index: 78
       media_name: f11310_3957d40590a24ee29cc886d402ccdec8.jpg
+      media_hash: f11310_3957d40590a24ee29cc886d402ccdec8
       original_filename: IMG_0090a.jpg
       width: 2975
       height: 2217
@@ -4130,6 +4911,7 @@ landscapes-mt-diablo:
   items:
     - order_index: 1
       media_name: f11310_f1283d098784469caa77244e10edc6a3.jpg
+      media_hash: f11310_f1283d098784469caa77244e10edc6a3
       original_filename: IMG_0003a.jpg
       width: 3161
       height: 2110
@@ -4159,6 +4941,7 @@ landscapes-mt-diablo:
       title: Mt. Diablo at Sunset (detail)
     - order_index: 5
       media_name: f11310_d2f87427e0b0432fa91e15162b82292e.jpg
+      media_hash: f11310_d2f87427e0b0432fa91e15162b82292e
       original_filename: IMG_0005a.jpg
       width: 3037
       height: 2261
@@ -4174,6 +4957,7 @@ landscapes-mt-diablo:
       description: "Oil on Canvas, 11 x 14 inches (28 x 36 cm)"
     - order_index: 7
       media_name: f11310_a237d3c7eb9042f298c752a10b7364cd.jpg
+      media_hash: f11310_a237d3c7eb9042f298c752a10b7364cd
       original_filename: IMG_0008a.jpg
       width: 2568
       height: 1933
@@ -4189,6 +4973,7 @@ landscapes-mt-diablo:
       description: Oil on Paper
     - order_index: 9
       media_name: f11310_11276cd43ec24bb49ebc3497bfd8f411.jpg
+      media_hash: f11310_11276cd43ec24bb49ebc3497bfd8f411
       original_filename: IMG_0053a.jpg
       width: 2789
       height: 2062
@@ -4212,6 +4997,7 @@ landscapes-mt-diablo:
       description: "Oil on Canvas, 18 x 28 inches (46 x 71 cm)"
     - order_index: 12
       media_name: f11310_3592e6e9690a4d4fb09cd326660d8a58.jpg
+      media_hash: f11310_3592e6e9690a4d4fb09cd326660d8a58
       original_filename: IMG_0012-001--Final.jpg
       width: 2857
       height: 2279
@@ -4219,6 +5005,7 @@ landscapes-mt-diablo:
       description: "Oil on Canvas Board, 8 x 10 inches (20 x 25 cm)"
     - order_index: 13
       media_name: f11310_ffb70b985e8a4f128c19a5f6d8babc14.jpg
+      media_hash: f11310_ffb70b985e8a4f128c19a5f6d8babc14
       original_filename: IMG_0001-002--Final.jpg
       width: 2878
       height: 2217
@@ -4226,6 +5013,7 @@ landscapes-mt-diablo:
       description: "Oil on Canvas Board, 11 x 14 inches (28 x 36 cm)"
     - order_index: 14
       media_name: f11310_266e905c45174803ad80f39919ab81d0.jpg
+      media_hash: f11310_266e905c45174803ad80f39919ab81d0
       original_filename: IMG_0021a.jpg
       width: 3080
       height: 2233
@@ -4257,6 +5045,7 @@ landscapes-mt-diablo:
       description: Watercolor
     - order_index: 18
       media_name: f11310_b190517d8ccb47c3b4af1802a8f883f4.jpg
+      media_hash: f11310_b190517d8ccb47c3b4af1802a8f883f4
       original_filename: IMG_0012a.jpg
       width: 3330
       height: 2430
@@ -4323,6 +5112,7 @@ landscapes-other:
       description: "Oil on Canvas, 4 x 4 feet (1.3 x 1.3 M)"
     - order_index: 3
       media_name: f11310_b8a379a1ea8c43deb577ba6af2a6888d.jpg
+      media_hash: f11310_b8a379a1ea8c43deb577ba6af2a6888d
       original_filename: Final.jpg
       width: 1432
       height: 1841
@@ -4330,6 +5120,7 @@ landscapes-other:
       description: Oil on Canvas
     - order_index: 4
       media_name: f11310_9ff4d28696be495bb1474685c656412b.jpg
+      media_hash: f11310_9ff4d28696be495bb1474685c656412b
       original_filename: Final%20Version.jpg
       width: 1950
       height: 1460
@@ -4376,6 +5167,7 @@ landscapes-other:
       description: Gouache on Paper
     - order_index: 10
       media_name: f11310_013278b58f714fd39093234632891353.jpg
+      media_hash: f11310_013278b58f714fd39093234632891353
       original_filename: IMG_0322a.jpg
       width: 2300
       height: 1927
@@ -4405,6 +5197,7 @@ landscapes-other:
       description: Oil on Canvas
     - order_index: 14
       media_name: f11310_833825c2c6d54a4cad8fdd69ea3278bf.jpg
+      media_hash: f11310_833825c2c6d54a4cad8fdd69ea3278bf
       original_filename: IMG_0039a.jpg
       width: 3155
       height: 2339
@@ -4412,6 +5205,7 @@ landscapes-other:
       description: Oil on Canvas Paper with Ballpoint Pen
     - order_index: 15
       media_name: f11310_a8cf2d001b9f491dac07c5daf62301de.jpg
+      media_hash: f11310_a8cf2d001b9f491dac07c5daf62301de
       original_filename: IMG_0034a.jpg
       width: 3108
       height: 2031
@@ -4427,6 +5221,7 @@ landscapes-other:
       description: Oil on Canvas
     - order_index: 17
       media_name: f11310_ff7d913d44594944926de0d9d77d63c7.jpg
+      media_hash: f11310_ff7d913d44594944926de0d9d77d63c7
       original_filename: print4-1a.jpg
       width: 589
       height: 591
@@ -4434,6 +5229,7 @@ landscapes-other:
       description: Oil on Paper
     - order_index: 18
       media_name: f11310_e9c8ecae1b7f492c8b89a7b4347d6db3.jpg
+      media_hash: f11310_e9c8ecae1b7f492c8b89a7b4347d6db3
       original_filename: cropped2.jpg
       width: 2847
       height: 2038
@@ -4441,6 +5237,7 @@ landscapes-other:
       description: Oil on Paper
     - order_index: 19
       media_name: f11310_d079d10a41534f87a14d705bb6e7cd32.jpg
+      media_hash: f11310_d079d10a41534f87a14d705bb6e7cd32
       original_filename: Sample%20paintings0008.jpg
       width: 640
       height: 483
@@ -4464,6 +5261,7 @@ landscapes-other:
       description: "Pencil on Paper, 8 x 10 inches (20 x 25 inches)"
     - order_index: 22
       media_name: f11310_a8310f0e0fb14e1e9e326f6a23557429.jpg
+      media_hash: f11310_a8310f0e0fb14e1e9e326f6a23557429
       original_filename: IMG_6366a.jpg
       width: 2493
       height: 1959
@@ -4471,6 +5269,7 @@ landscapes-other:
       description: Pencil on Paper
     - order_index: 23
       media_name: f11310_f29f89fb71f9458c8731d8cbce6b651c.jpg
+      media_hash: f11310_f29f89fb71f9458c8731d8cbce6b651c
       original_filename: IMG_0057a.jpg
       width: 2876
       height: 2123
@@ -4494,6 +5293,7 @@ landscapes-other:
       description: "Oil on Canvas Board, 14 x 18 inches (36 x 46 cm)"
     - order_index: 26
       media_name: f11310_3957d40590a24ee29cc886d402ccdec8.jpg
+      media_hash: f11310_3957d40590a24ee29cc886d402ccdec8
       original_filename: IMG_0090a.jpg
       width: 2975
       height: 2217
@@ -4517,6 +5317,7 @@ landscapes-other:
       description: "Oil on Canvas Board, 9 x 12 inches (23 x 30 cm)"
     - order_index: 29
       media_name: f11310_e4d58e148e6a44af9d87ff6d43589ead.jpg
+      media_hash: f11310_e4d58e148e6a44af9d87ff6d43589ead
       original_filename: Backyard%20Nightscape.jpg
       width: 420
       height: 573
@@ -4586,6 +5387,7 @@ landscapes-outdoors:
       description: Gouache on Paper
     - order_index: 2
       media_name: f11310_5645517393fa4200a0643c3c32fcfa41.jpg
+      media_hash: f11310_5645517393fa4200a0643c3c32fcfa41
       original_filename: IMG_0003-002a.jpg
       width: 3026
       height: 2276
@@ -4631,6 +5433,7 @@ landscapes-outdoors:
       description: "Oil on Canvas Board, 9 x 12 inches (23 x 30 cm)"
     - order_index: 8
       media_name: f11310_e3ac695b24264746b2dfabe1679d0deb.jpg
+      media_hash: f11310_e3ac695b24264746b2dfabe1679d0deb
       original_filename: IMG_0030a.jpg
       width: 2676
       height: 2007
@@ -4661,6 +5464,7 @@ landscapes-outdoors:
       description: Watercolor
     - order_index: 12
       media_name: f11310_5dd24049b38d44008f4b0e7c144cf87b.jpg
+      media_hash: f11310_5dd24049b38d44008f4b0e7c144cf87b
       original_filename: IMG_0084a.jpg
       width: 3044
       height: 2205
@@ -4676,6 +5480,7 @@ landscapes-outdoors:
       description: Watercolor
     - order_index: 14
       media_name: f11310_b9bdde3d4f594ad69f1bfe62999cf14e.jpg
+      media_hash: f11310_b9bdde3d4f594ad69f1bfe62999cf14e
       original_filename: IMG_0083a.jpg
       width: 3279
       height: 2377
@@ -4683,6 +5488,7 @@ landscapes-outdoors:
       description: Watercolor
     - order_index: 15
       media_name: f11310_b4f6125d5f3248158b2dacba1668770e.jpg
+      media_hash: f11310_b4f6125d5f3248158b2dacba1668770e
       original_filename: IMG_0031a.jpg
       width: 2421
       height: 1925
@@ -4731,6 +5537,7 @@ landscapes-watercolor-g:
       description: "Gouache on Paper, 11 x 14 inches (28 x 36 cm)"
     - order_index: 3
       media_name: f11310_fb122ccd21fa45a6b2cf94d5f036fbd4.png
+      media_hash: f11310_fb122ccd21fa45a6b2cf94d5f036fbd4
       original_filename: IMG_9000a_edited.jpg
       width: 670
       height: 504
@@ -4746,6 +5553,7 @@ landscapes-watercolor-g:
       description: Gouache on paper
     - order_index: 5
       media_name: f11310_267707cdb9fb4a898a573732c636fd49.jpg
+      media_hash: f11310_267707cdb9fb4a898a573732c636fd49
       original_filename: IMG_1118-a.jpg
       width: 2464
       height: 1802
@@ -4753,6 +5561,7 @@ landscapes-watercolor-g:
       description: "Watercolor with Pen & Ink"
     - order_index: 6
       media_name: f11310_5645517393fa4200a0643c3c32fcfa41.jpg
+      media_hash: f11310_5645517393fa4200a0643c3c32fcfa41
       original_filename: IMG_0003-002a.jpg
       width: 3026
       height: 2276
@@ -4800,6 +5609,7 @@ landscapes-watercolor-g:
       description: "Watercolor with Pen & Ink"
     - order_index: 12
       media_name: f11310_5dd24049b38d44008f4b0e7c144cf87b.jpg
+      media_hash: f11310_5dd24049b38d44008f4b0e7c144cf87b
       original_filename: IMG_0084a.jpg
       width: 3044
       height: 2205
@@ -4807,6 +5617,7 @@ landscapes-watercolor-g:
       description: "Watercolor with Pen & Ink"
     - order_index: 13
       media_name: f11310_b9bdde3d4f594ad69f1bfe62999cf14e.jpg
+      media_hash: f11310_b9bdde3d4f594ad69f1bfe62999cf14e
       original_filename: IMG_0083a.jpg
       width: 3279
       height: 2377
@@ -4846,6 +5657,7 @@ landscapes-watercolor-g:
       description: "Watercolor with Pen & Ink"
     - order_index: 18
       media_name: f11310_3957d40590a24ee29cc886d402ccdec8.jpg
+      media_hash: f11310_3957d40590a24ee29cc886d402ccdec8
       original_filename: IMG_0090a.jpg
       width: 2975
       height: 2217
@@ -4895,7 +5707,77 @@ old-versions-of-pages:
 
 photographs:
   page_title: "Photographs | hfgudeart"
-  items: []
+  item_count: 20
+  items:
+    - order_index: 1
+      media_name: f11310_e81286456bc84ef69699a17e197be5ac~mv2
+      media_hash: f11310_e81286456bc84ef69699a17e197be5ac~mv2
+    - order_index: 2
+      media_name: f11310_886712046d974fb0a798dd430005cd8d
+      media_hash: f11310_886712046d974fb0a798dd430005cd8d
+    - order_index: 3
+      media_name: f11310_58af11b7794a4a2890a893ee1e75ae2a
+      media_hash: f11310_58af11b7794a4a2890a893ee1e75ae2a
+      title: Black Tide
+    - order_index: 4
+      media_name: f11310_f3f5deb13a694d3b85bb35b0e0bee6e0
+      media_hash: f11310_f3f5deb13a694d3b85bb35b0e0bee6e0
+      title: "Sgt. Eddie Chan, SJPD"
+    - order_index: 5
+      media_name: f11310_683b402d08b048fdb68b7c9e08137592
+      media_hash: f11310_683b402d08b048fdb68b7c9e08137592
+    - order_index: 6
+      media_name: f11310_110ab04a25594f84ac826cbc943792a7~mv2
+      media_hash: f11310_110ab04a25594f84ac826cbc943792a7~mv2
+    - order_index: 7
+      media_name: f11310_acb7b4d42a1342f38859daea2b37e8bb
+      media_hash: f11310_acb7b4d42a1342f38859daea2b37e8bb
+      title: Alex and Connie Wedding
+    - order_index: 8
+      media_name: f11310_d171a8d529bf49b1afa810e8e5b48fe3~mv2
+      media_hash: f11310_d171a8d529bf49b1afa810e8e5b48fe3~mv2
+      title: UC Berkeley
+    - order_index: 9
+      media_name: f11310_afeb1b29f0c94eb0a8328dfdad97beb1
+      media_hash: f11310_afeb1b29f0c94eb0a8328dfdad97beb1
+      title: Burning College Notes at Term End
+    - order_index: 10
+      media_name: f11310_197345b3260d4e9bb89dbc180c946405
+      media_hash: f11310_197345b3260d4e9bb89dbc180c946405
+    - order_index: 11
+      media_name: f11310_2c3403bda4d9495b939dad10904dccda~mv2
+      media_hash: f11310_2c3403bda4d9495b939dad10904dccda~mv2
+      title: "Hearst Mining Circle, UC Berkeley"
+    - order_index: 12
+      media_name: f11310_7a088b60de55488499afc3b6bca7166b
+      media_hash: f11310_7a088b60de55488499afc3b6bca7166b
+    - order_index: 13
+      media_name: f11310_640e1fd9675b41b8a0f5454dedb650a8
+      media_hash: f11310_640e1fd9675b41b8a0f5454dedb650a8
+      title: CHP Team Competition
+    - order_index: 14
+      media_name: f11310_ae1dbf9fdabe436e8b1a2a36fc6a8d99
+      media_hash: f11310_ae1dbf9fdabe436e8b1a2a36fc6a8d99
+      title: "It&#x27;s All About Two Wheels"
+    - order_index: 15
+      media_name: f11310_f47b1217125a4d83ba12feaf010f0730
+      media_hash: f11310_f47b1217125a4d83ba12feaf010f0730
+    - order_index: 16
+      media_name: f11310_a3c2a8dd814a4614865902101f377451
+      media_hash: f11310_a3c2a8dd814a4614865902101f377451
+    - order_index: 17
+      media_name: f11310_c4daf5b33ca84332892a6936b685fcf5
+      media_hash: f11310_c4daf5b33ca84332892a6936b685fcf5
+    - order_index: 18
+      media_name: f11310_afa9b0f11df3475c8b4fc48ee55b118c
+      media_hash: f11310_afa9b0f11df3475c8b4fc48ee55b118c
+      title: "Ferry Boats, San Francisco"
+    - order_index: 19
+      media_name: f11310_720789df19b14d5b923f619924b733a6~mv2
+      media_hash: f11310_720789df19b14d5b923f619924b733a6~mv2
+    - order_index: 20
+      media_name: f11310_93cfd58ecf4b4466b2e7742b56e298a3
+      media_hash: f11310_93cfd58ecf4b4466b2e7742b56e298a3
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
     - Hans F. Gude
@@ -4948,6 +5830,7 @@ still-lifes:
       description: "Oil on Canvas, 9 x 12 inches (23 x 30 cm)"
     - order_index: 6
       media_name: f11310_e08c379b8d0e4ca3be4dc4af2eac5c98.jpg
+      media_hash: f11310_e08c379b8d0e4ca3be4dc4af2eac5c98
       original_filename: 2772605131_800182b279_o.jpg
       width: 2013
       height: 2571
@@ -4955,6 +5838,7 @@ still-lifes:
       description: "Oil on Canvas, 11 x 14 inches (28 x 36 cm)"
     - order_index: 7
       media_name: f11310_e5c2b262e80c40508c9409b2cbe12320.jpg
+      media_hash: f11310_e5c2b262e80c40508c9409b2cbe12320
       original_filename: IMG_0019a.jpg
       width: 2173
       height: 2780
@@ -4970,6 +5854,7 @@ still-lifes:
       description: Oil on Masonite Panel
     - order_index: 9
       media_name: f11310_a042e1b813c245dd8eedbe62fc281503.jpg
+      media_hash: f11310_a042e1b813c245dd8eedbe62fc281503
       original_filename: Final02.JPG
       width: 2174
       height: 1965
@@ -4993,6 +5878,7 @@ still-lifes:
       description: "Oil on Canvas, 12 x 16 inches (23 x 41)"
     - order_index: 12
       media_name: f11310_4efd5bb3d0f54c40825e999a95fee266.jpg
+      media_hash: f11310_4efd5bb3d0f54c40825e999a95fee266
       original_filename: IMG_0027a.jpg
       width: 2165
       height: 2890
@@ -5000,6 +5886,7 @@ still-lifes:
       description: Oil on Canvas
     - order_index: 13
       media_name: f11310_f1c35ccbf6cb4dae87e6e94e08141a09.jpg
+      media_hash: f11310_f1c35ccbf6cb4dae87e6e94e08141a09
       original_filename: IMG_0025a.jpg
       width: 2643
       height: 2068
@@ -5007,6 +5894,7 @@ still-lifes:
       description: "Oil on Canvas, 11 x 14 inches (28 x 36 cm)"
     - order_index: 14
       media_name: f11310_ea5e143da9a84676b10c550d34fc1e5f.jpg
+      media_hash: f11310_ea5e143da9a84676b10c550d34fc1e5f
       original_filename: IMG_0044a.jpg
       width: 2371
       height: 3036
@@ -5014,12 +5902,14 @@ still-lifes:
       description: Oil on Canvas
     - order_index: 15
       media_name: f11310_ca92f63870154d378b8bb67b02a7e65a.jpg
+      media_hash: f11310_ca92f63870154d378b8bb67b02a7e65a
       original_filename: IMG_0024a.jpg
       width: 3030
       height: 2373
       description: "Oil on Canvas Board, 11 x 14 inches (28 x 36 cm)"
     - order_index: 16
       media_name: f11310_5be99519b1b04ec780ac4258b3f04542.jpg
+      media_hash: f11310_5be99519b1b04ec780ac4258b3f04542
       original_filename: IMG_0018a.jpg
       width: 2225
       height: 2845
@@ -5027,6 +5917,7 @@ still-lifes:
       description: "Oil on Canvas, 14 x 18 inches (36 x 46 cm)"
     - order_index: 17
       media_name: f11310_c36ba1ff97264f919ddbb06ac4e037a3.jpg
+      media_hash: f11310_c36ba1ff97264f919ddbb06ac4e037a3
       original_filename: IMG_0020a.jpg
       width: 3906
       height: 2602
@@ -5034,6 +5925,7 @@ still-lifes:
       description: Detail
     - order_index: 18
       media_name: f11310_062a2a1f42474943941c70d97411b711.jpg
+      media_hash: f11310_062a2a1f42474943941c70d97411b711
       original_filename: IMG_0023a.jpg
       width: 2925
       height: 2141
@@ -5041,21 +5933,25 @@ still-lifes:
       description: "Oil on Canvas Board, 12 x 16 inches (30 x 41 cm)"
     - order_index: 19
       media_name: f11310_66252211da5d44ddb91b83abf27cda8c.jpg
+      media_hash: f11310_66252211da5d44ddb91b83abf27cda8c
       original_filename: IMG_0040a.jpg
       width: 2261
       height: 2855
     - order_index: 20
       media_name: f11310_7f9ce5f85618463dbb7f941f98064c49.jpg
+      media_hash: f11310_7f9ce5f85618463dbb7f941f98064c49
       original_filename: IMG_0041a.jpg
       width: 3906
       height: 2602
     - order_index: 21
       media_name: f11310_0b820ebbb8154589b09bcfdd58389bdc.jpg
+      media_hash: f11310_0b820ebbb8154589b09bcfdd58389bdc
       original_filename: IMG_0038a.jpg
       width: 3046
       height: 2219
     - order_index: 22
       media_name: f11310_ea26a07cee7b4128b7bd8020f84fe9fd.jpg
+      media_hash: f11310_ea26a07cee7b4128b7bd8020f84fe9fd
       original_filename: IMG_0026a.jpg
       width: 2257
       height: 3001
@@ -5076,6 +5972,7 @@ still-lifes:
 
 uc-berkeley-artworks:
   page_title: "UC Berkeley | hfgudeart"
+  no_items_reason: no gallery content in any capture
   items: []
   page_texts:
     - "Online Portfolio of Fine Art &amp; Illustration by&nbsp;"
