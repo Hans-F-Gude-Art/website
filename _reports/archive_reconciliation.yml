@@ -9,167 +9,15 @@ add_description:
     description: Cropped Version
     source_page: copy-of-berkeley-campus
 
-# 38 artworks with differing archive description
+# 1 artworks with differing archive description
 description_conflicts:
-  alexander:
-    repo_description: Oil on Canvas
-    archive_description: "Oil on Canvas, 21 x 24 inches (53 x 61 cm)"
-    source_page: figures-paintings
-  allante:
-    repo_description: "Pencil on paper, 9 x 12 inches (23 x 30 cm)"
-    archive_description: Pencil on Paper
-    source_page: figures-figure-studies
-  animal-skull:
-    repo_description: Charcoal on Toned Paper
-    archive_description: Pen and ink
-    source_page: copy-of-select-charcoal-drawings
-  back-of-the-hotel:
-    repo_description: "Watercolor and Pen & Ink on Paper"
-    archive_description: "Watercolor and Pen & Ink on Paper, 9 x 12 inches (22 x 30 cm)"
-    source_page: landscapes-outdoors
-  blue-boat-on-the-dock-at-the-woods:
-    repo_description: Oil on Canvas Board
-    archive_description: "Oil on Canvas Board, 9 x 12 inches (23 x 30 cm)"
-    source_page: landscapes-outdoors
-  blue-boats-outside-the-snack-shack:
-    repo_description: Watercolor
-    archive_description: "Watercolor with Pen & Ink"
-    source_page: copy-of-watercolor-gouache
-  boats-under-a-tree:
-    repo_description: "Charcoal on Paper, 8 x 10 inches (20 x 25 cm)"
-    archive_description: Pencil on Paper
-    source_page: copy-of-new-page
-  bridge-over-strawberry-creek:
-    repo_description: "Oil on Canvas, 4 x 4 feet (1.3 x 1.3 M)"
-    archive_description: Pencil on Paper
-    source_page: copy-of-finished-drawings-1
-  brynilsens-viking-village-poster:
-    repo_description: "Pen & Ink with Ink Washes and White Gouache, 18 x 24 inches"
-    archive_description: "Pen and Ink on Paper with Ink Washes and Gouache Highlights, 18 x 24 inches, 2016"
-    source_page: drawings
-  cal-band:
-    repo_description: "Oil on Canvas, 4 x 6 Feet"
-    archive_description: "Oil on Canvas, 4 x 6 Feet (1.3 x 2 M)"
-    source_page: figures-paintings
-  cal-rower-studies-with-hand-detail:
-    repo_description: Pencil on Paper
-    archive_description: Pencil / Colored Pencil on Paper
-    source_page: copy-of-rowing-drawings-1
-  canoes:
-    repo_description: "Watercolor on Paper, 9 x 12 inches (22 x 30 cm)"
-    archive_description: "Watercolor on paper, 9 x 12 inches (22 x 30 cm)"
-    source_page: landscapes-outdoors
-  corito-in-an-old-forge-ny-hat:
-    repo_description: "\"Pen & ink\" drawing in Procreate on an iPad Pro, 9 x 12 inches (23 x 30 cm)."
-    archive_description: "\"Pen & ink\" in Procreate for the iPad Pro, 9 x 12 inches (23 x 30 cm)."
-    source_page: figures-figure-studies
-  emily-at-21-portrait:
-    repo_description: Oil on Canvas
-    archive_description: "Oil on Canvas, 2.7 x 4.0 feet (82 x 122 cm)"
-    source_page: figures-paintings
-  emily-at-the-piano:
-    repo_description: Oil on canvas
-    archive_description: Oil on Canvas
-    source_page: figures
-  emmy-with-her-favorite-things:
-    repo_description: Pencil on Paper
-    archive_description: Pencil on Paper with White Gouache
-    source_page: drawings-finished-drawings
-  flowers-in-glass-vase:
-    repo_description: "Oil on Canvas, 14 x 18 inches (36 x 46 cm)"
-    archive_description: Detail
-    source_page: still-lifes
-  hotel-deck:
-    repo_description: "Watercolor with Pen & Ink"
-    archive_description: Watercolor
-    source_page: copy-of-new-page
-  imperial-palace-drawing:
-    repo_description: Pencil on Paper
-    archive_description: Oil on Paper
-    source_page: copy-of-other-landscapes
   imperial-palace-tokyo:
-    repo_description: "On-Site Study, Pencil on Paper"
+    repo_description: "On-Site Study, Pencil on Paper, 8 x 10 inches (20 x 25 cm)"
     archive_description: "Pencil on Paper, 8 x 10 inches (20 x 25 inches)"
     source_page: copy-of-finished-drawings-1
-  last-500-meters-in-the-montlake-cut:
-    repo_description: "Oil on Canvas, 3 x 4 feet"
-    archive_description: "Oil on Canvas, 3 x 4 feet (1.0 x 1.3 M)"
-    source_page: figures-paintings
-  mt-diablo-at-sunrise:
-    repo_description: Oil on Canvas Board
-    archive_description: "Oil on Canvas Board, 8 x 10 inches (20 x 25 cm)"
-    source_page: landscapes-mt-diablo
-  mt-diablo-morning-light-study:
-    repo_description: Oil on Paper
-    archive_description: Oil on Canvas Board
-    source_page: landscapes
-  portrait-of-a-girl-after-wm-chase:
-    repo_description: Pencil on Paper
-    archive_description: Pencil on paper
-    source_page: figures-figure-studies
-  potted-plant-watercolor:
-    repo_description: "Watercolor with Pen & Ink"
-    archive_description: Watercolor
-    source_page: copy-of-watercolor-gouache
-  reclining-nude-after-iradell:
-    repo_description: "Charcoal on Toned Paper with White Highlights, 18 x 24 inches"
-    archive_description: "Charcoal on Toned Paper with White Highlights, 18 x 24 inches (46 x 61 cm)"
-    source_page: drawings-finished-drawings
-  rowers-carrying-shell-from-cal-boathouse-study:
-    repo_description: "Pencil on Paper, 14 x 16 inches"
-    archive_description: Pencil on Paper
-    source_page: figures
-  self-portrait-watching-tv-in-dorm-room:
-    repo_description: "Charcoal on paper, 16 x 19 inches"
-    archive_description: "Pencil on Paper, with Colored-Pencil Highlight, 16 x 19 inches (41 x 48 cm)."
-    source_page: figures-figure-studies
-  steps-next-to-moses-hall-uc-berkeley:
-    repo_description: Pen and Ink on Paper
-    archive_description: "Pen and ink on paper, 9 x 12 inches (23 x 30 cm)"
-    source_page: drawings-finished-drawings
-  sunrise-over-mt-diablo-with-orange-clouds:
-    repo_description: Oil on Canvas
-    archive_description: "Oil on Canvas, 18 x 24"
-    source_page: landscapes
-  view-of-berkeley-lab-from-sproul-plaza:
-    repo_description: Pencil with White Gouache Highlights on Paper
-    archive_description: Pencil on Paper
-    source_page: copy-of-finished-drawings-1
-  view-of-coal-oil-point-isla-vista-calif:
-    repo_description: "Oil on Canvas, 18 x 24 inches (46 x 61 cm)"
-    archive_description: Oil on Canvas
-    source_page: landscapes
-  view-of-the-lake-and-sun-deck-from-the-hotel:
-    repo_description: Pencil on Paper
-    archive_description: Pencil on paper
-    source_page: drawings-finished-drawings
-  view-over-the-backyard-fence:
-    repo_description: Gouache on Paper
-    archive_description: "Gouache on Paper, 11 x 14 inches (28 x 36 cm)"
-    source_page: landscapes-watercolor-g
-  view-toward-inlet:
-    repo_description: Oil on Canvas
-    archive_description: "Watercolor with Pen & Ink"
-    source_page: landscapes
-  viking-village-hotel-side-entrance:
-    repo_description: Gouache on Paper
-    archive_description: Pencil on Paper
-    source_page: copy-of-new-page
-  viking-village-office-and-hotel:
-    repo_description: Oil on Canvas Board
-    archive_description: Pencil and Ink on Paper
-    source_page: copy-of-new-page
-  viking-village-snack-shack:
-    repo_description: Pencil on Paper
-    archive_description: Oil on Canvas Board
-    source_page: copy-of-new-page
 
-# 60 title conflicts (wix_title vs repo_title)
+# 56 title conflicts (wix_title vs repo_title)
 title_conflicts:
-  belvedere-torso:
-    repo_title: The Belvedere Torso
-    wix_title: Belvedere Torso
-    source_page: copy-of-figure-drawings
   blue-boat-on-the-dock-at-the-woods:
     repo_title: Blue Boat on the Dock at the Woods
     wix_title: Blue Boat
@@ -182,10 +30,6 @@ title_conflicts:
     repo_title: Boats Under a Tree
     wix_title: Boats
     source_page: copy-of-finished-drawings
-  bridge-over-strawberry-creek-next-to-moses-hall-university-of-california-berkeley:
-    repo_title: "Bridge Over Strawberry Creek Next to Moses Hall, University of California, Berkeley"
-    wix_title: "Bridge Over Strawberry Creek (next to Moses Hall), University of California, Berkeley"
-    source_page: drawings-finished-drawings
   brynilsens-viking-village-poster:
     repo_title: Brynilsen's Viking Village Poster
     wix_title: Brynilsen's Viking Village
@@ -214,10 +58,6 @@ title_conflicts:
     repo_title: Emily in the Living Room
     wix_title: Emily studying
     source_page: emily
-  emily-in-the-time-of-covid:
-    repo_title: Emily in the Time of COVID
-    wix_title: "&quot;Emily in the Time of COVID&quot;"
-    source_page: copy-of-finished-drawings-1
   flowers-in-glass-vase:
     repo_title: Flowers in Glass Vase
     wix_title: Flowers
@@ -274,10 +114,6 @@ title_conflicts:
     repo_title: Potted Plant Watercolor
     wix_title: Plant
     source_page: copy-of-watercolor-gouache
-  reclining-figure-after-iredell:
-    repo_title: Reclining Figure (after Iredell)
-    wix_title: Reclining figure (after Iredell)
-    source_page: copy-of-finished-drawings
   rowers-carrying-shell-from-cal-boathouse-study:
     repo_title: Rowers Carrying Shell from Cal Boathouse Study
     wix_title: "Cal men&#x27;s rowing team bringing the boat out"
@@ -508,6 +344,7 @@ membership_mismatches:
   - gallery: finished_drawings
     archive_page: drawings-finished-drawings
     in_repo_not_archive:
+      - bridge-over-strawberry-creek
       - brynilsens-viking-village-poster
       - cal-coach-pappy-and-the-wood-nymph-dryad
       - figures-on-hearst-mining-building-facade
@@ -677,8 +514,6 @@ membership_mismatches:
       - victorian-row-houses-in-san-francisco
   - gallery: figure_drawings
     archive_page: copy-of-figure-drawings
-    in_archive_not_repo:
-      - connie-napping
     in_repo_not_archive:
       - bearded-man-in-coat-holding-hat
       - connie-napping-drawing-study
@@ -699,12 +534,6 @@ membership_mismatches:
       - study-of-the-creation-of-adam
   - gallery: figure_complete
     archive_page: copy-of-figure-drawings-complete-fi
-    in_archive_not_repo:
-      - drawing-on-canvas-for-connie-napping-painting
-      - pencil-on-paper-with-white-gouache-highlights-8-x-10
-      - self-portrait-as-anatomical-study
-      - studies-of-the-skull
-      - study-of-rowing-painting
     in_repo_not_archive:
       - bearded-man-in-coat-holding-hat
       - belvedere-torso
@@ -733,8 +562,6 @@ membership_mismatches:
       - study-of-the-creation-of-adam
   - gallery: finished_drawings
     archive_page: copy-of-finished-drawings-1
-    in_archive_not_repo:
-      - bridge-over-strawberry-creek
     in_repo_not_archive:
       - animal-skul
       - belvedere-torso
@@ -757,9 +584,6 @@ membership_mismatches:
       - wooden-bridge-over-strawberry-creek
   - gallery: cal_marching_band
     archive_page: copy-of-cal-marching-band-1
-    in_archive_not_repo:
-      - plaque-under-the-painting
-      - the-artist-with-the-installed-painting
     in_repo_not_archive:
       - 4-x-6-foot-canvas
       - artist-at-work-on-cal-band-painting
@@ -772,12 +596,6 @@ membership_mismatches:
       - transferring-cal-band-drawing-to-canvas
   - gallery: select_watercolors
     archive_page: copy-of-select-watercolors-gouache
-    in_archive_not_repo:
-      - color-design-study-for-cal-rowing-painting
-      - stephens-hall-uc-berkeley
-      - study-of-a-football-player
-      - view-over-the-backyard-fence
-      - viking-village-hotel-side-entrance
     in_repo_not_archive:
       - amazon-warrior-with-spear
       - back-of-the-hotel

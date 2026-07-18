@@ -372,6 +372,8 @@ def main() -> None:
     # Enrich each item with cross-page hash metadata before matching
     add_description: list[dict] = []
     description_conflicts: list[dict] = []
+    archive_descs_by_slug: dict[str, set] = {}
+    archive_titles_by_slug: dict[str, set] = {}
     title_conflicts: list[dict] = []
     unmatched_archive: list[dict] = []
 
@@ -415,6 +417,7 @@ def main() -> None:
             archive_desc = enriched.get("description", "")
             repo_desc = artwork.get("description", "")
             if archive_desc:
+                archive_descs_by_slug.setdefault(current_slug, set()).add(archive_desc)
                 if not repo_desc:
                     add_description.append({
                         "slug": current_slug,
@@ -432,6 +435,8 @@ def main() -> None:
             # Title conflict
             archive_title = normalize_title(enriched.get("title", ""))
             repo_title = normalize_title(artwork.get("title", ""))
+            if archive_title:
+                archive_titles_by_slug.setdefault(current_slug, set()).add(archive_title)
             if archive_title and repo_title and archive_title != repo_title:
                 title_conflicts.append({
                     "slug": current_slug,
@@ -447,17 +452,24 @@ def main() -> None:
         if slug not in desc_by_slug:
             desc_by_slug[slug] = entry
 
-    # Deduplicate description_conflicts: keep one per slug
+    # Deduplicate description_conflicts: keep one per slug. An artwork whose
+    # repo description equals ANY archive variant for that slug is resolved,
+    # not conflicting (WIX itself captions the same artwork differently
+    # across galleries).
     desc_conflict_by_slug: dict[str, dict] = {}
     for entry in description_conflicts:
         slug = entry["slug"]
+        if entry["repo_description"] in archive_descs_by_slug.get(slug, set()):
+            continue
         if slug not in desc_conflict_by_slug:
             desc_conflict_by_slug[slug] = entry
 
-    # Deduplicate title_conflicts: keep one per slug
+    # Deduplicate title_conflicts: keep one per slug, same any-variant rule.
     title_by_slug: dict[str, dict] = {}
     for entry in title_conflicts:
         slug = entry["slug"]
+        if normalize_title(entry["repo_title"]) in archive_titles_by_slug.get(slug, set()):
+            continue
         if slug not in title_by_slug:
             title_by_slug[slug] = entry
 
