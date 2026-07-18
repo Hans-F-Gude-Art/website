@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: "Study of Sather Tower (the 'Campanile'), University of California, Berkeley"
-description: "Pencil on paper"
+description: "Pencil on Paper"
 image: /assets/images/galleries/campus-drawings/study-of-sather-tower-the-campanile-university-of-california-berkeley.jpg
 galleries:
   - campus-drawings

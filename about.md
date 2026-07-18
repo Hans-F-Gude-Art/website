@@ -7,7 +7,7 @@ image_alt: Hans working on his Cal Band oil painting.
 
 > "In art, 'intentions' have no place; only results. In good art, the results do not have to be explained by any personally conducted eulogy."
 >
-> — *Elementary Principles of Landscape Painting*, John Carlson, 1927
+> — <cite>Elementary Principles of Landscape Painting</cite>, John Carlson, 1927
 
 # Artist Biography
 
