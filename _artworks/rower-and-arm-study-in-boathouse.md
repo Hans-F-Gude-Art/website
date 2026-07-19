@@ -5,4 +5,6 @@ image: /assets/images/galleries/rowing-montlake/rower-and-arm-study-in-boathouse
 galleries:
   - perspective-studies
   - cal-rowing
+mediums:
+  - pencil
 ---

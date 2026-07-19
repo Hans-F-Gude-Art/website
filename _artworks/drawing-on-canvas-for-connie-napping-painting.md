@@ -5,4 +5,6 @@ image: /assets/images/galleries/figure-anatomical/drawing-on-canvas-for-connie-n
 galleries:
   - figure-anatomical
   - figure-complete
+mediums:
+  - charcoal
 ---

@@ -4,4 +4,6 @@ title: "View of Moffitt Library, University of California, Berkeley"
 image: /assets/images/galleries/campus-drawings/view-of-moffitt-library-university-of-california-berkeley.jpg
 galleries:
   - campus-drawings
+mediums:
+  - pencil
 ---

@@ -6,4 +6,6 @@ galleries:
   - cal-band
   - figure-heads-faces
   - figure-studies
+mediums:
+  - pencil
 ---

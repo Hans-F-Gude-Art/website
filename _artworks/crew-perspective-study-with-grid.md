@@ -5,4 +5,6 @@ image: /assets/images/galleries/rowing-montlake/crew-perspective-study-with-grid
 galleries:
   - perspective-studies
   - cal-rowing
+mediums:
+  - pencil
 ---

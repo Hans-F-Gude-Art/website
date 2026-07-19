@@ -4,4 +4,6 @@ title: "Laurel Reading"
 image: /assets/images/galleries/figure-complete/laurel-reading.jpg
 galleries:
   - figure-complete
+mediums:
+  - pencil
 ---

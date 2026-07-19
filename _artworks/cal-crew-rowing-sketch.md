@@ -5,4 +5,6 @@ image: /assets/images/galleries/rowing-montlake/cal-crew-rowing-sketch.jpg
 galleries:
   - perspective-studies
   - cal-rowing
+mediums:
+  - pen-ink
 ---

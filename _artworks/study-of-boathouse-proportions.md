@@ -4,4 +4,6 @@ title: "Study of Boathouse Proportions"
 image: /assets/images/galleries/cal-rowing/study-of-boathouse-proportions.jpg
 galleries:
   - cal-rowing
+mediums:
+  - pencil
 ---

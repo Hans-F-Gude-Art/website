@@ -5,4 +5,6 @@ image: /assets/images/galleries/figure-heads-faces/gentleman-reading-in-hat.jpg
 galleries:
   - figure-heads-faces
   - figure-studies
+mediums:
+  - colored-pencil
 ---

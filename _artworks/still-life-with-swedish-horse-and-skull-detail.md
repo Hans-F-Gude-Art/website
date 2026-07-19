@@ -5,4 +5,6 @@ description: "\"That's as fine an apple as has ever been painted!\"—Gauguin, i
 image: /assets/images/galleries/still-lifes/still-life-with-swedish-horse-and-skull-detail.jpg
 galleries:
   - still-lifes
+mediums:
+  - oil
 ---

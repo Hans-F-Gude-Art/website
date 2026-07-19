@@ -5,4 +5,6 @@ image: /assets/images/galleries/figure-heads-faces/portrait-study-of-the-artist-
 galleries:
   - figure-heads-faces
   - figure-studies
+mediums:
+  - pencil
 ---

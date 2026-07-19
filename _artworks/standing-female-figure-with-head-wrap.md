@@ -5,4 +5,6 @@ image: /assets/images/galleries/figure-complete/standing-female-figure-with-head
 galleries:
   - figure-complete
   - figure-studies
+mediums:
+  - pencil
 ---

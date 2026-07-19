@@ -4,4 +4,6 @@ title: "Lighthouse Tower Detail"
 image: /assets/images/galleries/cal-athletics/lighthouse-tower-detail.jpg
 galleries:
   - cal-rowing
+mediums:
+  - oil
 ---

@@ -4,4 +4,6 @@ title: "View of the Valley Life Sciences Building, University of California, Ber
 image: /assets/images/galleries/campus-drawings/view-of-the-valley-life-sciences-building-university-of-california-berkeley.jpg
 galleries:
   - campus-drawings
+mediums:
+  - pencil
 ---

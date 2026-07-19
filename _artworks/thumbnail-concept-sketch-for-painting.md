@@ -5,4 +5,6 @@ description: "Perspective study"
 image: /assets/images/galleries/perspective-studies/thumbnail-concept-sketch-for-painting.jpg
 galleries:
   - perspective-studies
+mediums:
+  - pencil
 ---

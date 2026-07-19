@@ -5,4 +5,6 @@ image: /assets/images/galleries/viking-village/view-towards-old-forge-from-the-d
 galleries:
   - figure-paintings
   - viking-village
+mediums:
+  - oil
 ---

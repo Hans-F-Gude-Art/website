@@ -5,4 +5,6 @@ image: /assets/images/galleries/rowing-montlake/perspective-study-with-color-gri
 galleries:
   - perspective-studies
   - cal-rowing
+mediums:
+  - pencil
 ---

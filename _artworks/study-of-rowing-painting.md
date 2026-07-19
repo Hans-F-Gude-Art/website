@@ -5,4 +5,6 @@ image: /assets/images/galleries/figure-anatomical/study-of-rowing-painting.jpg
 galleries:
   - figure-anatomical
   - figure-complete
+mediums:
+  - pencil
 ---

@@ -5,4 +5,6 @@ image: /assets/images/galleries/rowing-montlake/eight-man-shell-geometric-study.
 galleries:
   - perspective-studies
   - cal-rowing
+mediums:
+  - pencil
 ---

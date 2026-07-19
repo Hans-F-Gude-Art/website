@@ -5,4 +5,6 @@ image: /assets/images/galleries/rowing-montlake/boathouse-and-shell-study.jpg
 galleries:
   - perspective-studies
   - cal-rowing
+mediums:
+  - pencil
 ---

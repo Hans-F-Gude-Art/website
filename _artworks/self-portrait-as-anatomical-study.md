@@ -5,4 +5,6 @@ image: /assets/images/galleries/figure-anatomical/self-portrait-as-anatomical-st
 galleries:
   - figure-anatomical
   - figure-complete
+mediums:
+  - pencil
 ---

@@ -5,4 +5,6 @@ image: /assets/images/galleries/figure-heads-faces/portrait-studies-of-marilyn-m
 galleries:
   - figure-heads-faces
   - figure-studies
+mediums:
+  - pencil
 ---

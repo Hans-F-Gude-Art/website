@@ -5,4 +5,6 @@ image: /assets/images/galleries/emily/emily-at-21-three-quarter-view.jpg
 galleries:
   - emily
   - figure-paintings
+mediums:
+  - oil
 ---

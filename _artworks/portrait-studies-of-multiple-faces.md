@@ -5,4 +5,6 @@ image: /assets/images/galleries/figure-heads-faces/portrait-studies-of-multiple-
 galleries:
   - figure-heads-faces
   - figure-studies
+mediums:
+  - pencil
 ---

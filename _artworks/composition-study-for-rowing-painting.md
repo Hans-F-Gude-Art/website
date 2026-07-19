@@ -4,4 +4,6 @@ title: "Composition Study for Rowing Painting"
 image: /assets/images/galleries/cal-rowing/composition-study-for-rowing-painting.jpg
 galleries:
   - cal-rowing
+mediums:
+  - pencil
 ---

@@ -6,4 +6,6 @@ galleries:
   - figure-complete
   - figure-heads-faces
   - figure-studies
+mediums:
+  - pencil
 ---
