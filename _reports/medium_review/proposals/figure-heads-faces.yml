@@ -1,0 +1,26 @@
+- slug: emily-with-microphone
+  mediums: [charcoal]
+  confidence: medium
+  notes: Very heavy, matte blacks and broad diagonal stick-width hatching in hair/background, darker and broader than the reference pencil pieces; could instead be a very soft graphite stick.
+- slug: gentleman-reading-in-hat
+  mediums: [gouache]
+  confidence: low
+  notes: Full-color, grainy, streaky build-up on toned paper does not clearly match any vocabulary term; could be soft pastel or colored pencil rather than gouache.
+- slug: portrait-studies-of-male-faces
+  mediums: [pencil]
+  confidence: high
+- slug: portrait-studies-of-marilyn-monroe
+  mediums: [pencil]
+  confidence: high
+- slug: portrait-studies-of-multiple-faces
+  mediums: [pencil]
+  confidence: high
+- slug: portrait-study-of-the-artist-with-hat
+  mediums: [charcoal]
+  confidence: high
+- slug: portrait-study-of-the-artist-with-long-hair
+  mediums: [pencil]
+  confidence: high
+- slug: portrait-study-of-young-man-in-hat
+  mediums: [pencil]
+  confidence: high

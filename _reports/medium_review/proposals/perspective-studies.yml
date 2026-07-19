@@ -1,0 +1,71 @@
+- slug: architectural-perspective-studies
+  mediums: [pencil, pen-ink]
+  confidence: high
+
+- slug: boathouse-and-shell-study
+  mediums: [pencil]
+  confidence: high
+
+- slug: cal-crew-rowing-sketch
+  mediums: [pen-ink]
+  confidence: medium
+  notes: Bold, matte, opaque dark lines read more like pen/ink than graphite, but could be very soft dark pencil (e.g. 6B); a faint red line at top may be colored pencil.
+
+- slug: crew-perspective-study-with-grid
+  mediums: [pencil]
+  confidence: high
+  notes: Rendered figures/shell are graphite pencil; pink/magenta grid lines are colored-pencil construction overlay, not the primary medium.
+
+- slug: eight-man-shell-geometric-study
+  mediums: [pencil]
+  confidence: high
+
+- slug: montlake-bridge
+  mediums: [watercolor, pencil]
+  confidence: low
+  notes: Soft, blended, hazy warm-toned rendering over pencil/pen construction lines (red, blue). Could be watercolor wash, colored pencil, or pastel underneath the black/red/blue line-work; image quality makes the base medium hard to pin down.
+
+- slug: perspective-study-for-rowing-ramp
+  mediums: [pencil]
+  confidence: high
+  notes: Core figures and ramp are graphite pencil; green/blue/red grid lines are colored-pencil construction annotations.
+
+- slug: perspective-study-of-boat-hull
+  mediums: [pencil]
+  confidence: high
+
+- slug: perspective-study-of-buildings
+  mediums: [pencil]
+  confidence: high
+
+- slug: perspective-study-of-rowing-shell-and-oars
+  mediums: [pencil]
+  confidence: high
+
+- slug: perspective-study-with-color-grid
+  mediums: [pencil]
+  confidence: high
+  notes: Boat/oars rendering is graphite pencil; the extensive red/blue/green/orange perspective grid is colored-pencil overlay for construction, not the primary medium.
+
+- slug: rower-and-arm-study-in-boathouse
+  mediums: [pencil]
+  confidence: high
+
+- slug: sather-gate-drawing-in-progress
+  mediums: [photograph]
+  confidence: high
+  notes: Photo of an in-progress pencil drawing on the drafting table with pencil and French curve tool resting on it, per the "photo of a drawing in situ" rule.
+
+- slug: sather-tower-model-and-drawing
+  mediums: [photograph]
+  confidence: high
+  notes: Photo showing a paper model of the Campanile posed next to an in-progress pencil drawing on a countertop, per the "photo of a drawing in situ" rule.
+
+- slug: the-woods-hotel-rooftops-sketch
+  mediums: [pencil]
+  confidence: high
+
+- slug: thumbnail-concept-sketch-for-painting
+  mediums: [pencil, photograph]
+  confidence: medium
+  notes: Pencil perspective study of an escalator/train scene with a real photograph of a standing figure cut out and collaged into the center.
