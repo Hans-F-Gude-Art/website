@@ -18,5 +18,11 @@ layout: default
         <a href="{{ gallery_page.url | relative_url }}">&larr; Back to {{ gallery_page.title }}</a>
       {% endif %}
     {% endfor %}
+    {% for medium_id in page.mediums %}
+      {% assign medium_page = site.pages | where: "medium_id", medium_id | first %}
+      {% if medium_page %}
+        <a href="{{ medium_page.url | relative_url }}">&larr; Back to {{ medium_page.title }}</a>
+      {% endif %}
+    {% endfor %}
   </nav>
 </article>
