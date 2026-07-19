@@ -5,5 +5,6 @@ image: /assets/images/galleries/figure-heads-faces/face-self-portrait-close-up.j
 galleries:
   - figure-heads-faces
   - figure-studies
-  - pen-ink-drawings
+mediums:
+  - pen-ink
 ---

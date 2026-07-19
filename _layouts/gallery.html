@@ -10,16 +10,29 @@ layout: default
     {% endif %}
   </header>
 
+  {{ content }}
+
   <ul class="photo-grid">
   {% comment %}
-    Load gallery order from data file (converts hyphens to underscores for data key).
-    Each slug is looked up in the artworks collection to get metadata.
+    Two modes:
+    - gallery_id: curated order from a data file (hyphens converted to
+      underscores for the data key); each slug is looked up in the collection.
+    - medium_id: derived from artwork `mediums` frontmatter, sorted by title.
   {% endcomment %}
-  {% assign data_key = page.gallery_id | replace: "-", "_" %}
-  {% assign slugs = site.data.galleries[data_key] %}
-  {% for slug in slugs %}
-    {% assign art = site.artworks | where: "slug", slug | first %}
-    {% if art %}
+  {% if page.medium_id %}
+    {% assign artworks = site.artworks | where_exp: "art", "art.mediums contains page.medium_id" | sort: "title" %}
+  {% else %}
+    {% assign data_key = page.gallery_id | replace: "-", "_" %}
+    {% assign slugs = site.data.galleries[data_key] %}
+    {% assign artworks = "" | split: "" %}
+    {% for slug in slugs %}
+      {% assign art = site.artworks | where: "slug", slug | first %}
+      {% if art %}
+        {% assign artworks = artworks | push: art %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  {% for art in artworks %}
     <li>
       <a href="{{ art.url | relative_url }}">
         <figure>
@@ -28,7 +41,6 @@ layout: default
         </figure>
       </a>
     </li>
-    {% endif %}
   {% endfor %}
   </ul>
 </article>

@@ -6,4 +6,6 @@ image: /assets/images/galleries/campus-drawings/stairs-up-to-university-house-st
 galleries:
   - campus-drawings
   - sketches-studies
+mediums:
+  - pencil
 ---

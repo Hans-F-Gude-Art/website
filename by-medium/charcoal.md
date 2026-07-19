@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Select Charcoal Drawings
-subtitle: Charcoal Works
-gallery_id: select-charcoal
+title: Charcoal
+subtitle: Works in Charcoal
+medium_id: charcoal
 ---

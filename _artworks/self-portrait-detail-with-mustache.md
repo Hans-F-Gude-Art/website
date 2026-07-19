@@ -5,5 +5,6 @@ image: /assets/images/galleries/figure-heads-faces/self-portrait-detail-with-mus
 galleries:
   - figure-heads-faces
   - figure-studies
-  - pencil-drawings
+mediums:
+  - pencil
 ---

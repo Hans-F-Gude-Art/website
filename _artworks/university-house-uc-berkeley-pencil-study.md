@@ -6,4 +6,6 @@ image: /assets/images/galleries/campus-drawings/university-house-uc-berkeley-pen
 galleries:
   - campus-drawings
   - sketches-studies
+mediums:
+  - pencil
 ---

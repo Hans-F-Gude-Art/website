@@ -40,11 +40,11 @@ He adopts Leonardo's advice, moreover, that a painter should not just learn to
 do one thing well, but work to achieve proficiency in all manner of methods
 and subjects, including landscapes, figures, and portraits.
 
-His preferred mediums include [pencil]({{ '/drawings/pencil' | relative_url
+His preferred mediums include [pencil]({{ '/by-medium/pencil' | relative_url
 }}), [oil paint]({{ '/by-medium/oils' | relative_url }}), [gouache]({{
 '/by-medium/gouache' | relative_url }}), [watercolor]({{
-'/by-medium/watercolors' | relative_url }}), [charcoal]({{ '/drawings/charcoal'
-| relative_url }}), and [pen & ink]({{ '/drawings/pen-ink' | relative_url }}).
+'/by-medium/watercolors' | relative_url }}), [charcoal]({{ '/by-medium/charcoal'
+| relative_url }}), and [pen & ink]({{ '/by-medium/pen-ink' | relative_url }}).
 He recently began creating digital art by adding Procreate on an iPad Pro to
 his toolbox.
 

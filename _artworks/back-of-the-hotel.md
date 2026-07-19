@@ -6,7 +6,8 @@ image: /assets/images/galleries/viking-village/back-of-the-hotel-brynilsens-viki
 galleries:
   - landscapes-outdoors
   - landscapes-watercolor
-  - select-watercolors
   - viking-village
-  - watercolor-gouache
+mediums:
+  - watercolor
+  - pen-ink
 ---

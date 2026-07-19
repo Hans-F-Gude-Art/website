@@ -6,4 +6,6 @@ image: /assets/images/galleries/campus-drawings/california-golden-bear-with-sath
 galleries:
   - campus-drawings
   - sketches-studies
+mediums:
+  - pencil
 ---

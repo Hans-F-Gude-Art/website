@@ -5,5 +5,6 @@ description: "Pencil on Paper"
 image: /assets/images/galleries/landscapes-other/golden-gate-bridge.jpg
 galleries:
   - landscapes-other
-  - select-oils
+mediums:
+  - pencil
 ---

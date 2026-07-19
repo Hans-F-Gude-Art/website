@@ -6,6 +6,7 @@ image: /assets/images/galleries/viking-village/brynilsens-viking-village-poster.
 galleries:
   - finished-drawings
   - illustrations
-  - pen-ink-drawings
   - viking-village
+mediums:
+  - pen-ink
 ---

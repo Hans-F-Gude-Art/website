@@ -5,5 +5,6 @@ description: "Charcoal on Blue-Tinted Paper with White Highlights, 12 x 16 inche
 image: /assets/images/galleries/finished-drawings/still-life-with-kettle-and-geometric-forms.jpg
 galleries:
   - finished-drawings
-  - select-charcoal
+mediums:
+  - charcoal
 ---

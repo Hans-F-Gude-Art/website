@@ -1,17 +1,6 @@
 ---
-layout: default
-title: HFGudeArt | Hans F. Gude Fine Art & Illustration
+layout: hub
 description: "Fine art and illustration. Official Cal (UC Berkeley) Licensed Artist, authorized to affix the University's logos to his images of the UC Berkeley campus and Cal Athletics. Subjects include landscapes, still lifes, portraits, figures, and athletics. Preferred mediums include oil paint, pen & ink, gouache, watercolor, charcoal, and pencil."
 keywords: "gudeart, Gude Art, Hans Gude, Hans F. Gude, Hans Gude Art"
+galleries_data: homepage_galleries
 ---
-
-<ul class="gallery-grid">
-{% for item in site.data.homepage_galleries %}
-  <li>
-    <a href="{{ item.url | relative_url }}">
-      <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
-      <h2>{{ item.title }}</h2>
-    </a>
-  </li>
-{% endfor %}
-</ul>

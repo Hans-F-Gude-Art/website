@@ -6,7 +6,8 @@ image: /assets/images/galleries/viking-village/blue-boats-outside-the-snack-shac
 galleries:
   - landscapes-outdoors
   - landscapes-watercolor
-  - select-watercolors
   - viking-village
-  - watercolor-gouache
+mediums:
+  - watercolor
+  - pen-ink
 ---

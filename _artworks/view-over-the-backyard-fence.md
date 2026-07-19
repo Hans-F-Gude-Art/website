@@ -7,6 +7,6 @@ galleries:
   - landscapes-other
   - landscapes-outdoors
   - landscapes-watercolor
-  - select-gouache
-  - select-oils
+mediums:
+  - gouache
 ---

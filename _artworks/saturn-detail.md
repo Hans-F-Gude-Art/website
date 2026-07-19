@@ -5,5 +5,6 @@ description: "Charcoal with White Acrylic Highlights on Newsprint, 18 x 24 inche
 image: /assets/images/galleries/finished-drawings/saturn-detail.jpg
 galleries:
   - finished-drawings
-  - select-charcoal
+mediums:
+  - charcoal
 ---

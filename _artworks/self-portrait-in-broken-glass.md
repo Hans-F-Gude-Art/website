@@ -5,7 +5,8 @@ description: "Pencil on Paper, 18 x 24 inches (46 x 61 cm)"
 image: /assets/images/galleries/finished-drawings/self-portrait-in-broken-glass.jpg
 galleries:
   - finished-drawings
-  - pencil-drawings
   - figure-heads-faces
   - figure-studies
+mediums:
+  - pencil
 ---

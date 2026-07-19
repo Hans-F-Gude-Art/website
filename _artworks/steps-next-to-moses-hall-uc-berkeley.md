@@ -6,5 +6,6 @@ image: /assets/images/galleries/campus-drawings/steps-next-to-moses-hall-uc-berk
 galleries:
   - campus-drawings
   - finished-drawings
-  - pen-ink-drawings
+mediums:
+  - pen-ink
 ---

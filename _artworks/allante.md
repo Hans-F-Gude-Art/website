@@ -7,5 +7,6 @@ galleries:
   - figure-heads-faces
   - figure-studies
   - finished-drawings
-  - pencil-drawings
+mediums:
+  - pencil
 ---

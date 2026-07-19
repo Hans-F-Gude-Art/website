@@ -1,5 +1,4 @@
-# Human Figure Hub - matches original WIX structure
-# From: copy-of-landscapes.html
+# Human Figure Hub - flat list of figure galleries
 
 - title: Paintings
   url: /human-figure/paintings
@@ -9,6 +8,18 @@
   url: /human-figure/life-drawing
   image: /assets/images/galleries/life-drawing/seated-nude-with-hat-in-profile.jpg
 
-- title: Figure Drawings
-  url: /human-figure/figure-drawings
-  image: /assets/images/galleries/finished-drawings/the-belvedere-torso.jpg
+- title: Heads & Faces
+  url: /human-figure/heads-faces
+  image: /assets/images/galleries/figure-heads-faces/self-portrait-as-maldoror-full-view.jpg
+
+- title: Complete Figures
+  url: /human-figure/complete
+  image: /assets/images/galleries/finished-drawings/nymph-with-flowers.jpg
+
+- title: Anatomical & Other Studies
+  url: /human-figure/anatomical
+  image: /assets/images/galleries/figure-anatomical/anatomical-figure-study-woman-tying-hair.jpg
+
+- title: Figure Studies
+  url: /human-figure/studies
+  image: /assets/images/galleries/figure-heads-faces/portrait-of-ash-in-profile.jpg

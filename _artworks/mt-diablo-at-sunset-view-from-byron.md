@@ -6,4 +6,6 @@ image: /assets/images/galleries/landscapes-mt-diablo/mt-diablo-at-sunset-view-fr
 galleries:
   - landscapes-mt-diablo
   - landscapes-outdoors
+mediums:
+  - oil
 ---

@@ -6,4 +6,6 @@ image: /assets/images/galleries/emily/emily-preparing-the-thanksgiving-rosemary.
 galleries:
   - emily
   - figure-paintings
+mediums:
+  - oil
 ---

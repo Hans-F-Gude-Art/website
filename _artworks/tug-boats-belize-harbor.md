@@ -5,4 +5,6 @@ description: "Pencil on Paper"
 image: /assets/images/galleries/sketches-studies/tug-boats-belize-harbor.jpg
 galleries:
   - sketches-studies
+mediums:
+  - pencil
 ---

@@ -6,4 +6,7 @@ image: /assets/images/galleries/landscapes-outdoors/view-toward-inlet.jpg
 galleries:
   - landscapes-outdoors
   - landscapes-watercolor
+mediums:
+  - watercolor
+  - pen-ink
 ---

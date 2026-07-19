@@ -6,7 +6,8 @@ image: /assets/images/galleries/viking-village/view-toward-old-forge-new-york.jp
 galleries:
   - landscapes-outdoors
   - landscapes-watercolor
-  - select-watercolors
   - viking-village
-  - watercolor-gouache
+mediums:
+  - watercolor
+  - gouache
 ---
