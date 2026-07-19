@@ -1,0 +1,84 @@
+cluster: cal-rowing
+references:
+  - slug: aerial-view-shadow-studies-of-the-ky-ebright-boat-house
+    image: /assets/images/galleries/cal-rowing/aerial-view-shadow-studies-ky-ebright-boathouse.jpg
+    mediums: [pencil]
+  - slug: cal-rower-studies-with-hand-detail
+    image: /assets/images/galleries/rowing-montlake/cal-rower-studies-with-hand-detail.jpg
+    mediums: [pencil]
+  - slug: color-and-design-study-for-rowing-painting
+    image: /assets/images/galleries/cal-athletics/color-and-design-study-for-rowing-painting.jpg
+    mediums: [gouache]
+  - slug: early-concept-sketch
+    image: /assets/images/galleries/rowing-montlake/early-concept-sketch.jpg
+    mediums: [pencil]
+works:
+  - slug: cal-rower-against-blue-sky
+    title: "Cal Rower Against Blue Sky"
+    image: /assets/images/galleries/cal-athletics/cal-rower-against-blue-sky.jpg
+  - slug: cal-rower-shoulder-detail
+    title: "Cal Rower Shoulder Detail"
+    image: /assets/images/galleries/cal-athletics/cal-rower-shoulder-detail.jpg
+  - slug: cal-rowers-at-the-oars
+    title: "Cal Rowers at the Oars"
+    image: /assets/images/galleries/cal-athletics/cal-rowers-at-the-oars.jpg
+  - slug: cal-rowers-detail
+    title: "Cal Rowers Detail"
+    image: /assets/images/galleries/cal-athletics/cal-rowers-detail.jpg
+  - slug: clouds-and-tower-spire-detail
+    title: "Clouds and Tower Spire Detail"
+    image: /assets/images/galleries/cal-athletics/clouds-and-tower-spire-detail.jpg
+  - slug: composition-study-for-rowing-painting
+    title: "Composition Study for Rowing Painting"
+    image: /assets/images/galleries/cal-rowing/composition-study-for-rowing-painting.jpg
+  - slug: figure-from-behind-rowing-study
+    title: "Figure From Behind Rowing Study"
+    image: /assets/images/galleries/rowing-montlake/figure-from-behind-rowing-study.jpg
+  - slug: figure-studies-for-rowing-painting
+    title: "Figure Studies for Rowing Painting"
+    image: /assets/images/galleries/cal-rowing/figure-studies-for-rowing-painting.jpg
+  - slug: lighthouse-tower-detail
+    title: "Lighthouse Tower Detail"
+    image: /assets/images/galleries/cal-athletics/lighthouse-tower-detail.jpg
+  - slug: oar-blade-in-water-detail
+    title: "Oar Blade in Water Detail"
+    image: /assets/images/galleries/cal-athletics/oar-blade-in-water-detail.jpg
+  - slug: oars-and-water-reflections-detail
+    title: "Oars and Water Reflections Detail"
+    image: /assets/images/galleries/cal-athletics/oars-and-water-reflections-detail.jpg
+  - slug: rowers-hands-gripping-oars
+    title: "Rowers' Hands Gripping Oars"
+    image: /assets/images/galleries/cal-athletics/rowers-hands-gripping-oars.jpg
+  - slug: rowers-in-motion-study
+    title: "Rowers in Motion Study"
+    image: /assets/images/galleries/rowing-montlake/rowers-in-motion-study.jpg
+  - slug: rowing-painting-detail-with-cheering-crowd
+    title: "Rowing Painting Detail with Cheering Crowd"
+    image: /assets/images/galleries/cal-athletics/rowing-painting-detail-with-cheering-crowd.jpg
+  - slug: single-sculler-with-cal-oar-blade
+    title: "Single Sculler with Cal Oar Blade"
+    image: /assets/images/galleries/rowing-montlake/single-sculler-with-cal-oar-blade.jpg
+  - slug: studies-of-coach-ky-ebright
+    title: "Studies of Coach Ky Ebright"
+    image: /assets/images/galleries/cal-rowing/studies-of-coach-ky-ebright.jpg
+  - slug: study-of-boathouse-proportions
+    title: "Study of Boathouse Proportions"
+    image: /assets/images/galleries/cal-rowing/study-of-boathouse-proportions.jpg
+  - slug: study-of-figure-at-cal-boathouse
+    title: "Study of Figure at Cal Boathouse"
+    image: /assets/images/galleries/cal-rowing/study-of-figure-at-cal-boathouse.jpg
+  - slug: study-of-rower-mechanics
+    title: "Study of rower mechanics"
+    image: /assets/images/galleries/rowing-montlake/study-of-rower-mechanics.jpg
+  - slug: sunset-clouds-detail
+    title: "Sunset Clouds Detail"
+    image: /assets/images/galleries/cal-athletics/sunset-clouds-detail.jpg
+  - slug: tower-and-bridge-with-spectators
+    title: "Tower and Bridge with Spectators"
+    image: /assets/images/galleries/cal-athletics/tower-and-bridge-with-spectators.jpg
+  - slug: two-cal-rowers-from-behind
+    title: "Two Cal Rowers from Behind"
+    image: /assets/images/galleries/cal-athletics/two-cal-rowers-from-behind.jpg
+  - slug: water-reflections-with-oar-blade
+    title: "Water Reflections with Oar Blade"
+    image: /assets/images/galleries/cal-athletics/water-reflections-with-oar-blade.jpg

@@ -1,0 +1,57 @@
+cluster: perspective-studies
+references:
+  - slug: rowers-carrying-shell-from-cal-boathouse-study
+    image: /assets/images/galleries/cal-rowing/rowers-carrying-shell-from-cal-boathouse-study.jpg
+    mediums: [pencil]
+  - slug: study-of-sather-tower-the-campanile-university-of-california-berkeley
+    image: /assets/images/galleries/campus-drawings/study-of-sather-tower-the-campanile-university-of-california-berkeley.jpg
+    mediums: [pencil]
+works:
+  - slug: architectural-perspective-studies
+    title: "Architectural Perspective Studies"
+    image: /assets/images/galleries/perspective-studies/architectural-perspective-studies.jpg
+  - slug: boathouse-and-shell-study
+    title: "Boathouse and Shell Study"
+    image: /assets/images/galleries/rowing-montlake/boathouse-and-shell-study.jpg
+  - slug: cal-crew-rowing-sketch
+    title: "Cal Crew Rowing Sketch"
+    image: /assets/images/galleries/rowing-montlake/cal-crew-rowing-sketch.jpg
+  - slug: crew-perspective-study-with-grid
+    title: "Crew Perspective Study with Grid"
+    image: /assets/images/galleries/rowing-montlake/crew-perspective-study-with-grid.jpg
+  - slug: eight-man-shell-geometric-study
+    title: "Eight-Man Shell Geometric Study"
+    image: /assets/images/galleries/rowing-montlake/eight-man-shell-geometric-study.jpg
+  - slug: montlake-bridge
+    title: "Montlake Bridge"
+    image: /assets/images/galleries/rowing-montlake/montlake-bridge.jpg
+  - slug: perspective-study-for-rowing-ramp
+    title: "Perspective Study for Rowing Ramp"
+    image: /assets/images/galleries/perspective-studies/perspective-study-for-rowing-ramp.jpg
+  - slug: perspective-study-of-boat-hull
+    title: "Perspective Study of Boat Hull"
+    image: /assets/images/galleries/perspective-studies/perspective-study-of-boat-hull.jpg
+  - slug: perspective-study-of-buildings
+    title: "Perspective Study of Buildings"
+    image: /assets/images/galleries/perspective-studies/perspective-study-of-buildings.jpg
+  - slug: perspective-study-of-rowing-shell-and-oars
+    title: "Perspective Study of Rowing Shell and Oars"
+    image: /assets/images/galleries/perspective-studies/perspective-study-of-rowing-shell-and-oars.jpg
+  - slug: perspective-study-with-color-grid
+    title: "Perspective Study with Color Grid"
+    image: /assets/images/galleries/rowing-montlake/perspective-study-with-color-grid.jpg
+  - slug: rower-and-arm-study-in-boathouse
+    title: "Rower and Arm Study in Boathouse"
+    image: /assets/images/galleries/rowing-montlake/rower-and-arm-study-in-boathouse.jpg
+  - slug: sather-gate-drawing-in-progress
+    title: "Sather Gate Drawing in Progress"
+    image: /assets/images/galleries/perspective-studies/sather-gate-drawing-in-progress.jpg
+  - slug: sather-tower-model-and-drawing
+    title: "Sather Tower Model and Drawing"
+    image: /assets/images/galleries/perspective-studies/sather-tower-model-and-drawing.jpg
+  - slug: the-woods-hotel-rooftops-sketch
+    title: "The Woods Hotel Rooftops Sketch"
+    image: /assets/images/galleries/perspective-studies/the-woods-hotel-rooftops-sketch.jpg
+  - slug: thumbnail-concept-sketch-for-painting
+    title: "Thumbnail Concept Sketch for Painting"
+    image: /assets/images/galleries/perspective-studies/thumbnail-concept-sketch-for-painting.jpg

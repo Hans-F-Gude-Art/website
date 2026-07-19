@@ -1,0 +1,57 @@
+cluster: misc
+references: []
+works:
+  - slug: blue-boat-at-the-woods
+    title: "Blue Boat at the Woods"
+    image: /assets/images/galleries/landscapes-outdoors/blue-boat-at-the-woods.jpg
+  - slug: boats-by-the-snack-shack
+    title: "Boats by the Snack Shack"
+    image: /assets/images/galleries/viking-village/boats-by-the-snack-shack.jpg
+  - slug: office-and-hotel-linework
+    title: "Office and Hotel Linework"
+    image: /assets/images/galleries/viking-village/office-and-hotel-linework.jpg
+  - slug: view-west-on-forth-lake
+    title: "View West on Forth Lake"
+    image: /assets/images/galleries/viking-village/view-west-on-forth-lake.jpg
+  - slug: calima-hydroelectric-project-poster
+    title: "Calima Hydroelectric Project Poster"
+    image: /assets/images/galleries/illustrations/calima-hydroelectric-project-poster.png
+  - slug: the-play-complete-poster
+    title: "The Play: Complete Poster"
+    image: /assets/images/galleries/illustrations/the-play-complete-poster.jpg
+  - slug: emily-at-21-three-quarter-view
+    title: "Emily at 21, Three-Quarter View"
+    image: /assets/images/galleries/emily/emily-at-21-three-quarter-view.jpg
+  - slug: emily-portrait-studies
+    title: "Emily Portrait Studies"
+    image: /assets/images/galleries/emily/emily-portrait-studies.jpg
+  - slug: studies-for-emmy-with-her-favorite-things
+    title: "Studies for Emmy with Her Favorite Things"
+    image: /assets/images/galleries/emily/studies-for-emmy-with-her-favorite-things.jpg
+  - slug: hotel-side-door-sketch
+    title: "Hotel Side Door Sketch"
+    image: /assets/images/galleries/viking-village/hotel-side-door-sketch.jpg
+  - slug: snack-shack-from-the-water
+    title: "Snack Shack from the Water"
+    image: /assets/images/galleries/viking-village/snack-shack-from-the-water.jpg
+  - slug: study-of-boat-in-belize-harbor-afternoon
+    title: "Study of Boat in Belize Harbor, Afternoon"
+    image: /assets/images/galleries/sketches-studies/study-of-boat-in-belize-harbor-afternoon.jpg
+  - slug: hotel-side-door-with-shadows
+    title: "Hotel Side Door with Shadows"
+    image: /assets/images/galleries/viking-village/hotel-side-door-with-shadows.png
+  - slug: sather-tower-painting-on-easel
+    title: "Sather Tower Painting on Easel"
+    image: /assets/images/galleries/uc-berkeley-campus/sather-tower-painting-on-easel.jpg
+  - slug: sather-tower-with-the-big-c-uc-berkeley
+    title: "Sather Tower with the Big C, UC Berkeley"
+    image: /assets/images/galleries/uc-berkeley-campus/sather-tower-with-the-big-c-uc-berkeley.jpg
+  - slug: view-of-lawrence-hall-of-science
+    title: "View of Lawrence Hall of Science"
+    image: /assets/images/galleries/uc-berkeley-campus/view-of-lawrence-hall-of-science.jpg
+  - slug: view-towards-old-forge-from-the-docks
+    title: "View Towards Old Forge from the Docks"
+    image: /assets/images/galleries/viking-village/view-towards-old-forge-from-the-docks.jpg
+  - slug: viking-village-lakeside-detail
+    title: "Viking Village Lakeside Detail"
+    image: /assets/images/galleries/finished-drawings/viking-village-lakeside-detail.jpg

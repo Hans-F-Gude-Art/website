@@ -1,0 +1,33 @@
+cluster: still-lifes
+references:
+  - slug: a-few-of-coritos-favorite-things-in-progress
+    image: /assets/images/galleries/still-lifes/a-few-of-coritos-favorite-things-in-progress.jpg
+    mediums: [oil]
+  - slug: apple-pie
+    image: /assets/images/galleries/still-lifes/apple-pie.jpg
+    mediums: [oil]
+  - slug: flowers-in-glass-vase
+    image: /assets/images/galleries/still-lifes/flowers-in-glass-vase.jpg
+    mediums: [oil]
+  - slug: living-room-corner
+    image: /assets/images/galleries/still-lifes/living-room-corner.jpg
+    mediums: [oil]
+works:
+  - slug: elevator-bank
+    title: "Elevator Bank "
+    image: /assets/images/galleries/still-lifes/elevator-bank.jpg
+  - slug: flowers-in-ceramic-pot
+    title: "Flowers in Ceramic Pot"
+    image: /assets/images/galleries/still-lifes/flowers-in-ceramic-pot.jpg
+  - slug: still-life-with-laughing-buddha-and-silver-teapot
+    title: "Still Life with Laughing Buddha and Silver Teapot"
+    image: /assets/images/galleries/still-lifes/still-life-with-laughing-buddha-and-silver-teapot.jpg
+  - slug: still-life-with-potted-plant-and-wine-bottle-detail
+    title: "Still Life with Potted Plant and Wine Bottle (Detail)"
+    image: /assets/images/galleries/still-lifes/still-life-with-potted-plant-and-wine-bottle-detail.jpg
+  - slug: still-life-with-potted-plant-and-wine-bottle
+    title: "Still Life with Potted Plant and Wine Bottle"
+    image: /assets/images/galleries/still-lifes/still-life-with-potted-plant-and-wine-bottle.jpg
+  - slug: still-life-with-swedish-horse-and-skull-detail
+    title: "Still Life with Swedish Horse and Snake Plant (detail)"
+    image: /assets/images/galleries/still-lifes/still-life-with-swedish-horse-and-skull-detail.jpg

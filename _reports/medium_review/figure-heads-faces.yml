@@ -1,0 +1,39 @@
+cluster: figure-heads-faces
+references:
+  - slug: allante
+    image: /assets/images/galleries/finished-drawings/allante.jpg
+    mediums: [pencil]
+  - slug: corito-in-an-old-forge-ny-hat
+    image: /assets/images/galleries/finished-drawings/corito-in-an-old-forge-ny-hat.jpg
+    mediums: [digital]
+  - slug: cory-with-la-vaca-lola
+    image: /assets/images/galleries/finished-drawings/cory-with-la-vaca-lola.png
+    mediums: [digital]
+  - slug: emily-in-the-time-of-covid
+    image: /assets/images/galleries/emily/emily-in-the-time-of-covid.jpg
+    mediums: [pencil]
+works:
+  - slug: emily-with-microphone
+    title: "Emily with Microphone"
+    image: /assets/images/galleries/figure-heads-faces/emily-with-microphone.jpg
+  - slug: gentleman-reading-in-hat
+    title: "Gentleman Reading in Hat"
+    image: /assets/images/galleries/figure-heads-faces/gentleman-reading-in-hat.jpg
+  - slug: portrait-studies-of-male-faces
+    title: "Portrait Studies of Male Faces"
+    image: /assets/images/galleries/figure-heads-faces/portrait-studies-of-male-faces.jpg
+  - slug: portrait-studies-of-marilyn-monroe
+    title: "Portrait Studies of Marilyn Monroe"
+    image: /assets/images/galleries/figure-heads-faces/portrait-studies-of-marilyn-monroe.jpg
+  - slug: portrait-studies-of-multiple-faces
+    title: "Portrait Studies of Multiple Faces"
+    image: /assets/images/galleries/figure-heads-faces/portrait-studies-of-multiple-faces.jpg
+  - slug: portrait-study-of-the-artist-with-hat
+    title: "Portrait Study of the Artist with Hat"
+    image: /assets/images/galleries/figure-heads-faces/portrait-study-of-the-artist-with-hat.jpg
+  - slug: portrait-study-of-the-artist-with-long-hair
+    title: "Portrait Study of the Artist with Long Hair"
+    image: /assets/images/galleries/figure-heads-faces/portrait-study-of-the-artist-with-long-hair.jpg
+  - slug: portrait-study-of-young-man-in-hat
+    title: "Portrait Study of Young Man in Hat"
+    image: /assets/images/galleries/figure-heads-faces/portrait-study-of-young-man-in-hat.jpg

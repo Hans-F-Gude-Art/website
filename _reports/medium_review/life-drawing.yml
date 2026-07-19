@@ -1,0 +1,69 @@
+cluster: life-drawing
+references:
+  - slug: female-torso-study-on-toned-paper
+    image: /assets/images/galleries/life-drawing/female-torso-study-on-toned-paper.jpg
+    mediums: [charcoal]
+  - slug: hand-detail
+    image: /assets/images/galleries/life-drawing/hand-detail.jpg
+    mediums: [charcoal]
+  - slug: portrait-study-in-profile-with-natural-hair
+    image: /assets/images/galleries/life-drawing/portrait-study-in-profile-with-natural-hair.jpg
+    mediums: [charcoal]
+  - slug: reclining-nude-with-long-hair-and-jacket
+    image: /assets/images/galleries/life-drawing/reclining-nude-with-long-hair-and-jacket.jpg
+    mediums: [charcoal]
+works:
+  - slug: anatomical-studies-of-legs
+    title: "Anatomical Studies of Legs"
+    image: /assets/images/galleries/life-drawing/anatomical-studies-of-legs.jpg
+  - slug: bust-study-with-hair-up
+    title: "Bust Study with Hair Up"
+    image: /assets/images/galleries/life-drawing/bust-study-with-hair-up.jpg
+  - slug: figure-study-on-ochre-paper
+    title: "Figure Study on Ochre Paper"
+    image: /assets/images/galleries/life-drawing/figure-study-on-ochre-paper.jpg
+  - slug: nude-figure-leaning-on-pedestal
+    title: "Nude Figure Leaning on Pedestal"
+    image: /assets/images/galleries/life-drawing/nude-figure-leaning-on-pedestal.jpg
+  - slug: reclining-figure-with-long-hair
+    title: "Reclining Figure with Long Hair"
+    image: /assets/images/galleries/life-drawing/reclining-figure-with-long-hair.jpg
+  - slug: reclining-nude-with-legs-extended
+    title: "Reclining Nude with Legs Extended"
+    image: /assets/images/galleries/life-drawing/reclining-nude-with-legs-extended.jpg
+  - slug: seated-figure-in-wooden-rocking-chair
+    title: "Seated Figure in Wooden Rocking Chair"
+    image: /assets/images/galleries/life-drawing/seated-figure-in-wooden-rocking-chair.jpg
+  - slug: seated-figure-on-brown-paper
+    title: "Seated Figure on Brown Paper"
+    image: /assets/images/galleries/life-drawing/seated-figure-on-brown-paper.jpg
+  - slug: seated-male-figure-from-behind
+    title: "Seated Male Figure from Behind"
+    image: /assets/images/galleries/life-drawing/seated-male-figure-from-behind.jpg
+  - slug: seated-male-figure-study
+    title: "Seated Male Figure Study"
+    image: /assets/images/galleries/life-drawing/seated-male-figure-study.jpg
+  - slug: sitting-male-figure-on-toned-paper
+    title: "Sitting Male Figure on Toned Paper"
+    image: /assets/images/galleries/life-drawing/sitting-male-figure-on-toned-paper.jpg
+  - slug: sleeping-figure-from-behind
+    title: "Sleeping Figure from Behind"
+    image: /assets/images/galleries/life-drawing/sleeping-figure-from-behind.jpg
+  - slug: standing-figure-three-quarter-view
+    title: "Standing Figure, Three-Quarter View"
+    image: /assets/images/galleries/life-drawing/standing-figure-three-quarter-view.jpg
+  - slug: standing-male-figure-hands-on-hip
+    title: "Standing Male Figure Hands on Hip"
+    image: /assets/images/galleries/life-drawing/standing-male-figure-hands-on-hip.jpg
+  - slug: standing-male-figure-study
+    title: "Standing Male Figure Study"
+    image: /assets/images/galleries/life-drawing/standing-male-figure-study.jpg
+  - slug: standing-nude-with-short-hair
+    title: "Standing Nude with Short Hair"
+    image: /assets/images/galleries/life-drawing/standing-nude-with-short-hair.jpg
+  - slug: stretching-figure-on-warm-paper
+    title: "Stretching Figure on Warm Paper"
+    image: /assets/images/galleries/life-drawing/stretching-figure-on-warm-paper.jpg
+  - slug: torso-study-of-standing-nude
+    title: "Torso Study of Standing Nude"
+    image: /assets/images/galleries/life-drawing/torso-study-of-standing-nude.jpg

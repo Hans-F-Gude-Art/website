@@ -1,0 +1,75 @@
+cluster: figure-anatomical
+references:
+  - slug: anatomical-studies-of-skulls
+    image: /assets/images/galleries/figure-anatomical/anatomical-studies-of-skulls.jpg
+    mediums: [charcoal]
+  - slug: cal-rower-studies-with-hand-detail
+    image: /assets/images/galleries/rowing-montlake/cal-rower-studies-with-hand-detail.jpg
+    mediums: [pencil]
+  - slug: my-toes
+    image: /assets/images/galleries/figure-anatomical/my-toes.jpg
+    mediums: [charcoal]
+  - slug: pencil-on-paper-with-white-gouache-highlights-8-x-10
+    image: /assets/images/galleries/figure-anatomical/pencil-on-paper-with-white-gouache-highlights-8-x-10.jpg
+    mediums: [pencil]
+works:
+  - slug: anatomical-figure-study-woman-tying-hair
+    title: "Anatomical Figure Study: Woman Tying Hair"
+    image: /assets/images/galleries/figure-anatomical/anatomical-figure-study-woman-tying-hair.jpg
+  - slug: anatomical-studies-of-hands-and-joints
+    title: "Anatomical Studies of Hands and Joints"
+    image: /assets/images/galleries/figure-anatomical/anatomical-studies-of-hands-and-joints.jpg
+  - slug: anatomical-studies-of-torso-and-pelvis
+    title: "Anatomical Studies of Torso and Pelvis"
+    image: /assets/images/galleries/figure-anatomical/anatomical-studies-of-torso-and-pelvis.jpg
+  - slug: anatomical-study-of-extended-arm
+    title: "Anatomical Study of Extended Arm"
+    image: /assets/images/galleries/figure-anatomical/anatomical-study-of-extended-arm.jpg
+  - slug: anatomical-study-of-the-arm
+    title: "Anatomical Study of the Arm"
+    image: /assets/images/galleries/figure-anatomical/anatomical-study-of-the-arm.jpg
+  - slug: crucifix-study-with-arms-raised
+    title: "Crucifix Study with Arms Raised"
+    image: /assets/images/galleries/figure-anatomical/crucifix-study-with-arms-raised.jpg
+  - slug: drawing-on-canvas-for-connie-napping-painting
+    title: "Drawing on Canvas for 'Connie Napping Painting'"
+    image: /assets/images/galleries/figure-anatomical/drawing-on-canvas-for-connie-napping-painting.jpg
+  - slug: eye-studies
+    title: "Eye Studies"
+    image: /assets/images/galleries/figure-anatomical/eye-studies.jpg
+  - slug: figure-and-hand-studies
+    title: "Figure and Hand Studies"
+    image: /assets/images/galleries/figure-anatomical/figure-and-hand-studies.jpg
+  - slug: figure-and-skull-studies
+    title: "Figure and Skull Studies"
+    image: /assets/images/galleries/figure-anatomical/figure-and-skull-studies.jpg
+  - slug: figure-study-back-and-front
+    title: "Figure Study Back and Front"
+    image: /assets/images/galleries/figure-anatomical/figure-study-back-and-front.jpg
+  - slug: figure-study-in-cruciform-pose
+    title: "Figure Study in Cruciform Pose"
+    image: /assets/images/galleries/figure-anatomical/figure-study-in-cruciform-pose.jpg
+  - slug: self-portrait-as-anatomical-study
+    title: "Self-Portrait as Anatomical Study"
+    image: /assets/images/galleries/figure-anatomical/self-portrait-as-anatomical-study.jpg
+  - slug: self-portrait-studies-with-cross
+    title: "Self-Portrait Studies with Cross"
+    image: /assets/images/galleries/figure-anatomical/self-portrait-studies-with-cross.jpg
+  - slug: studies-of-arm-and-torso
+    title: "Studies of Arm and Torso"
+    image: /assets/images/galleries/figure-anatomical/studies-of-arm-and-torso.jpg
+  - slug: studies-of-hands-and-arms
+    title: "Studies of Hands and Arms"
+    image: /assets/images/galleries/figure-anatomical/studies-of-hands-and-arms.jpg
+  - slug: studies-of-the-skull
+    title: "Studies of the Skull"
+    image: /assets/images/galleries/figure-anatomical/studies-of-the-skull.jpg
+  - slug: study-of-hands-after-michelangelo
+    title: "Study of Hands After Michelangelo"
+    image: /assets/images/galleries/figure-anatomical/study-of-hands-after-michelangelo.jpg
+  - slug: study-of-rowing-painting
+    title: "Study of Rowing Painting"
+    image: /assets/images/galleries/figure-anatomical/study-of-rowing-painting.jpg
+  - slug: study-statues-on-facade-of-hearst-memorial-mining-building
+    title: "Study Statues on Facade of Hearst Memorial Mining Building"
+    image: /assets/images/galleries/figure-anatomical/study-statues-on-facade-of-hearst-memorial-mining-building.jpg

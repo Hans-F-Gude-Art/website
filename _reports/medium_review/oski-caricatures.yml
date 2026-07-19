@@ -1,0 +1,36 @@
+cluster: oski-caricatures
+references: []
+works:
+  - slug: blue-oski
+    title: "Blue Oski"
+    image: /assets/images/galleries/oski-caricatures/blue-oski.jpg
+  - slug: oski-crossing-the-delaware
+    title: "Oski Crossing the Delaware"
+    image: /assets/images/galleries/oski-caricatures/oski-crossing-the-delaware.jpg
+  - slug: oski-gothic
+    title: "Oski Gothic"
+    image: /assets/images/galleries/oski-caricatures/oski-gothic.jpg
+  - slug: oski-nighthawk
+    title: "Oski Nighthawk"
+    image: /assets/images/galleries/oski-caricatures/oski-nighthawk.jpg
+  - slug: oski-nighthawks-helmet-detail
+    title: "Oski Nighthawks: Helmet Detail"
+    image: /assets/images/galleries/oski-caricatures/oski-nighthawks-helmet-detail.jpg
+  - slug: oski-nighthawks-license-plate-detail
+    title: "Oski Nighthawks: License Plate Detail"
+    image: /assets/images/galleries/oski-caricatures/oski-nighthawks-license-plate-detail.jpg
+  - slug: oski-nighthawks-oski-and-cheerleader
+    title: "Oski Nighthawks: Oski and Cheerleader"
+    image: /assets/images/galleries/oski-caricatures/oski-nighthawks-oski-and-cheerleader.jpg
+  - slug: oski-nighthawks-the-axe-detail
+    title: "Oski Nighthawks: The Axe Detail"
+    image: /assets/images/galleries/oski-caricatures/oski-nighthawks-the-axe-detail.jpg
+  - slug: oski-nighthawks-tree-sprig-detail
+    title: "Oski Nighthawks: Tree Sprig Detail"
+    image: /assets/images/galleries/oski-caricatures/oski-nighthawks-tree-sprig-detail.jpg
+  - slug: oskis-mother
+    title: "Oski's Mother"
+    image: /assets/images/galleries/oski-caricatures/oskis-mother.jpg
+  - slug: son-of-oski
+    title: "Son of Oski"
+    image: /assets/images/galleries/oski-caricatures/son-of-oski.jpg
