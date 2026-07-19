@@ -17,7 +17,14 @@
         <ul>
           <li><a href="{{ '/' | relative_url }}">Home</a></li>
           <li><a href="{{ '/about' | relative_url }}">Artist Bio</a></li>
-          <li><a href="{{ '/by-medium' | relative_url }}">By Medium</a></li>
+          <li class="has-dropdown">
+            <a href="{{ '/by-medium' | relative_url }}">By Medium</a>
+            <ul class="dropdown">
+              {% for gallery in site.data.by_medium_galleries %}
+              <li><a href="{{ gallery.url | relative_url }}">{{ gallery.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
         </ul>
       </nav>
 
