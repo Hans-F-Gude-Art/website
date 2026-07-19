@@ -6,5 +6,6 @@ image: /assets/images/galleries/figure-heads-faces/portrait-of-ash-in-profile.jp
 galleries:
   - figure-heads-faces
   - figure-studies
-  - pencil-drawings
+mediums:
+  - pencil
 ---

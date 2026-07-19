@@ -5,6 +5,7 @@ description: "Pen & Ink on Paper"
 image: /assets/images/galleries/sketches-studies/san-francisco-drawbridge.jpg
 galleries:
   - landscapes-other
-  - pen-ink-drawings
   - sketches-studies
+mediums:
+  - pen-ink
 ---

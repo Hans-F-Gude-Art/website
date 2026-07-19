@@ -5,5 +5,6 @@ description: "Pencil with White Gouache Highlights on Paper"
 image: /assets/images/galleries/finished-drawings/view-of-berkeley-lab-from-sproul-plaza.jpg
 galleries:
   - finished-drawings
-  - pencil-drawings
+mediums:
+  - pencil
 ---

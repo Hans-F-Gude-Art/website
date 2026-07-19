@@ -1,0 +1,81 @@
+cluster: cal-band
+references:
+  - slug: still-life-with-cal-band-hat-and-skull
+    image: /assets/images/galleries/still-lifes/still-life-with-cal-band-hat-and-skull.jpg
+    mediums: [oil]
+  - slug: study-for-band-painting
+    image: /assets/images/galleries/cal-marching-band/study-for-band-painting.jpg
+    mediums: [pencil]
+works:
+  - slug: 20140822-131431a-jpg
+    title: "20140822_131431a.jpg"
+    image: /assets/images/galleries/cal-band-detail/20140822-131431a-jpg.jpg
+  - slug: 4-x-6-foot-canvas
+    title: "4 x 6-Foot Canvas"
+    image: /assets/images/galleries/cal-marching-band/4-x-6-foot-canvas.jpg
+  - slug: artist-at-work-on-cal-band-painting
+    title: "Artist at Work on Cal Band Painting"
+    image: /assets/images/galleries/cal-marching-band/artist-at-work-on-cal-band-painting.jpg
+  - slug: artist-in-studio-with-cal-band-painting
+    title: "Artist in Studio with Cal Band Painting"
+    image: /assets/images/galleries/cal-band-detail/artist-in-studio-with-cal-band-painting.jpg
+  - slug: cal-band-foot-on-stanford-cap
+    title: "Cal Band Foot on Stanford Cap"
+    image: /assets/images/galleries/cal-band-detail/cal-band-foot-on-stanford-cap.jpg
+  - slug: cal-band-member-face-detail
+    title: "Cal Band Member Face Detail"
+    image: /assets/images/galleries/cal-band-detail/cal-band-member-face-detail.jpg
+  - slug: cal-band-member-from-behind
+    title: "Cal Band Member from Behind"
+    image: /assets/images/galleries/cal-band-detail/cal-band-member-from-behind.jpg
+  - slug: cal-band-member-seated-with-cap
+    title: "Cal Band Member Seated with Cap"
+    image: /assets/images/galleries/cal-band-detail/cal-band-member-seated-with-cap.jpg
+  - slug: cal-band-member-with-hat-from-behind
+    title: "Cal Band Member with Hat from Behind"
+    image: /assets/images/galleries/cal-band-detail/cal-band-member-with-hat-from-behind.jpg
+  - slug: cal-band-member-with-plume
+    title: "Cal Band Member with Plume"
+    image: /assets/images/galleries/cal-band-detail/cal-band-member-with-plume.jpg
+  - slug: cal-band-painting-composition-study
+    title: "Cal Band Painting Composition Study"
+    image: /assets/images/galleries/cal-marching-band/cal-band-painting-composition-study.jpg
+  - slug: cal-band-rehearsal-room-with-painting
+    title: "Cal Band Rehearsal Room with Painting"
+    image: /assets/images/galleries/cal-band-detail/cal-band-rehearsal-room-with-painting.jpg
+  - slug: cal-band-uniform-button-detail
+    title: "Cal Band Uniform Button Detail"
+    image: /assets/images/galleries/cal-band-detail/cal-band-uniform-button-detail.jpg
+  - slug: cal-band-uniform-detail
+    title: "Cal Band Uniform Detail"
+    image: /assets/images/galleries/cal-band-detail/cal-band-uniform-detail.jpg
+  - slug: design-plan-for-the-band-painting
+    title: "Design Plan for the Band Painting"
+    image: /assets/images/galleries/cal-marching-band/design-plan-for-the-band-painting.jpg
+  - slug: gloved-hand-on-saxophone
+    title: "Gloved Hand on Saxophone"
+    image: /assets/images/galleries/cal-band-detail/gloved-hand-on-saxophone.jpg
+  - slug: marching-band-hands-in-white-gloves
+    title: "Marching Band Hands in White Gloves"
+    image: /assets/images/galleries/cal-band-detail/marching-band-hands-in-white-gloves.jpg
+  - slug: plaque-under-the-painting
+    title: "Plaque under the painting."
+    image: /assets/images/galleries/cal-band-detail/plaque-under-the-painting.jpg
+  - slug: studies-of-cal-band-musicians
+    title: "Studies of Cal Band Musicians"
+    image: /assets/images/galleries/cal-marching-band/studies-of-cal-band-musicians.jpg
+  - slug: study-of-seated-cal-band-musicians
+    title: "Study of Seated Cal Band Musicians"
+    image: /assets/images/galleries/cal-marching-band/study-of-seated-cal-band-musicians.jpg
+  - slug: the-artist-with-the-installed-painting
+    title: "The artist with the installed painting."
+    image: /assets/images/galleries/cal-band-detail/the-artist-with-the-installed-painting.jpg
+  - slug: the-cal-band-relaxes-in-north-tunnel-before-the-big-game-detail
+    title: "The Cal Band Relaxes in North Tunnel Before the Big Game (Detail)"
+    image: /assets/images/galleries/cal-band-detail/the-cal-band-relaxes-in-north-tunnel-before-the-big-game-detail.jpg
+  - slug: toning-the-canvas
+    title: "Toning the Canvas"
+    image: /assets/images/galleries/cal-marching-band/toning-the-canvas.jpg
+  - slug: transferring-cal-band-drawing-to-canvas
+    title: "Transferring Cal Band Drawing to Canvas"
+    image: /assets/images/galleries/cal-marching-band/transferring-cal-band-drawing-to-canvas.jpg

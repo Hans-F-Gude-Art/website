@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Select Oils
-subtitle: Oil Paintings
-gallery_id: select-oils
+title: Oils
+subtitle: Works in Oil
+medium_id: oil
 ---

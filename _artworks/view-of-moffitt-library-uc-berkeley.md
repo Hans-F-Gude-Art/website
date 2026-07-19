@@ -5,4 +5,6 @@ description: "Pencil on Paper"
 image: /assets/images/galleries/sketches-studies/view-of-moffitt-library-uc-berkeley.jpg
 galleries:
   - sketches-studies
+mediums:
+  - pencil
 ---

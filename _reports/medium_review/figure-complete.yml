@@ -1,0 +1,51 @@
+cluster: figure-complete
+references:
+  - slug: bearded-man-in-coat-holding-hat
+    image: /assets/images/galleries/figure-complete/bearded-man-in-coat-holding-hat.jpg
+    mediums: [pencil]
+  - slug: belvedere-torso
+    image: /assets/images/galleries/finished-drawings/the-belvedere-torso.jpg
+    mediums: [charcoal]
+  - slug: connie-napping-drawing-study
+    image: /assets/images/galleries/figure-complete/connie-napping-drawing-study.jpg
+    mediums: [pencil]
+  - slug: emily-in-the-living-room
+    image: /assets/images/galleries/emily/emily-in-the-living-room.jpg
+    mediums: [pencil]
+works:
+  - slug: drawing-made-during-high-school-library-study-period
+    title: "Drawing made during high school library study period "
+    image: /assets/images/galleries/figure-complete/high-school-library-drawing.jpg
+  - slug: figure-study-after-falero
+    title: "Figure Study (after Falero)"
+    image: /assets/images/galleries/figure-complete/figure-study-after-falero.jpg
+  - slug: kevin-at-the-woods
+    title: "Kevin at the Woods"
+    image: /assets/images/galleries/figure-complete/kevin-at-the-woods.jpg
+  - slug: laurel-reading
+    title: "Laurel Reading"
+    image: /assets/images/galleries/figure-complete/laurel-reading.jpg
+  - slug: seated-woman-in-dress
+    title: "Seated Woman in Dress"
+    image: /assets/images/galleries/life-drawing/seated-woman-in-dress.jpg
+  - slug: self-portrait-as-young-man-in-suit
+    title: "Self-Portrait as Young Man in Suit"
+    image: /assets/images/galleries/figure-heads-faces/self-portrait-as-young-man-in-suit.jpg
+  - slug: standing-female-figure-with-head-wrap
+    title: "Standing Female Figure with Head Wrap"
+    image: /assets/images/galleries/figure-complete/standing-female-figure-with-head-wrap.jpg
+  - slug: study-after-michelangelo-dawn
+    title: "Study After Michelangelo: Dawn"
+    image: /assets/images/galleries/figure-complete/study-after-michelangelo-dawn.jpg
+  - slug: study-after-rubens-the-three-nereids
+    title: "Study After Rubens: The Three Nereids"
+    image: /assets/images/galleries/figure-complete/study-after-rubens-the-three-nereids.jpg
+  - slug: study-after-the-death-of-jane-mccrea
+    title: "Study After The Death of Jane McCrea"
+    image: /assets/images/galleries/figure-complete/study-after-the-death-of-jane-mccrea.jpg
+  - slug: study-of-laocoon-and-his-sons
+    title: "Study of Laocoön and His Sons"
+    image: /assets/images/galleries/figure-complete/study-of-laocoon-and-his-sons.jpg
+  - slug: study-of-the-creation-of-adam
+    title: "Study of The Creation of Adam"
+    image: /assets/images/galleries/figure-complete/study-of-the-creation-of-adam.jpg

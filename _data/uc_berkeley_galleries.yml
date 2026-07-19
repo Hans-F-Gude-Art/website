@@ -1,7 +1,6 @@
-# UC Berkeley Hub - matches original WIX structure
-# From: uc-berkeley-artworks.html
+# UC Berkeley Hub - flat: campus work, project galleries, mascot, The Play
 
-- title: UC Berkeley Campus
+- title: Campus Paintings
   url: /uc-berkeley/campus-paintings
   image: /assets/images/galleries/uc-berkeley-campus/sather-gate-uc-berkeley.jpg
 
@@ -9,14 +8,18 @@
   url: /uc-berkeley/campus-drawings
   image: /assets/images/galleries/campus-drawings/study-of-sather-tower-the-campanile-university-of-california-berkeley.jpg
 
-- title: Cal Athletics
-  url: /uc-berkeley/cal-athletics
-  image: /assets/images/galleries/cal-rowing/ky-ebright-portrait.jpg
+- title: Cal Rowing
+  url: /uc-berkeley/cal-rowing
+  image: /assets/images/galleries/cal-athletics/last-500-meters-in-the-montlake-cut.jpg
+
+- title: The Berkeley Band
+  url: /uc-berkeley/cal-band
+  image: /assets/images/galleries/cal-marching-band/study-for-band-painting.jpg
 
 - title: Oski Caricatures
   url: /oski-caricatures
   image: /assets/images/galleries/oski-caricatures/oski-gothic.jpg
 
-- title: Berkeley Band
-  url: /uc-berkeley/cal-band
-  image: /assets/images/galleries/cal-marching-band/study-for-band-painting.jpg
+- title: The Play
+  url: /uc-berkeley/the-play
+  image: /assets/images/galleries/the-play/the-play-moen-parts-the-red-sea.jpg

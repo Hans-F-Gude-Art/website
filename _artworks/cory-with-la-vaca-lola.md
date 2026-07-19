@@ -7,4 +7,6 @@ galleries:
   - figure-heads-faces
   - figure-studies
   - finished-drawings
+mediums:
+  - digital
 ---

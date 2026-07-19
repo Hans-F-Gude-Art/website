@@ -4,5 +4,7 @@ title: "Early concept sketch"
 description: "Pencil on Paper"
 image: /assets/images/galleries/rowing-montlake/early-concept-sketch.jpg
 galleries:
-  - rowing-montlake
+  - cal-rowing
+mediums:
+  - pencil
 ---

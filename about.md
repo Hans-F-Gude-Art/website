@@ -5,9 +5,11 @@ image: /assets/images/bio/hans_painting_about_page_portrait.jpg
 image_alt: Hans working on his Cal Band oil painting.
 ---
 
-> "In art, 'intentions' have no place; only results. In good art, the results do not have to be explained by any personally conducted eulogy."
+> "In art, 'intentions' have no place; only results. In good art, the results
+> do not have to be explained by any personally conducted eulogy."
 >
-> — <cite>Elementary Principles of Landscape Painting</cite>, John Carlson, 1927
+> --- <cite>Elementary Principles of Landscape Painting</cite>, John Carlson,
+> 1927
 
 # Artist Biography
 
@@ -40,13 +42,14 @@ He adopts Leonardo's advice, moreover, that a painter should not just learn to
 do one thing well, but work to achieve proficiency in all manner of methods
 and subjects, including landscapes, figures, and portraits.
 
-His preferred mediums include [pencil]({{ '/drawings/pencil' | relative_url
-}}), [oil paint]({{ '/by-medium/oils' | relative_url }}), [gouache]({{
+His preferred mediums include [pencil]({{ '/by-medium/pencil' | relative_url
+}}), [colored pencil]({{ '/by-medium/colored-pencil' | relative_url }}), [oil
+paint]({{ '/by-medium/oils' | relative_url }}), [gouache]({{
 '/by-medium/gouache' | relative_url }}), [watercolor]({{
-'/by-medium/watercolors' | relative_url }}), [charcoal]({{ '/drawings/charcoal'
-| relative_url }}), and [pen & ink]({{ '/drawings/pen-ink' | relative_url }}).
-He recently began creating digital art by adding Procreate on an iPad Pro to
-his toolbox.
+'/by-medium/watercolors' | relative_url }}), [charcoal]({{
+'/by-medium/charcoal' | relative_url }}), and [pen & ink]({{
+'/by-medium/pen-ink' | relative_url }}). He recently began creating digital
+art by adding Procreate on an iPad Pro to his toolbox.
 
 Hans comes by his art interest and talent 'naturally,' being the great-great
 grandson of the 19th c. Norwegian romanticist painter <a

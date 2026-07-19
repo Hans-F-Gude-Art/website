@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Select Watercolors
-subtitle: Watercolor Paintings
-gallery_id: select-watercolors
+title: Watercolors
+subtitle: Works in Watercolor
+medium_id: watercolor
 ---

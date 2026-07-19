@@ -5,5 +5,5 @@ description: "Using linear perspective directly on the canvas to work out the fi
 image: /assets/images/galleries/rowing-montlake/montlake-bridge.jpg
 galleries:
   - perspective-studies
-  - rowing-montlake
+  - cal-rowing
 ---

@@ -7,4 +7,6 @@ galleries:
   - campus-drawings
   - perspective-studies
   - sketches-studies
+mediums:
+  - pencil
 ---

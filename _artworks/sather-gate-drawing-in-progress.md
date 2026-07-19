@@ -5,4 +5,6 @@ description: "Perspective study"
 image: /assets/images/galleries/perspective-studies/sather-gate-drawing-in-progress.jpg
 galleries:
   - perspective-studies
+mediums:
+  - photograph
 ---

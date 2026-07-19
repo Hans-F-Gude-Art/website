@@ -5,4 +5,6 @@ image: /assets/images/galleries/emily/studies-for-emmy-with-her-favorite-things.
 galleries:
   - emily
   - sketches-studies
+mediums:
+  - pencil
 ---

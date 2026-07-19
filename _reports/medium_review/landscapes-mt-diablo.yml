@@ -1,0 +1,39 @@
+cluster: landscapes-mt-diablo
+references:
+  - slug: mt-diablo-at-sunrise
+    image: /assets/images/galleries/landscapes-mt-diablo/mt-diablo-at-sunrise.jpg
+    mediums: [oil]
+  - slug: mt-diablo-at-sunset-in-progress
+    image: /assets/images/galleries/landscapes-mt-diablo/mt-diablo-at-sunset-in-progress.jpg
+    mediums: [oil]
+  - slug: mt-diablo-at-sunset-view-from-byron
+    image: /assets/images/galleries/landscapes-mt-diablo/mt-diablo-at-sunset-view-from-byron.jpg
+    mediums: [oil]
+  - slug: mt-diablo-at-sunset
+    image: /assets/images/galleries/landscapes-mt-diablo/mt-diablo-at-sunset.jpg
+    mediums: [oil]
+works:
+  - slug: mt-diablo-and-shell-ridge
+    title: "Mt. Diablo and Shell Ridge"
+    image: /assets/images/galleries/landscapes-mt-diablo/mt-diablo-and-shell-ridge.jpg
+  - slug: mt-diablo-at-sunset-figure-detail
+    title: "Mt. Diablo at Sunset, Figure Detail"
+    image: /assets/images/galleries/landscapes-mt-diablo/mt-diablo-at-sunset-figure-detail.jpg
+  - slug: mt-diablo-at-sunset-tree-detail
+    title: "Mt. Diablo at Sunset, Tree Detail"
+    image: /assets/images/galleries/landscapes-mt-diablo/mt-diablo-at-sunset-tree-detail.jpg
+  - slug: mt-diablo-from-the-east
+    title: "Mt. Diablo from the East"
+    image: /assets/images/galleries/landscapes-mt-diablo/mt-diablo-from-the-east.jpg
+  - slug: mt-diablo-grid-study
+    title: "Mt. Diablo Grid Study"
+    image: /assets/images/galleries/landscapes-mt-diablo/mt-diablo-grid-study.jpg
+  - slug: sunrise-over-mt-diablo-clear-sky
+    title: "Sunrise Over Mt. Diablo, Clear Sky"
+    image: /assets/images/galleries/landscapes-mt-diablo/sunrise-over-mt-diablo-clear-sky.jpg
+  - slug: sunrise-over-mt-diablo-misty-morning
+    title: "Sunrise Over Mt. Diablo, Misty Morning"
+    image: /assets/images/galleries/landscapes-mt-diablo/sunrise-over-mt-diablo-misty-morning.jpg
+  - slug: sunrise-over-mt-diablo-purple-haze
+    title: "Sunrise Over Mt. Diablo, Purple Haze"
+    image: /assets/images/galleries/landscapes-mt-diablo/sunrise-over-mt-diablo-purple-haze.jpg

@@ -6,5 +6,6 @@ image: /assets/images/galleries/emily/emily-in-the-living-room.jpg
 galleries:
   - emily
   - figure-complete
-  - figure-drawings
+mediums:
+  - pencil
 ---

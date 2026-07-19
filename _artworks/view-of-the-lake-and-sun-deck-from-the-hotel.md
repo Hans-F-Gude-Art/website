@@ -5,5 +5,6 @@ description: "Pencil on Paper"
 image: /assets/images/galleries/finished-drawings/view-of-the-lake-and-sun-deck-from-the-hotel.jpg
 galleries:
   - finished-drawings
-  - pencil-drawings
+mediums:
+  - pencil
 ---

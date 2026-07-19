@@ -5,4 +5,6 @@ image: /assets/images/galleries/figure-heads-faces/emily-with-microphone.jpg
 galleries:
   - figure-heads-faces
   - figure-studies
+mediums:
+  - charcoal
 ---

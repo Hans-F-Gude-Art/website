@@ -2,6 +2,7 @@
 layout: artwork
 title: "University House, UC Berkeley, Drawing"
 image: /assets/images/galleries/pencil-drawings/university-house-uc-berkeley-drawing.jpg
-galleries:
-  - pencil-drawings
+galleries: []
+mediums:
+  - pencil
 ---

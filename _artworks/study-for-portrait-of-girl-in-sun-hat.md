@@ -6,6 +6,7 @@ image: /assets/images/galleries/figure-heads-faces/study-for-portrait-of-girl-in
 galleries:
   - figure-heads-faces
   - figure-studies
-  - pencil-drawings
   - sketches-studies
+mediums:
+  - pencil
 ---

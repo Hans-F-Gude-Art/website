@@ -5,4 +5,6 @@ image: /assets/images/galleries/figure-heads-faces/portrait-study-of-young-man-i
 galleries:
   - figure-heads-faces
   - figure-studies
+mediums:
+  - pencil
 ---

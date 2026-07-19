@@ -6,4 +6,6 @@ image: /assets/images/galleries/uc-berkeley-campus/stephens-hall-with-coach-papp
 galleries:
   - landscapes-watercolor
   - uc-berkeley-campus
+mediums:
+  - gouache
 ---

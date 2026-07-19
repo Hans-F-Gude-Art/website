@@ -1,0 +1,73 @@
+- slug: blue-boat-at-the-woods
+  mediums: [oil]
+  confidence: high
+
+- slug: boats-by-the-snack-shack
+  mediums: [pencil]
+  confidence: high
+
+- slug: office-and-hotel-linework
+  mediums: [pen-ink]
+  confidence: high
+
+- slug: view-west-on-forth-lake
+  mediums: [pencil]
+  confidence: high
+
+- slug: calima-hydroelectric-project-poster
+  mediums: [digital]
+  confidence: high
+
+- slug: the-play-complete-poster
+  mediums: [digital]
+  confidence: high
+
+- slug: emily-at-21-three-quarter-view
+  mediums: [oil]
+  confidence: high
+
+- slug: emily-portrait-studies
+  mediums: [pencil]
+  confidence: high
+
+- slug: studies-for-emmy-with-her-favorite-things
+  mediums: [pencil]
+  confidence: high
+
+- slug: hotel-side-door-sketch
+  mediums: [pencil]
+  confidence: high
+
+- slug: snack-shack-from-the-water
+  mediums: [pencil]
+  confidence: high
+
+- slug: study-of-boat-in-belize-harbor-afternoon
+  mediums: [pencil]
+  confidence: high
+
+- slug: hotel-side-door-with-shadows
+  mediums: [oil]
+  confidence: medium
+  notes: Colored companion to the pencil "Hotel Side Door Sketch". Saturated, matte, flat-ish color could indicate gouache instead of oil; no visible canvas weave to confirm oil, and the file is a PNG (unlike the artist's other oil-painting JPEGs), which raises a small chance it is a digitally colored version of the pencil sketch rather than a physical painting.
+
+- slug: sather-tower-painting-on-easel
+  mediums: [photograph]
+  confidence: high
+  notes: This is a photograph of the artist's studio showing an oil painting of Sather Tower resting on an easel, not a scan of the painting itself. Tagged as photograph per the in-situ rule; the depicted painting itself is oil.
+
+- slug: sather-tower-with-the-big-c-uc-berkeley
+  mediums: [oil]
+  confidence: high
+
+- slug: view-of-lawrence-hall-of-science
+  mediums: [oil]
+  confidence: high
+
+- slug: view-towards-old-forge-from-the-docks
+  mediums: [oil]
+  confidence: high
+
+- slug: viking-village-lakeside-detail
+  mediums: [pen-ink]
+  confidence: high

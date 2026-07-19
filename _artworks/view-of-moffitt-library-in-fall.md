@@ -5,6 +5,7 @@ description: "Oil on Canvas"
 image: /assets/images/galleries/uc-berkeley-campus/view-of-moffitt-library-in-fall.png
 galleries:
   - landscapes-other
-  - select-oils
   - uc-berkeley-campus
+mediums:
+  - oil
 ---

@@ -5,4 +5,6 @@ image: /assets/images/galleries/viking-village/hotel-side-door-sketch.jpg
 galleries:
   - sketches-studies
   - viking-village
+mediums:
+  - pencil
 ---

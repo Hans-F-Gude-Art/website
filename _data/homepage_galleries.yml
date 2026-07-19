@@ -1,4 +1,4 @@
-# Homepage navigation - matches original WIX navigation structure
+# Homepage navigation - one tile per subject; medium lives in the header.
 
 - title: UC Berkeley
   url: /uc-berkeley
@@ -14,9 +14,9 @@
 
 - title: Still Lifes
   url: /still-lifes
-  image: /assets/images/galleries/still-lifes/still-life-with-silver-tea-pot-baseball-and-diplodocus-drawing.jpg
+  image: /assets/images/galleries/still-lifes/still-life-with-ukulele.jpg
 
-- title: Drawings
+- title: Drawings & Studies
   url: /drawings
   image: /assets/images/galleries/finished-drawings/still-life-with-silver-tea-pot-baseball-and-diplodocus-detail.jpg
 
@@ -24,6 +24,10 @@
   url: /illustrations
   image: /assets/images/galleries/viking-village/brynilsens-viking-village-poster.jpg
 
-- title: By Medium
-  url: /by-medium
-  image: /assets/images/galleries/uc-berkeley-campus/steps-to-university-house-uc-berkeley.jpg
+- title: Emily
+  url: /emily
+  image: /assets/images/galleries/emily/emily-in-the-time-of-covid.jpg
+
+- title: Photographs
+  url: /photographs
+  image: /assets/images/galleries/photographs/black-tide.jpg

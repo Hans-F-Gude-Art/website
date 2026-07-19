@@ -5,4 +5,6 @@ image: /assets/images/galleries/viking-village/office-and-hotel-sketch-in-pencil
 galleries:
   - sketches-studies
   - viking-village
+mediums:
+  - pencil
 ---

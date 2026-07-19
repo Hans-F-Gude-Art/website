@@ -6,6 +6,7 @@ image: /assets/images/galleries/illustrations/andy-vs-the-giant.jpg
 galleries:
   - illustrations
   - landscapes-watercolor
-  - select-watercolors
-  - watercolor-gouache
+mediums:
+  - watercolor
+  - pen-ink
 ---

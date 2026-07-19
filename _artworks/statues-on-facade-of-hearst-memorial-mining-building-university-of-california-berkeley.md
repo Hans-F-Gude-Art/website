@@ -6,4 +6,6 @@ galleries:
   - campus-drawings
   - figure-heads-faces
   - figure-studies
+mediums:
+  - charcoal
 ---

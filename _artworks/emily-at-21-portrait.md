@@ -6,4 +6,6 @@ image: /assets/images/galleries/emily/emily-at-21-portrait.jpg
 galleries:
   - emily
   - figure-paintings
+mediums:
+  - oil
 ---
