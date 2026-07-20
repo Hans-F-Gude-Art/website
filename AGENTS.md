@@ -97,7 +97,7 @@ slug in a gallery data file needs a matching artwork tagged with that gallery.
 
 ### Image Storage
 
-Images stored in `assets/images/galleries/{gallery-id}/`. All `image` fields use absolute paths from site root (e.g., `/assets/images/galleries/...`). Use `relative_url` filter in templates since site is hosted at a subpath (`/website`).
+Images stored in `assets/images/galleries/{gallery-id}/`. All `image` fields use absolute paths from site root (e.g., `/assets/images/galleries/...`). Use `relative_url` filter in templates.
 
 ## Commits
 
