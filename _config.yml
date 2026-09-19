@@ -29,7 +29,6 @@ collections:
 # Excluded files from site
 exclude:
   - .venv/
-  - CLAUDE.md
   - CNAME
   - Dockerfile
   - Gemfile

@@ -1,7 +1,7 @@
 # AGENTS.md
 
 This file provides guidance to LLM coding agents when working with code in
-this repository. Both `CLAUDE.md` and `GEMINI.md` are symlinks to this file.
+this repository. `GEMINI.md` is a symlink to this file.
 
 ## Project Overview
 
