@@ -68,6 +68,10 @@ module Jekyll
     # without converting would make browsers read the pixels as sRGB and
     # show the copy desaturated. An original without a profile is assumed
     # to be sRGB already, and `-profile` only assigns the profile to it.
+    # The conversion clips colors outside sRGB, so on a wide-gamut display
+    # the copies of Adobe RGB and Display P3 originals show less saturated
+    # extremes than the original. The artwork page links to the original,
+    # which keeps its profile and full gamut.
     # The profile is vendored (`profiles/sRGB.icc`, from colord, free of
     # known copyright restrictions) so the build needs no system ICC files.
     #

@@ -420,7 +420,9 @@ responsive image:
   `actions/cache`; `make clean` keeps it. Local Docker builds use
   ImageMagick 7 and CI uses Ubuntu's ImageMagick 6, so local copies are
   not byte-identical to the deployed ones; compare file sizes and quality
-  on CI output.
+  on CI output. Copies are converted to sRGB, so on wide-gamut displays
+  the copies of the Adobe RGB and Display P3 originals (about two dozen)
+  lose their most saturated colors; the linked original keeps them.
 - **`ImageDimensionsInjector`** runs after rendering. It adds `width` and
   `height` to every `<img>` (from `ImageDimensions`, which reads raster
   sizes with FastImage and SVG root sizes with Nokogiri), and `srcset` and
