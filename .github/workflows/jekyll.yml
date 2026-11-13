@@ -64,6 +64,9 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Check links, images, and heading outline
+        run: bundle exec ruby _bin/check_links.rb
+
       - name: Install uv
         uses: astral-sh/setup-uv@v10.3.3
 
