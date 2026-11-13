@@ -1,3 +1,14 @@
+{% comment %}
+  Navigation. Each submenu is a <ul hidden> right after its trigger button.
+  assets/js/nav.js makes it a popover in the wide layout and an inline
+  disclosure in the narrow one. Without script the buttons are hidden
+  (@media (scripting: none)) and a plain By Medium link shows instead; the
+  subject hubs are reachable from Home.
+
+  aria-current="page" marks the link to this page; aria-current="true"
+  marks a section link whose URL starts this page's URL.
+{% endcomment %}
+{% assign current_url = page.url | replace: "index.html", "" %}
 <header id="SITE_HEADER_WRAPPER">
   <div id="SITE_HEADER">
     <div class="header-container">
@@ -15,21 +26,23 @@
 
       <nav id="DrpDwnMn0" class="navigation-menu" aria-label="Site">
         <ul>
-          <li><a href="{{ '/' | relative_url }}">Home</a></li>
-          <li><a href="{{ '/about' | relative_url }}">Artist Bio</a></li>
+          <li><a href="{{ '/' | relative_url }}"{% if current_url == '/' %} aria-current="page"{% endif %}>Home</a></li>
+          <li><a href="{{ '/about/' | relative_url }}"{% if current_url == '/about/' %} aria-current="page"{% endif %}>Artist Bio</a></li>
           <li class="has-dropdown">
-            <a href="{{ '/' | relative_url }}">By Subject</a>
-            <ul class="dropdown">
+            <button type="button" class="dropdown-trigger" aria-expanded="false" aria-controls="menu-subject" popovertarget="menu-subject">By Subject</button>
+            <ul id="menu-subject" class="dropdown" hidden>
               {% for gallery in site.data.homepage_galleries %}
-              <li><a href="{{ gallery.url | relative_url }}">{{ gallery.title }}</a></li>
+              {% include nav-link.html url=gallery.url title=gallery.title %}
               {% endfor %}
             </ul>
           </li>
           <li class="has-dropdown">
-            <a href="{{ '/by-medium' | relative_url }}">By Medium</a>
-            <ul class="dropdown">
+            <a class="nav-fallback" href="{{ '/by-medium/' | relative_url }}"{% if current_url == '/by-medium/' %} aria-current="page"{% endif %}>By Medium</a>
+            <button type="button" class="dropdown-trigger" aria-expanded="false" aria-controls="menu-medium" popovertarget="menu-medium">By Medium</button>
+            <ul id="menu-medium" class="dropdown" hidden>
+              {% include nav-link.html url="/by-medium/" title="All Mediums" %}
               {% for gallery in site.data.by_medium_galleries %}
-              <li><a href="{{ gallery.url | relative_url }}">{{ gallery.title }}</a></li>
+              {% include nav-link.html url=gallery.url title=gallery.title %}
               {% endfor %}
             </ul>
           </li>

@@ -7,7 +7,7 @@ _site/
 # Ruby/Bundler
 Gemfile.lock
 .bundle/
-vendor/
+/vendor/
 *.gem
 
 # OS

@@ -132,6 +132,33 @@ a:hover {
   margin: 0;
 }
 
+// Skip link: hidden until it has keyboard focus.
+.skip-link {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  z-index: 200;
+  padding: 0.5rem 1rem;
+  background: $color-white;
+  color: $color-link;
+  font-weight: 700;
+  transform: translateY(-120%);
+
+  &:focus {
+    transform: none;
+  }
+}
+
+// Keyboard focus ring for links and buttons.
+.navigation-menu :is(a, button):focus-visible,
+.skip-link:focus-visible,
+.gallery-grid a:focus-visible,
+.photo-grid a:focus-visible,
+.artwork-page a:focus-visible {
+  outline: 2px solid $color-link;
+  outline-offset: 2px;
+}
+
 // Navigation Menu
 .navigation-menu {
   width: 100%;
@@ -147,45 +174,123 @@ a:hover {
   gap: 5px;
 }
 
-.navigation-menu li a {
+.navigation-menu li a,
+.navigation-menu .dropdown-trigger {
+  // inline-block so the padding counts toward the hit area (>= 24 x 24 px).
+  display: inline-block;
   padding: 0.3125rem 0.625rem;
+  font: inherit;
   font-size: 0.9375rem;
   font-weight: 700;
   color: $color-black-text;
   text-decoration: none;
+  background: none;
+  border: 0;
+  cursor: pointer;
   transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-.navigation-menu li a:hover {
+.navigation-menu li a:hover,
+.navigation-menu .dropdown-trigger:hover,
+.navigation-menu .dropdown-trigger[aria-expanded="true"] {
   background-color: #ede9e1;
   color: #444;
   text-decoration: none;
 }
 
-.navigation-menu .has-dropdown {
-  position: relative;
+// Current page and current section: weight and underline, not color alone.
+.navigation-menu [aria-current],
+.navigation-menu .has-dropdown:has([aria-current]) > .dropdown-trigger {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.25em;
+}
+
+.navigation-menu .dropdown [aria-current] {
+  font-weight: 700;
+}
+
+// Without script the triggers do nothing: hide them and show the plain
+// By Medium link. The submenus stay hidden.
+.navigation-menu .nav-fallback {
+  display: none;
+}
+
+@media (scripting: none) {
+  .navigation-menu .dropdown-trigger {
+    display: none;
+  }
+
+  .navigation-menu .nav-fallback {
+    display: inline-block;
+  }
 }
 
 .navigation-menu .dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
   list-style: none;
   margin: 0;
   padding: 4px 0;
   background: $color-white;
-  border: 1px solid #ddd;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  min-width: 10rem;
-  max-inline-size: 20rem;
-  z-index: 100;
   flex-direction: column;
   gap: 0;
+
+  &[hidden] {
+    display: none;
+  }
 }
 
-.navigation-menu .has-dropdown:hover .dropdown {
+// Narrow layout: an inline disclosure on its own row below the triggers.
+.navigation-menu .dropdown:not([popover]):not([hidden]) {
   display: flex;
+  border-block: 1px solid #ddd;
+  margin-block: 0.25rem;
+}
+
+.navigation-menu .has-dropdown:has(> .dropdown:not([popover]):not([hidden])) {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+// Wide layout: a popover placed below its trigger by anchor positioning.
+.navigation-menu .dropdown[popover] {
+  position: absolute;
+  position-area: block-end span-inline-end;
+  position-try-fallbacks: flip-block, flip-inline;
+  inset: auto;
+  height: auto;
+  inline-size: max-content;
+  min-inline-size: 10rem;
+  max-inline-size: 20rem;
+  margin: 0.25rem 0 0;
+  overflow: visible;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  // Bridges the gap above the popover so moving the pointer from the
+  // trigger into the submenu keeps the hover preview open.
+  &::before {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    inset-block-end: 100%;
+    block-size: 0.25rem;
+  }
+
+  &:not(:is(:popover-open, .\:popover-open)) {
+    display: none;
+  }
+
+  &:is(:popover-open, .\:popover-open) {
+    display: flex;
+  }
+}
+
+// Without anchor positioning, nav.js sets top and left from the trigger.
+@supports not (position-area: block-end) {
+  .navigation-menu .dropdown[popover] {
+    position: fixed;
+    margin: 0;
+  }
 }
 
 .navigation-menu .dropdown li a {
