@@ -32,6 +32,15 @@ jobs:
       - name: Validate gallery data
         run: python3 _scripts/validate_galleries.py --check-tags
 
+      # The script tests need no build, so they run before the slow Jekyll
+      # build and a failure shows up in seconds.
+      - name: Install uv
+        uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+
+      - name: Run script tests
+        working-directory: _scripts
+        run: uv run --group dev pytest -q
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@b3aaceaef7e0ee231b499e7b5f49c03fc1d32199 # v1.338.0
         with:
@@ -62,9 +71,9 @@ jobs:
 
       # The cache key hashes every JPEG and PNG under assets/images/ (artwork
       # and bio images), the generator and its sRGB profile, and the
-      # derivative settings and encoder versions, so only new or changed images are encoded. A
-      # full miss encodes about 2,300 copies and adds about ten minutes on 4
-      # cores.
+      # derivative settings and encoder versions, so only new or changed
+      # images are encoded. A full miss encodes about 2,300 copies and adds
+      # about ten minutes on 4 cores.
       # Artwork text is not in the key, so editing an artwork's title does
       # not save a new cache. An exact key hit never saves, so every input
       # that changes the outputs must be in the key. ImageDerivatives rejects
@@ -84,12 +93,14 @@ jobs:
       - name: Check links, images, and heading outline
         run: bundle exec ruby _bin/check_links.rb
 
-      - name: Install uv
-        uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
-
-      - name: Run script tests
-        working-directory: _scripts
-        run: uv run --group dev pytest -q
+      # The Chromium download is keyed on uv.lock, which pins Playwright and
+      # so the browser build. `--with-deps` still installs the system
+      # libraries with apt, which a cache cannot restore.
+      - name: Restore Playwright browser cache
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('_scripts/uv.lock') }}
 
       # Measures image slots in headless Chromium (`make check-images`).
       - name: Check image sizes and lazy LCP
