@@ -14,7 +14,7 @@ image_alt: Hans working on his Cal Band oil painting.
 # Artist Biography
 
 <figure class="bio-figure">
-  <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">
+  <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" fetchpriority="high">
   <figcaption>Hans working on his 4-foot x 6-foot oil painting entitled <em><a href="{{ '/uc-berkeley/cal-band' | relative_url }}">The Cal Band Relaxing in North Tunnel Before the Big Game</a></em>.</figcaption>
 </figure>
 

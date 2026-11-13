@@ -38,11 +38,17 @@ module Jekyll
     # (an SVG, or a file outside every ImageDerivatives entry) is removed:
     # `sizes` without `srcset` is invalid HTML.
     #
+    # A configured `sizes` may name the image's own size as `{width}` and
+    # `{height}`, which are replaced with its intrinsic pixel dimensions.
+    # The artwork page uses them: its image is limited by height as well as
+    # width, so a portrait image fills less width than a landscape one, and
+    # it never grows past its own width.
+    #
     # The full HTML is never parsed and reserialized: a quote-aware scan
     # finds each `<img>` start tag and rewrites it in place. Comments and
-    # the raw-text elements `script`,
-    # `style`, and `textarea` are passed through unchanged, because an
-    # `<img>` inside them is text, not an image.
+    # the raw-text elements `script`, `style`, and `textarea` are passed
+    # through unchanged, because an `<img>` inside them is text, not an
+    # image.
     #
     # @validator An `<img>` with no `src`, a remote or relative `src`, a
     #   `src` naming a file missing from the source tree or one
@@ -88,7 +94,7 @@ module Jekyll
 
         file = local_file(src, site, source)
         width, height = ImageDimensions.of(file)
-        srcset = srcset_attributes(attributes, file, site, src, source)
+        srcset = srcset_attributes(attributes, file, [width, height], site, src, source)
         orphan_sizes = srcset.empty? && attributes.key?('sizes') && !attributes.key?('srcset')
         tag = HtmlAttributes.remove(tag, 'sizes') if orphan_sizes
         added = { 'width' => width, 'height' => height }.merge(srcset)
@@ -101,8 +107,9 @@ module Jekyll
       #   ImageDerivatives, or empty for an image without derivatives. A
       #   lazy image gets `sizes="auto, ..."` so the browser can pick by
       #   its laid-out width; `auto` is invalid on an eager image. Only
-      #   `srcset` when the tag already has `sizes`.
-      def self.srcset_attributes(attributes, file, site, src, source)
+      #   `srcset` when the tag already has `sizes`. `{width}` and `{height}`
+      #   in the configured `sizes` become the image's intrinsic size.
+      def self.srcset_attributes(attributes, file, size, site, src, source)
         key = File.expand_path(file).delete_prefix(File.expand_path(site.source))
         derived = (site.data['image_srcsets'] || {})[key]
         return {} unless derived
@@ -111,7 +118,8 @@ module Jekyll
         return { 'srcset' => derived['srcset'] } if attributes.key?('sizes')
 
         lazy = attributes['loading'].to_s.strip.casecmp?('lazy')
-        { 'srcset' => derived['srcset'], 'sizes' => lazy ? "auto, #{derived['sizes']}" : derived['sizes'] }
+        sizes = derived['sizes'].gsub('{width}', size[0].to_s).gsub('{height}', size[1].to_s)
+        { 'srcset' => derived['srcset'], 'sizes' => lazy ? "auto, #{sizes}" : sizes }
       end
       private_class_method :srcset_attributes
 
