@@ -14,6 +14,13 @@ ENV LC_ALL=C.UTF-8
 ENV LANG=$US_UTF
 ENV LANGUAGE=$US_UTF
 
+# ImageDerivatives (_plugins/) encodes WebP copies with ImageMagick. The
+# full ruby image already ships it, but a slim base would not; install it
+# explicitly so the build does not depend on the base image's extras.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends imagemagick \
+    && rm -rf /var/lib/apt/lists/*
+
 # Install required bundler version for consistency
 # BUNDLER is passed in, this is just the default
 ARG BUNDLER_VERSION=2.6.8
