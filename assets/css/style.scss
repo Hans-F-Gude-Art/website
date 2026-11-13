@@ -156,6 +156,9 @@ a {
 .content-container {
   max-width: $site-width;
   margin: 0 auto;
+  // The 25px gutters appear as `100vw - 50px` and similar in the `sizes` of
+  // _layouts/hub.html, _layouts/gallery.html, and `image_derivatives` in
+  // _config.yml. Change them together and run `make check-images`.
   padding: 0 25px;
 }
 
@@ -457,6 +460,9 @@ p {
   margin: 0;
   display: grid;
   // 18rem keeps 3 columns in the 980px content box: (980 - 2 * 30) / 3 >= 288.
+  // The track width, this gap, and the 25px gutters are restated as pixels
+  // in the `sizes` of _layouts/hub.html. Change both together and run
+  // `make check-images`.
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
   gap: 30px;
 
@@ -559,6 +565,9 @@ main p {
   margin: 0;
   display: grid;
   // 18rem keeps 3 columns in the 980px content box: (980 - 2 * 24) / 3 >= 288.
+  // The track width, this gap, and the 25px gutters are restated as pixels
+  // in the `sizes` of _layouts/gallery.html. Change both together and run
+  // `make check-images`.
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
   gap: 24px;
 
