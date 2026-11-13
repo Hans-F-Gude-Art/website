@@ -379,6 +379,23 @@ main {
   max-width: none;
 }
 
+// Cross-document view transitions: a cross-fade between pages, and a
+// morph from a gallery thumbnail into the artwork image (assets/js/
+// transitions.js names the thumbnail). Only without reduced motion.
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+}
+
+// The thumbnail is cropped to 4:3; crop the snapshots the same way so the
+// morph does not stretch the image.
+::view-transition-old(artwork),
+::view-transition-new(artwork) {
+  height: 100%;
+  object-fit: cover;
+}
+
 // Typography
 h1,
 h2,
@@ -577,6 +594,11 @@ main p {
     .artwork-full-size {
       display: block;
       cursor: zoom-in;
+    }
+
+    // The morph target for a gallery thumbnail (transitions.js).
+    .artwork-full-size img {
+      view-transition-name: artwork;
     }
 
     img {

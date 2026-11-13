@@ -2,6 +2,26 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+{% comment %} Speculation Rules: prefetch same-site pages on hover/pointerdown
+   (moderate eagerness). Browsers without support ignore the script. Images,
+   fonts, and other /assets/ files are not pages. {% endcomment %}
+<script type="speculationrules">
+{
+  "prefetch": [{
+    "where": {
+      "and": [
+        { "href_matches": "/*" },
+        { "not": { "href_matches": "/*.xml" } },
+        { "not": { "href_matches": "/assets/*" } },
+        { "not": { "selector_matches": "[rel~=nofollow]" } },
+        { "not": { "selector_matches": ".do-not-prefetch" } }
+      ]
+    },
+    "eagerness": "moderate"
+  }]
+}
+</script>
+
 {% if page.title %}
   <title>{{ page.title }} | {{ site.title }}</title>
 {% else %}
@@ -60,4 +80,11 @@
 
 <link rel="preload" href="{{ '/assets/fonts/libre-baskerville-400-italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+{% comment %} Blocking, not deferred: it must register pagereveal before the first
+   render. Gallery pages also hold their first render until the grid is
+   parsed, so the thumbnail the morph returns to exists. {% endcomment %}
+<script src="{{ '/assets/js/transitions.js' | relative_url }}"></script>
+{% if page.layout == "gallery" %}
+<link rel="expect" href="#artwork-grid" blocking="render">
+{% endif %}
 <script src="{{ '/assets/js/nav.js' | relative_url }}" defer data-popover-polyfill="{{ '/assets/js/vendor/popover-polyfill.min.js' | relative_url }}"></script>
