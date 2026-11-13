@@ -29,7 +29,7 @@ DOCKER_RUN := docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) 
 .PHONY: serve-drafts serve-profile
 
 # Tier 3: Domain operations
-.PHONY: image-build image-rebuild deps-lock validate hooks-install
+.PHONY: image-build image-rebuild deps-lock validate hooks-install check-images
 
 # Internal targets
 .PHONY: all
@@ -44,6 +44,15 @@ hooks-install: _scripts/pre-commit-hook.sh
 	@echo "Installing pre-commit hook..."
 	@ln -sf ../../_scripts/pre-commit-hook.sh .git/hooks/pre-commit
 	@echo "Pre-commit hook installed."
+
+# Measure every image slot in headless Chromium at each breakpoint and at
+# 1x, 2x, and 3x. Fails when a srcset image's sizes or delivered width does
+# not fit its slot, or a page's Largest Contentful Paint image is lazy.
+# Runs on the host through uv.
+check-images: build
+	@echo "Measuring image slots in headless Chromium..."
+	@cd _scripts && uv run --group browser playwright install --only-shell chromium
+	@cd _scripts && uv run --group browser python ci/check_image_sizes.py ../_site
 
 # Run gallery validation manually
 validate:

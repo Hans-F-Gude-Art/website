@@ -399,10 +399,41 @@ These are hub pages that don't contain gallery images directly:
 
 All artwork images are stored in:
 ```
-images/artworks/{gallery-id}/{filename}.jpg
+assets/images/galleries/{gallery-id}/{filename}.jpg
 ```
 
 Images are downloaded at their original resolution from WIX's static CDN during extraction.
+
+### Image Pipeline
+
+Build-time plugins in `_plugins/src/infrastructure/` (ported from the
+author's blog, loaded by `_plugins/images.rb`) turn each `<img>` into a
+responsive image:
+
+- **`ImageDerivatives`** encodes WebP copies of every artwork's `image`
+  and of every file in `assets/images/bio/`, at the widths in
+  `image_derivatives` in `_config.yml`. Copies go to
+  `.jekyll-cache/image-derivatives/` and are published at
+  `.../derived/{stem}-{width}.webp` next to the original. A manifest
+  re-encodes only new or changed images. CI restores the directory with
+  `actions/cache`; `make clean` keeps it.
+- **`ImageDimensionsInjector`** runs after rendering. It adds `width` and
+  `height` to every `<img>` (from `ImageDimensions`, which reads raster
+  sizes with FastImage and SVG root sizes with Nokogiri), and `srcset` and
+  `sizes` to images with copies. The original stays as `src`.
+- **`sizes`**: the config value applies to the artwork page, where
+  `{width}` and `{height}` become the image's pixel size. `hub.html` and
+  `gallery.html` state the grid slot's `sizes` themselves. The first grid
+  images load eagerly; later ones use `loading="lazy"` and
+  `sizes="auto, ..."`. The artwork and bio images use
+  `fetchpriority="high"`.
+
+`make check-images` loads sample pages in headless Chromium at every
+breakpoint and at 1x, 2x, and 3x, and fails when a `sizes` value does not
+match its slot, the delivered file is too narrow or more than twice too
+wide, or the Largest Contentful Paint element is lazy. The script is
+`_scripts/ci/check_image_sizes.py`; its tests run with
+`cd _scripts && uv run pytest`.
 
 ---
 

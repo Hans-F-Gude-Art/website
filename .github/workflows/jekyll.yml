@@ -64,6 +64,20 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.3.3
+
+      - name: Run script tests
+        working-directory: _scripts
+        run: uv run --group dev pytest -q
+
+      # Measures image slots in headless Chromium (`make check-images`).
+      - name: Check image sizes and lazy LCP
+        working-directory: _scripts
+        run: |
+          uv run --group browser playwright install --with-deps --only-shell chromium
+          uv run --group browser python ci/check_image_sizes.py ../_site --baseurl "${{ steps.pages.outputs.base_path }}"
+
       - name: Upload artifact
         # Only upload if we are on main (where deployment happens)
         if: github.ref == 'refs/heads/main'
