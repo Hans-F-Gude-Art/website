@@ -7,14 +7,26 @@
 # fetched. Run with `make check-links`.
 
 require 'html-proofer'
+require 'yaml'
 require_relative 'heading_outline_check'
+
+# The site's own origin (`url` in _config.yml). Absolute links to it, such
+# as canonical links, are checked as internal links; every other absolute
+# URL is external and not fetched.
+SITE_URL = YAML.safe_load_file(File.expand_path('../_config.yml', __dir__)).fetch('url').chomp('/')
+OWN_ORIGIN = %r{\A#{Regexp.escape(SITE_URL)}(?=/|\z)}
 
 options = {
   # v5 removed 'disable_external'. We must use ignore_urls to skip them.
+  # The ignore runs on the URL as written, before swap_urls, so the site's
+  # own origin is excluded here or its links would be skipped too.
   ignore_urls: [
     %r{/livereload.js},
-    /^http/, # Regex to ignore all http/https links (external)
+    %r{\Ahttps?://(?!#{Regexp.escape(SITE_URL.sub(%r{\Ahttps?://}, ''))}(?:/|\z))},
   ],
+
+  # Rewrites own-origin URLs to root-relative paths checked against _site/.
+  swap_urls: { OWN_ORIGIN => '' },
 
   # v5 requires explicitly listing checks if you want to limit them.
   # HeadingOutline is this site's own check (heading_outline_check.rb).
