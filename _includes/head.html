@@ -4,15 +4,16 @@
 
 {% comment %} Speculation Rules: prefetch same-site pages on hover/pointerdown
    (moderate eagerness). Browsers without support ignore the script. Images,
-   fonts, and other /assets/ files are not pages. {% endcomment %}
+   fonts, and other /assets/ files are not pages. Patterns carry baseurl,
+   as the links do. {% endcomment %}
 <script type="speculationrules">
 {
   "prefetch": [{
     "where": {
       "and": [
-        { "href_matches": "/*" },
-        { "not": { "href_matches": "/*.xml" } },
-        { "not": { "href_matches": "/assets/*" } },
+        { "href_matches": "{{ '/*' | relative_url }}" },
+        { "not": { "href_matches": "{{ '/*.xml' | relative_url }}" } },
+        { "not": { "href_matches": "{{ '/assets/*' | relative_url }}" } },
         { "not": { "selector_matches": "[rel~=nofollow]" } },
         { "not": { "selector_matches": ".do-not-prefetch" } }
       ]
