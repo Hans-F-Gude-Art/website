@@ -2,8 +2,69 @@
 # This empty front matter tells Jekyll to process the file.
 ---
 
-// Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+// Fonts: Libre Baskerville, self-hosted (assets/fonts/, SIL OFL in
+// assets/fonts/OFL.txt). The faces are the ones the stylesheet uses:
+// italic 400 (tagline), bold 700 (tagline name), regular 400 (artwork
+// captions). head.html preloads the italic, which renders above the fold.
+@font-face {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/libre-baskerville-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/libre-baskerville-400-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/libre-baskerville-700.woff2") format("woff2");
+}
+
+// Georgia scaled to Libre Baskerville's width and line metrics, so text
+// does not shift when the web font swaps in. Values come from
+// _scripts/fonts/fallback_metrics.py run on each face and Georgia's.
+@font-face {
+  font-family: "Libre Baskerville Fallback";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Georgia");
+  size-adjust: 116.62%;
+  ascent-override: 83.18%;
+  descent-override: 23.15%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Libre Baskerville Fallback";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Georgia Italic");
+  size-adjust: 101.63%;
+  ascent-override: 95.45%;
+  descent-override: 26.57%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Libre Baskerville Fallback";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Georgia Bold");
+  size-adjust: 102.49%;
+  ascent-override: 94.64%;
+  descent-override: 26.34%;
+  line-gap-override: 0%;
+}
 
 // Variables
 $site-width: 980px;
@@ -14,7 +75,7 @@ $color-black-text: #000000;
 $color-link: #3d5495;
 $header-divider-color: #3d5495;
 
-$serif-font: 'Libre Baskerville', 'EB Garamond', serif;
+$serif-font: 'Libre Baskerville', 'Libre Baskerville Fallback', Georgia, serif;
 $sans-serif-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // General Body Styles
