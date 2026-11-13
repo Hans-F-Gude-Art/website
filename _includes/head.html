@@ -1,6 +1,27 @@
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+
+{% comment %} Speculation Rules: prefetch same-site pages on hover/pointerdown
+   (moderate eagerness). Browsers without support ignore the script. Images,
+   fonts, and other /assets/ files are not pages. Patterns carry baseurl,
+   as the links do. {% endcomment %}
+<script type="speculationrules">
+{
+  "prefetch": [{
+    "where": {
+      "and": [
+        { "href_matches": "{{ '/*' | relative_url }}" },
+        { "not": { "href_matches": "{{ '/*.xml' | relative_url }}" } },
+        { "not": { "href_matches": "{{ '/assets/*' | relative_url }}" } },
+        { "not": { "selector_matches": "[rel~=nofollow]" } },
+        { "not": { "selector_matches": ".do-not-prefetch" } }
+      ]
+    },
+    "eagerness": "moderate"
+  }]
+}
+</script>
 
 {% if page.title %}
   <title>{{ page.title }} | {{ site.title }}</title>
@@ -26,8 +47,13 @@
   <meta name="keywords" content="{{ keywords }}">
 {% endif %}
 
-<link rel="canonical" href="{{ page.url | absolute_url }}">
-<meta property="og:url" content="{{ page.url | absolute_url }}">
+{% comment %} A noindex page (404) has no canonical URL to claim. {% endcomment %}
+{% if page.noindex %}
+  <meta name="robots" content="noindex">
+{% else %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+{% endif %}
 
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title }}">
@@ -54,8 +80,15 @@
   <meta property="og:image" content="{{ image | absolute_url }}">
   <meta name="twitter:image" content="{{ image | absolute_url }}">
   <meta name="twitter:card" content="summary_large_image">
+  {% comment %} Alt text describes the page's own image only, not a gallery's
+     first artwork or the site default. {% endcomment %}
+  {% if page.image and page.image_alt %}
+  <meta property="og:image:alt" content="{{ page.image_alt | escape }}">
+  <meta name="twitter:image:alt" content="{{ page.image_alt | escape }}">
+  {% endif %}
 {% else %}
   <meta name="twitter:card" content="summary">
 {% endif %}
 
+<link rel="preload" href="{{ '/assets/fonts/libre-baskerville-400-italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">

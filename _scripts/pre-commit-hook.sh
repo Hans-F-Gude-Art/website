@@ -5,6 +5,6 @@
 set -e
 
 echo "Validating gallery data..."
-python3 _scripts/validate_galleries.py
+python3 _scripts/validate_galleries.py --check-tags
 
 echo "Gallery validation passed."

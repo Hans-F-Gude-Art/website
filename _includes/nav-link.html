@@ -1,0 +1,9 @@
+{% comment %}
+  One submenu link. include.url may lack its trailing slash (hub data uses
+  /uc-berkeley); it is normalized before comparing with the page URL in
+  current_url, which header.html sets.
+{% endcomment %}
+{% assign link_url = include.url | append: "/" | replace: "//", "/" %}
+{% assign link_prefix_size = link_url | size %}
+{% assign page_prefix = current_url | slice: 0, link_prefix_size %}
+<li><a href="{{ link_url | relative_url }}"{% if current_url == link_url %} aria-current="page"{% elsif link_url != "/" and page_prefix == link_url %} aria-current="true"{% endif %}>{{ include.title }}</a></li>

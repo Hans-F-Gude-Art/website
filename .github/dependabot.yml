@@ -1,0 +1,28 @@
+# Keeps the SHA-pinned actions in .github/workflows/, the gems in
+# Gemfile.lock, and the Python tools in _scripts/uv.lock current. Version
+# updates run monthly; security updates for vulnerable versions are
+# separate, opened as soon as an alert is raised, and ignore this schedule
+# and the cooldown. The cooldown keeps a compromised release out until it
+# has had time to be noticed.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7
+
+  - package-ecosystem: bundler
+    directory: /
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7
+
+  - package-ecosystem: uv
+    directory: /_scripts
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7

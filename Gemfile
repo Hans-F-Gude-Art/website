@@ -14,3 +14,14 @@ gem 'logger', '~> 1.7'
 
 # SEO
 gem 'jekyll-sitemap', '~> 1.4'
+
+# For reading SVG image sizes in custom plugins
+gem 'nokogiri', '~> 1.19'
+
+# Raster image sizes (and EXIF orientation) for <img> width/height
+gem 'fastimage', '~> 2.4'
+
+# Built-site checks (`make check-links`)
+group :development, :test do
+  gem 'html-proofer', '~> 5.2'
+end

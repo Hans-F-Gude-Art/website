@@ -5,9 +5,8 @@ _site/
 .sass-cache/
 
 # Ruby/Bundler
-Gemfile.lock
 .bundle/
-vendor/
+/vendor/
 *.gem
 
 # OS

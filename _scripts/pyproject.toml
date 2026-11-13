@@ -1,0 +1,18 @@
+[project]
+name = "hfgude-art-scripts"
+version = "0.0.0"
+requires-python = ">=3.12"
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pyyaml",
+    "fonttools[woff]>=4.50",
+]
+# Headless Chromium for ci/check_image_sizes.py; kept out of `dev` so the
+# script tests do not download a browser.
+browser = ["playwright>=1.65"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["ci"]

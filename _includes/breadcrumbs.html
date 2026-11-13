@@ -1,0 +1,34 @@
+{% comment %}
+  Breadcrumbs for gallery and hub pages. Each step's parent is the hub
+  whose `galleries_data` file lists the step's URL (hub data URLs have no
+  trailing slash). The trail always starts at Home; the last item is this
+  page, a link with aria-current="page". Separators are CSS.
+{% endcomment %}
+{% assign hubs = site.pages | where_exp: "p", "p.galleries_data" %}
+{% assign trail = "" | split: "" %}
+{% assign step_page = page %}
+{% for depth in (1..4) %}
+  {% assign parent = nil %}
+  {% for hub in hubs %}
+    {% for item in site.data[hub.galleries_data] %}
+      {% assign item_url = item.url | append: "/" | replace: "//", "/" %}
+      {% if item_url == step_page.url %}
+        {% assign parent = hub %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% if parent %}{% break %}{% endif %}
+  {% endfor %}
+  {% if parent == nil or parent.url == "/" %}{% break %}{% endif %}
+  {% assign trail = trail | unshift: parent %}
+  {% assign step_page = parent %}
+{% endfor %}
+<nav class="breadcrumbs" aria-label="Breadcrumbs">
+  <ol>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    {% for crumb in trail %}
+    <li><a href="{{ crumb.url | relative_url }}">{{ crumb.title }}</a></li>
+    {% endfor %}
+    <li><a href="{{ page.url | relative_url }}" aria-current="page">{{ page.title }}</a></li>
+  </ol>
+</nav>

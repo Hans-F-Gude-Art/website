@@ -1,42 +1,56 @@
+{% comment %}
+  Navigation, with no script. Each submenu is a <ul popover> right after
+  its trigger button, which opens it with popovertarget; the browser
+  provides light dismiss, Escape, focus return, and the button's expanded
+  state, so the button carries no aria-expanded. Browsers without popover
+  support hide the buttons and show a plain By Medium link instead (see
+  style.scss); the subject hubs are reachable from Home.
+
+  aria-current="page" marks the link to this page; aria-current="true"
+  marks a section link whose URL starts this page's URL.
+{% endcomment %}
+{% assign current_url = page.url | replace: "index.html", "" %}
 <header id="SITE_HEADER_WRAPPER">
   <div id="SITE_HEADER">
     <div class="header-container">
       <div class="logo-and-tagline">
-        <div id="comp-kmha1qne" class="logo">
+        <div class="logo">
           <a href="{{ '/' | relative_url }}">
             <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Hans F. Gude Art Logo">
           </a>
         </div>
-        <div id="SITE_STRUCTURE_WRichText_0" class="tagline">
+        <div class="tagline">
           <p>Online Portfolio of Fine Art & Illustration by</p>
-          <h1>Hans F. Gude</h1>
+          <p class="tagline-name">Hans F. Gude</p>
         </div>
       </div>
 
-      <nav id="DrpDwnMn0" class="navigation-menu" aria-label="Site">
+      <nav class="navigation-menu" aria-label="Site">
         <ul>
-          <li><a href="{{ '/' | relative_url }}">Home</a></li>
-          <li><a href="{{ '/about' | relative_url }}">Artist Bio</a></li>
+          <li><a href="{{ '/' | relative_url }}"{% if current_url == '/' %} aria-current="page"{% endif %}>Home</a></li>
+          <li><a href="{{ '/about/' | relative_url }}"{% if current_url == '/about/' %} aria-current="page"{% endif %}>Artist Bio</a></li>
           <li class="has-dropdown">
-            <a href="{{ '/' | relative_url }}">By Subject</a>
-            <ul class="dropdown">
+            <button type="button" class="dropdown-trigger" aria-controls="menu-subject" popovertarget="menu-subject">By Subject</button>
+            <ul id="menu-subject" class="dropdown" popover>
               {% for gallery in site.data.homepage_galleries %}
-              <li><a href="{{ gallery.url | relative_url }}">{{ gallery.title }}</a></li>
+              {% include nav-link.html url=gallery.url title=gallery.title %}
               {% endfor %}
             </ul>
           </li>
           <li class="has-dropdown">
-            <a href="{{ '/by-medium' | relative_url }}">By Medium</a>
-            <ul class="dropdown">
+            <a class="nav-fallback" href="{{ '/by-medium/' | relative_url }}"{% if current_url == '/by-medium/' %} aria-current="page"{% endif %}>By Medium</a>
+            <button type="button" class="dropdown-trigger" aria-controls="menu-medium" popovertarget="menu-medium">By Medium</button>
+            <ul id="menu-medium" class="dropdown" popover>
+              {% include nav-link.html url="/by-medium/" title="All Mediums" %}
               {% for gallery in site.data.by_medium_galleries %}
-              <li><a href="{{ gallery.url | relative_url }}">{{ gallery.title }}</a></li>
+              {% include nav-link.html url=gallery.url title=gallery.title %}
               {% endfor %}
             </ul>
           </li>
         </ul>
       </nav>
 
-      <div id="FvGrdLn3" class="header-divider"></div>
+      <div class="header-divider"></div>
     </div>
   </div>
 </header>

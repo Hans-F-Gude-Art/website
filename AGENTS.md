@@ -99,6 +99,25 @@ slug in a gallery data file needs a matching artwork tagged with that gallery.
 
 Images stored in `assets/images/galleries/{gallery-id}/`. All `image` fields use absolute paths from site root (e.g., `/assets/images/galleries/...`). Use `relative_url` filter in templates.
 
+## No JavaScript
+
+The site ships no executable JavaScript. Non-executable `<script>` blocks
+(such as `type="speculationrules"` JSON) are allowed. Build interactivity
+from HTML and CSS: the nav submenus are native popovers opened by
+`popovertarget`.
+
+## Images
+
+- WebP copies are built at build time by `_plugins/` and cached in
+  `.jekyll-cache/image-derivatives/` locally and in CI. Never commit them.
+- Never hand-write `width`, `height`, or `srcset` on an `<img>`. The build
+  adds them and stops when an author sets `width` or `height`. A template
+  may set `sizes` when its slot differs from the configured one.
+- `make check-images` must pass after any change to image CSS, layouts, or
+  `image_derivatives`. It needs `uv` on the host.
+
+See `_docs/SITE_ARCHITECTURE.md` ("Image Pipeline").
+
 ## Commits
 
 Use `git secure-commit` instead of `git commit`. Format:

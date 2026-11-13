@@ -29,7 +29,7 @@ DOCKER_RUN := docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) 
 .PHONY: serve-drafts serve-profile
 
 # Tier 3: Domain operations
-.PHONY: image-build image-rebuild deps-lock validate hooks-install
+.PHONY: image-build image-rebuild deps-lock validate hooks-install check-images check-links
 
 # Internal targets
 .PHONY: all
@@ -45,9 +45,26 @@ hooks-install: _scripts/pre-commit-hook.sh
 	@ln -sf ../../_scripts/pre-commit-hook.sh .git/hooks/pre-commit
 	@echo "Pre-commit hook installed."
 
+# Check the built site with html-proofer: internal links, images and alt
+# text, scripts, favicon, Open Graph tags, share images (og:image and
+# twitter:image name a built file), and the heading outline (one <h1>
+# first, no skipped levels). External links are not fetched.
+check-links: build
+	@echo "Checking generated site for broken links and HTML issues..."
+	@$(DOCKER_RUN) bundle exec ruby _bin/check_links.rb
+
+# Measure every image slot in headless Chromium at each breakpoint and at
+# 1x, 2x, and 3x. Fails when a srcset image's sizes or delivered width does
+# not fit its slot, or a page's Largest Contentful Paint image is lazy.
+# Runs on the host through uv.
+check-images: build
+	@echo "Measuring image slots in headless Chromium..."
+	@cd _scripts && uv run --group browser playwright install --only-shell chromium
+	@cd _scripts && uv run --group browser python ci/check_image_sizes.py ../_site
+
 # Run gallery validation manually
 validate:
-	@python3 _scripts/validate_galleries.py
+	@python3 _scripts/validate_galleries.py --check-tags
 
 # Manual target to update Gemfile.lock using the correct base Docker image and Bundler version.
 # Uses 'bundle lock --update --normalize-platforms' to regenerate the lockfile.
@@ -94,9 +111,15 @@ image-rebuild: Dockerfile Gemfile Gemfile.lock .ruby-version
 	    --no-cache . -f Dockerfile -t $(IMAGE)
 
 # Clean out _site and other caches. Requires the image to exist.
+# `jekyll clean` would delete all of .jekyll-cache, including the WebP
+# derivatives in .jekyll-cache/image-derivatives that take about ten minutes
+# to re-encode, so everything else is removed by hand.
 clean: image-build
-	@echo "Cleaning Jekyll build artifacts..."
-	@$(DOCKER_RUN) bundle exec jekyll clean
+	@echo "Cleaning Jekyll build artifacts (keeping image derivatives)..."
+	@$(DOCKER_RUN) bash -c 'rm -rf _site .jekyll-metadata .sass-cache && \
+		if [ -d .jekyll-cache ]; then \
+			find .jekyll-cache -mindepth 1 -maxdepth 1 ! -name image-derivatives -exec rm -rf {} +; \
+		fi'
 
 # Build the site for production. Depends on image-build and clean.
 build: image-build clean
