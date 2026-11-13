@@ -6,7 +6,7 @@
 <body>
   <div id="SITE_CONTAINER">
     {% include header.html %}
-    <main id="PAGES_CONTAINER" role="main">
+    <main id="PAGES_CONTAINER" role="main"{% if page.layout == "artwork" %} class="full-bleed"{% endif %}>
       {{ content }}
     </main>
     {% include footer.html %}

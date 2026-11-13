@@ -46,7 +46,13 @@ a:hover {
 
 #PAGES_CONTAINER {
   flex-grow: 1;
-  padding: 40px 0;
+  // Block padding only: the inline padding comes from .content-container.
+  padding-block: 40px;
+  // A flex item with auto inline margins shrinks to its content; an
+  // auto-fill grid's content is one column wide, so set the width.
+  width: 100%;
+  box-sizing: border-box;
+  max-width: $site-width + 50px;
 }
 
 #SITE_FOOTER_WRAPPER {
@@ -94,14 +100,14 @@ a:hover {
 }
 
 .tagline p {
-  font-size: clamp(16px, 4vw, 25px);
+  font-size: clamp(1rem, 4vw, 1.5625rem);
   line-height: 1.2em;
   font-style: italic;
   margin: 0;
 }
 
 .tagline h1 {
-  font-size: clamp(18px, 4.5vw, 27px);
+  font-size: clamp(1.125rem, 4.5vw, 1.6875rem);
   line-height: 1.2em;
   font-weight: bold;
   margin: 0;
@@ -123,8 +129,8 @@ a:hover {
 }
 
 .navigation-menu li a {
-  padding: 5px 10px;
-  font-size: 15px;
+  padding: 0.3125rem 0.625rem;
+  font-size: 0.9375rem;
   font-weight: 700;
   color: $color-black-text;
   text-decoration: none;
@@ -152,7 +158,8 @@ a:hover {
   background: $color-white;
   border: 1px solid #ddd;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  min-width: 160px;
+  min-width: 10rem;
+  max-inline-size: 20rem;
   z-index: 100;
   flex-direction: column;
   gap: 0;
@@ -164,10 +171,9 @@ a:hover {
 
 .navigation-menu .dropdown li a {
   display: block;
-  padding: 6px 14px;
-  font-size: 14px;
+  padding: 0.375rem 0.875rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  white-space: nowrap;
 }
 
 .header-divider {
@@ -179,6 +185,24 @@ a:hover {
 // Main Content
 main {
   @extend .content-container;
+  overflow-wrap: break-word;
+}
+
+// Artwork pages show the image wider than the text column.
+#PAGES_CONTAINER.full-bleed {
+  max-width: none;
+}
+
+// Typography
+h1,
+h2,
+h3,
+.tagline {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
 }
 
 // Homepage Gallery (hub pages)
@@ -187,16 +211,9 @@ main {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: 1fr;
+  // 18rem keeps 3 columns in the 980px content box: (980 - 2 * 30) / 3 >= 288.
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
   gap: 30px;
-
-  @media (min-width: 600px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media (min-width: 900px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
 
   li a {
     display: block;
@@ -218,23 +235,23 @@ main {
 
   h2 {
     font-family: $sans-serif-font;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: normal;
     color: $color-black-text;
-    margin: 15px 0 0 0;
+    margin: 1rem 0 0 0;
   }
 }
 
 // About Page Layout
 main h1 {
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 24px;
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 main p {
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.5;
   margin-bottom: 1em;
 }
@@ -251,8 +268,8 @@ main p {
 }
 
 .bio-figure figcaption {
-  font-size: 15px;
-  margin-top: 10px;
+  font-size: 0.9375rem;
+  margin-top: 0.625rem;
   font-family: $sans-serif-font;
 }
 
@@ -264,7 +281,7 @@ main p {
 
 .footer-container p {
   text-align: left;
-  font-size: 12px;
+  font-size: 0.75rem;
   margin: 0;
 }
 
@@ -272,15 +289,15 @@ main p {
 .gallery-page {
   h1 {
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   .subtitle {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -290,16 +307,9 @@ main p {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: 1fr;
+  // 18rem keeps 3 columns in the 980px content box: (980 - 2 * 24) / 3 >= 288.
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
   gap: 24px;
-
-  @media (min-width: 600px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media (min-width: 900px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
 
   figure {
     margin: 0;
@@ -315,8 +325,8 @@ main p {
   }
 
   figcaption {
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 0.875rem;
+    margin-top: 0.625rem;
     color: #555;
     font-style: italic;
     padding: 0 5px;
@@ -328,19 +338,16 @@ main p {
   text-align: center;
 
   .artwork-display {
-    // Break out of the content container to allow wider images
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    margin-left: -50vw;
-    margin-bottom: 30px;
-    padding: 0 25px;
-    box-sizing: border-box;
+    // The artwork layout drops main's max-width (see .full-bleed), so the
+    // figure spans the viewport minus main's side padding without 100vw,
+    // which would include the scrollbar and scroll horizontally.
+    margin: 0 0 30px 0;
 
     img {
       // Constrain to fit fully on screen (both width and height)
-      max-width: min(calc(100vw - 50px), 1600px);
+      max-width: min(100%, 1600px);
       max-height: 85vh;
+      max-height: 85dvh;
       width: auto;
       height: auto;
       display: block;
@@ -349,9 +356,9 @@ main p {
     }
 
     figcaption {
-      font-size: 20px;
+      font-size: 1.25rem;
       font-family: $serif-font;
-      margin-top: 20px;
+      margin-top: 1.25rem;
       color: $color-black-text;
       // Keep caption readable width
       max-width: $site-width;
@@ -361,15 +368,17 @@ main p {
   }
 
   .artwork-nav {
+    max-width: $site-width;
+    margin-inline: auto;
     margin-top: 30px;
     padding-top: 20px;
     border-top: 1px solid #eee;
 
     a {
       display: inline-block;
-      padding: 8px 16px;
-      margin: 5px;
-      font-size: 14px;
+      padding: 0.5rem 1rem;
+      margin: 0.3125rem;
+      font-size: 0.875rem;
       color: $color-link;
       text-decoration: none;
       border: 1px solid $color-link;
@@ -386,12 +395,12 @@ main p {
 }
 
 // ===========================================
-// Mobile Responsive Styles (under 600px)
+// Mobile Responsive Styles (under 600px / 37.5em)
 // ===========================================
-@media (max-width: 599px) {
+@media (max-width: 37.4375em) {
   // Reduce top/bottom padding on main content area
   #PAGES_CONTAINER {
-    padding: 20px 0;
+    padding-block: 20px;
   }
 
   // Stack logo and tagline vertically, center everything
@@ -420,17 +429,8 @@ main p {
   }
 
   .navigation-menu li a {
-    padding: 6px 8px;
-    font-size: 14px;
-  }
-
-  // Reduce grid gaps on mobile
-  .gallery-grid {
-    gap: 20px;
-  }
-
-  .photo-grid {
-    gap: 16px;
+    padding: 0.375rem 0.5rem;
+    font-size: 0.875rem;
   }
 
   // Bio figure: stack instead of float
@@ -443,27 +443,27 @@ main p {
   // Reduce page title size on mobile
   main h1,
   .gallery-page h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .gallery-page .subtitle {
-    font-size: 16px;
-    margin-bottom: 25px;
+    font-size: 1rem;
+    margin-bottom: 1.5625rem;
   }
 
   // Artwork page adjustments
   .artwork-page {
     .artwork-display figcaption {
-      font-size: 17px;
-      margin-top: 15px;
+      font-size: 1.0625rem;
+      margin-top: 1rem;
     }
 
     .artwork-nav {
       margin-top: 20px;
 
       a {
-        padding: 10px 14px;
-        font-size: 13px;
+        padding: 0.625rem 0.875rem;
+        font-size: 0.8125rem;
       }
     }
   }
