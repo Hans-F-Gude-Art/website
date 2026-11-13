@@ -428,6 +428,15 @@ responsive image:
   `sizes="auto, ..."`. The artwork and bio images use
   `fetchpriority="high"`.
 
+The originals are published too, so the artwork page's image can link
+to the full-resolution file. With the WebP copies, `_site/` is about
+1.2 GB, over GitHub Pages' 1 GB site limit. That limit is not documented
+as hard: the deploy logs "Uploaded artifact size ... exceeds the allowed
+size of 1 GB. Deployment might fail." and GitHub may email the owner.
+This is a deliberate choice (November 2026). If GitHub enforces the
+limit, the fallback is to downscale originals over 3000 px on the long
+side, which brings the site to about 750 MB.
+
 `make check-images` loads sample pages in headless Chromium at every
 breakpoint and at 1x, 2x, and 3x, and fails when a `sizes` value does not
 match its slot, the delivered file is too narrow or more than twice too
