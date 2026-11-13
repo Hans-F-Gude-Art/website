@@ -30,7 +30,7 @@ jobs:
           persist-credentials: false
 
       - name: Validate gallery data
-        run: python3 _scripts/validate_galleries.py
+        run: python3 _scripts/validate_galleries.py --check-tags
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@b3aaceaef7e0ee231b499e7b5f49c03fc1d32199 # v1.338.0

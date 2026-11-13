@@ -63,7 +63,7 @@ check-images: build
 
 # Run gallery validation manually
 validate:
-	@python3 _scripts/validate_galleries.py
+	@python3 _scripts/validate_galleries.py --check-tags
 
 # Manual target to update Gemfile.lock using the correct base Docker image and Bundler version.
 # Uses 'bundle lock --update --normalize-platforms' to regenerate the lockfile.
