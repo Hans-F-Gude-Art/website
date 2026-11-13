@@ -79,7 +79,7 @@ module Jekyll
       SRGB_PROFILE = File.expand_path('profiles/sRGB.icc', __dir__)
       # Part of every output's cache key: changing encoding settings
       # re-encodes everything.
-      SETTINGS = "webp q#{QUALITY} strip auto-orient v1".freeze
+      SETTINGS = "webp q#{QUALITY} strip auto-orient v2".freeze
       MANIFEST = 'manifest.json'
 
       # One output to publish.
@@ -287,7 +287,9 @@ module Jekyll
 
         # Runs one ImageMagick process per source, as many at once as there
         # are processors. Decoding the original dominates, so each process
-        # decodes once and writes every width, largest first.
+        # decodes once and writes every width. Each width is resized from a
+        # clone of the decoded original, not from the next wider copy, so
+        # resampling losses do not compound down to the thumbnails.
         #
         # @return [Array(Array<Output>, Array<String>)] The outputs encoded,
         #   and an error message for each source that failed.
@@ -317,7 +319,7 @@ module Jekyll
             "#{output.cache_file}.tmp.webp"
           end
           steps = group.zip(temporaries).flat_map do |output, temporary|
-            ['-resize', "#{output.width}x", '-quality', QUALITY.to_s, '-write', temporary]
+            ['(', '+clone', '-resize', "#{output.width}x", '-quality', QUALITY.to_s, '-write', temporary, '+delete', ')']
           end
           # One thread per process: the workers already use every processor,
           # and ImageMagick's own threads would oversubscribe them.
