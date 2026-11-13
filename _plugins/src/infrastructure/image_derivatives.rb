@@ -50,6 +50,12 @@ module Jekyll
     # configured image produces any more are deleted. CI restores the same
     # directory with actions/cache.
     #
+    # Hashing every original takes seconds, which `make serve` would pay on
+    # each rebuild, so a second file records each source's digest with its
+    # size and modification time, keyed by its path in the source tree. A
+    # source is hashed again only when its size or modification time
+    # changes. A fresh checkout sets new times, so CI hashes every source.
+    #
     # ImageMagick does the encoding: `magick` (version 7) when present,
     # otherwise `convert` (version 6, as on Ubuntu runners). The ImageMagick
     # and libwebp versions are part of every output's cache key, so an
@@ -81,6 +87,7 @@ module Jekyll
       # re-encodes everything.
       SETTINGS = "webp q#{QUALITY} strip auto-orient v2".freeze
       MANIFEST = 'manifest.json'
+      SOURCES = 'sources.json'
 
       # One output to publish.
       Output = Struct.new(:source, :width, :url, :cache_file, keyword_init: true)
@@ -98,7 +105,7 @@ module Jekyll
           cache_root = File.join(site.source, CACHE_DIR)
           entries = specs.flat_map { |spec| plan(site, spec, cache_root) }
           check_names(entries)
-          encode_stale(entries.flat_map { |entry| entry[:outputs] }, cache_root)
+          encode_stale(entries.flat_map { |entry| entry[:outputs] }, cache_root, site.source)
           publish(site, entries, cache_root)
         end
 
@@ -232,12 +239,12 @@ module Jekyll
         # no output names, and saves the manifest. Every successful encode is
         # recorded before a failure stops the build, so a rerun redoes only
         # the failed sources.
-        def encode_stale(outputs, cache_root)
+        def encode_stale(outputs, cache_root, source_root)
           manifest_path = File.join(cache_root, MANIFEST)
-          digests = Hash.new { |hash, file| hash[file] = Digest::SHA256.file(file).hexdigest }
+          digests = source_digests(outputs.map(&:source).uniq, source_root, cache_root)
           encoder = imagemagick_version
           keys = outputs.to_h { |output| [manifest_name(output, cache_root), key(output, digests, encoder)] }
-          old = read_manifest(manifest_path)
+          old = read_json(manifest_path)
           manifest = old.select { |name, value| keys[name] == value }
           stale = outputs.reject do |output|
             File.file?(output.cache_file) && manifest.key?(manifest_name(output, cache_root))
@@ -265,8 +272,34 @@ module Jekyll
           "#{digests[output.source]} #{output.width} #{SETTINGS} #{encoder}"
         end
 
-        def read_manifest(path)
-          File.file?(path) ? JSON.parse(File.read(path)) : {}
+        # Reuses a source's recorded digest while its size and modification
+        # time are unchanged, and saves the records for the next build.
+        #
+        # @param files [Array<String>] Absolute source paths.
+        # @return [Hash{String => String}] Absolute path to SHA-256 digest.
+        def source_digests(files, source_root, cache_root)
+          path = File.join(cache_root, SOURCES)
+          old = read_json(path)
+          records = files.to_h do |file|
+            name = file.delete_prefix("#{source_root}/")
+            stat = File.stat(file)
+            stamp = "#{stat.size} #{stat.mtime.to_i}.#{stat.mtime.nsec}"
+            known = old[name]
+            digest = known.is_a?(Hash) && known['stamp'] == stamp ? known['digest'] : Digest::SHA256.file(file).hexdigest
+            [name, { 'stamp' => stamp, 'digest' => digest }]
+          end
+          unless records == old
+            FileUtils.mkdir_p(cache_root)
+            File.write(path, JSON.pretty_generate(records.sort.to_h))
+          end
+          files.to_h { |file| [file, records[file.delete_prefix("#{source_root}/")]['digest']] }
+        end
+
+        # @return [Hash] The file's object, or empty when it is missing,
+        #   invalid, or not an object.
+        def read_json(path)
+          data = File.file?(path) ? JSON.parse(File.read(path)) : {}
+          data.is_a?(Hash) ? data : {}
         rescue JSON::ParserError
           {}
         end
@@ -277,7 +310,7 @@ module Jekyll
         def prune(cache_root, outputs)
           return unless File.directory?(cache_root)
 
-          keep = outputs.to_set(&:cache_file) << File.join(cache_root, MANIFEST)
+          keep = outputs.to_set(&:cache_file) << File.join(cache_root, MANIFEST) << File.join(cache_root, SOURCES)
           files, dirs = Dir.glob(File.join(cache_root, '**', '*')).partition { |path| File.file?(path) }
           removed = files.reject { |file| keep.include?(file) }
           FileUtils.rm_f(removed)
