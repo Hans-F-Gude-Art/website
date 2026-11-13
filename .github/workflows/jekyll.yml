@@ -14,9 +14,12 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment.
+# One run at a time per branch. GitHub keeps one pending run per group and
+# cancels the older pending one, so a shared group would let a push to any
+# branch cancel main's queued deploy. Only main deploys, so one deploy at a
+# time still holds. In-progress runs finish rather than leave a half deploy.
 concurrency:
-  group: "pages"
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
