@@ -45,9 +45,10 @@ jobs:
         run: sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
 
       # The cache key hashes every JPEG and PNG under assets/images/ (artwork
-      # and bio images), the generator, and _config.yml, which sets the
-      # widths, so only new or changed images are encoded. A full miss
-      # encodes about 2,300 copies and adds about ten minutes on 4 cores.
+      # and bio images), the generator and its sRGB profile, and _config.yml,
+      # which sets the widths, so only new or changed images are encoded. A
+      # full miss encodes about 2,300 copies and adds about ten minutes on 4
+      # cores.
       # Artwork text is not in the key, so editing an artwork's title does
       # not save a new cache. An exact key hit never saves, so every input
       # that changes the outputs must be in the key. ImageDerivatives rejects
@@ -56,7 +57,7 @@ jobs:
         uses: actions/cache@v6
         with:
           path: .jekyll-cache/image-derivatives
-          key: image-derivatives-${{ hashFiles('assets/images/**/*.jpg', 'assets/images/**/*.jpeg', 'assets/images/**/*.png', '_plugins/**/image_derivatives.rb', '_config.yml') }}
+          key: image-derivatives-${{ hashFiles('assets/images/**/*.jpg', 'assets/images/**/*.jpeg', 'assets/images/**/*.png', '_plugins/**/image_derivatives.rb', '_plugins/**/sRGB.icc', '_config.yml') }}
           restore-keys: image-derivatives-
 
       - name: Build with Jekyll

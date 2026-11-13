@@ -50,6 +50,14 @@ module Jekyll
     # ImageMagick does the encoding: `magick` (version 7) when present,
     # otherwise `convert` (version 6, as on Ubuntu runners).
     #
+    # Copies are converted to sRGB before metadata is stripped. Some
+    # originals embed Adobe RGB or Display P3 profiles; stripping those
+    # without converting would make browsers read the pixels as sRGB and
+    # show the copy desaturated. An original without a profile is assumed
+    # to be sRGB already, and `-profile` only assigns the profile to it.
+    # The profile is vendored (`profiles/sRGB.icc`, from colord, free of
+    # known copyright restrictions) so the build needs no system ICC files.
+    #
     # @validator A configured `source_dir` that is missing or holds a file
     #   that is not a JPEG or PNG; a `front_matter` collection that does not
     #   exist, or a document `image` that is remote, missing, or not a JPEG,
@@ -61,6 +69,7 @@ module Jekyll
       DERIVED_DIR = 'derived'
       SOURCE_EXTENSIONS = %w[.jpg .jpeg .png].freeze
       QUALITY = 80
+      SRGB_PROFILE = File.expand_path('profiles/sRGB.icc', __dir__)
       # Part of every output's cache key: changing encoding settings
       # re-encodes everything.
       SETTINGS = "webp q#{QUALITY} strip auto-orient v1".freeze
@@ -272,6 +281,8 @@ module Jekyll
             command,
             group.first.source,
             '-auto-orient',
+            '-profile',
+            SRGB_PROFILE,
             '-strip',
             *steps,
             'null:',
