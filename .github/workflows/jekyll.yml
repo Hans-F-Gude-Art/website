@@ -46,9 +46,19 @@ jobs:
       - name: Install ImageMagick
         run: sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
 
+      # The image_derivatives entries of _config.yml without `sizes`: the
+      # sources and widths, the only settings that change the encoded files.
+      # Hashing them instead of the whole file keeps an unrelated config
+      # edit (the site title) from saving another full copy of the cache.
+      - name: Hash image derivative settings
+        id: derivative-settings
+        run: |
+          settings=$(ruby -ryaml -rjson -e 'puts JSON.generate(Array(YAML.safe_load_file("_config.yml")["image_derivatives"]).map { |entry| entry.reject { |key, _| key == "sizes" } })')
+          echo "hash=$(printf '%s' "$settings" | sha256sum | cut -c1-16)" >> "$GITHUB_OUTPUT"
+
       # The cache key hashes every JPEG and PNG under assets/images/ (artwork
-      # and bio images), the generator and its sRGB profile, and _config.yml,
-      # which sets the widths, so only new or changed images are encoded. A
+      # and bio images), the generator and its sRGB profile, and the
+      # derivative settings, so only new or changed images are encoded. A
       # full miss encodes about 2,300 copies and adds about ten minutes on 4
       # cores.
       # Artwork text is not in the key, so editing an artwork's title does
@@ -59,7 +69,7 @@ jobs:
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: .jekyll-cache/image-derivatives
-          key: image-derivatives-${{ hashFiles('assets/images/**/*.jpg', 'assets/images/**/*.jpeg', 'assets/images/**/*.png', '_plugins/**/image_derivatives.rb', '_plugins/**/sRGB.icc', '_config.yml') }}
+          key: image-derivatives-${{ steps.derivative-settings.outputs.hash }}-${{ hashFiles('assets/images/**/*.jpg', 'assets/images/**/*.jpeg', 'assets/images/**/*.png', '_plugins/**/image_derivatives.rb', '_plugins/**/sRGB.icc') }}
           restore-keys: image-derivatives-
 
       - name: Build with Jekyll
