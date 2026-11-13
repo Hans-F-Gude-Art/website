@@ -14,12 +14,16 @@ import pytest
 from check_image_sizes import (
     BREAKPOINT_SOURCES,
     CONFIG,
+    EXIT_UNUSABLE,
+    SAMPLE_PAGES,
     SITE_ORIGIN,
     LargestPaint,
     Measurement,
     artwork_pages,
     chosen_pages,
+    main,
     max_copy_width,
+    missing_sample_pages,
     problems,
     report,
     route_handler,
@@ -227,10 +231,21 @@ def test_artwork_pages_take_each_shape(tmp_path):
     ]
 
 
-def test_chosen_pages_skip_missing_fixed_pages(tmp_path):
-    write_page(tmp_path, ".", '<ul class="gallery-grid"><li><a><img src="/a.jpg"></a></li></ul>')
+def test_chosen_pages_lists_sample_pages_then_artworks(tmp_path):
     write_page(tmp_path, "artwork/x", artwork(10, 10))
-    assert chosen_pages(tmp_path) == ["/", "/artwork/x/"]
+    assert chosen_pages(tmp_path) == [*SAMPLE_PAGES, "/artwork/x/"]
+
+
+def test_missing_sample_pages_names_each_absent_page(tmp_path):
+    for path in SAMPLE_PAGES[1:]:
+        write_page(tmp_path, path.strip("/"), "<p></p>")
+    assert missing_sample_pages(tmp_path) == ["/"]
+
+
+def test_main_stops_when_a_sample_page_is_missing(tmp_path, capsys):
+    write_page(tmp_path, ".", "<p></p>")
+    assert main([str(tmp_path)]) == EXIT_UNUSABLE
+    assert "sample pages missing" in capsys.readouterr().err
 
 
 def test_sample_pages_maps_slots_to_pages(tmp_path):

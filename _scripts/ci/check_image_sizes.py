@@ -269,10 +269,18 @@ def artwork_pages(site: Path, per_shape: int = ARTWORKS_PER_SHAPE) -> list[str]:
     return sorted({path for _, path in chosen})
 
 
+def missing_sample_pages(site: Path) -> list[str]:
+    """Return the SAMPLE_PAGES the built site lacks.
+
+    A renamed or removed page would otherwise shrink the measured slots
+    without failing the check, so main() stops when any is missing.
+    """
+    return [path for path in SAMPLE_PAGES if not page_file(site, path).is_file()]
+
+
 def chosen_pages(site: Path) -> list[str]:
-    """Return SAMPLE_PAGES that exist, then the artwork pages by shape."""
-    fixed = [path for path in SAMPLE_PAGES if page_file(site, path).is_file()]
-    return fixed + artwork_pages(site)
+    """Return SAMPLE_PAGES, then the artwork pages by shape."""
+    return [*SAMPLE_PAGES, *artwork_pages(site)]
 
 
 def sample_pages(site: Path, pages: list[str]) -> dict[str, list[str]]:
@@ -675,6 +683,10 @@ def main(argv: list[str] | None = None) -> int:
 
     if not (args.site / "index.html").is_file():
         print(f"error: {args.site} is not a built site (no index.html)", file=sys.stderr)
+        return EXIT_UNUSABLE
+
+    if missing := missing_sample_pages(args.site):
+        print(f"error: sample pages missing from {args.site}: {', '.join(missing)}", file=sys.stderr)
         return EXIT_UNUSABLE
 
     paint_pages = chosen_pages(args.site)
