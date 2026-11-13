@@ -451,11 +451,17 @@ p {
     aspect-ratio: 4 / 3;
     object-fit: cover;
     display: block;
-    transition: transform 0.3s ease;
   }
 
-  a:hover img {
-    transform: scale(1.02);
+  // The zoom is motion; leave it out for users who ask for less.
+  @media (prefers-reduced-motion: no-preference) {
+    img {
+      transition: transform 0.3s ease;
+    }
+
+    a:hover img {
+      transform: scale(1.02);
+    }
   }
 
   h2 {
