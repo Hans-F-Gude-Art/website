@@ -78,6 +78,14 @@ $header-divider-color: #3d5495;
 $serif-font: 'Libre Baskerville', 'Libre Baskerville Fallback', Georgia, serif;
 $sans-serif-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
+// Light only: a dark background would change how the artwork reads, so
+// dark mode needs a design decision first. accent-color themes the
+// browser's own controls and focus UI with the link color.
+:root {
+  color-scheme: light;
+  accent-color: $color-link;
+}
+
 // General Body Styles
 body {
   margin: 0;
