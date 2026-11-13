@@ -43,6 +43,19 @@ a:hover {
   text-decoration: underline;
 }
 
+// Hidden on screen, read by screen readers.
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
 // Main Site Container structure
 #SITE_CONTAINER {
   display: flex;
@@ -348,6 +361,11 @@ main p {
     // figure spans the viewport minus main's side padding without 100vw,
     // which would include the scrollbar and scroll horizontally.
     margin: 0 0 30px 0;
+
+    .artwork-full-size {
+      display: block;
+      cursor: zoom-in;
+    }
 
     img {
       // Constrain to fit fully on screen (both width and height)

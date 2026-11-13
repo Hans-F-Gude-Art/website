@@ -4,7 +4,14 @@ layout: default
 
 <article class="artwork-page">
   <figure class="artwork-display">
-    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">
+    {% comment %}
+      The page shows a srcset copy sized to the viewport; the link opens the
+      original file at full resolution.
+    {% endcomment %}
+    <a class="artwork-full-size" href="{{ page.image | relative_url }}">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" fetchpriority="high">
+      <span class="visually-hidden">(full size)</span>
+    </a>
     <figcaption>
       {{ page.title }}
       {% if page.description %}<p class="artwork-description">{{ page.description }}</p>{% endif %}

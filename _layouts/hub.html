@@ -4,11 +4,23 @@ layout: default
 
 {{ content }}
 
+{% comment %}
+  sizes is the tile's slot in .gallery-grid (18rem tracks, 30px gap, 25px
+  page gutters), measured by `make check-images`. The first row loads
+  eagerly; later tiles load lazily, where `auto` lets the browser use the
+  laid-out width. ImageDimensionsInjector adds srcset, width, and height.
+{% endcomment %}
+{% capture grid_sizes %}(min-width: 64.375em) 307px, (min-width: 60.875em) calc((100vw - 110px) / 3), (min-width: 41em) calc((100vw - 80px) / 2), calc(100vw - 50px){% endcapture %}
+
 <ul class="gallery-grid">
 {% for item in site.data[page.galleries_data] %}
   <li>
     <a href="{{ item.url | relative_url }}">
-      <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
+      {% if forloop.index <= 3 %}
+      <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" sizes="{{ grid_sizes }}">
+      {% else %}
+      <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" loading="lazy" decoding="async" sizes="auto, {{ grid_sizes }}">
+      {% endif %}
       <h2>{{ item.title }}</h2>
     </a>
   </li>

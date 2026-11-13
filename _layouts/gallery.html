@@ -32,11 +32,22 @@ layout: default
       {% endif %}
     {% endfor %}
   {% endif %}
+  {% comment %}
+    sizes is the figure's slot in .photo-grid (18rem tracks, 24px gap, 25px
+    page gutters), measured by `make check-images`. The first row loads
+    eagerly; later images load lazily, where `auto` lets the browser use the
+    laid-out width. ImageDimensionsInjector adds srcset, width, and height.
+  {% endcomment %}
+  {% capture grid_sizes %}(min-width: 64.375em) 311px, (min-width: 60.125em) calc((100vw - 98px) / 3), (min-width: 40.625em) calc((100vw - 74px) / 2), calc(100vw - 50px){% endcapture %}
   {% for art in artworks %}
     <li>
       <a href="{{ art.url | relative_url }}">
         <figure>
-          <img src="{{ art.image | relative_url }}" alt="{{ art.image_alt | default: art.title }}">
+          {% if forloop.index <= 3 %}
+          <img src="{{ art.image | relative_url }}" alt="{{ art.image_alt | default: art.title }}" sizes="{{ grid_sizes }}">
+          {% else %}
+          <img src="{{ art.image | relative_url }}" alt="{{ art.image_alt | default: art.title }}" loading="lazy" decoding="async" sizes="auto, {{ grid_sizes }}">
+          {% endif %}
           <figcaption>{{ art.title }}</figcaption>
         </figure>
       </a>
