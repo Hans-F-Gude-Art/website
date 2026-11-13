@@ -125,7 +125,8 @@ a:hover {
   margin: 0;
 }
 
-.tagline h1 {
+.tagline .tagline-name {
+  font-style: normal;
   font-size: clamp(1.125rem, 4.5vw, 1.6875rem);
   line-height: 1.2em;
   font-weight: bold;
@@ -482,6 +483,12 @@ main p {
       display: block;
       margin: 0 auto;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    // The title is the page's <h1>, styled as the caption text.
+    .artwork-title {
+      font: inherit;
+      margin: 0;
     }
 
     figcaption {

@@ -2,6 +2,16 @@
 layout: default
 ---
 
+{% comment %}
+  The page's one <h1> is `heading` (or `title`). The homepage hides it
+  visually (`heading_hidden`): its tiles say what the page is. Tile titles
+  are <h2>s under it.
+{% endcomment %}
+{% assign heading = page.heading | default: page.title %}
+{% if heading %}
+<h1{% if page.heading_hidden %} class="visually-hidden"{% endif %}>{{ heading }}</h1>
+{% endif %}
+
 {{ content }}
 
 {% comment %}
@@ -14,14 +24,16 @@ layout: default
 {% endcomment %}
 {% capture grid_sizes %}(min-width: 64.375em) 307px, (min-width: 60.875em) calc((100vw - 110px) / 3), (min-width: 41em) calc((100vw - 80px) / 2), calc(100vw - 50px){% endcapture %}
 
-<ul class="gallery-grid">
+{% comment %} role="list": Safari drops list semantics from a styled-off list. {% endcomment %}
+<ul class="gallery-grid" role="list">
 {% for item in site.data[page.galleries_data] %}
   <li>
     <a href="{{ item.url | relative_url }}">
+      {% comment %} alt="": the visible title names the link. {% endcomment %}
       {% if forloop.index <= 6 %}
-      <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" sizes="{{ grid_sizes }}">
+      <img src="{{ item.image | relative_url }}" alt="" sizes="{{ grid_sizes }}">
       {% else %}
-      <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" loading="lazy" decoding="async" sizes="auto, {{ grid_sizes }}">
+      <img src="{{ item.image | relative_url }}" alt="" loading="lazy" decoding="async" sizes="auto, {{ grid_sizes }}">
       {% endif %}
       <h2>{{ item.title }}</h2>
     </a>

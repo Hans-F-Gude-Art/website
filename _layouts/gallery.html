@@ -12,7 +12,8 @@ layout: default
 
   {{ content }}
 
-  <ul class="photo-grid">
+  {% comment %} role="list": Safari drops list semantics from a styled-off list. {% endcomment %}
+  <ul class="photo-grid" role="list">
   {% comment %}
     Two modes:
     - gallery_id: curated order from a data file (hyphens converted to
@@ -43,10 +44,11 @@ layout: default
     <li>
       <a href="{{ art.url | relative_url }}">
         <figure>
+          {% comment %} alt="": the visible caption names the link. {% endcomment %}
           {% if forloop.index <= 3 %}
-          <img src="{{ art.image | relative_url }}" alt="{{ art.image_alt | default: art.title }}" sizes="{{ grid_sizes }}">
+          <img src="{{ art.image | relative_url }}" alt="" sizes="{{ grid_sizes }}">
           {% else %}
-          <img src="{{ art.image | relative_url }}" alt="{{ art.image_alt | default: art.title }}" loading="lazy" decoding="async" sizes="auto, {{ grid_sizes }}">
+          <img src="{{ art.image | relative_url }}" alt="" loading="lazy" decoding="async" sizes="auto, {{ grid_sizes }}">
           {% endif %}
           <figcaption>{{ art.title }}</figcaption>
         </figure>
