@@ -1,10 +1,13 @@
-# Keeps the SHA-pinned actions in .github/workflows/ current. The cooldown
-# keeps a compromised release out until it has had time to be noticed.
+# Keeps the SHA-pinned actions in .github/workflows/ current. Version
+# updates run monthly; security updates for vulnerable versions are
+# separate, opened as soon as an alert is raised, and ignore this schedule
+# and the cooldown. The cooldown keeps a compromised release out until it
+# has had time to be noticed.
 version: 2
 updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: weekly
+      interval: monthly
     cooldown:
       default-days: 7
