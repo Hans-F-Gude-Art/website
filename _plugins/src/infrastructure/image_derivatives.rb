@@ -6,6 +6,7 @@ require 'fileutils'
 require 'json'
 require 'jekyll'
 require 'open3'
+require 'set'
 require_relative 'front_matter_image'
 require_relative 'image_dimensions'
 require_relative 'local_image'
@@ -43,8 +44,10 @@ module Jekyll
     #
     # Encoding is the slow part (minutes for the full artwork set), so
     # outputs are cached under `.jekyll-cache/image-derivatives/`. A manifest
-    # records the source digest and encoding settings for each output; an
-    # output is re-encoded only when either changes. CI restores the same
+    # records the source digest and encoding settings for each output,
+    # keyed by its path inside the cache, so the cache works at any checkout
+    # path; an output is re-encoded only when either changes. Files that no
+    # configured image produces any more are deleted. CI restores the same
     # directory with actions/cache.
     #
     # ImageMagick does the encoding: `magick` (version 7) when present,
@@ -221,20 +224,36 @@ module Jekyll
           }
         end
 
+        # Encodes outputs that are missing or whose key changed, prunes files
+        # no output names, and saves the manifest. Every successful encode is
+        # recorded before a failure stops the build, so a rerun redoes only
+        # the failed sources.
         def encode_stale(outputs, cache_root)
           manifest_path = File.join(cache_root, MANIFEST)
-          manifest = read_manifest(manifest_path)
           digests = Hash.new { |hash, file| hash[file] = Digest::SHA256.file(file).hexdigest }
+          keys = outputs.to_h { |output| [manifest_name(output, cache_root), key(output, digests)] }
+          old = read_manifest(manifest_path)
+          manifest = old.select { |name, value| keys[name] == value }
           stale = outputs.reject do |output|
-            File.file?(output.cache_file) && manifest[output.cache_file] == key(output, digests)
+            File.file?(output.cache_file) && manifest.key?(manifest_name(output, cache_root))
           end
-          return if stale.empty?
+          prune(cache_root, outputs)
 
-          Jekyll.logger.info 'ImageDerivatives:', "encoding #{stale.size} of #{outputs.size} images"
-          encode_all(stale)
-          stale.each { |output| manifest[output.cache_file] = key(output, digests) }
-          FileUtils.mkdir_p(cache_root)
-          File.write(manifest_path, JSON.pretty_generate(manifest.sort.to_h))
+          errors = []
+          unless stale.empty?
+            Jekyll.logger.info 'ImageDerivatives:', "encoding #{stale.size} of #{outputs.size} images"
+            encoded, errors = encode_all(stale)
+            encoded.map { |output| manifest_name(output, cache_root) }.each { |name| manifest[name] = keys[name] }
+          end
+          unless manifest == old
+            FileUtils.mkdir_p(cache_root)
+            File.write(manifest_path, JSON.pretty_generate(manifest.sort.to_h))
+          end
+          fail_with(errors.sort.join('; ')) unless errors.empty?
+        end
+
+        def manifest_name(output, cache_root)
+          output.cache_file.delete_prefix("#{cache_root}/")
         end
 
         def key(output, digests)
@@ -247,24 +266,42 @@ module Jekyll
           {}
         end
 
+        # Deletes every cached file that no current output names: copies of
+        # removed or renamed images, dropped widths, and temporaries left by
+        # an interrupted encode. Then removes directories left empty.
+        def prune(cache_root, outputs)
+          return unless File.directory?(cache_root)
+
+          keep = outputs.to_set(&:cache_file) << File.join(cache_root, MANIFEST)
+          files, dirs = Dir.glob(File.join(cache_root, '**', '*')).partition { |path| File.file?(path) }
+          removed = files.reject { |file| keep.include?(file) }
+          FileUtils.rm_f(removed)
+          dirs.sort_by { |dir| -dir.length }.each { |dir| Dir.rmdir(dir) if Dir.empty?(dir) }
+          Jekyll.logger.info 'ImageDerivatives:', "pruned #{removed.size} unused cached files" if removed.any?
+        end
+
         # Runs one ImageMagick process per source, as many at once as there
         # are processors. Decoding the original dominates, so each process
         # decodes once and writes every width, largest first.
+        #
+        # @return [Array(Array<Output>, Array<String>)] The outputs encoded,
+        #   and an error message for each source that failed.
         def encode_all(outputs)
           command = imagemagick
           queue = Queue.new
           outputs.group_by(&:source).each_value { |group| queue << group.sort_by { |o| -o.width } }
+          encoded = Queue.new
           errors = Queue.new
           workers = Array.new([Etc.nprocessors, queue.size].min) do
             Thread.new do
               while (group = queue.pop(timeout: 0))
                 error = encode(command, group)
-                errors << error if error
+                error ? errors << error : group.each { |output| encoded << output }
               end
             end
           end
           workers.each(&:join)
-          fail_with(errors.pop) unless errors.empty?
+          [Array.new(encoded.size) { encoded.pop }, Array.new(errors.size) { errors.pop }]
         end
 
         # @param group [Array<Output>] Outputs of one source, widest first.
@@ -277,7 +314,10 @@ module Jekyll
           steps = group.zip(temporaries).flat_map do |output, temporary|
             ['-resize', "#{output.width}x", '-quality', QUALITY.to_s, '-write', temporary]
           end
+          # One thread per process: the workers already use every processor,
+          # and ImageMagick's own threads would oversubscribe them.
           _out, err, status = Open3.capture3(
+            { 'MAGICK_THREAD_LIMIT' => '1' },
             command,
             group.first.source,
             '-auto-orient',
