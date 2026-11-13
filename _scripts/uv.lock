@@ -347,7 +347,7 @@ dev = [
 [package.metadata.requires-dev]
 browser = [{ name = "playwright", specifier = ">=1.65" }]
 dev = [
-    { name = "fonttools", extras = ["woff"], specifier = ">=4.50" },
+    { name = "fonttools", extras = ["woff"], specifier = ">=4.68.0" },
     { name = "pytest" },
     { name = "pyyaml" },
 ]
