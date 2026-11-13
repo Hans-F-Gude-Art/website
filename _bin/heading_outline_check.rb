@@ -12,14 +12,9 @@ require 'html-proofer'
 # The gallery, hub, and artwork layouts supply the page's <h1>, so
 # headings in their page bodies start at `##`.
 class HeadingOutline < HTMLProofer::Check
-  # Pages exempt from the check, as paths relative to _site/.
-  EXEMPT_PAGES = [].freeze
-
   HEADINGS = 'h1, h2, h3, h4, h5, h6'
 
   def run
-    return if exempt?
-
     headings = @html.css(HEADINGS).map { |node| [node.name[1].to_i, create_element(node)] }
     check_h1_count(headings)
     headings.each_cons(2) { |previous, current| check_step(previous, current) }
@@ -27,11 +22,6 @@ class HeadingOutline < HTMLProofer::Check
   end
 
   private
-
-  def exempt?
-    path = @runner.current_filename.to_s
-    EXEMPT_PAGES.any? { |page| path.end_with?("/#{page}") }
-  end
 
   def check_h1_count(headings)
     count = headings.count { |level, _| level == 1 }
