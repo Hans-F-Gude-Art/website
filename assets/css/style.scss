@@ -28,6 +28,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+// Every <img> gets width and height at build time (ImageDimensionsInjector);
+// height: auto keeps the intrinsic aspect ratio when CSS sets the width.
+img {
+  height: auto;
+}
+
 a {
   color: $color-link;
   text-decoration: none;
