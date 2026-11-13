@@ -25,12 +25,13 @@ plugins:
 # 1600, and 2400 cover the artwork page up to 1600 CSS px. Each `sizes` is
 # the image's slot on its own page, measured by `make check-images`; grid
 # templates state their own sizes. The artwork image fits within the page
-# width, 1600px, and 85vh of height, and never exceeds its own width; the
+# width, 1600px, and 85dvh of height (as in style.scss: dvh, not vh, so a
+# mobile URL bar shrinks the slot), and never exceeds its own width; the
 # injector replaces {width} and {height} with the image's pixel size.
 image_derivatives:
   - front_matter: artworks
     widths: [300, 600, 900, 1200, 1600, 2400]
-    sizes: "min(100vw - 50px, 1600px, 85vh * {width} / {height}, {width}px)"
+    sizes: "min(100vw - 50px, 1600px, 85dvh * {width} / {height}, {width}px)"
   - source_dir: assets/images/bio
     widths: [300, 600, 900, 1200]
     sizes: "(max-width: 37.4375em) calc(100vw - 50px), (min-width: 64.375em) 392px, calc(40vw - 20px)"
