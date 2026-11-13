@@ -262,7 +262,7 @@ a:hover {
 
 .navigation-menu li a:hover,
 .navigation-menu .dropdown-trigger:hover,
-.navigation-menu .dropdown-trigger[aria-expanded="true"] {
+.navigation-menu .has-dropdown:has(> .dropdown:popover-open) > .dropdown-trigger {
   background-color: #ede9e1;
   color: #444;
   text-decoration: none;
@@ -280,14 +280,18 @@ a:hover {
   font-weight: 700;
 }
 
-// Without script the triggers do nothing: hide them and show the plain
-// By Medium link. The submenus stay hidden.
+// Submenus are native popovers opened by their trigger's popovertarget:
+// no script. The browser provides light dismiss, Escape, focus return,
+// and the trigger's expanded state. Browsers without popover support
+// (before 2024) hide the triggers and show the plain By Medium link; the
+// subject hubs are reachable from Home.
 .navigation-menu .nav-fallback {
   display: none;
 }
 
-@media (scripting: none) {
-  .navigation-menu .dropdown-trigger {
+@supports not selector(:popover-open) {
+  .navigation-menu .dropdown-trigger,
+  .navigation-menu .dropdown {
     display: none;
   }
 
@@ -298,68 +302,41 @@ a:hover {
 
 .navigation-menu .dropdown {
   list-style: none;
-  margin: 0;
   padding: 4px 0;
   background: $color-white;
-  flex-direction: column;
-  gap: 0;
-
-  &[hidden] {
-    display: none;
-  }
-}
-
-// Narrow layout: an inline disclosure on its own row below the triggers.
-.navigation-menu .dropdown:not([popover]):not([hidden]) {
-  display: flex;
-  border-block: 1px solid #ddd;
-  margin-block: 0.25rem;
-}
-
-.navigation-menu .has-dropdown:has(> .dropdown:not([popover]):not([hidden])) {
-  flex-basis: 100%;
-  text-align: center;
-}
-
-// Wide layout: a popover placed below its trigger by anchor positioning.
-.navigation-menu .dropdown[popover] {
-  position: absolute;
-  position-area: block-end span-inline-end;
-  position-try-fallbacks: flip-block, flip-inline;
-  inset: auto;
-  height: auto;
-  inline-size: max-content;
-  min-inline-size: 10rem;
-  max-inline-size: 20rem;
-  margin: 0.25rem 0 0;
-  overflow: visible;
   border: 1px solid #ddd;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  gap: 0;
+  min-inline-size: 10rem;
+  max-inline-size: min(20rem, calc(100dvw - 2rem));
 
-  // Bridges the gap above the popover so moving the pointer from the
-  // trigger into the submenu keeps the hover preview open.
-  &::before {
-    content: "";
-    position: absolute;
-    inset-inline: 0;
-    inset-block-end: 100%;
-    block-size: 0.25rem;
-  }
-
-  &:not(:is(:popover-open, .\:popover-open)) {
+  // `.navigation-menu ul` sets display: flex, which beats the browser's
+  // own `[popover]:not(:popover-open) { display: none }`, so a closed
+  // submenu must be hidden here.
+  &:not(:popover-open) {
     display: none;
   }
 
-  &:is(:popover-open, .\:popover-open) {
+  &:popover-open {
     display: flex;
   }
 }
 
-// Without anchor positioning, nav.js sets top and left from the trigger.
-@supports not (position-area: block-end) {
-  .navigation-menu .dropdown[popover] {
-    position: fixed;
-    margin: 0;
+// Below the trigger, which popovertarget makes the implicit anchor;
+// flipped when it would overflow the viewport. Gated, because inset: auto
+// and margin: 0 without anchor positioning would strand the popover at
+// the viewport's corner. Without it, the popover keeps the browser's
+// default placement, centered in the viewport.
+@supports (position-area: block-end) {
+  .navigation-menu .dropdown {
+    position-area: block-end span-inline-end;
+    position-try-fallbacks: flip-block, flip-inline, flip-block flip-inline;
+    inset: auto;
+    // Safari stretches a positioned popover to its area without this.
+    height: auto;
+    inline-size: max-content;
+    margin: 0.25rem 0 0;
   }
 }
 
@@ -387,21 +364,12 @@ main {
   max-width: none;
 }
 
-// Cross-document view transitions: a cross-fade between pages, and a
-// morph from a gallery thumbnail into the artwork image (assets/js/
-// transitions.js names the thumbnail). Only without reduced motion.
+// Cross-document view transitions: a cross-fade between pages. Only
+// without reduced motion.
 @media (prefers-reduced-motion: no-preference) {
   @view-transition {
     navigation: auto;
   }
-}
-
-// The thumbnail is cropped to 4:3; crop the snapshots the same way so the
-// morph does not stretch the image.
-::view-transition-old(artwork),
-::view-transition-new(artwork) {
-  height: 100%;
-  object-fit: cover;
 }
 
 // Typography
@@ -604,11 +572,6 @@ main p {
       cursor: zoom-in;
     }
 
-    // The morph target for a gallery thumbnail (transitions.js).
-    .artwork-full-size img {
-      view-transition-name: artwork;
-    }
-
     img {
       // Constrain to fit fully on screen (both width and height)
       max-width: min(100%, 1600px);
@@ -700,7 +663,8 @@ main p {
     gap: 3px 8px;
   }
 
-  .navigation-menu li a {
+  .navigation-menu li a,
+  .navigation-menu .dropdown-trigger {
     padding: 0.375rem 0.5rem;
     font-size: 0.875rem;
   }

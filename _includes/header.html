@@ -1,9 +1,10 @@
 {% comment %}
-  Navigation. Each submenu is a <ul hidden> right after its trigger button.
-  assets/js/nav.js makes it a popover in the wide layout and an inline
-  disclosure in the narrow one. Without script the buttons are hidden
-  (@media (scripting: none)) and a plain By Medium link shows instead; the
-  subject hubs are reachable from Home.
+  Navigation, with no script. Each submenu is a <ul popover> right after
+  its trigger button, which opens it with popovertarget; the browser
+  provides light dismiss, Escape, focus return, and the button's expanded
+  state, so the button carries no aria-expanded. Browsers without popover
+  support hide the buttons and show a plain By Medium link instead (see
+  style.scss); the subject hubs are reachable from Home.
 
   aria-current="page" marks the link to this page; aria-current="true"
   marks a section link whose URL starts this page's URL.
@@ -29,8 +30,8 @@
           <li><a href="{{ '/' | relative_url }}"{% if current_url == '/' %} aria-current="page"{% endif %}>Home</a></li>
           <li><a href="{{ '/about/' | relative_url }}"{% if current_url == '/about/' %} aria-current="page"{% endif %}>Artist Bio</a></li>
           <li class="has-dropdown">
-            <button type="button" class="dropdown-trigger" aria-expanded="false" aria-controls="menu-subject" popovertarget="menu-subject">By Subject</button>
-            <ul id="menu-subject" class="dropdown" hidden>
+            <button type="button" class="dropdown-trigger" aria-controls="menu-subject" popovertarget="menu-subject">By Subject</button>
+            <ul id="menu-subject" class="dropdown" popover>
               {% for gallery in site.data.homepage_galleries %}
               {% include nav-link.html url=gallery.url title=gallery.title %}
               {% endfor %}
@@ -38,8 +39,8 @@
           </li>
           <li class="has-dropdown">
             <a class="nav-fallback" href="{{ '/by-medium/' | relative_url }}"{% if current_url == '/by-medium/' %} aria-current="page"{% endif %}>By Medium</a>
-            <button type="button" class="dropdown-trigger" aria-expanded="false" aria-controls="menu-medium" popovertarget="menu-medium">By Medium</button>
-            <ul id="menu-medium" class="dropdown" hidden>
+            <button type="button" class="dropdown-trigger" aria-controls="menu-medium" popovertarget="menu-medium">By Medium</button>
+            <ul id="menu-medium" class="dropdown" popover>
               {% include nav-link.html url="/by-medium/" title="All Mediums" %}
               {% for gallery in site.data.by_medium_galleries %}
               {% include nav-link.html url=gallery.url title=gallery.title %}

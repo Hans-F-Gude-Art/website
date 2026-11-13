@@ -99,6 +99,13 @@ slug in a gallery data file needs a matching artwork tagged with that gallery.
 
 Images stored in `assets/images/galleries/{gallery-id}/`. All `image` fields use absolute paths from site root (e.g., `/assets/images/galleries/...`). Use `relative_url` filter in templates.
 
+## No JavaScript
+
+The site ships no executable JavaScript. Non-executable `<script>` blocks
+(such as `type="speculationrules"` JSON) are allowed. Build interactivity
+from HTML and CSS: the nav submenus are native popovers opened by
+`popovertarget`.
+
 ## Images
 
 - WebP copies are built at build time by `_plugins/` and cached in
