@@ -20,6 +20,18 @@ permalink: pretty
 plugins:
   - jekyll-sitemap
 
+# WebP copies served through srcset (_plugins/src/infrastructure/image_derivatives.rb).
+# 300, 600, and 900 cover a ~300px grid thumbnail at 1x, 2x, and 3x; 1200,
+# 1600, and 2400 cover the artwork page up to 1600 CSS px. Each `sizes` is
+# the image's slot on its own page; grid templates state their own sizes.
+image_derivatives:
+  - front_matter: artworks
+    widths: [300, 600, 900, 1200, 1600, 2400]
+    sizes: "min(100vw - 50px, 1600px)"
+  - source_dir: assets/images/bio
+    widths: [300, 600, 900]
+    sizes: "(max-width: 37.4375em) calc(100vw - 50px), 392px"
+
 # Collections
 collections:
   artworks:

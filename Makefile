@@ -94,9 +94,15 @@ image-rebuild: Dockerfile Gemfile Gemfile.lock .ruby-version
 	    --no-cache . -f Dockerfile -t $(IMAGE)
 
 # Clean out _site and other caches. Requires the image to exist.
+# `jekyll clean` would delete all of .jekyll-cache, including the WebP
+# derivatives in .jekyll-cache/image-derivatives that take about ten minutes
+# to re-encode, so everything else is removed by hand.
 clean: image-build
-	@echo "Cleaning Jekyll build artifacts..."
-	@$(DOCKER_RUN) bundle exec jekyll clean
+	@echo "Cleaning Jekyll build artifacts (keeping image derivatives)..."
+	@$(DOCKER_RUN) bash -c 'rm -rf _site .jekyll-metadata .sass-cache && \
+		if [ -d .jekyll-cache ]; then \
+			find .jekyll-cache -mindepth 1 -maxdepth 1 ! -name image-derivatives -exec rm -rf {} +; \
+		fi'
 
 # Build the site for production. Depends on image-build and clean.
 build: image-build clean
