@@ -330,6 +330,45 @@ p {
   text-wrap: pretty;
 }
 
+// Breadcrumbs on gallery and hub pages
+.breadcrumbs {
+  margin-block-end: 1.5rem;
+  font-size: 0.875rem;
+
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  // The empty alt text keeps the separator out of the accessibility tree.
+  li + li::before {
+    content: "/" / "";
+    margin-inline-end: 0.5rem;
+    color: #767676;
+  }
+
+  a {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+
+    &:focus-visible {
+      outline: 2px solid $color-link;
+      outline-offset: 2px;
+    }
+  }
+
+  [aria-current="page"] {
+    color: $color-black-text;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+
 // Homepage Gallery (hub pages)
 .gallery-grid {
   list-style: none;

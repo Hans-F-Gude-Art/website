@@ -7,6 +7,8 @@ layout: default
   visually (`heading_hidden`): its tiles say what the page is. Tile titles
   are <h2>s under it.
 {% endcomment %}
+{% unless page.url == "/" %}{% include breadcrumbs.html %}{% endunless %}
+
 {% assign heading = page.heading | default: page.title %}
 {% if heading %}
 <h1{% if page.heading_hidden %} class="visually-hidden"{% endif %}>{{ heading }}</h1>
