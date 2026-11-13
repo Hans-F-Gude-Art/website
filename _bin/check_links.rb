@@ -2,19 +2,24 @@
 # frozen_string_literal: true
 
 # Checks the built site in _site/ with html-proofer: internal links,
-# images (including alt text), scripts, the favicon, Open Graph tags, and
-# the heading outline (heading_outline_check.rb). External links are not
-# fetched. Run with `make check-links`.
+# images (including alt text), scripts, the favicon, Open Graph tags, share
+# images (social_image_check.rb), and the heading outline
+# (heading_outline_check.rb). External links are not fetched. Run with
+# `make check-links`.
 
 require 'html-proofer'
 require 'yaml'
 require_relative 'heading_outline_check'
+require_relative 'social_image_check'
 
 # The site's own origin (`url` in _config.yml). Absolute links to it, such
 # as canonical links, are checked as internal links; every other absolute
 # URL is external and not fetched.
 SITE_URL = YAML.safe_load_file(File.expand_path('../_config.yml', __dir__)).fetch('url').chomp('/')
 OWN_ORIGIN = %r{\A#{Regexp.escape(SITE_URL)}(?=/|\z)}
+SITE_DIR = './_site'
+
+SocialImage.configure(site_url: SITE_URL, site_dir: SITE_DIR)
 
 options = {
   # v5 removed 'disable_external'. We must use ignore_urls to skip them.
@@ -29,8 +34,9 @@ options = {
   swap_urls: { OWN_ORIGIN => '' },
 
   # v5 requires explicitly listing checks if you want to limit them.
-  # HeadingOutline is this site's own check (heading_outline_check.rb).
-  checks: %w[Links Images Scripts Favicon OpenGraph HeadingOutline],
+  # HeadingOutline and SocialImage are this site's own checks
+  # (heading_outline_check.rb, social_image_check.rb).
+  checks: %w[Links Images Scripts Favicon OpenGraph HeadingOutline SocialImage],
 
   # Standard Jekyll defaults
   assume_extension: true,
@@ -44,4 +50,4 @@ options = {
 }
 
 # HTMLProofer reports its own failures and calls exit(1) itself.
-HTMLProofer.check_directory('./_site', options).run
+HTMLProofer.check_directory(SITE_DIR, options).run

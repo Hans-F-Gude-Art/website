@@ -46,8 +46,9 @@ hooks-install: _scripts/pre-commit-hook.sh
 	@echo "Pre-commit hook installed."
 
 # Check the built site with html-proofer: internal links, images and alt
-# text, scripts, favicon, Open Graph tags, and the heading outline (one
-# <h1> first, no skipped levels). External links are not fetched.
+# text, scripts, favicon, Open Graph tags, share images (og:image and
+# twitter:image name a built file), and the heading outline (one <h1>
+# first, no skipped levels). External links are not fetched.
 check-links: build
 	@echo "Checking generated site for broken links and HTML issues..."
 	@$(DOCKER_RUN) bundle exec ruby _bin/check_links.rb
