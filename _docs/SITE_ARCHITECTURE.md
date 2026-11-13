@@ -415,8 +415,12 @@ responsive image:
   `image_derivatives` in `_config.yml`. Copies go to
   `.jekyll-cache/image-derivatives/` and are published at
   `.../derived/{stem}-{width}.webp` next to the original. A manifest
-  re-encodes only new or changed images. CI restores the directory with
-  `actions/cache`; `make clean` keeps it.
+  re-encodes only new or changed images, and everything when the
+  ImageMagick or libwebp version changes. CI restores the directory with
+  `actions/cache`; `make clean` keeps it. Local Docker builds use
+  ImageMagick 7 and CI uses Ubuntu's ImageMagick 6, so local copies are
+  not byte-identical to the deployed ones; compare file sizes and quality
+  on CI output.
 - **`ImageDimensionsInjector`** runs after rendering. It adds `width` and
   `height` to every `<img>` (from `ImageDimensions`, which reads raster
   sizes with FastImage and SVG root sizes with Nokogiri), and `srcset` and

@@ -46,19 +46,23 @@ jobs:
       - name: Install ImageMagick
         run: sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
 
-      # The image_derivatives entries of _config.yml without `sizes`: the
-      # sources and widths, the only settings that change the encoded files.
-      # Hashing them instead of the whole file keeps an unrelated config
-      # edit (the site title) from saving another full copy of the cache.
+      # The image_derivatives entries of _config.yml without `sizes` (the
+      # sources and widths, the only settings that change the encoded files)
+      # and the ImageMagick and libwebp versions. Hashing the entries instead
+      # of the whole file keeps an unrelated config edit (the site title)
+      # from saving another full copy of the cache. The encoder versions are
+      # in ImageDerivatives' own key, so a runner image upgrade re-encodes;
+      # they must be here too, or the re-encoded cache would never be saved.
       - name: Hash image derivative settings
         id: derivative-settings
         run: |
           settings=$(ruby -ryaml -rjson -e 'puts JSON.generate(Array(YAML.safe_load_file("_config.yml")["image_derivatives"]).map { |entry| entry.reject { |key, _| key == "sizes" } })')
-          echo "hash=$(printf '%s' "$settings" | sha256sum | cut -c1-16)" >> "$GITHUB_OUTPUT"
+          encoder="$(convert -version | head -n 1) $(convert -list format | grep -m 1 -E '^ *WEBP')"
+          echo "hash=$(printf '%s\n%s' "$settings" "$encoder" | sha256sum | cut -c1-16)" >> "$GITHUB_OUTPUT"
 
       # The cache key hashes every JPEG and PNG under assets/images/ (artwork
       # and bio images), the generator and its sRGB profile, and the
-      # derivative settings, so only new or changed images are encoded. A
+      # derivative settings and encoder versions, so only new or changed images are encoded. A
       # full miss encodes about 2,300 copies and adds about ten minutes on 4
       # cores.
       # Artwork text is not in the key, so editing an artwork's title does

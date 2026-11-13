@@ -51,7 +51,11 @@ module Jekyll
     # directory with actions/cache.
     #
     # ImageMagick does the encoding: `magick` (version 7) when present,
-    # otherwise `convert` (version 6, as on Ubuntu runners).
+    # otherwise `convert` (version 6, as on Ubuntu runners). The ImageMagick
+    # and libwebp versions are part of every output's cache key, so an
+    # encoder upgrade re-encodes everything. Local Docker builds and CI use
+    # different versions, so their copies differ byte for byte; each keeps
+    # its own cache.
     #
     # Copies are converted to sRGB before metadata is stripped. Some
     # originals embed Adobe RGB or Display P3 profiles; stripping those
@@ -231,7 +235,8 @@ module Jekyll
         def encode_stale(outputs, cache_root)
           manifest_path = File.join(cache_root, MANIFEST)
           digests = Hash.new { |hash, file| hash[file] = Digest::SHA256.file(file).hexdigest }
-          keys = outputs.to_h { |output| [manifest_name(output, cache_root), key(output, digests)] }
+          encoder = imagemagick_version
+          keys = outputs.to_h { |output| [manifest_name(output, cache_root), key(output, digests, encoder)] }
           old = read_manifest(manifest_path)
           manifest = old.select { |name, value| keys[name] == value }
           stale = outputs.reject do |output|
@@ -256,8 +261,8 @@ module Jekyll
           output.cache_file.delete_prefix("#{cache_root}/")
         end
 
-        def key(output, digests)
-          "#{digests[output.source]} #{output.width} #{SETTINGS}"
+        def key(output, digests, encoder)
+          "#{digests[output.source]} #{output.width} #{SETTINGS} #{encoder}"
         end
 
         def read_manifest(path)
@@ -335,15 +340,34 @@ module Jekyll
 
         # @return [String] The ImageMagick command that can write WebP.
         def imagemagick
-          @imagemagick ||= %w[magick convert].find { |command| writes_webp?(command) } ||
-                           fail_with('needs ImageMagick with WebP support (`magick` or `convert`) on the PATH')
+          detect_imagemagick.first
         end
 
-        def writes_webp?(command)
-          out, status = Open3.capture2e(command, '-list', 'format')
-          status.success? && out.match?(/^\s*WEBP\*?\s+\S+\s+r?w/)
+        # @return [String] The ImageMagick and libwebp versions, such as
+        #   `ImageMagick 7.1.1-43 libwebp 1.5.0`, for the cache key.
+        def imagemagick_version
+          detect_imagemagick.last
+        end
+
+        # @return [Array(String, String)] The command and its version text.
+        def detect_imagemagick
+          @detect_imagemagick ||= %w[magick convert].lazy.filter_map { |command| webp_encoder(command) }.first ||
+                                  fail_with('needs ImageMagick with WebP support (`magick` or `convert`) on the PATH')
+        end
+
+        # @return [Array(String, String), nil] The command and its version
+        #   text, or nil when the command is missing or cannot write WebP.
+        def webp_encoder(command)
+          formats, status = Open3.capture2e(command, '-list', 'format')
+          return nil unless status.success?
+
+          webp = formats[/^\s*WEBP\*?\s+\S+\s+r?w.*$/]
+          return nil unless webp
+
+          version, = Open3.capture2e(command, '-version')
+          [command, [version[/ImageMagick \S+/], webp[/libwebp [\d.]+/]].compact.join(' ')]
         rescue SystemCallError
-          false
+          nil
         end
 
         # Keys are source paths without `baseurl`, as ImageDimensionsInjector
